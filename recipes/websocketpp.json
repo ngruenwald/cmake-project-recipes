@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "https://github.com/zaphoyd/websocketpp",
+    "package": "zaphoyd/websocketpp",
+    "tag_filter": "",
+    "date": "2024-07-17T23:53:38Z",
+    "target": "websocketpp::websocketpp"
+  },
+  "version": "0.8.2",
+  "method": "fetch_content",
+  "url": "https://github.com/zaphoyd/websocketpp/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=6ce889d85ecdc2d8fa07408d6787e7352510750daa66b5ad44aacb47bea76755",
+  "update_disconnected": true,
+  "options": {
+    "ENABLE_CPP11": "ON",
+    "BUILD_EXAMPLES": "OFF",
+    "BUILD_TESTS": "OFF"
+ }
+}
