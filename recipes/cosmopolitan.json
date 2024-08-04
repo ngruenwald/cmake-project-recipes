@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/jart/cosmopolitan",
+    "package": "jart/cosmopolitan",
+    "tag_filter": "^\\d+(\\.\\d+){1,3}$",
+    "date": "2024-07-28T03:20:54Z",
+    "target": ""
+  },
+  "version": "3.6.2",
+  "method": "fetch_content",
+  "url": "https://github.com/jart/cosmopolitan/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=950bc9011d1fc29573c9c8332fb5e6d71655fa15e1883c9eefc82e6b177f3008",
+  "update_disconnected": true,
+  "options": {}
+}

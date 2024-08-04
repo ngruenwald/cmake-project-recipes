@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/mamedev/delegates",
+    "package": "mamedev/delegates",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/mamedev/delegates/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

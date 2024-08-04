@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/nanomsg/nanomsg",
+    "package": "nanomsg/nanomsg",
+    "tag_filter": "",
+    "date": "2024-02-03T22:45:24Z",
+    "target": ""
+  },
+  "version": "1.2.1",
+  "method": "fetch_content",
+  "url": "https://github.com/nanomsg/nanomsg/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=b5e81729261ef6746ebc470e266b917f4512312c5e6df07e89f516d02700159a",
+  "update_disconnected": true,
+  "options": {}
+}

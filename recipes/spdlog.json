@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "source": "https://github.com/gabime/spdlog",
+    "package": "gabime/spdlog",
+    "tag_filter": "",
+    "date": "2024-04-30T10:14:29Z",
+    "target": "spdlog::spdlog",
+    "dependencies": "fmt nlohmann_json"
+  },
+  "version": "1.14.1",
+  "method": "fetch_content",
+  "url": "https://github.com/gabime/spdlog/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=429dfdf3afc1984feb59e414353c21c110bc79609f6d7899d52f6aa388646f6d",
+  "update_disconnected": true,
+  "options": {
+    "SPDLOG_BUILD_EXAMPLE": "OFF",
+    "SPDLOG_INSTALL": "ON",
+    "SPDLOG_FMT_EXTERNAL": "ON",
+    "SPDLOG_CLOCK_COARSE": "OFF"
+  }
+}

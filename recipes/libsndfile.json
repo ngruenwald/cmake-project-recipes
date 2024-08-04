@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/erikd/libsndfile",
+    "package": "erikd/libsndfile",
+    "tag_filter": "",
+    "date": "2023-08-13T08:53:51Z",
+    "target": ""
+  },
+  "version": "1.2.2",
+  "method": "fetch_content",
+  "url": "https://github.com/erikd/libsndfile/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=14899cc522be3442df041ba74d6477bd91619a9be508e5097176e054d0b7ed5c",
+  "update_disconnected": true,
+  "options": {}
+}

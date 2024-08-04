@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "https://github.com/nlohmann/json",
+    "package": "nlohmann/json",
+    "tag_filter": "",
+    "date": "2023-11-28T21:36:31Z",
+    "target": "nlohmann_json::nlohmann_json"
+  },
+  "version": "3.11.3",
+  "method": "fetch_content",
+  "url": "https://github.com/nlohmann/json/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=04022b05d806eb5ff73023c280b68697d12b93e1b7267a0b22a1a39ec7578069",
+  "update_disconnected": true,
+  "options": {
+    "JSON_BuildTests": "OFF",
+    "JSON_MultipleHeaders": "OFF"
+  },
+  "override_find_package": true
+}

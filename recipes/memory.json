@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/foonathan/memory",
+    "package": "foonathan/memory",
+    "tag_filter": "",
+    "date": "2023-01-11T11:39:00Z",
+    "target": ""
+  },
+  "version": "0.7-3",
+  "method": "fetch_content",
+  "url": "https://github.com/foonathan/memory/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=55f870f623999743578bb14444c3bd08d65a6966b5798744b379de9f90f070da",
+  "update_disconnected": true,
+  "options": {}
+}

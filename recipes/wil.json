@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/microsoft/wil",
+    "package": "microsoft/wil",
+    "tag_filter": "",
+    "date": "2024-01-22T20:38:47Z",
+    "target": ""
+  },
+  "version": "1.0.240122.1",
+  "method": "fetch_content",
+  "url": "https://github.com/microsoft/wil/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=a430d10c40d1d14eff5c084eda7c25e446aedaa073e776ececa1d0294cc53890",
+  "update_disconnected": true,
+  "options": {}
+}

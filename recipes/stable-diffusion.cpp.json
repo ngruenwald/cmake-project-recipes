@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/leejet/stable-diffusion.cpp",
+    "package": "leejet/stable-diffusion.cpp",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/leejet/stable-diffusion.cpp/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

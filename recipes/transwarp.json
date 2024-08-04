@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/bloomen/transwarp",
+    "package": "bloomen/transwarp",
+    "tag_filter": "",
+    "date": "2022-06-24T10:57:36Z",
+    "target": ""
+  },
+  "version": "2.2.3",
+  "method": "fetch_content",
+  "url": "https://github.com/bloomen/transwarp/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=41c45e1131233fed24ded3e5e49ec412e97b76bdeaf3bd7259a7c8c8f2f7189a",
+  "update_disconnected": true,
+  "options": {}
+}

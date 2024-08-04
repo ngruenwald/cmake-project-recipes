@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/agauniyal/rang",
+    "package": "agauniyal/rang",
+    "tag_filter": "",
+    "date": "2021-07-30T14:22:25Z",
+    "target": ""
+  },
+  "version": "3.2",
+  "method": "fetch_content",
+  "url": "https://github.com/agauniyal/rang/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=ae4552eaf502f8d2c88cfb6bd62c1f09eced009478dd6bbd46137dce9b8baedc",
+  "update_disconnected": true,
+  "options": {}
+}

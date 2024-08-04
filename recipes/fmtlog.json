@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/mengrao/fmtlog",
+    "package": "mengrao/fmtlog",
+    "tag_filter": "",
+    "date": "2024-05-31T08:32:23Z",
+    "target": ""
+  },
+  "version": "2.2.2",
+  "method": "fetch_content",
+  "url": "https://github.com/mengrao/fmtlog/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=41391ef3d24a42b960fcd43f4a24e16e126fb00f971e86441c45be10c1baaec5",
+  "update_disconnected": true,
+  "options": {}
+}

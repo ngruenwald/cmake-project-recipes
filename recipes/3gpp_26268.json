@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "source": "https://www.3gpp.org",
+    "package": "3gpp_26268",
+    "tag_filter": "",
+    "date": "",
+    "target": "---"
+  },
+  "version": "",
+  "method": "fetch_content",
+  "url": "https://www.3gpp.org/ftp/Specs/archive/26_series/26.268/26268-h00.zip",
+  "url_hash": "SHA256=65985f1fe2840607551148d8f2698443c57e34e2d1a37d5039fd5e4d503f77aa",
+  "update_disconnected": true,
+  "patch_command": [
+      "${CMAKE_COMMAND}", "-E", "tar", "xf", "26268-h00_ANSI-C_Source_Code.zip",
+      "&&",
+      "sh", "../../../cmake/recipes/3gpp_26268.sh"
+  ],
+  "files": [
+    "3gpp_26268.patch",
+    "3gpp_26268.sh"
+  ]
+}

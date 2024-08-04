@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/portaudio/portaudio",
+    "package": "portaudio/portaudio",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "date": "2021-04-01T00:17:30Z",
+    "target": ""
+  },
+  "version": "19.7.0",
+  "method": "fetch_content",
+  "url": "https://github.com/portaudio/portaudio/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=ce1e7b27ad362cb9745de7da3d266a996b085ca75a12ac62c881f88ab6894acf",
+  "update_disconnected": true,
+  "options": {}
+}

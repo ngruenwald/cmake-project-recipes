@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/libharu/libharu",
+    "package": "libharu/libharu",
+    "tag_filter": "",
+    "date": "2023-09-18T19:47:01Z",
+    "target": ""
+  },
+  "version": "2.4.4",
+  "method": "fetch_content",
+  "url": "https://github.com/libharu/libharu/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=4a4eda43baff5c34a248d3316a1e5a8c7a66db01f08eafd0cf8c0117db540345",
+  "update_disconnected": true,
+  "options": {}
+}

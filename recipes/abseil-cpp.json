@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/abseil/abseil-cpp",
+    "package": "abseil/abseil-cpp",
+    "tag_filter": "",
+    "date": "2024-07-22T16:23:21Z",
+    "target": ""
+  },
+  "version": "20240722.rc1",
+  "method": "fetch_content",
+  "url": "https://github.com/abseil/abseil-cpp/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=8cd2b22cf8301b80bc0cfcfcd4af5fcd08d215677c0e0f6f6835447a094540df",
+  "update_disconnected": true,
+  "options": {}
+}

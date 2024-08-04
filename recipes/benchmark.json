@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/google/benchmark",
+    "package": "google/benchmark",
+    "tag_filter": "",
+    "date": "2024-07-18T10:13:04Z",
+    "target": ""
+  },
+  "version": "1.8.5",
+  "method": "fetch_content",
+  "url": "https://github.com/google/benchmark/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=39f57865cdbfa06f02ae91ea76465246046cc47d5908aa5a3abeb9026fb73dcc",
+  "update_disconnected": true,
+  "options": {}
+}

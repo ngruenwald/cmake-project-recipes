@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "https://github.com/p-ranav/argparse",
+    "package": "p-ranav/argparse",
+    "tag_filter": "",
+    "date": "2024-07-17T23:53:38Z",
+    "target": "argparse::argparse"
+  },
+  "version": "3.1",
+  "method": "fetch_content",
+  "url": "https://github.com/p-ranav/argparse/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=3e5a59ab7688dcd1f918bc92051a10564113d4f36c3bbed3ef596c25e519a062",
+  "update_disconnected": true,
+  "options": {
+    "ARGPARSE_BUILD_TESTS": "OFF",
+    "ARGPARSE_LONG_VERSION_ARG_ONLY": "OFF"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "https://github.com/jarro2783/cxxopts",
+    "package": "jarro2783/cxxopts",
+    "tag_filter": "",
+    "date": "2024-02-20T08:39:34Z",
+    "target": "cxxopts::cxxopts"
+  },
+  "version": "3.2.1",
+  "method": "fetch_content",
+  "url": "https://github.com/jarro2783/cxxopts/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=210f7cb72c4dc0dbc855e31ff5aa0676b6a53fcc756e7e79d1fd0bc6520bc6d7",
+  "update_disconnected": true,
+  "options": {
+    "CXXOPTS_BUILD_EXAMPLES": "OFF",
+    "CXXOPTS_BUILD_TESTS": "OFF"
+  }
+}

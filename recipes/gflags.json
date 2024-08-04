@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/gflags/gflags",
+    "package": "gflags/gflags",
+    "tag_filter": "",
+    "date": "2018-11-11T21:21:00Z",
+    "target": ""
+  },
+  "version": "2.2.2",
+  "method": "fetch_content",
+  "url": "https://github.com/gflags/gflags/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=19713a36c9f32b33df59d1c79b4958434cb005b5b47dc5400a7a4b078111d9b5",
+  "update_disconnected": true,
+  "options": {}
+}

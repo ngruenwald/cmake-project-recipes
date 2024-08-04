@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "source": "https://github.com/ngruenwald/cmake-modules",
+    "package": "ngruenwald/cmake-modules",
+    "tag_filter": "",
+    "date": "",
+    "target": "---"
+  },
+  "version": "main",
+  "method": "fetch_content",
+  "url": "https://github.com/ngruenwald/cmake-modules/archive/refs/heads/{{version}}.zip"
+}

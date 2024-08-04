@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/doctest/doctest",
+    "package": "doctest/doctest",
+    "tag_filter": "",
+    "date": "2023-03-15T12:35:29Z",
+    "target": ""
+  },
+  "version": "2.4.11",
+  "method": "fetch_content",
+  "url": "https://github.com/doctest/doctest/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=6745e17682d6e2be1ea31ec8bf1814a3d7cb17d61d120e5f2ee5a075926634ad",
+  "update_disconnected": true,
+  "options": {}
+}

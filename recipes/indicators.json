@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/p-ranav/indicators",
+    "package": "p-ranav/indicators",
+    "tag_filter": "",
+    "date": "2023-02-15T15:17:27Z",
+    "target": ""
+  },
+  "version": "2.3",
+  "method": "fetch_content",
+  "url": "https://github.com/p-ranav/indicators/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=c1deca4b72d655ba457882a5d1b75011f99253c6a2cc8d2f5bc7c49324b2e4ff",
+  "update_disconnected": true,
+  "options": {}
+}

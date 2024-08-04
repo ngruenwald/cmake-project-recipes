@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/google/brotli",
+    "package": "google/brotli",
+    "tag_filter": "",
+    "date": "2023-08-29T10:59:55Z",
+    "target": ""
+  },
+  "version": "1.1.0",
+  "method": "fetch_content",
+  "url": "https://github.com/google/brotli/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=9d7ec775e67cdb3d0328f63f314b381d57f0f985499bbf2e55b15138a3621b19",
+  "update_disconnected": true,
+  "options": {}
+}

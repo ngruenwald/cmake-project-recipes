@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/cyan4973/xxhash",
+    "package": "cyan4973/xxhash",
+    "tag_filter": "",
+    "date": "2015-08-20T16:05:38Z",
+    "target": ""
+  },
+  "version": "42",
+  "method": "fetch_content",
+  "url": "https://github.com/cyan4973/xxhash/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=564deca95f970ae8e33cad1ac408749b42fe060b1c10e934645dbc241dc97ae7",
+  "update_disconnected": true,
+  "options": {}
+}

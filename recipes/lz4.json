@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/lz4/lz4",
+    "package": "lz4/lz4",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "date": "2015-06-29T09:48:37Z",
+    "target": ""
+  },
+  "version": "1.10.1",
+  "method": "fetch_content",
+  "url": "https://github.com/lz4/lz4/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=f1cfb5761ed0a55265defd8c3bcb55d2fac78a437264077bd45b842224c05045",
+  "update_disconnected": true,
+  "options": {}
+}

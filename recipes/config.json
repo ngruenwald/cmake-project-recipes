@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/ngruenwald/config",
+    "package": "ngruenwald/config",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "main",
+  "method": "fetch_content",
+  "url": "https://github.com/ngruenwald/config/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

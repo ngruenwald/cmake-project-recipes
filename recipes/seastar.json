@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/scylladb/seastar",
+    "package": "scylladb/seastar",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/scylladb/seastar/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

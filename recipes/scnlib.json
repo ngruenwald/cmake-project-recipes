@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/eliaskosunen/scnlib",
+    "package": "eliaskosunen/scnlib",
+    "tag_filter": "",
+    "date": "2024-06-15T10:18:27Z",
+    "target": ""
+  },
+  "version": "3.0.1",
+  "method": "fetch_content",
+  "url": "https://github.com/eliaskosunen/scnlib/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=0b39c519df3a5d17142047f314692c7791fcc7fae50e4221377fcee16f983245",
+  "update_disconnected": true,
+  "options": {}
+}

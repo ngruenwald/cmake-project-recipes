@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/p-ranav/tabulate",
+    "package": "p-ranav/tabulate",
+    "tag_filter": "",
+    "date": "2023-02-20T14:40:03Z",
+    "target": ""
+  },
+  "version": "1.5",
+  "method": "fetch_content",
+  "url": "https://github.com/p-ranav/tabulate/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=91622a382263b1262e9ac31cf30a16f405c66dc02f983f9997901c46623593cd",
+  "update_disconnected": true,
+  "options": {}
+}

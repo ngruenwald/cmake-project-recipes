@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/daminetreg/xxhr",
+    "package": "daminetreg/xxhr",
+    "tag_filter": "",
+    "date": "2018-09-14T09:21:54Z",
+    "target": ""
+  },
+  "version": "1.0.0",
+  "method": "fetch_content",
+  "url": "https://github.com/daminetreg/xxhr/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=a0008a345826ee2f934343d6fcb1e857812cf632cf7d4096a79e581ed7b5ea28",
+  "update_disconnected": true,
+  "options": {}
+}

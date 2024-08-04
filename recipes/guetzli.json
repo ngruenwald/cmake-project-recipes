@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/google/guetzli",
+    "package": "google/guetzli",
+    "tag_filter": "",
+    "date": "2017-03-21T16:26:36Z",
+    "target": ""
+  },
+  "version": "1.0.1",
+  "method": "fetch_content",
+  "url": "https://github.com/google/guetzli/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=439b14130b8c929cc569bd068d71285106da939320354e5073a33526d9f25f1a",
+  "update_disconnected": true,
+  "options": {}
+}

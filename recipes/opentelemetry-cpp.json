@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "source": "https://github.com/open-telemetry/opentelemetry-cpp",
+    "package": "open-telemetry/opentelemetry-cpp",
+    "tag_filter": "",
+    "date": "2024-07-17T20:04:10Z",
+    "target": ""
+  },
+  "version": "1.16.1",
+  "method": "fetch_content",
+  "url": "https://github.com/open-telemetry/opentelemetry-cpp/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=f309a2b2cb6dd87f37c83dc9d4cf8ce864dbf1c3aa02d197a5a801cb5b8d434b",
+  "update_disconnected": true,
+  "options": {
+    "BUILD_SHARED_LIBS": "OFF",
+    "WITH_STL": "ON",
+    "WITH_OTLP": "ON",
+    "WITH_OTLP_GRPC": "ON",
+    "WITH_METRICS_PREVIEW": "ON",
+    "WITH_PROMETHEUS": "OFF",
+    "WITH_EXAMPLES": "OFF",
+    "BUILD_TESTING": "OFF"
+  }
+}

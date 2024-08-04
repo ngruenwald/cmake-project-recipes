@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "source": "https://github.com/ngruenwald/config-generator",
+    "package": "ngruenwald/config-generator",
+    "tag_filter": "",
+    "date": "",
+    "target": "---"
+  },
+  "version": "main",
+  "method": "fetch_content",
+  "url": "https://github.com/ngruenwald/config-generator/archive/refs/heads/{{version}}.zip"
+}

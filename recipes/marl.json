@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/google/marl",
+    "package": "google/marl",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "main",
+  "method": "fetch_content",
+  "url": "https://github.com/google/marl/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

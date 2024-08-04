@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/khizmax/libcds",
+    "package": "khizmax/libcds",
+    "tag_filter": "",
+    "date": "2018-12-31T16:30:07Z",
+    "target": ""
+  },
+  "version": "2.3.3",
+  "method": "fetch_content",
+  "url": "https://github.com/khizmax/libcds/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=05a355ab59e6b9383788c771e8f0e7622b302b87b8732fc29538d4a4764f1f0c",
+  "update_disconnected": true,
+  "options": {}
+}

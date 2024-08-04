@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "source": "https://github.com/GNOME/libxml2",
+    "package": "gnome/libxml2",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "date": "2024-07-24T13:16:52Z",
+    "target": ""
+  },
+  "version": "2.13.3",
+  "method": "fetch_content",
+  "url": "https://github.com/GNOME/libxml2/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=caeca8077c3b1a38a417db2e94a7860dc714443e8c2ace45b732d09547a2cccf",
+  "update_disconnected": true,
+  "options": {
+    "BUILD_SHARED_LIBS": "OFF"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/curl/curl",
+    "package": "curl/curl",
+    "tag_filter": "^curl-\\d+_\\d+_\\d+$",
+    "date": "2024-07-31T06:50:04Z",
+    "target": ""
+  },
+  "version": "8_9_1",
+  "method": "fetch_content",
+  "url": "https://github.com/curl/curl/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=3a8dea5a8917215c47ebea8786f1a49d73354f4e6b2cd21c008e5cb6b31a9044",
+  "update_disconnected": true,
+  "options": {}
+}

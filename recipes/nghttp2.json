@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/nghttp2/nghttp2",
+    "package": "nghttp2/nghttp2",
+    "tag_filter": "",
+    "date": "2024-05-19T03:16:46Z",
+    "target": ""
+  },
+  "version": "1.62.1",
+  "method": "fetch_content",
+  "url": "https://github.com/nghttp2/nghttp2/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=2ac4835503199ad75e7a6cf72290d31464663f7d99c3b85386d72b2c97544671",
+  "update_disconnected": true,
+  "options": {}
+}

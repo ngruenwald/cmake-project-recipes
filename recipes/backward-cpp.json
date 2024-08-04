@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "https://github.com/bombela/backward-cpp",
+    "package": "bombela/backward-cpp",
+    "tag_filter": "",
+    "date": "2021-08-12T22:49:08Z",
+    "target": "Backward::Backward or backward"
+  },
+  "version": "1.6",
+  "method": "fetch_content",
+  "url": "https://github.com/bombela/backward-cpp/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=9b07e12656ab9af8779a84e06865233b9e30fadbb063bf94dd81d318081db8c2",
+  "update_disconnected": true,
+  "options": {
+    "BACKWARD_HAS_BFD": "ON",
+    "BACKWARD_HAS_DW": "OFF",
+    "BACKWARD_HAS_UNWIND": "OFF"
+  }
+}

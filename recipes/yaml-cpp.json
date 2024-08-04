@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "https://github.com/jbeder/yaml-cpp",
+    "package": "jbeder/yaml-cpp",
+    "tag_filter": "",
+    "date": "2023-08-10T19:27:56Z",
+    "target": "yaml-cpp::yaml-cpp"
+  },
+  "version": "0.8.0",
+  "method": "fetch_content",
+  "url": "https://github.com/jbeder/yaml-cpp/archive/refs/tags/{{version}}.zip",
+  "url_hash": "SHA256=334e80ab7b52e14c23f94e041c74bab0742f2281aad55f66be2f19f4b7747071",
+  "update_disconnected": true,
+  "options": {
+    "YAML_BUILD_SHARED_LIBS": "OFF",
+    "YAML_CPP_BUILD_TESTS": "OFF"
+  }
+}

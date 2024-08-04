@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "source": "https://github.com/jonesir/ecallmsdperencoder",
+    "package": "jonesir/ecallmsdperencoder",
+    "tag_filter": "",
+    "date": "",
+    "target": "msd_encoder::msd_encoder"
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/jonesir/ecallmsdperencoder/archive/refs/heads/{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "patch_command": [
+    "sed",
+    "-i",
+    "s/ecall_msd_per_encoder.h/ecall_defines.h/g",
+    "${CMAKE_SOURCE_DIR}/../msd_encoder-src/ecall_msd_per_encoder.c"
+  ]
+}

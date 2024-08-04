@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "source": "https://github.com/nats-io/nats.c",
+    "package": "nats-io/nats.c",
+    "tag_filter": "",
+    "date": "2024-04-17T16:59:49Z",
+    "target": "nats_static"
+  },
+  "version": "3.8.2",
+  "method": "fetch_content",
+  "url": "https://github.com/nats-io/nats.c/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=96599ef4c3fd4603690426440e82671f26f4139663c87d8c571ff5e4d0f581fe",
+  "update_disconnected": true,
+  "options": {
+    "NATS_UPDATE_VERSION": "OFF",
+    "NATS_UPDATE_DOC": "OFF",
+    "NATS_COVERAGE": "OFF",
+    "NATS_BUILD_NO_SPIN": "OFF",
+    "NATS_BUILD_WITH_TLS": "OFF",
+    "NATS_BUILD_TLS_FORCE_HOST_VERIFY": "ON",
+    "NATS_BUILD_TLS_USE_OPENSSL_1_1_API": "ON",
+    "NATS_BUILD_USE_SODIUM": "OFF",
+    "NATS_BUILD_EXAMPLES": "OFF",
+    "NATS_BUILD_LIBUV_EXAMPLE": "OFF",
+    "NATS_BUILD_LIBEVENT_EXAMPLE": "OFF",
+    "NATS_BUILD_STATIC_EXAMPLES": "OFF",
+    "NATS_BUILD_STREAMING": "ON",
+    "NATS_BUILD_NO_PREFIX_CONNSTS": "OFF",
+    "NATS_BUILD_LIB_STATIC": "ON",
+    "NATS_BUILD_LIB_SHARED": "OFF",
+    "NATS_COMPILER_HARDENING": "OFF"
+  }
+}

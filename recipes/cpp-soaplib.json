@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/ngruenwald/cpp-soaplib",
+    "package": "ngruenwald/cpp-soaplib",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "main",
+  "method": "fetch_content",
+  "url": "https://github.com/ngruenwald/cpp-soaplib/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

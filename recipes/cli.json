@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/daniele77/cli",
+    "package": "daniele77/cli",
+    "tag_filter": "",
+    "date": "2023-06-29T16:48:03Z",
+    "target": ""
+  },
+  "version": "2.1.0",
+  "method": "fetch_content",
+  "url": "https://github.com/daniele77/cli/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=91a37ea8cf940ac79ff82aece4b748f68e44645ced6d861d34c4b099f46afc1f",
+  "update_disconnected": true,
+  "options": {}
+}

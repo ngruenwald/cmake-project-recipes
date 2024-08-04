@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/cjlove/config-cpp",
+    "package": "cjlove/config-cpp",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/cjlove/config-cpp/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

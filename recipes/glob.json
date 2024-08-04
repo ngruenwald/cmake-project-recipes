@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/p-ranav/glob",
+    "package": "p-ranav/glob",
+    "tag_filter": "",
+    "date": "2021-05-10T16:58:47Z",
+    "target": ""
+  },
+  "version": "0.0.1",
+  "method": "fetch_content",
+  "url": "https://github.com/p-ranav/glob/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=9a71c57d2f9aa5ed0361af50434d12badb3644b42024cab3ed87398669e9930c",
+  "update_disconnected": true,
+  "options": {}
+}

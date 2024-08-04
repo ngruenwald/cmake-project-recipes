@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "source": "https://github.com/ArashPartow/strtk",
+    "package": "arashpartow/strtk",
+    "tag_filter": "",
+    "date": "",
+    "target": "strtk::strtk"
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/ArashPartow/strtk/archive/{{version}}.zip",
+  "update_disconnected": true,
+  "update_command": [""],
+  "configure_command": [""],
+  "build_command": [""],
+  "install_command": [""],
+  "test_command": [""],
+  "targets": [
+    { "target": "strtk::strtk" }
+  ]
+}

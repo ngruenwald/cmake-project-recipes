@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "https://github.com/ngruenwald/tempus",
+    "package": "ngruenwald/tempus",
+    "tag_filter": "",
+    "date": "2022-07-28T15:43:33Z",
+    "target": "ng::tempus"
+  },
+  "version": "0.1.1",
+  "method": "fetch_content",
+  "url": "https://github.com/ngruenwald/tempus/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=dd5193ee84989c6b78bb9607f03910b141299157c93d77a8dbf3592f70a78b52",
+  "update_disconnected": true,
+  "options": {
+    "UNIT_TESTS": "OFF",
+    "TOOLS": "OFF"
+  }
+}

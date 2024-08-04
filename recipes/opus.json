@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/xiph/opus",
+    "package": "xiph/opus",
+    "tag_filter": "",
+    "date": "2012-06-19T00:46:31Z",
+    "target": ""
+  },
+  "version": "15",
+  "method": "fetch_content",
+  "url": "https://github.com/xiph/opus/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=621807f423b2c3a9bdd3414a41b2fcd39a8f93cf12b1cb47dd7363cd89e41702",
+  "update_disconnected": true,
+  "options": {}
+}

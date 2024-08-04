@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/yhirose/cpp-peglib",
+    "package": "yhirose/cpp-peglib",
+    "tag_filter": "",
+    "date": "2024-04-01T14:57:41Z",
+    "target": ""
+  },
+  "version": "1.8.8",
+  "method": "fetch_content",
+  "url": "https://github.com/yhirose/cpp-peglib/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=9185d26a1a977a860be1d673cfa7989aeab01c4ca5c93e93e3a4b87a7ca7732b",
+  "update_disconnected": true,
+  "options": {}
+}

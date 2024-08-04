@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "https://github.com/fmtlib/fmt",
+    "package": "fmtlib/fmt",
+    "tag_filter": "",
+    "date": "2024-07-20T14:17:38Z",
+    "target": "fmt::fmt"
+  },
+  "version": "11.0.2",
+  "method": "fetch_content",
+  "url": "https://github.com/fmtlib/fmt/archive/refs/tags/{{version}}.zip",
+  "options": {
+    "FMT_INSTALL": "OFF",
+    "FMT_DOC": "OFF",
+    "FMT_TEST": "OFF"
+  },
+  "url_hash": "SHA256=7aa4b58e361de10b8e5d7b6c18aebd98be1886ab3efe43e368527a75cd504ae4"
+}

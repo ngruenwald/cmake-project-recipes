@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/yhirose/cpp-mmaplib",
+    "package": "yhirose/cpp-mmaplib",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/yhirose/cpp-mmaplib/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "source": "https://github.com/laserpants/dotenv-cpp",
+    "package": "laserpants/dotenv-cpp",
+    "tag_filter": "",
+    "date": "",
+    "target": "dotenv"
+  },
+  "version": "#432def2fb9c2a5e51e6d491f35f2e8f35fa900b0",
+  "method": "fetch_content",
+  "url": "https://github.com/laserpants/dotenv-cpp/archive/{{version}}.zip",
+  "patch_command": [
+    "sed", "-i", "s/^add_library/macro(no_install)\\\\nendmacro()\\\\nadd_library/g",
+    "${CMAKE_SOURCE_DIR}/../dotenv-cpp-src/CMakeLists.txt",
+    "&&",
+    "sed", "-i", "s/^install(/no_install(/g",
+    "${CMAKE_SOURCE_DIR}/../dotenv-cpp-src/CMakeLists.txt"
+  ],
+  "options": {
+    "BUILD_DOCS": "OFF"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/raysan5/raylib",
+    "package": "raysan5/raylib",
+    "tag_filter": "^\\d+\\.\\d+\\.\\d+$",
+    "date": "2023-03-18T16:37:04Z",
+    "target": ""
+  },
+  "version": "4.5.0",
+  "method": "fetch_content",
+  "url": "https://github.com/raysan5/raylib/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=32c25fed7cee561b9aa2614b4edd029c6baf3d2e7dba69d51e52da17a567e319",
+  "update_disconnected": true,
+  "options": {}
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/zeromq/libzmq",
+    "package": "zeromq/libzmq",
+    "tag_filter": "",
+    "date": "2023-10-08T23:01:14Z",
+    "target": ""
+  },
+  "version": "4.3.5",
+  "method": "fetch_content",
+  "url": "https://github.com/zeromq/libzmq/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=49b9d6cd12275d94a27724fcda646554f13af27857e3fe778b72cb245c74976e",
+  "update_disconnected": true,
+  "options": {}
+}

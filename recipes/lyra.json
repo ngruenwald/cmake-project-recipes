@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "source": "https://github.com/bfgroup/Lyra",
+    "package": "bfgroup/lyra",
+    "tag_filter": "",
+    "date": "2022-11-07T21:49:52Z",
+    "target": "bfg::lyra"
+  },
+  "version": "1.6.1",
+  "method": "fetch_content",
+  "url": "https://github.com/bfgroup/Lyra/archive/refs/tags/{{version}}.zip",
+  "url_hash": "SHA256=bc1bba5d4897205484c2f135db825f1189a74520592ee59d4f58b36c58c92f35",
+  "update_disconnected": true
+}

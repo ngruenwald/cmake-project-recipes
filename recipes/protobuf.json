@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/protocolbuffers/protobuf",
+    "package": "protocolbuffers/protobuf",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "date": "2024-07-31T12:20:29Z",
+    "target": ""
+  },
+  "version": "5.27.3",
+  "method": "fetch_content",
+  "url": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=e2e6957e5c261873fddf767a050a386e028c2e94d561abd106373a9078ae9ef1",
+  "update_disconnected": true,
+  "options": {}
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/j0r1/jrtplib",
+    "package": "j0r1/jrtplib",
+    "tag_filter": "",
+    "date": "2020-04-18T09:44:45Z",
+    "target": ""
+  },
+  "version": "3.11.2",
+  "method": "fetch_content",
+  "url": "https://github.com/j0r1/jrtplib/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=01dca8bbcecfb0c9cea07d4487bf60e1bc0bd805fbd3bdcecb4664824549983c",
+  "update_disconnected": true,
+  "options": {}
+}

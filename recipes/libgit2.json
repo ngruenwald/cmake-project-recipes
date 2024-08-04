@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "https://github.com/libgit2/libgit2",
+    "package": "libgit2/libgit2",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "date": "2024-05-16T09:58:48Z",
+    "target": "libgit2"
+  },
+  "version": "1.8.1",
+  "method": "fetch_content",
+  "url": "https://github.com/libgit2/libgit2/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=7ef1d7cbeb8f08df379a6de208d703bd6a8cd3afcd85ceab4a01d1ae5a7258a7",
+  "update_disconnected": true,
+  "options": {
+    "BUILD_SHARED_LIBS": "OFF",
+    "BUILD_TESTS": "OFF",
+    "USE_THREADS": "ON"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/sfml/imgui-sfml",
+    "package": "sfml/imgui-sfml",
+    "tag_filter": "",
+    "date": "2023-08-16T19:48:26Z",
+    "target": ""
+  },
+  "version": "2.6",
+  "method": "fetch_content",
+  "url": "https://github.com/sfml/imgui-sfml/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=0d28217ae7a17f846c1e994942b18e6f592e2c60bea1e3bf07e2d2d443cd1449",
+  "update_disconnected": true,
+  "options": {}
+}

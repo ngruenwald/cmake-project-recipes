@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/paulftw/hiberlite",
+    "package": "paulftw/hiberlite",
+    "tag_filter": "",
+    "date": "",
+    "target": ""
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/paulftw/hiberlite/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "",
+  "update_disconnected": true,
+  "options": {}
+}

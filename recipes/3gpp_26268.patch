@@ -1,0 +1,1564 @@
+diff --git a/TS26.268_12.0.0-SourceCode/ecall/ecall_control.c b/TS26.268_12.0.0-SourceCode/ecall/ecall_control.c
+index 967319d..5fd7c34 100644
+--- a/TS26.268_12.0.0-SourceCode/ecall/ecall_control.c
++++ b/TS26.268_12.0.0-SourceCode/ecall/ecall_control.c
+@@ -47,7 +47,7 @@ const char* CtrlPortName(PortOwner owner)
+ /* In:     const Int16* pcm       -> input frame of 16bit PCM samples         */
+ /*----------------------------------------------------------------------------*/
+
+-void CtrlSync(CtrlRxData *control, const Int16 *pcm)
++void CtrlSync(struct modemx *mdm, CtrlRxData *control, const Int16 *pcm)
+ {
+   CtrlPort *port = &control->port;
+   SyncState *sync = control->sync;
+@@ -76,10 +76,10 @@ void CtrlSync(CtrlRxData *control, const Int16 *pcm)
+
+         switch (port->owner) {
+           case PortIvs:
+-            IvsCatchEvent(IVSEVENT_CONTROLSYNC);
++            IvsCatchEvent(mdm, IVSEVENT_CONTROLSYNC);
+             break;
+           case PortPsap:
+-            PsapCatchEvent(PSAPEVENT_CONTROLSYNC);
++            PsapCatchEvent(mdm, PSAPEVENT_CONTROLSYNC);
+             break;
+           default:
+             LogInfo("[%-4s] control callback: port owner undefined.",
+@@ -116,10 +116,10 @@ void CtrlSync(CtrlRxData *control, const Int16 *pcm)
+
+             switch (port->owner) {
+               case PortIvs:
+-                IvsCatchEvent(IVSEVENT_CONTROLLOCK);
++                IvsCatchEvent(mdm, IVSEVENT_CONTROLLOCK);
+                 break;
+               case PortPsap:
+-                PsapCatchEvent(PSAPEVENT_CONTROLLOCK);
++                PsapCatchEvent(mdm, PSAPEVENT_CONTROLLOCK);
+                 break;
+               default:
+                 LogInfo("[%-4s] control callback: port owner undefined.",
+@@ -362,7 +362,7 @@ void CtrlRxReset(CtrlRxData *control, PortOwner owner,
+ /* In:     const Int16* pcm       -> input frame of 16bit PCM samples         */
+ /*----------------------------------------------------------------------------*/
+
+-void CtrlRxProcess(CtrlRxData *control, const Int16 *pcm)
++void CtrlRxProcess(struct modemx *mdm, CtrlRxData *control, const Int16 *pcm)
+ {
+   Int16 i, metric;
+   Bool syncRun = False;
+@@ -375,7 +375,7 @@ void CtrlRxProcess(CtrlRxData *control, const Int16 *pcm)
+
+   if (control->dlRead == Zero) {
+     /* run synchronization (sync function to set port data) */
+-    CtrlSync(control, pcm);
++    CtrlSync(mdm, control, pcm);
+     syncRun = True;
+   }
+
+diff --git a/TS26.268_12.0.0-SourceCode/ecall/ecall_control.h b/TS26.268_12.0.0-SourceCode/ecall/ecall_control.h
+index 9d42b85..42b19e5 100644
+--- a/TS26.268_12.0.0-SourceCode/ecall/ecall_control.h
++++ b/TS26.268_12.0.0-SourceCode/ecall/ecall_control.h
+@@ -14,6 +14,9 @@
+ #include "ecall_sync.h"
+
+
++struct modemx;
++
++
+ typedef enum {
+   DlMsgNoop = -2,
+   DlMsgReset,
+@@ -84,14 +87,14 @@ typedef struct {
+ /*----------------------------------------------------------------------------*/
+
+ const char* CtrlPortName(PortOwner);
+-void CtrlSync(CtrlRxData*, const Int16*);
++void CtrlSync(struct modemx*, CtrlRxData*, const Int16*);
+
+ void CtrlTxReset(CtrlTxData*, PortOwner);
+ void CtrlTxProcess(CtrlTxData*, Int16*);
+ void CtrlTxMod(Int16*, Int16, Int16);
+
+ void CtrlRxReset(CtrlRxData*, PortOwner, SyncState*, Int16*, Int16);
+-void CtrlRxProcess(CtrlRxData*, const Int16*);
++void CtrlRxProcess(struct modemx*, CtrlRxData*, const Int16*);
+ Int16 CtrlRxDemod(const Int16*, Int16*);
+
+ #endif
+diff --git a/TS26.268_12.0.0-SourceCode/ecall/modem_ivs.c b/TS26.268_12.0.0-SourceCode/ecall/modem_ivs.c
+index 1188940..abb5472 100644
+--- a/TS26.268_12.0.0-SourceCode/ecall/modem_ivs.c
++++ b/TS26.268_12.0.0-SourceCode/ecall/modem_ivs.c
+@@ -10,10 +10,8 @@
+ #include "modemx.h"
+
+
+-static IvsData ivs;
+-
+ /* IVS external reference */
+-IvsData* IvsGetData(void) { return &ivs; }
++IvsData* IvsGetData(struct modemx *mdm) { return &mdm->ivs; }
+
+ /*============================================================================*/
+ /* IVS IMPLEMENTATION: IvsReset, IvsSendStart                                 */
+@@ -22,18 +20,19 @@ IvsData* IvsGetData(void) { return &ivs; }
+ /*      int         length  -> MSD length (equal to MSD_MAX_LENGTH)           */
+ /*----------------------------------------------------------------------------*/
+
+-void IvsReset(const Ord8 *msd, int length) {
+-  IvsRxReset();
+-  IvsTxReset(msd, length);
++void IvsReset(struct modemx *mdm, const Ord8 *msd, int length) {
++  IvsRxReset(mdm);
++  IvsTxReset(mdm, msd, length);
+ }
+
+-void IvsSendStart(void) {
+-  if (ivs.rx.state == IvsIdle) {
++void IvsSendStart(struct modemx *mdm) {
++  IvsData* ivs = &mdm->ivs;
++  if (ivs->rx.state == IvsIdle) {
+     LogInfo("[IVS ] SendStart received from control");
+     LogInfo("[----]");
+
+-    ivs.rx.state = IvsTrigger;
+-    IvsCatchEvent(IVSEVENT_SENDINGSTART);
++    ivs->rx.state = IvsTrigger;
++    IvsCatchEvent(mdm, IVSEVENT_SENDINGSTART);
+   }
+   else {
+     /* ignore otherwise */
+@@ -44,61 +43,64 @@ void IvsSendStart(void) {
+
+ /*----------------------------------------------------------------------------*/
+
+-void IvsRxReset(void) {
+-  CtrlRxData *ctrl = &ivs.rx.ctrl;
+-  SyncState  *sync = &ivs.rx.sync;
++void IvsRxReset(struct modemx *mdm) {
++  IvsData *ivs = &mdm->ivs;
++  CtrlRxData *ctrl = &ivs->rx.ctrl;
++  SyncState  *sync = &ivs->rx.sync;
+
+   /* reset state */
+-  ivs.rx.state = IvsIdle;
++  ivs->rx.state = IvsIdle;
+
+   /* reset control receiver */
+-  CtrlRxReset(ctrl, PortIvs, sync, ivs.rx.memCtrl, LOCK_START_DL);
++  CtrlRxReset(ctrl, PortIvs, sync, ivs->rx.memCtrl, LOCK_START_DL);
+
+   /* reset counters for SEND uplink control */
+-  ivs.rx.dlData   = DlMsgNoop;
+-  ivs.rx.dlMsgCnt = -1;
+-  ivs.rx.dlIndex  = -1;
++  ivs->rx.dlData   = DlMsgNoop;
++  ivs->rx.dlMsgCnt = -1;
++  ivs->rx.dlIndex  = -1;
+
+   /* reset sync */
+-  SyncReset(sync, ivs.rx.memSync, NULL);
++  SyncReset(sync, ivs->rx.memSync, NULL);
+
+   LogInfo("[IVS ] reset receiver");
+ }
+
+ /*----------------------------------------------------------------------------*/
+
+-void IvsTxReset(const Ord8 *msd, int length) {
++void IvsTxReset(struct modemx *mdm, const Ord8 *msd, int length) {
+   Int16 k;
+
++  IvsData* ivs = &mdm->ivs;
++
+   /* reset state */
+-  ivs.tx.state = IvsIdle;
++  ivs->tx.state = IvsIdle;
+
+   /* set control link parameters (SEND) */
+-  CtrlTxReset(&ivs.tx.ctrl, PortIvs);
++  CtrlTxReset(&ivs->tx.ctrl, PortIvs);
+
+   /* reset state counters */
+   for (k = 0; k <= SET_LLMSG + SET_HLMSG; k++) {
+-    ivs.tx.stateCnt[k] = 0;
+-    ivs.tx.stateIgn[k] = 0;
++    ivs->tx.stateIgn[k] = 0;
++    ivs->tx.stateCnt[k] = 0;
+   }
+-  ivs.tx.stateCnt[DlMsgSend] = -1;
+-  ivs.tx.pendingStart = False;
++  ivs->tx.stateCnt[DlMsgSend] = -1;
++  ivs->tx.pendingStart = False;
+
+   /* reset uplink counters and message memory */
+-  ivs.tx.rv       = 0;
+-  ivs.tx.ulN      = 0;
+-  ivs.tx.ulIndex  = 0;
+-  ivs.tx.ulDelay  = 73;
+-  ivs.tx.dlMsgOld = DlMsgNoop;
++  ivs->tx.rv       = 0;
++  ivs->tx.ulN      = 0;
++  ivs->tx.ulIndex  = 0;
++  ivs->tx.ulDelay  = 73;
++  ivs->tx.dlMsgOld = DlMsgNoop;
+
+   if (msd != NULL) {
+     /* initialize modulator and clear cumulative NACK count */
+-    SetModState(&ivs.tx.mod, ModUndef);
+-    ivs.tx.overallNack = 0;
++    SetModState(&ivs->tx.mod, ModUndef);
++    ivs->tx.overallNack = 0;
+
+     /* convert MSD and encode (all redundancy versions) */
+-    Byte2Bit(msd, ivs.tx.memCode, MSD_MAX_LENGTH);
+-    FecEncode(ivs.tx.memCode);
++    Byte2Bit(msd, ivs->tx.memCode, MSD_MAX_LENGTH);
++    FecEncode(ivs->tx.memCode);
+
+     LogInfo("[IVS ] reset transmitter (MSD provided)");
+   } else {
+@@ -112,10 +114,11 @@ void IvsTxReset(const Ord8 *msd, int length) {
+ /* InOut:  Int16* pcm  <-> input and output frame of 16bit PCM samples        */
+ /*----------------------------------------------------------------------------*/
+
+-void IvsProcess(Int16 *pcm) {
++void IvsProcess(struct modemx *mdm, Int16 *pcm) {
+   Int16 i;
+-  CtrlPort *prx = &ivs.rx.ctrl.port;
+-  CtrlPort *ptx = &ivs.tx.ctrl.port;
++  IvsData *ivs = &mdm->ivs;
++  CtrlPort *prx = &ivs->rx.ctrl.port;
++  CtrlPort *ptx = &ivs->tx.ctrl.port;
+
+   /* invert input signal if required */
+   if (prx->invert == True) {
+@@ -123,7 +126,7 @@ void IvsProcess(Int16 *pcm) {
+       pcm[i] = (pcm[i] > PCM_MIN) ? -pcm[i] : PCM_MAX;
+     }
+   }
+-  IvsRxProcess(pcm);
++  IvsRxProcess(mdm, pcm);
+
+   if (prx->state == CtrlTxIdle || prx->state == CtrlTxSend) {
+     /* control transmit mode */
+@@ -137,7 +140,7 @@ void IvsProcess(Int16 *pcm) {
+     ptx->u.rx.dlData   = prx->u.rx.dlData;
+     ptx->u.rx.dlMetric = prx->u.rx.dlMetric;
+   }
+-  IvsTxProcess(pcm);
++  IvsTxProcess(mdm, pcm);
+
+   /* invert output signal if required */
+   if (ptx->invert == True) {
+@@ -149,63 +152,64 @@ void IvsProcess(Int16 *pcm) {
+
+ /*----------------------------------------------------------------------------*/
+
+-void IvsRxProcess(const Int16 *pcm) {
++void IvsRxProcess(struct modemx *mdm, const Int16 *pcm) {
+   Int16 i;
+-  CtrlPort *port = &ivs.rx.ctrl.port;
++  IvsData *ivs = &mdm->ivs;
++  CtrlPort *port = &ivs->rx.ctrl.port;
+
+   /* IVS receiver, copy PCM data to input buffer */
+   for (i = 0; i < NRF_MEMCTRL-1; i++) {
+-    memcpy(&ivs.rx.memCtrl[i*PCM_LENGTH],
+-      &ivs.rx.memCtrl[(i+1)*PCM_LENGTH], sizeof(Int16)*PCM_LENGTH);
++    memcpy(&ivs->rx.memCtrl[i*PCM_LENGTH],
++      &ivs->rx.memCtrl[(i+1)*PCM_LENGTH], sizeof(Int16)*PCM_LENGTH);
+   }
+-  memcpy(&ivs.rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH], pcm,
++  memcpy(&ivs->rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH], pcm,
+     sizeof(Int16)*PCM_LENGTH);
+
+   /* IVS receiver, run control message receiver */
+-  CtrlRxProcess(&ivs.rx.ctrl, pcm);
++  CtrlRxProcess(mdm, &ivs->rx.ctrl, pcm);
+
+   /* check for uplink SEND trigger */
+-  switch (ivs.rx.state) {
++  switch (ivs->rx.state) {
+     case IvsTrigger:
+       if (port->state == CtrlRxIdle) {
+         port->state = CtrlTxIdle;
+
+         /* set control data */
+-        ivs.rx.state    = IvsStart;
+-        ivs.rx.dlData   = DlMsgSend;
+-        ivs.rx.dlMsgCnt = 0;
+-        ivs.rx.dlIndex  = 0;
++        ivs->rx.state    = IvsStart;
++        ivs->rx.dlData   = DlMsgSend;
++        ivs->rx.dlMsgCnt = 0;
++        ivs->rx.dlIndex  = 0;
+       }
+       else {
+         /* SEND trigger not allowed during MSD transmission */
+-        ivs.rx.state = IvsIdle;
++        ivs->rx.state = IvsIdle;
+         LogInfo("[IVS ] SendStart during MSD transmission, ignored.");
+       }
+       break;
+     case IvsStart:
+-      if (port->state == CtrlRxSync || ivs.rx.dlMsgCnt >= IVS_NUMSEND) {
++      if (port->state == CtrlRxSync || ivs->rx.dlMsgCnt >= IVS_NUMSEND) {
+         /* stop SEND trigger */
+-        ivs.rx.state    = IvsIdle;
+-        ivs.rx.dlData   = DlMsgNoop;
+-        ivs.rx.dlMsgCnt = -1;
+-        ivs.rx.dlIndex  = -1;
++        ivs->rx.state    = IvsIdle;
++        ivs->rx.dlData   = DlMsgNoop;
++        ivs->rx.dlMsgCnt = -1;
++        ivs->rx.dlIndex  = -1;
+
+-        if (ivs.rx.dlMsgCnt >= IVS_NUMSEND) {
+-          IvsCatchEvent(IVSEVENT_IDLEPOSTSTART);
++        if (ivs->rx.dlMsgCnt >= IVS_NUMSEND) {
++          IvsCatchEvent(mdm, IVSEVENT_IDLEPOSTSTART);
+         }
+       }
+       else {
+         /* sending control data */
+         port->state        = CtrlTxSend;
+-        port->u.tx.dlData  = ivs.rx.dlData;
+-        port->u.tx.dlIndex = ivs.rx.dlIndex;
++        port->u.tx.dlData  = ivs->rx.dlData;
++        port->u.tx.dlIndex = ivs->rx.dlIndex;
+
+-        if (ivs.rx.dlIndex++ == 0) {
++        if (ivs->rx.dlIndex++ == 0) {
+           LogInfo("[IVS ] sending  SEND");
+         }
+-        else if (ivs.rx.dlIndex == NRF_DLCHUNK) {
+-          ivs.rx.dlIndex = 0;
+-          ivs.rx.dlMsgCnt++;
++        else if (ivs->rx.dlIndex == NRF_DLCHUNK) {
++          ivs->rx.dlIndex = 0;
++          ivs->rx.dlMsgCnt++;
+         }
+       }
+       break;
+@@ -217,9 +221,10 @@ void IvsRxProcess(const Int16 *pcm) {
+
+ /*----------------------------------------------------------------------------*/
+
+-void IvsTxProcess(Int16 *pcm) {
++void IvsTxProcess(struct modemx *mdm, Int16 *pcm) {
+   Int16 lpcm = sizeof(Int16)*PCM_LENGTH;
+-  CtrlTxData *ctrl = &ivs.tx.ctrl;
++  IvsData *ivs = &mdm->ivs;
++  CtrlTxData *ctrl = &ivs->tx.ctrl;
+
+   /* IVS transmitter, initialize PCM data to zero */
+   memset(pcm, 0, lpcm);
+@@ -235,45 +240,45 @@ void IvsTxProcess(Int16 *pcm) {
+     /* sync loss may trigger a reset */
+     if (ctrl->port.u.rx.dlData == DlMsgReset) {
+       LogInfo("[IVS ] full reset (no sync detected)");
+-      IvsReset(NULL, 0);
+-      IvsCatchEvent(IVSEVENT_IDLEPOSTRESET);
++      IvsReset(mdm, NULL, 0);
++      IvsCatchEvent(mdm, IVSEVENT_IDLEPOSTRESET);
+     }
+     else if (ctrl->port.u.rx.dlData != DlMsgNoop) {
+       /* run state machine based on new downlink symbol */
+-      IvsTxState(ctrl->port.u.rx.dlData, ctrl->port.u.rx.dlMetric,
++      IvsTxState(mdm, ctrl->port.u.rx.dlData, ctrl->port.u.rx.dlMetric,
+         (ctrl->port.state == CtrlRxLock) ? True : False);
+     }
+
+     /* run transmitter based on IVS state */
+-    if (ivs.tx.state == IvsIdle ||
+-      ivs.tx.state == IvsAck || ivs.tx.state == IvsHlack)
++    if (ivs->tx.state == IvsIdle ||
++      ivs->tx.state == IvsAck || ivs->tx.state == IvsHlack)
+     {
+       /* do nothing */
+     }
+-    else if (ivs.tx.state == IvsSendMsd && ivs.tx.mod.type != ModUndef) {
+-      if (ivs.tx.ulIndex < ivs.tx.ulN) {
++    else if (ivs->tx.state == IvsSendMsd && ivs->tx.mod.type != ModUndef) {
++      if (ivs->tx.ulIndex < ivs->tx.ulN) {
+         /* run transmitter */
+         IvsTransmitter(
+-          &ivs.tx.mod, ivs.tx.memCode, pcm, ivs.tx.rv, ivs.tx.ulIndex);
+-        ivs.tx.ulIndex++;
++          &ivs->tx.mod, ivs->tx.memCode, pcm, ivs->tx.rv, ivs->tx.ulIndex);
++        ivs->tx.ulIndex++;
+       }
+       else {
+         /* increase redundancy version counter */
+-        ivs.tx.rv++;
+-        ivs.tx.ulIndex = 0;
++        ivs->tx.rv++;
++        ivs->tx.ulIndex = 0;
+
+         /* no sync frame is transmitted next */
+-        ivs.tx.ulN = ivs.tx.mod.nfmuteall + ivs.tx.mod.nfdata;
++        ivs->tx.ulN = ivs->tx.mod.nfmuteall + ivs->tx.mod.nfdata;
+
+         /* new redundancy version, run transmitter */
+         IvsTransmitter(
+-          &ivs.tx.mod, ivs.tx.memCode, pcm, ivs.tx.rv, ivs.tx.ulIndex);
+-        ivs.tx.ulIndex++;
++          &ivs->tx.mod, ivs->tx.memCode, pcm, ivs->tx.rv, ivs->tx.ulIndex);
++        ivs->tx.ulIndex++;
+       }
+       /* randomize transmit start */
+-      memcpy(ivs.tx.memDelay, &ivs.tx.memDelay[PCM_LENGTH], lpcm);
+-      memcpy(&ivs.tx.memDelay[PCM_LENGTH], pcm, lpcm);
+-      memcpy(pcm, &ivs.tx.memDelay[PCM_LENGTH - ivs.tx.ulDelay], lpcm);
++      memcpy(ivs->tx.memDelay, &ivs->tx.memDelay[PCM_LENGTH], lpcm);
++      memcpy(&ivs->tx.memDelay[PCM_LENGTH], pcm, lpcm);
++      memcpy(pcm, &ivs->tx.memDelay[PCM_LENGTH - ivs->tx.ulDelay], lpcm);
+     }
+   }
+ }
+@@ -286,11 +291,12 @@ void IvsTxProcess(Int16 *pcm) {
+ /*      Bool  syncLock  -> indicates sync lock of control receiver            */
+ /*----------------------------------------------------------------------------*/
+
+-void IvsTxState(Int16 msg, Int16 metric, Bool syncLock) {
++void IvsTxState(struct modemx *mdm, Int16 msg, Int16 metric, Bool syncLock) {
+   Int16 k;
++  IvsData *ivs = &mdm->ivs;
+
+   if (syncLock == True) {
+-    ivs.tx.pendingStart = True;
++    ivs->tx.pendingStart = True;
+   }
+   if (msg >= SET_LLMSG + SET_HLMSG) {
+     Abort("message symbol out of range, exit.");
+@@ -300,36 +306,36 @@ void IvsTxState(Int16 msg, Int16 metric, Bool syncLock) {
+     Ord8 dlHlackData = (Ord8)(msg - SET_LLMSG);
+
+     if (metric < 0) {
+-      ivs.tx.stateIgn[msg]++;
+-      ivs.tx.stateIgn[DlMsgHlack]++;
++      ivs->tx.stateIgn[msg]++;
++      ivs->tx.stateIgn[DlMsgHlack]++;
+     } else {
+-      ivs.tx.stateCnt[msg]++;
+-      ivs.tx.stateCnt[DlMsgHlack]++;
++      ivs->tx.stateCnt[msg]++;
++      ivs->tx.stateCnt[DlMsgHlack]++;
+     }
+     /* check conditions for successful HLACK reception */
+-    if (ivs.tx.state == IvsHlack) {
++    if (ivs->tx.state == IvsHlack) {
+       LogInfo("[IVS ] ignoring additional HLACK (data: 0x0%X, metric: %3d)",
+         dlHlackData, metric);
+     }
+     else if (
+-      ivs.tx.stateCnt[msg] >= 1 &&
+-      ivs.tx.stateCnt[msg]*2 + ivs.tx.stateIgn[msg] >= 4)
++      ivs->tx.stateCnt[msg] >= 1 &&
++      ivs->tx.stateCnt[msg]*2 + ivs->tx.stateIgn[msg] >= 4)
+     {
+       LogInfo("[IVS ] received HLACK (data: 0x0%X, metric: %3d), finished.",
+         dlHlackData, metric);
+
+       /* invoke callback functions */
+-      ivs.tx.state = IvsHlack;
+-      IvsReceiveHlack(dlHlackData);
+-      IvsCatchEvent(IVSEVENT_HLACKRECEIVED);
++      ivs->tx.state = IvsHlack;
++      IvsReceiveHlack(mdm, dlHlackData);
++      IvsCatchEvent(mdm, IVSEVENT_HLACKRECEIVED);
+
+       /* entering new state -> reset all counters */
+       for (k = 0; k <= SET_LLMSG + SET_HLMSG; k++) {
+-        ivs.tx.stateCnt[k] = 0;
+-        ivs.tx.stateIgn[k] = 0;
++        ivs->tx.stateCnt[k] = 0;
++        ivs->tx.stateIgn[k] = 0;
+       }
+-      ivs.tx.stateCnt[DlMsgSend] = -1;
+-      ivs.tx.overallNack = 0;
++      ivs->tx.stateCnt[DlMsgSend] = -1;
++      ivs->tx.overallNack = 0;
+     }
+     else {
+       LogInfo("[IVS ] received HLACK (data: 0x0%X, metric: %3d), waiting...",
+@@ -341,91 +347,91 @@ void IvsTxState(Int16 msg, Int16 metric, Bool syncLock) {
+     switch (msg) {
+
+       case DlMsgStart:
+-        if (metric < 0 && ivs.tx.stateIgn[DlMsgStart] < IVS_GOSTART) {
++        if (metric < 0 && ivs->tx.stateIgn[DlMsgStart] < IVS_GOSTART) {
+           /* ignore, message reliability too low */
+-          ivs.tx.stateIgn[DlMsgStart]++;
++          ivs->tx.stateIgn[DlMsgStart]++;
+           LogInfo("[IVS ] received START !> ignoring message (%s)",
+             "reliability too low");
+           break;
+         }
+-        if (ivs.tx.pendingStart == True) {
+-          ivs.tx.pendingStart = False;
+-          ivs.tx.stateCnt[DlMsgStart] = LOCK_START_DL;
++        if (ivs->tx.pendingStart == True) {
++          ivs->tx.pendingStart = False;
++          ivs->tx.stateCnt[DlMsgStart] = LOCK_START_DL;
+         } else {
+-          ivs.tx.stateCnt[DlMsgStart]++;
++          ivs->tx.stateCnt[DlMsgStart]++;
+         }
+
+         /* check start... */
+-        if (ivs.tx.stateCnt[DlMsgStart] > LOCK_START_DL + FAIL_RESTART &&
+-          (ivs.tx.stateCnt[DlMsgStart]-1)%FAIL_RESTART == 0)
++        if (ivs->tx.stateCnt[DlMsgStart] > LOCK_START_DL + FAIL_RESTART &&
++          (ivs->tx.stateCnt[DlMsgStart]-1)%FAIL_RESTART == 0)
+         {
+           LogInfo("[IVS ] received START (metric: %3d) too often, %s", metric,
+             "starting over...");
+
+           /* assume PSAP sync failure, starting over... */
+-          ivs.tx.ulDelay = (ivs.tx.ulDelay + IVS_TXINC)%PCM_LENGTH;
+-          ivs.tx.ulN     = NRF_SYNC + ivs.tx.mod.nfmuteall + ivs.tx.mod.nfdata;
+-          ivs.tx.ulIndex = 0;
+-          ivs.tx.rv      = 0;
++          ivs->tx.ulDelay = (ivs->tx.ulDelay + IVS_TXINC)%PCM_LENGTH;
++          ivs->tx.ulN     = NRF_SYNC + ivs->tx.mod.nfmuteall + ivs->tx.mod.nfdata;
++          ivs->tx.ulIndex = 0;
++          ivs->tx.rv      = 0;
+
+           /* clear counter and invoke callback */
+-          ivs.tx.stateIgn[DlMsgStart] = 0;
+-          IvsCatchEvent(IVSEVENT_RESTARTMSD);
++          ivs->tx.stateIgn[DlMsgStart] = 0;
++          IvsCatchEvent(mdm, IVSEVENT_RESTARTMSD);
+         }
+-        else if (ivs.tx.stateCnt[DlMsgStart] == LOCK_START_DL) {
++        else if (ivs->tx.stateCnt[DlMsgStart] == LOCK_START_DL) {
+           /* downlink sync locked, start sending */
+           LogInfo("[IVS ] received START (metric: %3d), starting...", metric);
+
+           /* choose type of uplink modulator */
+-          if (ivs.tx.overallNack < IVS_TXFAST) {
+-            SetModState(&ivs.tx.mod, Mod3bit4smp);
++          if (ivs->tx.overallNack < IVS_TXFAST) {
++            SetModState(&ivs->tx.mod, Mod3bit4smp);
+             LogInfo("[IVS ] fast modulator chosen (NACK count: %d)",
+-              ivs.tx.overallNack);
++              ivs->tx.overallNack);
+           }
+           else {
+-            SetModState(&ivs.tx.mod, Mod3bit8smp);
++            SetModState(&ivs->tx.mod, Mod3bit8smp);
+             LogInfo("[IVS ] robust modulator chosen (NACK count: %d)",
+-              ivs.tx.overallNack);
++              ivs->tx.overallNack);
+           }
+           /* define uplink parameters */
+-          ivs.tx.ulDelay = (ivs.tx.ulDelay + IVS_TXINC)%PCM_LENGTH;
+-          ivs.tx.ulN     = NRF_SYNC + ivs.tx.mod.nfmuteall + ivs.tx.mod.nfdata;
+-          ivs.tx.ulIndex = 0;
+-          ivs.tx.rv      = 0;
++          ivs->tx.ulDelay = (ivs->tx.ulDelay + IVS_TXINC)%PCM_LENGTH;
++          ivs->tx.ulN     = NRF_SYNC + ivs->tx.mod.nfmuteall + ivs->tx.mod.nfdata;
++          ivs->tx.ulIndex = 0;
++          ivs->tx.rv      = 0;
+
+           /* set state and invoke callback */
+-          ivs.tx.state = IvsSendMsd;
+-          IvsCatchEvent(IVSEVENT_SENDINGMSD);
++          ivs->tx.state = IvsSendMsd;
++          IvsCatchEvent(mdm, IVSEVENT_SENDINGMSD);
+
+           /* entering new state -> reset other counters */
+-          ivs.tx.stateIgn[DlMsgStart] = 0;
+-          ivs.tx.stateCnt[DlMsgNack]  = 0;
+-          ivs.tx.stateCnt[DlMsgSend]  = 0;
++          ivs->tx.stateIgn[DlMsgStart] = 0;
++          ivs->tx.stateCnt[DlMsgNack]  = 0;
++          ivs->tx.stateCnt[DlMsgSend]  = 0;
+         }
+         else {
+           /* preserve state */
+           LogInfo("[IVS ] received START (metric: %3d)", metric);
+         }
+-        if (ivs.tx.stateCnt[DlMsgAck] == 1) {
++        if (ivs->tx.stateCnt[DlMsgAck] == 1) {
+           /* START after single ACK -> assume ACK was incorrect */
+-          ivs.tx.stateCnt[DlMsgAck] = 0;
++          ivs->tx.stateCnt[DlMsgAck] = 0;
+           LogInfo("[IVS ] ... !> assuming previous ACK was wrong");
+         }
+-        if (ivs.tx.stateCnt[DlMsgHlack] + ivs.tx.stateIgn[DlMsgHlack] >= 1
+-          && ivs.tx.dlMsgOld < SET_LLMSG)
++        if (ivs->tx.stateCnt[DlMsgHlack] + ivs->tx.stateIgn[DlMsgHlack] >= 1
++          && ivs->tx.dlMsgOld < SET_LLMSG)
+         {
+           /* START after single HLACK -> assume HLACK was incorrect */
+           for (k = SET_LLMSG; k <= SET_LLMSG + SET_HLMSG; k++) {
+-            ivs.tx.stateCnt[k] = 0;
+-            ivs.tx.stateIgn[k] = 0;
++            ivs->tx.stateCnt[k] = 0;
++            ivs->tx.stateIgn[k] = 0;
+           }
+           LogInfo("[IVS ] ... !> assuming previous HLACK was wrong");
+         }
+         break;
+
+       case DlMsgNack:
+-        if (ivs.tx.pendingStart == True ||
+-          ivs.tx.state == IvsAck || ivs.tx.state == IvsHlack)
++        if (ivs->tx.pendingStart == True ||
++          ivs->tx.state == IvsAck || ivs->tx.state == IvsHlack)
+         {
+           /* downlink sync locked, still waiting to start */
+           LogInfo("[IVS ] received NACK  !> ignoring message (%s)",
+@@ -439,55 +445,55 @@ void IvsTxState(Int16 msg, Int16 metric, Bool syncLock) {
+           break;
+         }
+         /* message seems reliable, increase counters */
+-        ivs.tx.stateCnt[DlMsgNack]++;
+-        ivs.tx.overallNack++;
++        ivs->tx.stateCnt[DlMsgNack]++;
++        ivs->tx.overallNack++;
+
+         if (
+-          ivs.tx.stateCnt[DlMsgNack] == 1 &&
+-          ivs.tx.stateCnt[DlMsgSend] < 0)
++          ivs->tx.stateCnt[DlMsgNack] == 1 &&
++          ivs->tx.stateCnt[DlMsgSend] < 0)
+         {
+           /* ignore, NACK should only follow START or NACK */
+-          ivs.tx.stateCnt[DlMsgNack] = 0;
++          ivs->tx.stateCnt[DlMsgNack] = 0;
+           LogInfo("[IVS ] received NACK  !> ignoring message (%s)",
+             "assume IDLE");
+         }
+-        else if (ivs.tx.stateCnt[DlMsgNack] == 1) {
++        else if (ivs->tx.stateCnt[DlMsgNack] == 1) {
+           LogInfo("[IVS ] received NACK  (metric: %3d), first time", metric);
+
+           /* entering new state -> reset other counters */
+-          ivs.tx.stateIgn[DlMsgStart] = 0;
+-          ivs.tx.stateCnt[DlMsgStart] = 0;
+-          ivs.tx.stateCnt[DlMsgSend]  = 0;
++          ivs->tx.stateIgn[DlMsgStart] = 0;
++          ivs->tx.stateCnt[DlMsgStart] = 0;
++          ivs->tx.stateCnt[DlMsgSend]  = 0;
+         }
+         else {
+           /* preserve state */
+           LogInfo("[IVS ] received NACK  (metric: %3d)", metric);
+         }
+-        if (ivs.tx.stateCnt[DlMsgAck] == 1) {
++        if (ivs->tx.stateCnt[DlMsgAck] == 1) {
+           /* NACK after single ACK -> assume ACK was incorrect */
+-          ivs.tx.stateCnt[DlMsgAck] = 0;
++          ivs->tx.stateCnt[DlMsgAck] = 0;
+           LogInfo("[IVS ] ... !> assuming previous ACK was wrong");
+         }
+-        if (ivs.tx.stateCnt[DlMsgHlack] + ivs.tx.stateIgn[DlMsgHlack] >= 1
+-          && ivs.tx.dlMsgOld < SET_LLMSG)
++        if (ivs->tx.stateCnt[DlMsgHlack] + ivs->tx.stateIgn[DlMsgHlack] >= 1
++          && ivs->tx.dlMsgOld < SET_LLMSG)
+         {
+           /* NACK after single HLACK -> assume HLACK was incorrect */
+           for (k = SET_LLMSG; k <= SET_LLMSG + SET_HLMSG; k++) {
+-            ivs.tx.stateCnt[k] = 0;
+-            ivs.tx.stateIgn[k] = 0;
++            ivs->tx.stateCnt[k] = 0;
++            ivs->tx.stateIgn[k] = 0;
+           }
+           LogInfo("[IVS ] ... !> assuming previous HLACK was wrong");
+         }
+         break;
+
+       case DlMsgAck:
+-        if (ivs.tx.pendingStart == True || ivs.tx.state == IvsHlack) {
++        if (ivs->tx.pendingStart == True || ivs->tx.state == IvsHlack) {
+           /* downlink sync locked, still waiting to start */
+           LogInfo("[IVS ] received ACK   !> ignoring message (%s)",
+             "expecting START");
+           break;
+         }
+-        else if (ivs.tx.state == IvsAck) {
++        else if (ivs->tx.state == IvsAck) {
+           /* ACK already recorded */
+           LogInfo("[IVS ] received ACK   !> ignoring message (%s)",
+             "already recorded");
+@@ -500,62 +506,62 @@ void IvsTxState(Int16 msg, Int16 metric, Bool syncLock) {
+           break;
+         }
+         /* message seems reliable, two ACK messages required */
+-        ivs.tx.stateCnt[DlMsgAck]++;
++        ivs->tx.stateCnt[DlMsgAck]++;
+
+         if (
+-          ivs.tx.stateCnt[DlMsgAck] == 1 &&
+-          ivs.tx.stateCnt[DlMsgSend] < 0)
++          ivs->tx.stateCnt[DlMsgAck] == 1 &&
++          ivs->tx.stateCnt[DlMsgSend] < 0)
+         {
+           /* ignore, IDLE mode precedes ACK */
+-          ivs.tx.stateCnt[DlMsgAck] = 0;
++          ivs->tx.stateCnt[DlMsgAck] = 0;
+           LogInfo("[IVS ] received ACK   !> ignoring message (%s)",
+             "assume IDLE");
+         }
+-        else if (ivs.tx.stateCnt[DlMsgAck] == 2) {
++        else if (ivs->tx.stateCnt[DlMsgAck] == 2) {
+           LogInfo("[IVS ] received ACK   (metric: %3d), %s", metric,
+             "ACK recorded, wait for HLACK");
+
+           /* invoke callback functions and wait for HLACK */
+-          ivs.tx.state = IvsAck;
+-          IvsReceiveAck();
+-          IvsCatchEvent(IVSEVENT_LLACKRECEIVED);
++          ivs->tx.state = IvsAck;
++          IvsReceiveAck(mdm);
++          IvsCatchEvent(mdm, IVSEVENT_LLACKRECEIVED);
+
+           /* entering new state -> reset all counters */
+           for (k = 0; k < SET_LLMSG; k++) {
+-            ivs.tx.stateCnt[k] = 0;
+-            ivs.tx.stateIgn[k] = 0;
++            ivs->tx.stateCnt[k] = 0;
++            ivs->tx.stateIgn[k] = 0;
+           }
+-          ivs.tx.stateCnt[DlMsgSend] = -1;
+-          ivs.tx.overallNack = 0;
++          ivs->tx.stateCnt[DlMsgSend] = -1;
++          ivs->tx.overallNack = 0;
+         }
+         else {
+           /* waiting... */
+           LogInfo("[IVS ] received ACK   (metric: %3d), waiting...", metric);
+         }
+-        if (ivs.tx.stateCnt[DlMsgHlack] + ivs.tx.stateIgn[DlMsgHlack] >= 1
+-          && ivs.tx.dlMsgOld < SET_LLMSG)
++        if (ivs->tx.stateCnt[DlMsgHlack] + ivs->tx.stateIgn[DlMsgHlack] >= 1
++          && ivs->tx.dlMsgOld < SET_LLMSG)
+         {
+           /* ACK after single HLACK -> assume HLACK was incorrect */
+           for (k = SET_LLMSG; k <= SET_LLMSG + SET_HLMSG; k++) {
+-            ivs.tx.stateCnt[k] = 0;
+-            ivs.tx.stateIgn[k] = 0;
++            ivs->tx.stateCnt[k] = 0;
++            ivs->tx.stateIgn[k] = 0;
+           }
+           LogInfo("[IVS ] ... !> assuming previous HLACK was wrong");
+         }
+         break;
+
+       default:
+-        if (ivs.tx.pendingStart == True ||
+-          ivs.tx.state == IvsAck || ivs.tx.state == IvsHlack)
++        if (ivs->tx.pendingStart == True ||
++          ivs->tx.state == IvsAck || ivs->tx.state == IvsHlack)
+         {
+           /* downlink sync locked, still waiting to start */
+           LogInfo("[IVS ] received IDLE  !> ignoring message (%s)",
+             "expecting START");
+         }
+         else if (
+-          ivs.tx.stateCnt[DlMsgStart] > 0 ||
+-          ivs.tx.stateCnt[DlMsgNack] > 0 ||
+-          ivs.tx.stateCnt[DlMsgAck] > 0)
++          ivs->tx.stateCnt[DlMsgStart] > 0 ||
++          ivs->tx.stateCnt[DlMsgNack] > 0 ||
++          ivs->tx.stateCnt[DlMsgAck] > 0)
+         {
+           LogInfo("[IVS ] received IDLE  !> ignoring message");
+         }
+@@ -567,6 +573,6 @@ void IvsTxState(Int16 msg, Int16 metric, Bool syncLock) {
+   }
+   /* store message if reliable */
+   if (metric > 0) {
+-    ivs.tx.dlMsgOld = msg;
++    ivs->tx.dlMsgOld = msg;
+   }
+ }
+diff --git a/TS26.268_12.0.0-SourceCode/ecall/modem_psap.c b/TS26.268_12.0.0-SourceCode/ecall/modem_psap.c
+index 4e5f60f..220af3d 100644
+--- a/TS26.268_12.0.0-SourceCode/ecall/modem_psap.c
++++ b/TS26.268_12.0.0-SourceCode/ecall/modem_psap.c
+@@ -10,44 +10,44 @@
+ #include "modemx.h"
+
+
+-static PsapData psap;
+-
+ /* PSAP external reference */
+-PsapData* PsapGetData(void) { return &psap; }
++PsapData* PsapGetData(struct modemx *mdm) { return &mdm->psap; }
+
+ /*============================================================================*/
+ /* PSAP IMPLEMENTATION: PsapReset, PsapSendStart, PsapSendHlack               */
+ /*----------------------------------------------------------------------------*/
+
+-void PsapReset(void) {
+-  PsapRxReset();
+-  PsapTxReset();
++void PsapReset(struct modemx *mdm) {
++  PsapRxReset(mdm);
++  PsapTxReset(mdm);
+ }
+
+-void PsapSendStart(void) {
+-  if (psap.rx.state == PsapIdle) {
++void PsapSendStart(struct modemx *mdm) {
++  PsapData *psap = &mdm->psap;
++
++  if (psap->rx.state == PsapIdle) {
+     /* START trigger out of IDLE state */
+     LogInfo("[PSAP] SendStart received from control");
+     LogInfo("[----]");
+-    PsapRxReset();
++    PsapRxReset(mdm);
+
+-    psap.rx.state = PsapTrigger;
+-    PsapCatchEvent(PSAPEVENT_SENDINGSTART);
++    psap->rx.state = PsapTrigger;
++    PsapCatchEvent(mdm, PSAPEVENT_SENDINGSTART);
+   }
+-  else if (psap.rx.state == PsapNack) {
++  else if (psap->rx.state == PsapNack) {
+     /* START trigger out of NACK state */
+     LogInfo("[PSAP] SendStart received, starting over...");
+     LogInfo("[----]");
+-    SyncReset(&psap.rx.sync, NULL, NULL);
++    SyncReset(&psap->rx.sync, NULL, NULL);
+
+-    psap.rx.state      = PsapTrigger;
+-    psap.rx.dlMsgCnt   = -1;
+-    psap.rx.rv         = 0;
+-    psap.rx.mgIndex    = 0;
+-    psap.rx.ulIndex    = 0;
+-    psap.rx.ulSyncTail = 0;
++    psap->rx.state      = PsapTrigger;
++    psap->rx.dlMsgCnt   = -1;
++    psap->rx.rv         = 0;
++    psap->rx.mgIndex    = 0;
++    psap->rx.ulIndex    = 0;
++    psap->rx.ulSyncTail = 0;
+
+-    PsapCatchEvent(PSAPEVENT_SENDINGRESTART);
++    PsapCatchEvent(mdm, PSAPEVENT_SENDINGRESTART);
+   }
+   else {
+     /* ignore otherwise */
+@@ -56,17 +56,19 @@ void PsapSendStart(void) {
+   }
+ }
+
+-void PsapSendHlack(const Ord8 data) {
+-  if (psap.rx.state == PsapAck) {
++void PsapSendHlack(struct modemx *mdm, const Ord8 data) {
++  PsapData *psap = &mdm->psap;
++
++  if (psap->rx.state == PsapAck) {
+     /* HLACK mode requires MSD to be successfully received */
+     LogInfo("[PSAP] HLACK data received from control");
+     LogInfo("[----]");
+
+-    psap.rx.state       = PsapHlack;
+-    psap.rx.dlMsgCnt    = -1;
+-    psap.rx.dlHlackData = data & 0x0F;
++    psap->rx.state       = PsapHlack;
++    psap->rx.dlMsgCnt    = -1;
++    psap->rx.dlHlackData = data & 0x0F;
+
+-    PsapCatchEvent(PSAPEVENT_SENDINGHLACK);
++    PsapCatchEvent(mdm, PSAPEVENT_SENDINGHLACK);
+   }
+   else {
+     /* ignore otherwise */
+@@ -77,47 +79,48 @@ void PsapSendHlack(const Ord8 data) {
+
+ /*----------------------------------------------------------------------------*/
+
+-void PsapRxReset(void) {
+-  CtrlRxData *ctrl = &psap.rx.ctrl;
+-  SyncState  *sync = &psap.rx.sync;
++void PsapRxReset(struct modemx *mdm) {
++  PsapData *psap = &mdm->psap;
++  CtrlRxData *ctrl = &psap->rx.ctrl;
++  SyncState  *sync = &psap->rx.sync;
+
+   /* reset state */
+-  psap.rx.state = PsapIdle;
++  psap->rx.state = PsapIdle;
+
+   /* assign buffer pointers */
+-  psap.rx.msdBin  = (Ord1*)  &psap.rx.buffer[0];
+-  psap.rx.msd     = (Ord8*)  &psap.rx.buffer[NRB_INFO_CRC];
+-  psap.rx.memCtrl = (Int16*) &psap.rx.buffer[sizeof(IntLLR)*NRB_CODE_ARQ];
+-  psap.rx.memCode = (IntLLR*)&psap.rx.buffer[0];
++  psap->rx.msdBin  = (Ord1*)  &psap->rx.buffer[0];
++  psap->rx.msd     = (Ord8*)  &psap->rx.buffer[NRB_INFO_CRC];
++  psap->rx.memCtrl = (Int16*) &psap->rx.buffer[sizeof(IntLLR)*NRB_CODE_ARQ];
++  psap->rx.memCode = (IntLLR*)&psap->rx.buffer[0];
+
+   /* reset control receiver */
+-  CtrlRxReset(ctrl, PortPsap, sync, psap.rx.memCtrl, LOCK_START_UL);
++  CtrlRxReset(ctrl, PortPsap, sync, psap->rx.memCtrl, LOCK_START_UL);
+
+   /* reset uplink counters */
+-  psap.rx.rv         = 0;
+-  psap.rx.ulIndex    = 0;
+-  psap.rx.mgIndex    = 0;
+-  psap.rx.ulTrials   = 0;
+-  psap.rx.ulSyncTail = 0;
++  psap->rx.rv         = 0;
++  psap->rx.ulIndex    = 0;
++  psap->rx.mgIndex    = 0;
++  psap->rx.ulTrials   = 0;
++  psap->rx.ulSyncTail = 0;
+
+   /* reset HLACK data and downlink counters */
+-  psap.rx.dlHlackData = 0;
+-  psap.rx.dlData      = DlMsgNoop;
+-  psap.rx.dlMsgCnt    = -1;
+-  psap.rx.dlIndex     = -1;
++  psap->rx.dlHlackData = 0;
++  psap->rx.dlData      = DlMsgNoop;
++  psap->rx.dlMsgCnt    = -1;
++  psap->rx.dlIndex     = -1;
+
+   /* reset sync */
+   SyncReset(sync,
+-    (Int32*)&psap.rx.buffer[0
++    (Int32*)&psap->rx.buffer[0
+     + sizeof(IntLLR)* NRB_CODE_ARQ
+     + sizeof(Int16) * NRF_MEMCTRL*PCM_LENGTH],
+-    (Int32*)&psap.rx.buffer[0
++    (Int32*)&psap->rx.buffer[0
+     + sizeof(IntLLR)* NRB_CODE_ARQ
+     + sizeof(Int16) * NRF_MEMCTRL*PCM_LENGTH
+     + sizeof(Int32) * NRS_MEMSYNC]);
+
+   /* clear buffer */
+-  memset(psap.rx.buffer, 0, sizeof(char)*(0
++  memset(psap->rx.buffer, 0, sizeof(char)*(0
+     + sizeof(IntLLR)* NRB_CODE_ARQ
+     + sizeof(Int16) * NRF_MEMCTRL*PCM_LENGTH
+     + sizeof(Int32) * NRS_MEMSYNC
+@@ -128,8 +131,8 @@ void PsapRxReset(void) {
+
+ /*----------------------------------------------------------------------------*/
+
+-void PsapTxReset(void) {
+-  CtrlTxReset(&psap.tx.ctrl, PortPsap);
++void PsapTxReset(struct modemx *mdm) {
++  CtrlTxReset(&mdm->psap.tx.ctrl, PortPsap);
+
+   LogInfo("[PSAP] reset transmitter");
+ }
+@@ -140,10 +143,11 @@ void PsapTxReset(void) {
+ /* InOut:  Int16* pcm  <-> input and output frame of 16bit PCM samples        */
+ /*----------------------------------------------------------------------------*/
+
+-void PsapProcess(Int16 *pcm) {
++void PsapProcess(struct modemx *mdm, Int16 *pcm) {
+   Int16 i;
+-  CtrlPort *prx = &psap.rx.ctrl.port;
+-  CtrlPort *ptx = &psap.tx.ctrl.port;
++  PsapData *psap = &mdm->psap;
++  CtrlPort *prx = &psap->rx.ctrl.port;
++  CtrlPort *ptx = &psap->tx.ctrl.port;
+
+   /* invert input signal if required */
+   if (prx->invert == True) {
+@@ -151,7 +155,7 @@ void PsapProcess(Int16 *pcm) {
+       pcm[i] = (pcm[i] > PCM_MIN) ? -pcm[i] : PCM_MAX;
+     }
+   }
+-  PsapRxProcess(pcm);
++  PsapRxProcess(mdm, pcm);
+
+   if (prx->state == CtrlTxIdle || prx->state == CtrlTxSend) {
+     /* port match, interface copy */
+@@ -165,7 +169,7 @@ void PsapProcess(Int16 *pcm) {
+     ptx->u.tx.dlData  = DlMsgNoop;
+     ptx->u.tx.dlIndex = -1;
+   }
+-  PsapTxProcess(pcm);
++  PsapTxProcess(mdm, pcm);
+
+   /* invert output signal if required */
+   if (ptx->invert == True) {
+@@ -177,26 +181,27 @@ void PsapProcess(Int16 *pcm) {
+
+ /*----------------------------------------------------------------------------*/
+
+-void PsapRxProcess(const Int16 *pcm) {
++void PsapRxProcess(struct modemx *mdm, const Int16 *pcm) {
+   Int16 i;
++  PsapData *psap = &mdm->psap;
+
+   /* PSAP receiver, copy PCM data to input buffer */
+   for (i = 0; i < NRF_MEMCTRL-1; i++) {
+-    memcpy(&psap.rx.memCtrl[i*PCM_LENGTH],
+-      &psap.rx.memCtrl[(i+1)*PCM_LENGTH], sizeof(Int16)*PCM_LENGTH);
++    memcpy(&psap->rx.memCtrl[i*PCM_LENGTH],
++      &psap->rx.memCtrl[(i+1)*PCM_LENGTH], sizeof(Int16)*PCM_LENGTH);
+   }
+-  memcpy(&psap.rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH], pcm,
++  memcpy(&psap->rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH], pcm,
+     sizeof(Int16)*PCM_LENGTH);
+
+   /* process uplink and downlink state machine */
+-  PsapRxUplink(pcm);
+-  PsapRxDownlink();
++  PsapRxUplink(mdm, pcm);
++  PsapRxDownlink(mdm);
+ }
+
+ /*----------------------------------------------------------------------------*/
+
+-void PsapTxProcess(Int16 *pcm) {
+-  CtrlTxProcess(&psap.tx.ctrl, pcm);
++void PsapTxProcess(struct modemx *mdm, Int16 *pcm) {
++  CtrlTxProcess(&mdm->psap.tx.ctrl, pcm);
+ }
+
+ /*============================================================================*/
+@@ -205,32 +210,33 @@ void PsapTxProcess(Int16 *pcm) {
+ /* In:  const Int16* pcm  -> input frame of 16bit PCM samples                 */
+ /*----------------------------------------------------------------------------*/
+
+-void PsapRxUplink(const Int16 *pcm) {
++void PsapRxUplink(struct modemx *mdm, const Int16 *pcm) {
+   Int16 temp;
+   Bool  crc, decode;
+
+-  CtrlRxData *ctrl = &psap.rx.ctrl;
+-  SyncState  *sync = &psap.rx.sync;
+-  ModState   *mod  = &psap.rx.mod;
++  PsapData   *psap = &mdm->psap;
++  CtrlRxData *ctrl = &psap->rx.ctrl;
++  SyncState  *sync = &psap->rx.sync;
++  ModState   *mod  = &psap->rx.mod;
+
+   /* process each state individually */
+-  switch (psap.rx.state) {
++  switch (psap->rx.state) {
+     case PsapIdle:
+       /* run control receiver and watch for SEND signal */
+-      CtrlRxProcess(ctrl, pcm);
++      CtrlRxProcess(mdm, ctrl, pcm);
+
+       if (ctrl->port.u.rx.dlData == DlMsgSend) {
+         LogInfo("[PSAP] received SEND  (metric: %3d), %s",
+           ctrl->port.u.rx.dlMetric, "initiating START trigger");
+
+         /* reset receiver and prepare for MSD reception */
+-        PsapRxReset();
+-        psap.rx.state = PsapTrigger;
+-        PsapCatchEvent(PSAPEVENT_SENDINGSTART);
++        PsapRxReset(mdm);
++        psap->rx.state = PsapTrigger;
++        PsapCatchEvent(mdm, PSAPEVENT_SENDINGSTART);
+       }
+       else if (ctrl->port.u.rx.dlData == DlMsgReset) {
+-        PsapReset();
+-        PsapCatchEvent(PSAPEVENT_IDLEPOSTRESET);
++        PsapReset(mdm);
++        PsapCatchEvent(mdm, PSAPEVENT_IDLEPOSTRESET);
+       }
+       break;
+
+@@ -247,33 +253,33 @@ void PsapRxUplink(const Int16 *pcm) {
+       if (sync->flag == True && sync->delay <= 0) {
+         /* sync successful */
+         ctrl->port.state = CtrlTxSend;
+-        PsapCatchEvent(PSAPEVENT_MSDSYNC);
++        PsapCatchEvent(mdm, PSAPEVENT_MSDSYNC);
+
+         /* apply sync inversion flag */
+         if ((ctrl->port.invert = sync->invert) == True) {
+           LogInfo("[PSAP] codec inversion detected!");
+         }
+         /* start sending NACK messages */
+-        psap.rx.state    = PsapNack;
+-        psap.rx.dlMsgCnt = -1;
++        psap->rx.state    = PsapNack;
++        psap->rx.dlMsgCnt = -1;
+
+         /* store amplitude and choose modulator */
+         sync->amplitude[2] = sync->amplitude[0];
+-        PsapRxSetMod(sync, mod);
++        PsapRxSetMod(mdm, sync, mod);
+
+         /* check for muting gaps passed already */
+         if (sync->delay <= -PCM_LENGTH) {
+           temp = MIN(-(sync->delay)/PCM_LENGTH, mod->nfmute1);
+           sync->delay += temp*PCM_LENGTH;
+-          psap.rx.mgIndex += temp;
++          psap->rx.mgIndex += temp;
+         }
+       }
+       break;
+
+     case PsapNack:
+       /* check for better sync for some more frames */
+-      if (psap.rx.ulSyncTail < NRF_OBSERVE) {
+-        psap.rx.ulSyncTail++;
++      if (psap->rx.ulSyncTail < NRF_OBSERVE) {
++        psap->rx.ulSyncTail++;
+
+         /* run synchronization */
+         Sync(sync, pcm, "PSAP", ctrl->port.invert);
+@@ -286,22 +292,22 @@ void PsapRxUplink(const Int16 *pcm) {
+             LogInfo("[PSAP] codec inversion detected (sync observer)!");
+           }
+           /* reset receiver, previous sync was likely too early */
+-          psap.rx.rv         = 0;
+-          psap.rx.ulIndex    = 0;
+-          psap.rx.mgIndex    = -1;
+-          psap.rx.ulSyncTail = 0;
++          psap->rx.rv         = 0;
++          psap->rx.ulIndex    = 0;
++          psap->rx.mgIndex    = -1;
++          psap->rx.ulSyncTail = 0;
+
+           /* reinitialize buffer */
+-          memset(psap.rx.memCode, 0, sizeof(IntLLR)*NRB_CODE_ARQ);
++          memset(psap->rx.memCode, 0, sizeof(IntLLR)*NRB_CODE_ARQ);
+
+           /* choose modulator */
+-          PsapRxSetMod(sync, mod);
++          PsapRxSetMod(mdm, sync, mod);
+
+           /* check for muting gaps passed already */
+           if (sync->delay <= -PCM_LENGTH) {
+             temp = MIN(-(sync->delay)/PCM_LENGTH, mod->nfmute1);
+             sync->delay += temp*PCM_LENGTH;
+-            psap.rx.mgIndex += temp;
++            psap->rx.mgIndex += temp;
+           }
+         }
+       } else {
+@@ -311,32 +317,32 @@ void PsapRxUplink(const Int16 *pcm) {
+       /* run demodulation if not muting */
+       decode = False;
+
+-      if (psap.rx.mgIndex >= 0) {
+-        if (mod->mgTable[psap.rx.mgIndex] >= 0) {
++      if (psap->rx.mgIndex >= 0) {
++        if (mod->mgTable[psap->rx.mgIndex] >= 0) {
+           PsapReceiver(mod,
+-            &psap.rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH + sync->delay],
+-            &psap.rx.memCode[(mod->mfpf*mod->bpsym)*psap.rx.ulIndex]);
+-          psap.rx.ulIndex++;
++            &psap->rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH + sync->delay],
++            &psap->rx.memCode[(mod->mfpf*mod->bpsym)*psap->rx.ulIndex]);
++          psap->rx.ulIndex++;
+           decode = True;
+         }
+-        else if (mod->mgTable[psap.rx.mgIndex] == -6) {
++        else if (mod->mgTable[psap->rx.mgIndex] == -6) {
+           /* track sync peaks and correct delay if necessary */
+           SyncTrack(sync, ctrl->port.invert);
+
+           if (sync->flag == True) {
+             while (sync->delay > 0) {
+               sync->delay -= PCM_LENGTH;
+-              psap.rx.mgIndex--;
++              psap->rx.mgIndex--;
+             }
+             while (sync->delay <= -PCM_LENGTH) {
+               sync->delay += PCM_LENGTH;
+-              psap.rx.mgIndex++;
++              psap->rx.mgIndex++;
+
+-              if (mod->mgTable[psap.rx.mgIndex] >= 0) {
++              if (mod->mgTable[psap->rx.mgIndex] >= 0) {
+                 PsapReceiver(mod,
+-                  &psap.rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH + sync->delay],
+-                  &psap.rx.memCode[(mod->mfpf*mod->bpsym)*psap.rx.ulIndex]);
+-                psap.rx.ulIndex++;
++                  &psap->rx.memCtrl[(NRF_MEMCTRL-1)*PCM_LENGTH + sync->delay],
++                  &psap->rx.memCode[(mod->mfpf*mod->bpsym)*psap->rx.ulIndex]);
++                psap->rx.ulIndex++;
+               }
+             }
+           }
+@@ -344,59 +350,59 @@ void PsapRxUplink(const Int16 *pcm) {
+             /* too many tracking failures */
+             LogInfo("[PSAP] restart due to tracking failures!");
+             LogInfo("[----]");
+-            PsapSendStart();
++            PsapSendStart(mdm);
+             break;
+           }
+         }
+       }
+       /* increase muting gap counter */
+-      psap.rx.mgIndex++;
++      psap->rx.mgIndex++;
+
+       /* run decoder if desired */
+       if (decode == True && (
+-        ((psap.rx.rv%ARQ_MAX) > 0 && psap.rx.ulIndex == mod->decpos1) ||
+-        ((psap.rx.rv%ARQ_MAX) > 0 && psap.rx.ulIndex == mod->decpos2) ||
+-        psap.rx.ulIndex == psap.rx.ulN))
++        ((psap->rx.rv%ARQ_MAX) > 0 && psap->rx.ulIndex == mod->decpos1) ||
++        ((psap->rx.rv%ARQ_MAX) > 0 && psap->rx.ulIndex == mod->decpos2) ||
++        psap->rx.ulIndex == psap->rx.ulN))
+       {
+         /* do not run twice with rv = 0, buffer will be reinitialized */
+-        crc = FecDecode(psap.rx.memCode, psap.rx.rv, psap.rx.msdBin);
++        crc = FecDecode(psap->rx.memCode, psap->rx.rv, psap->rx.msdBin);
+
+         if (crc == False) {
+           /* CRC failed, initialization for new redundancy version */
+-          LogInfo("[PSAP] CRC failed; rv = %d", psap.rx.rv);
++          LogInfo("[PSAP] CRC failed; rv = %d", psap->rx.rv);
+           LogInfo("[----]");
+
+           /* reinitialize buffer */
+-          memset(psap.rx.memCode, 0, sizeof(IntLLR)*NRB_CODE_ARQ);
++          memset(psap->rx.memCode, 0, sizeof(IntLLR)*NRB_CODE_ARQ);
+
+           /* full block was received, reinitialization necessary */
+-          if (psap.rx.ulIndex == psap.rx.ulN) {
+-            psap.rx.ulIndex = 0;
+-            psap.rx.rv++;
++          if (psap->rx.ulIndex == psap->rx.ulN) {
++            psap->rx.ulIndex = 0;
++            psap->rx.rv++;
+
+-            if ((psap.rx.rv%ARQ_MAX) == 0) {
++            if ((psap->rx.rv%ARQ_MAX) == 0) {
+               /* too many retransmissions, sync must have failed */
+-              PsapSendStart();
+-              psap.rx.ulTrials++;
++              PsapSendStart(mdm);
++              psap->rx.ulTrials++;
+             } else
+-              psap.rx.mgIndex = -(mod->nfmute4);
++              psap->rx.mgIndex = -(mod->nfmute4);
+           }
+         } else {
+           LogInfo("[PSAP] MSD successfully received; %s: %d",
+-            "redundancy versions", psap.rx.rv);
++            "redundancy versions", psap->rx.rv);
+
+           /* set ACK state prior to any MSD callback */
+-          psap.rx.state    = PsapAck;
+-          psap.rx.dlMsgCnt = -1;
++          psap->rx.state    = PsapAck;
++          psap->rx.dlMsgCnt = -1;
+
+           /* inform application of received MSD */
+-          Bit2Byte(psap.rx.msdBin, psap.rx.msd, MSD_MAX_LENGTH);
+-          PsapReceiveMsd(psap.rx.msd, MSD_MAX_LENGTH);
+-          PsapCatchEvent(PSAPEVENT_MSDRECEIVED);
++          Bit2Byte(psap->rx.msdBin, psap->rx.msd, MSD_MAX_LENGTH);
++          PsapReceiveMsd(mdm, psap->rx.msd, MSD_MAX_LENGTH);
++          PsapCatchEvent(mdm, PSAPEVENT_MSDRECEIVED);
+
+           /* MSD callback may have triggered HLACK immediately */
+-          if (psap.rx.state == PsapAck) {
+-            PsapCatchEvent(PSAPEVENT_SENDINGLLACK);
++          if (psap->rx.state == PsapAck) {
++            PsapCatchEvent(mdm, PSAPEVENT_SENDINGLLACK);
+           }
+         }
+       }
+@@ -419,8 +425,9 @@ void PsapRxUplink(const Int16 *pcm) {
+ /* UTILITY FUNCTION: PsapRxDownlink                                           */
+ /*----------------------------------------------------------------------------*/
+
+-void PsapRxDownlink(void) {
+-  CtrlPort *port = &psap.rx.ctrl.port;
++void PsapRxDownlink(struct modemx *mdm) {
++  PsapData *psap = &mdm->psap;
++  CtrlPort *port = &psap->rx.ctrl.port;
+
+   if (
+     port->state == CtrlRxIdle ||
+@@ -429,61 +436,61 @@ void PsapRxDownlink(void) {
+   {
+     /* PSAP in control receiver mode, port data was set above */
+   }
+-  else if (psap.rx.state == PsapIdle && psap.rx.dlMsgCnt >= 0) {
++  else if (psap->rx.state == PsapIdle && psap->rx.dlMsgCnt >= 0) {
+     /* final message has been sent, stop output */
+     port->u.tx.dlData  = DlMsgNoop;
+     port->u.tx.dlIndex = -1;
+   }
+   else {
+     /* interface copy */
+-    port->u.tx.dlData  = psap.rx.dlData;
+-    port->u.tx.dlIndex = psap.rx.dlIndex;
++    port->u.tx.dlData  = psap->rx.dlData;
++    port->u.tx.dlIndex = psap->rx.dlIndex;
+
+     /* increase downlink index */
+-    psap.rx.dlIndex++;
+-    psap.rx.dlIndex %= NRF_DLCHUNK;
++    psap->rx.dlIndex++;
++    psap->rx.dlIndex %= NRF_DLCHUNK;
+
+-    if (psap.rx.dlIndex == 0) {
++    if (psap->rx.dlIndex == 0) {
+       /* negative counter indicates new message */
+-      if (psap.rx.dlMsgCnt < 0) {
+-        psap.rx.dlMsgCnt = 0;
++      if (psap->rx.dlMsgCnt < 0) {
++        psap->rx.dlMsgCnt = 0;
+       } else {
+-        psap.rx.dlMsgCnt++;
++        psap->rx.dlMsgCnt++;
+       }
+       /* check message counter and change state */
+-      switch (psap.rx.state) {
++      switch (psap->rx.state) {
+         case PsapTrigger:
+-          if (psap.rx.dlMsgCnt >= LOCK_START_DL) {
+-            psap.rx.state    = PsapStart;
+-            psap.rx.dlMsgCnt = 0;
++          if (psap->rx.dlMsgCnt >= LOCK_START_DL) {
++            psap->rx.state    = PsapStart;
++            psap->rx.dlMsgCnt = 0;
+           }
+           /* set message right here to trigger sync preamble output */
+-          psap.rx.dlData = DlMsgStart;
++          psap->rx.dlData = DlMsgStart;
+           break;
+         case PsapStart:
+-          if (psap.rx.dlMsgCnt >= (PSAP_NUMSTART - LOCK_START_DL)) {
+-            psap.rx.state    = PsapIdle;
+-            psap.rx.dlMsgCnt = 0;
+-            PsapCatchEvent(PSAPEVENT_IDLEPOSTSTART);
++          if (psap->rx.dlMsgCnt >= (PSAP_NUMSTART - LOCK_START_DL)) {
++            psap->rx.state    = PsapIdle;
++            psap->rx.dlMsgCnt = 0;
++            PsapCatchEvent(mdm, PSAPEVENT_IDLEPOSTSTART);
+           }
+           break;
+         case PsapAck:
+-          if (psap.rx.dlMsgCnt >= PSAP_NUMACK) {
+-            psap.rx.state    = PsapIdle;
+-            psap.rx.dlMsgCnt = 0;
+-            PsapCatchEvent(PSAPEVENT_IDLEPOSTLLACK);
++          if (psap->rx.dlMsgCnt >= PSAP_NUMACK) {
++            psap->rx.state    = PsapIdle;
++            psap->rx.dlMsgCnt = 0;
++            PsapCatchEvent(mdm, PSAPEVENT_IDLEPOSTLLACK);
+           }
+           break;
+         case PsapHlack:
+-          if (psap.rx.dlMsgCnt >= PSAP_NUMHLACK) {
+-            psap.rx.state    = PsapIdle;
+-            psap.rx.dlMsgCnt = 0;
+-            PsapCatchEvent(PSAPEVENT_IDLEPOSTHLACK);
++          if (psap->rx.dlMsgCnt >= PSAP_NUMHLACK) {
++            psap->rx.state    = PsapIdle;
++            psap->rx.dlMsgCnt = 0;
++            PsapCatchEvent(mdm, PSAPEVENT_IDLEPOSTHLACK);
+           } else {
+-            LogInfo("[PSAP] sending  HLACK; data: 0x0%X", psap.rx.dlHlackData);
++            LogInfo("[PSAP] sending  HLACK; data: 0x0%X", psap->rx.dlHlackData);
+
+             /* add message offset */
+-            psap.rx.dlData = SET_LLMSG + psap.rx.dlHlackData;
++            psap->rx.dlData = SET_LLMSG + psap->rx.dlHlackData;
+           }
+           break;
+         default:
+@@ -491,34 +498,34 @@ void PsapRxDownlink(void) {
+           break;
+       }
+     }
+-    else if (psap.rx.dlIndex == NRF_SYNC + NRF_DLMUTE1LL) {
++    else if (psap->rx.dlIndex == NRF_SYNC + NRF_DLMUTE1LL) {
+       /* start of downlink data portion, set next message */
+-      switch (psap.rx.state) {
++      switch (psap->rx.state) {
+         case PsapTrigger:
+         case PsapStart:
+-          psap.rx.dlData = DlMsgStart;
+-          if (psap.rx.dlMsgCnt < 0) {
+-            psap.rx.dlMsgCnt = 0;
++          psap->rx.dlData = DlMsgStart;
++          if (psap->rx.dlMsgCnt < 0) {
++            psap->rx.dlMsgCnt = 0;
+           }
+           LogInfo("[PSAP] sending  START");
+           break;
+         case PsapNack:
+-          psap.rx.dlData = DlMsgNack;
+-          if (psap.rx.dlMsgCnt < 0) {
+-            psap.rx.dlMsgCnt = 0;
++          psap->rx.dlData = DlMsgNack;
++          if (psap->rx.dlMsgCnt < 0) {
++            psap->rx.dlMsgCnt = 0;
+           }
+           LogInfo("[PSAP] sending  NACK");
+           break;
+         case PsapAck:
+-          psap.rx.dlData = DlMsgAck;
+-          if (psap.rx.dlMsgCnt < 0) {
+-            psap.rx.dlMsgCnt = 0;
++          psap->rx.dlData = DlMsgAck;
++          if (psap->rx.dlMsgCnt < 0) {
++            psap->rx.dlMsgCnt = 0;
+           }
+           LogInfo("[PSAP] sending  ACK");
+           break;
+         case PsapHlack:
+-          if (psap.rx.dlMsgCnt < 0) {
+-            psap.rx.dlData = DlMsgAck;
++          if (psap->rx.dlMsgCnt < 0) {
++            psap->rx.dlData = DlMsgAck;
+             LogInfo("[PSAP] sending  ACK   (HLACK pending)");
+           }
+           break;
+@@ -537,7 +544,7 @@ void PsapRxDownlink(void) {
+ /* Out: ModState*        mod   -> modulator struct                            */
+ /*----------------------------------------------------------------------------*/
+
+-void PsapRxSetMod(const SyncState *sync, ModState *mod)
++void PsapRxSetMod(struct modemx *mdm, const SyncState *sync, ModState *mod)
+ {
+   Int32 xCorrA =
+     sync->memWakeup[0] +
+@@ -550,6 +557,8 @@ void PsapRxSetMod(const SyncState *sync, ModState *mod)
+     sync->memWakeup[5] +
+     sync->memWakeup[7];
+
++  PsapData *psap = &mdm->psap;
++
+   if (xCorrA/MAX(xCorrB, 1) > PSAP_THRESHOLD) {
+     SetModState(mod, Mod3bit4smp);
+     LogInfo("[PSAP] fast modulator chosen (metric: %d)",
+@@ -560,7 +569,7 @@ void PsapRxSetMod(const SyncState *sync, ModState *mod)
+     LogInfo("[PSAP] robust modulator chosen (metric: %d)",
+       xCorrB/MAX(xCorrA, 1));
+   }
+-  else if (psap.rx.ulTrials == 0) {
++  else if (psap->rx.ulTrials == 0) {
+     SetModState(mod, Mod3bit4smp);
+     LogInfo("[PSAP] fast modulator chosen (metric: %d)",
+       xCorrA/MAX(xCorrB, 1));
+@@ -570,5 +579,5 @@ void PsapRxSetMod(const SyncState *sync, ModState *mod)
+     LogInfo("[PSAP] robust modulator chosen (metric: %d)",
+       xCorrB/MAX(xCorrA, 1));
+   }
+-  psap.rx.ulN = mod->nfdata;
++  psap->rx.ulN = mod->nfdata;
+ }
+diff --git a/TS26.268_12.0.0-SourceCode/ecall/modemx.h b/TS26.268_12.0.0-SourceCode/ecall/modemx.h
+index e5237dd..c5a7585 100644
+--- a/TS26.268_12.0.0-SourceCode/ecall/modemx.h
++++ b/TS26.268_12.0.0-SourceCode/ecall/modemx.h
+@@ -21,6 +21,8 @@
+ #include "ecall_rom.h"
+
+
++struct modemx;
++
+ /* callback functions: to be implemented by the user application */
+
+ void Abort(const char *format, ...);
+@@ -45,22 +47,22 @@ typedef enum {
+
+ /* callback functions: to be implemented by the user application */
+
+-void IvsCatchEvent(IvsEvent ie);
+-void IvsReceiveAck(void);
+-void IvsReceiveHlack(const Ord8 data);
++void IvsCatchEvent(struct modemx *mdm, IvsEvent ie);
++void IvsReceiveAck(struct modemx *mdm);
++void IvsReceiveHlack(struct modemx *mdm, const Ord8 data);
+
+ /*----------------------------------------------------------------------------*/
+
+-void IvsReset(const Ord8 *msd, int length);
+-void IvsProcess(Int16 *pcm);
+-void IvsSendStart(void);
++void IvsReset(struct modemx *mdm, const Ord8 *msd, int length);
++void IvsProcess(struct modemx *mdm, Int16 *pcm);
++void IvsSendStart(struct modemx *mdm);
+
+-void IvsRxReset(void);
+-void IvsRxProcess(const Int16 *pcm);
++void IvsRxReset(struct modemx *mdm);
++void IvsRxProcess(struct modemx *mdm, const Int16 *pcm);
+
+-void IvsTxReset(const Ord8 *msd, int length);
+-void IvsTxProcess(Int16 *pcm);
+-void IvsTxState(Int16 msg, Int16 metric, Bool syncLock);
++void IvsTxReset(struct modemx *mdm, const Ord8 *msd, int length);
++void IvsTxProcess(struct modemx *mdm, Int16 *pcm);
++void IvsTxState(struct modemx *mdm, Int16 msg, Int16 metric, Bool syncLock);
+
+ /*----------------------------------------------------------------------------*/
+
+@@ -112,7 +114,7 @@ typedef struct {
+   IvsTxData tx;           /* IVS transmitter struct */
+ } IvsData;
+
+-IvsData* IvsGetData(void);
++IvsData* IvsGetData(struct modemx *mdm);
+
+
+ /*============================================================================*/
+@@ -137,24 +139,24 @@ typedef enum {
+
+ /* callback functions: to be implemented by the user application */
+
+-void PsapCatchEvent(PsapEvent pe);
+-void PsapReceiveMsd(const Ord8 *msd, int length);
++void PsapCatchEvent(struct modemx *mdm, PsapEvent pe);
++void PsapReceiveMsd(struct modemx *mdm, const Ord8 *msd, int length);
+
+ /*----------------------------------------------------------------------------*/
+
+-void PsapReset(void);
+-void PsapProcess(Int16 *pcm);
+-void PsapSendStart(void);
+-void PsapSendHlack(const Ord8 data);
++void PsapReset(struct modemx *mdm);
++void PsapProcess(struct modemx *mdm, Int16 *pcm);
++void PsapSendStart(struct modemx *mdm);
++void PsapSendHlack(struct modemx *mdm, const Ord8 data);
+
+-void PsapRxReset(void);
+-void PsapRxProcess(const Int16 *pcm);
+-void PsapRxUplink(const Int16 *pcm);
+-void PsapRxDownlink(void);
+-void PsapRxSetMod(const SyncState *sync, ModState *mod);
++void PsapRxReset(struct modemx *mdm);
++void PsapRxProcess(struct modemx *mdm, const Int16 *pcm);
++void PsapRxUplink(struct modemx *mdm, const Int16 *pcm);
++void PsapRxDownlink(struct modemx *mdm);
++void PsapRxSetMod(struct modemx *mdm, const SyncState *sync, ModState *mod);
+
+-void PsapTxReset(void);
+-void PsapTxProcess(Int16 *pcm);
++void PsapTxReset(struct modemx *mdm);
++void PsapTxProcess(struct modemx *mdm, Int16 *pcm);
+
+ /*----------------------------------------------------------------------------*/
+
+@@ -206,6 +208,15 @@ typedef struct {
+   PsapTxData tx;          /* PSAP transmitter struct */
+ } PsapData;
+
+-PsapData* PsapGetData(void);
++PsapData* PsapGetData(struct modemx *mdm);
++
++
++struct modemx
++{
++    IvsData ivs;
++    PsapData psap;
++
++    void* user;
++};
+
+ #endif

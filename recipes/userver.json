@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/userver-framework/userver",
+    "package": "userver-framework/userver",
+    "tag_filter": "",
+    "date": "2024-07-17T08:31:15Z",
+    "target": ""
+  },
+  "version": "2.2",
+  "method": "fetch_content",
+  "url": "https://github.com/userver-framework/userver/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=22fce0b9304ac63eb50f657da153489f9d05cfabf33eecaccfcf369079165464",
+  "update_disconnected": true,
+  "options": {}
+}

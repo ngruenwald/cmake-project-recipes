@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/marzer/tomlplusplus",
+    "package": "marzer/tomlplusplus",
+    "tag_filter": "",
+    "date": "2023-10-13T13:25:17Z",
+    "target": ""
+  },
+  "version": "3.4.0",
+  "method": "fetch_content",
+  "url": "https://github.com/marzer/tomlplusplus/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=ad2a4cd786e25305d802e7490ea65a2531195e5834bf6b4fa5a323421fd81f9b",
+  "update_disconnected": true,
+  "options": {}
+}

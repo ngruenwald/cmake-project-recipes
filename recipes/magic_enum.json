@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/neargye/magic_enum",
+    "package": "neargye/magic_enum",
+    "tag_filter": "",
+    "date": "2024-06-29T14:16:32Z",
+    "target": ""
+  },
+  "version": "0.9.6",
+  "method": "fetch_content",
+  "url": "https://github.com/neargye/magic_enum/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=859e949bb54723825ec3f57568e2c47ca2cd9c533d41c9b4f895ce8e717cde4a",
+  "update_disconnected": true,
+  "options": {}
+}

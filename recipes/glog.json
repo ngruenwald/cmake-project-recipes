@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/google/glog",
+    "package": "google/glog",
+    "tag_filter": "",
+    "date": "2024-06-08T15:07:34Z",
+    "target": ""
+  },
+  "version": "0.7.1",
+  "method": "fetch_content",
+  "url": "https://github.com/google/glog/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=c17d85c03ad9630006ef32c7be7c65656aba2e7e2fbfc82226b7e680c771fc88",
+  "update_disconnected": true,
+  "options": {}
+}

@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "https://github.com/catchorg/Catch2",
+    "package": "catchorg/catch2",
+    "tag_filter": "",
+    "date": "2024-05-05T18:58:18Z",
+    "target": "Catch2::Catch2WithMain, Catch2::Catch2"
+  },
+  "version": "3.6.0",
+  "method": "fetch_content",
+  "url": "https://github.com/catchorg/Catch2/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=aa0ebf551ffbf098ec1e253b5fee234c30b4ee54a31b1be63cb1a7735d3cf391",
+  "update_disconnected": true,
+  "options": {
+    "CATCH_INSTALL_DOCS": "OFF",
+    "CATCH_INSTALL_EXTRAS": "OFF"
+  }
+}

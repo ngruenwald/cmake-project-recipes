@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/nanomsg/nng",
+    "package": "nanomsg/nng",
+    "tag_filter": "",
+    "date": "2019-12-12T13:09:48Z",
+    "target": ""
+  },
+  "version": "12",
+  "method": "fetch_content",
+  "url": "https://github.com/nanomsg/nng/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=d7472a77ca0e235d6d74e6a0258b5df12a0f9de14aa2109c8b9bb319a11258a7",
+  "update_disconnected": true,
+  "options": {}
+}
