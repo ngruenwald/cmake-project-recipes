@@ -3,13 +3,13 @@
     "source": "https://github.com/chriskohlhoff/asio",
     "package": "chriskohlhoff/asio",
     "tag_filter": "",
-    "date": "2024-04-15T21:55:02Z",
+    "date": "2024-08-05T13:32:11Z",
     "target": ""
   },
-  "version": "1-30-2",
+  "version": "1-31-0",
   "method": "fetch_content",
   "url": "https://github.com/chriskohlhoff/asio/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=948373ed2e838ee1181937380c754e8fe6da8b18022eae922bcdc0cd38d6dbde",
+  "url_hash": "SHA256=831bf262dba419f5628f848afe209c866ba30a73e1bd9ab7824836f34e786888",
   "update_disconnected": true,
   "options": {}
 }
