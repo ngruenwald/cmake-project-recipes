@@ -3,15 +3,18 @@
     "source": "https://github.com/jmont-dev/ollama-hpp",
     "package": "jmont-dev/ollama-hpp",
     "tag_filter": "",
-    "date": "2024-07-20T14:17:38Z",
+    "date": "2024-08-10T17:51:38Z",
     "target": "ollama-hpp::ollama-hpp"
   },
-  "version": "0.9.0",
+  "version": "0.9.1",
   "method": "fetch_content",
   "url": "https://github.com/jmont-dev/ollama-hpp/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=29b55cbf154d85ce9debe750bd512fde5063792b9a0f7c5ddb984f8ec075cdb2",
+  "url_hash": "SHA256=42cc6304529816760627f48c331e4d6a01b582da7777f70e8e26ef587523d329",
   "options": {},
   "targets": [
-    { "target": "ollama-hpp::ollama-hpp", "include-dir": "@CMAKE_BINARY_DIR@/_deps/ollama-hpp-src/singleheader" }
+    {
+      "target": "ollama-hpp::ollama-hpp",
+      "include-dir": "@CMAKE_BINARY_DIR@/_deps/ollama-hpp-src/singleheader"
+    }
   ]
 }

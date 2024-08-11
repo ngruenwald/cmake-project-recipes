@@ -3,13 +3,13 @@
     "source": "https://github.com/yhirose/cpp-httplib",
     "package": "yhirose/cpp-httplib",
     "tag_filter": "",
-    "date": "2024-08-06T21:04:22Z",
+    "date": "2024-08-08T15:48:50Z",
     "target": "httplib::httplib"
   },
-  "version": "0.16.1",
+  "version": "0.16.2",
   "method": "fetch_content",
   "url": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=81df7d70c7e56c0010650d7f6d0a6471bb59b17a5d7db339c7d82f39e3988640",
+  "url_hash": "SHA256=9c78e370e30aff54797ad9819ec9ccebf7056b52bc86058592d5131094394e87",
   "update_disconnected": true,
   "options": {
     "HTTPLIB_COMPILE": "ON",
