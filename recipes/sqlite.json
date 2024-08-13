@@ -3,13 +3,13 @@
     "source": "https://github.com/sqlite/sqlite",
     "package": "sqlite/sqlite",
     "tag_filter": "",
-    "date": "2024-05-23T13:25:27Z",
+    "date": "2024-08-13T09:16:08Z",
     "target": ""
   },
-  "version": "3.46.0",
+  "version": "3.46.1",
   "method": "fetch_content",
   "url": "https://github.com/sqlite/sqlite/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=2de705774e7fcd31aa7d5f855603a39e3749421ef1ba31672ed874bc5f61bfe7",
+  "url_hash": "SHA256=15086911c1fc078f0a01afbddb9ffad32098b1eb8870aab156fa8ad10e5c8251",
   "update_disconnected": true,
   "options": {}
 }

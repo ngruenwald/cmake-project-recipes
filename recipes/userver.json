@@ -3,13 +3,13 @@
     "source": "https://github.com/userver-framework/userver",
     "package": "userver-framework/userver",
     "tag_filter": "",
-    "date": "2024-07-17T08:31:15Z",
+    "date": "2024-08-13T14:50:47Z",
     "target": ""
   },
-  "version": "2.2",
+  "version": "2.3",
   "method": "fetch_content",
   "url": "https://github.com/userver-framework/userver/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=22fce0b9304ac63eb50f657da153489f9d05cfabf33eecaccfcf369079165464",
+  "url_hash": "SHA256=ffeb3c5662ea0623718af1a7951aef025cf4dbe3f4b184547acff7b6f30f0c58",
   "update_disconnected": true,
   "options": {}
 }
