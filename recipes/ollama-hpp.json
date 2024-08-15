@@ -3,13 +3,13 @@
     "source": "https://github.com/jmont-dev/ollama-hpp",
     "package": "jmont-dev/ollama-hpp",
     "tag_filter": "",
-    "date": "2024-08-12T11:05:11Z",
+    "date": "2024-08-15T04:27:00Z",
     "target": "ollama-hpp::ollama-hpp"
   },
-  "version": "0.9.2",
+  "version": "0.9.3",
   "method": "fetch_content",
   "url": "https://github.com/jmont-dev/ollama-hpp/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=d5476d0e9d4c54fc6ce236e6f8b839dec716db49f425b4ba5215e1cf58e8138e",
+  "url_hash": "SHA256=93a944c81403a1179b0295ef414563ccfa75e8df3f5af23ac465178210cc9afa",
   "options": {},
   "targets": [
     {
