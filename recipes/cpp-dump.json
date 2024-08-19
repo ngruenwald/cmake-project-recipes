@@ -3,13 +3,13 @@
     "source": "https://github.com/philip82148/cpp-dump",
     "package": "philip82148/cpp-dump",
     "tag_filter": "",
-    "date": "2024-06-04T02:51:25Z",
+    "date": "2024-08-18T11:42:11Z",
     "target": ""
   },
-  "version": "0.6.0",
+  "version": "0.7.0",
   "method": "fetch_content",
   "url": "https://github.com/philip82148/cpp-dump/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=1c291b4f591b7dbeed7bbc6730edecc3e3b7048aeea22c391c273dacc5ee6c89",
+  "url_hash": "SHA256=aedfccb59ae49ef7185b74d2df4abded62d01046e607583563361a1358e53204",
   "update_disconnected": true,
   "options": {}
 }
