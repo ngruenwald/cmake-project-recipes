@@ -3,13 +3,13 @@
     "source": "https://github.com/simdjson/simdjson",
     "package": "simdjson/simdjson",
     "tag_filter": "",
-    "date": "2024-08-17T05:23:41Z",
+    "date": "2024-08-26T13:37:33Z",
     "target": "simdjson::simdjson, simdjson::simdjson_static"
   },
-  "version": "3.10.0",
+  "version": "3.10.1",
   "method": "fetch_content",
   "url": "https://github.com/simdjson/simdjson/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=9c30552f1dd0ee3d0832bb1c6b7b97d813b18d5ef294c10dcb6fc242e5947de8",
+  "url_hash": "SHA256=17a30ceeec26ccb55d5b784b8559ffa2adbc76bf0609ea6671e8d9aadb5c4c10",
   "update_disconnected": true,
   "options": {
     "SIMDJSON_BUILD_STATIC_LIB": "ON",

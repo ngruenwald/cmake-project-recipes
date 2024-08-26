@@ -3,13 +3,13 @@
     "source": "https://github.com/facebookincubator/fizz",
     "package": "facebookincubator/fizz",
     "tag_filter": "",
-    "date": "2024-08-18T16:32:01Z",
+    "date": "2024-08-25T16:32:23Z",
     "target": ""
   },
-  "version": "2024.08.19.00",
+  "version": "2024.08.26.00",
   "method": "fetch_content",
   "url": "https://github.com/facebookincubator/fizz/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=2b09a0b3ffafd63fed5cff13ce0233849465b168e18783d378b17007ad4c2628",
+  "url_hash": "SHA256=b8b2a50d18242b849cee3dc28b194ebe6d853af1e341be67e4c9bc974eb32e97",
   "update_disconnected": true,
   "options": {}
 }
