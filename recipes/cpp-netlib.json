@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "source": "https://github.com/cpp-netlib/cpp-netlib",
+    "package": "cpp-netlib/cpp-netlib",
+    "tag_filter": "^cpp-netlib-\\d+\\.\\d+\\.\\d+-final$",
+    "date": "2024-08-18T11:42:11Z",
+    "target": "",
+    "description": "The C++ Network Library Project -- cross-platform, standards compliant networking library."
+  },
+  "version": "0.13.0",
+  "method": "fetch_content",
+  "url": "https://github.com/cpp-netlib/cpp-netlib/archive/refs/tags/cpp-netlib-{{version}}-final.tar.gz",
+  "url_hash": "SHA256=897259d9f9087acba33911aec925804e6236a7a77f5444dedde6145049605a34",
+  "update_disconnected": true,
+  "options": {
+    "CPP-NETLIB_BUILD_SHARED_LIBS": "OFF",
+    "CPP-NETLIB_BUILD_TESTS": "OFF",
+    "CPP-NETLIB_BUILD_EXAMPLES": "OFF",
+    "CPP-NETLIB_ENABLE_HTTPS": "ON",
+    "CPP-NETLIB_STATIC_OPENSSL": "ON",
+    "CPP-NETLIB_STATIC_BOOST": "ON"
+  }
+}
