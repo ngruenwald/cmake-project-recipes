@@ -4,7 +4,8 @@
     "package": "jarro2783/cxxopts",
     "tag_filter": "",
     "date": "2024-02-20T08:39:34Z",
-    "target": "cxxopts::cxxopts"
+    "target": "cxxopts::cxxopts",
+    "description": "Lightweight C++ command line option parser"
   },
   "version": "3.2.1",
   "method": "fetch_content",

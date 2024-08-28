@@ -4,7 +4,8 @@
     "package": "jafarlihi/cppq",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "Simple, reliable & efficient distributed task queue for C++17"
   },
   "version": "master",
   "method": "fetch_content",

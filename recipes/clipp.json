@@ -4,7 +4,8 @@
     "package": "muellan/clipp",
     "tag_filter": "",
     "date": "2019-04-27T10:12:25Z",
-    "target": ""
+    "target": "",
+    "description": "easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation"
   },
   "version": "1.2.3",
   "method": "fetch_content",

@@ -4,7 +4,8 @@
     "package": "cjlove/config-cpp",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "C++ Configuration management library inspired by the Viper package for golang."
   },
   "version": "master",
   "method": "fetch_content",

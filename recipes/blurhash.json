@@ -4,7 +4,8 @@
     "package": "woltapp/blurhash",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "A very compact representation of a placeholder for an image."
   },
   "version": "master",
   "method": "fetch_content",

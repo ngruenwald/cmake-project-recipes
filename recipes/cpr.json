@@ -4,7 +4,8 @@
     "package": "libcpr/cpr",
     "tag_filter": "",
     "date": "2023-10-14T12:45:47Z",
-    "target": ""
+    "target": "",
+    "description": "C++ Requests: Curl for People, a spiritual port of Python Requests."
   },
   "version": "1.10.5",
   "method": "fetch_content",

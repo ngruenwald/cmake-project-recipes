@@ -4,7 +4,7 @@
     "package": "ngruenwald/cpp-soaplib",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "C++ SOAP library"
   },
   "version": "main",
   "method": "fetch_content",

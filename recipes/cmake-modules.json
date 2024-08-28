@@ -4,7 +4,8 @@
     "package": "ngruenwald/cmake-modules",
     "tag_filter": "",
     "date": "",
-    "target": "---"
+    "target": "---",
+    "description": "CMake modules"
   },
   "version": "main",
   "method": "fetch_content",

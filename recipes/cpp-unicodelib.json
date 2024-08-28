@@ -4,7 +4,8 @@
     "package": "yhirose/cpp-unicodelib",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "A C++17 header-only Unicode library. (Unicode 15.1)"
   },
   "version": "master",
   "method": "fetch_content",

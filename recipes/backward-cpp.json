@@ -4,7 +4,8 @@
     "package": "bombela/backward-cpp",
     "tag_filter": "",
     "date": "2021-08-12T22:49:08Z",
-    "target": "Backward::Backward or backward"
+    "target": "Backward::Backward or backward",
+    "description": "A beautiful stack trace pretty printer for C++"
   },
   "version": "1.6",
   "method": "fetch_content",

@@ -4,7 +4,8 @@
     "package": "fungos/cr",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "cr.h: A Simple C Hot Reload Header-only Library"
   },
   "version": "master",
   "method": "fetch_content",

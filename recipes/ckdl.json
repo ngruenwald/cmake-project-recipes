@@ -4,7 +4,8 @@
     "package": "tjol/ckdl",
     "tag_filter": "",
     "date": "2023-10-03T14:13:26Z",
-    "target": "kdlpp"
+    "target": "kdlpp",
+    "description": "KDL parsing library in C, Python, C++"
   },
   "version": "0.1.2",
   "method": "fetch_content",

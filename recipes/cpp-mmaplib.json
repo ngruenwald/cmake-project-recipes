@@ -4,7 +4,8 @@
     "package": "yhirose/cpp-mmaplib",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "A single file C++11 header-only memory mapped file library."
   },
   "version": "master",
   "method": "fetch_content",

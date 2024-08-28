@@ -4,7 +4,8 @@
     "package": "abseil/abseil-cpp",
     "tag_filter": "",
     "date": "2024-07-22T16:23:21Z",
-    "target": ""
+    "target": "",
+    "description": "Abseil Common Libraries (C++)"
   },
   "version": "20240722.rc1",
   "method": "fetch_content",

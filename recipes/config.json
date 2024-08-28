@@ -4,7 +4,8 @@
     "package": "ngruenwald/config",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "config library"
   },
   "version": "main",
   "method": "fetch_content",

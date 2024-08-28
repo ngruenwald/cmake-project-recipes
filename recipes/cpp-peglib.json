@@ -4,7 +4,8 @@
     "package": "yhirose/cpp-peglib",
     "tag_filter": "",
     "date": "2024-04-01T14:57:41Z",
-    "target": ""
+    "target": "",
+    "description": "A single file C++ header-only PEG (Parsing Expression Grammars) library"
   },
   "version": "1.8.8",
   "method": "fetch_content",
