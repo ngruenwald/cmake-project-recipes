@@ -4,7 +4,8 @@
     "package": "toruniina/toml11",
     "tag_filter": "",
     "date": "2024-08-12T03:47:30Z",
-    "target": "toml11::toml11"
+    "target": "toml11::toml11",
+    "description": "TOML for Modern C++"
   },
   "version": "4.2.0",
   "method": "fetch_content",

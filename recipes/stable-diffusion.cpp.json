@@ -4,7 +4,8 @@
     "package": "leejet/stable-diffusion.cpp",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "Stable Diffusion and Flux in pure C/C++"
   },
   "version": "master",
   "method": "fetch_content",

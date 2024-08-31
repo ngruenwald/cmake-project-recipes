@@ -4,7 +4,8 @@
     "package": "nothings/stb",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "stb single-file public domain libraries for C/C++"
   },
   "version": "master",
   "method": "fetch_content",

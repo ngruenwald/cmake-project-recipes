@@ -5,7 +5,8 @@
     "tag_filter": "",
     "date": "2024-04-30T10:14:29Z",
     "target": "spdlog::spdlog",
-    "dependencies": "fmt nlohmann_json"
+    "dependencies": "fmt nlohmann_json",
+    "description": "Fast C++ logging library."
   },
   "version": "1.14.1",
   "method": "fetch_content",

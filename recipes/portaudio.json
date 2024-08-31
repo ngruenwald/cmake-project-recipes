@@ -4,7 +4,8 @@
     "package": "portaudio/portaudio",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
     "date": "2021-04-01T00:17:30Z",
-    "target": ""
+    "target": "",
+    "description": "PortAudio is a cross-platform, open-source C language library for real-time audio input and output."
   },
   "version": "19.7.0",
   "method": "fetch_content",

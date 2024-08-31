@@ -4,7 +4,8 @@
     "package": "eliaskosunen/scnlib",
     "tag_filter": "",
     "date": "2024-06-15T10:18:27Z",
-    "target": ""
+    "target": "",
+    "description": "scanf for modern C++"
   },
   "version": "3.0.1",
   "method": "fetch_content",

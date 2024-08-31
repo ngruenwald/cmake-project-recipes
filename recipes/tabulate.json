@@ -4,7 +4,8 @@
     "package": "p-ranav/tabulate",
     "tag_filter": "",
     "date": "2023-02-20T14:40:03Z",
-    "target": ""
+    "target": "",
+    "description": "Table Maker for Modern C++"
   },
   "version": "1.5",
   "method": "fetch_content",

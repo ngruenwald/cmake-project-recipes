@@ -4,7 +4,8 @@
     "package": "google/marl",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "A hybrid thread / fiber task scheduler written in C++ 11"
   },
   "version": "main",
   "method": "fetch_content",

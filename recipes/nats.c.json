@@ -4,7 +4,8 @@
     "package": "nats-io/nats.c",
     "tag_filter": "",
     "date": "2024-04-17T16:59:49Z",
-    "target": "nats_static"
+    "target": "nats_static",
+    "description": "A C client for NATS"
   },
   "version": "3.8.2",
   "method": "fetch_content",

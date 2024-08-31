@@ -4,7 +4,8 @@
     "package": "webmproject/libwebm",
     "tag_filter": "",
     "date": "2023-10-26T17:44:02Z",
-    "target": ""
+    "target": "",
+    "description": "WebM File Parser"
   },
   "version": "1.0.0.31",
   "method": "fetch_content",

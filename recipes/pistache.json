@@ -5,7 +5,8 @@
     "tag_filter": "",
     "note": "we use specific commits, the above filter excludes (old) tags",
     "date": "",
-    "target": "pistache_static"
+    "target": "pistache_static",
+    "description": "A high-performance REST toolkit written in C++"
   },
   "version": "#de6a7041ecaecf31802c060c908821e15a1a2b33",
   "method": "fetch_content",
@@ -18,4 +19,3 @@
     "PISTACHE_USE_SSL": "ON"
   }
 }
-

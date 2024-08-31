@@ -4,7 +4,8 @@
     "package": "microsoft/wil",
     "tag_filter": "",
     "date": "2024-08-02T21:14:08Z",
-    "target": ""
+    "target": "",
+    "description": "Windows Implementation Library"
   },
   "version": "1.0.240803.1",
   "method": "fetch_content",

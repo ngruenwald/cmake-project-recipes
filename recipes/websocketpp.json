@@ -4,7 +4,8 @@
     "package": "zaphoyd/websocketpp",
     "tag_filter": "",
     "date": "2024-07-17T23:53:38Z",
-    "target": "websocketpp::websocketpp"
+    "target": "websocketpp::websocketpp",
+    "description": "C++ websocket client/server library"
   },
   "version": "0.8.2",
   "method": "fetch_content",

@@ -4,7 +4,8 @@
     "package": "jonesir/ecallmsdperencoder",
     "tag_filter": "",
     "date": "",
-    "target": "msd_encoder::msd_encoder"
+    "target": "msd_encoder::msd_encoder",
+    "description": "encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule)"
   },
   "version": "master",
   "method": "fetch_content",

@@ -4,7 +4,8 @@
     "package": "arashpartow/strtk",
     "tag_filter": "",
     "date": "",
-    "target": "strtk::strtk"
+    "target": "strtk::strtk",
+    "description": "C++ String Toolkit Library"
   },
   "version": "master",
   "method": "fetch_content",

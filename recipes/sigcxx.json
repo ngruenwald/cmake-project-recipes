@@ -4,7 +4,8 @@
     "package": "zhanggyb/sigcxx",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates"
   },
   "version": "master",
   "method": "fetch_content",

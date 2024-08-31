@@ -1,14 +1,15 @@
 {
   "meta": {
-    "source": "https://github.com/sql-builder",
-    "package": "sql-builder",
+    "source": "https://github.com/six-ddc/sql-builder",
+    "package": "https://github.com/six-ddc/sql-builder",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "SQL query string builder for C++11"
   },
   "version": "master",
   "method": "fetch_content",
-  "url": "https://github.com/sql-builder/archive/refs/tags/v{{version}}.zip",
+  "url": "https://github.com/six-ddc/sql-builder/archive/refs/tags/v{{version}}.zip",
   "url_hash": "",
   "update_disconnected": true,
   "options": {}

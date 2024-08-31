@@ -4,7 +4,8 @@
     "package": "openssl/openssl",
     "tag_filter": "^openssl-\\d+\\.\\d+\\.\\d+$",
     "date": "2024-06-04T12:53:04Z",
-    "target": "OpenSSL::Crypto, OpenSSL::SSL"
+    "target": "OpenSSL::Crypto, OpenSSL::SSL",
+    "description": "TLS/SSL and crypto library"
   },
   "version": "3.3.1",
   "method": "external_project",

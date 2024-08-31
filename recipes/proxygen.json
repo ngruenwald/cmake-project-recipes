@@ -4,7 +4,8 @@
     "package": "facebook/proxygen",
     "tag_filter": "",
     "date": "2024-08-25T16:32:23Z",
-    "target": ""
+    "target": "",
+    "description": "A collection of C++ HTTP libraries including an easy to use HTTP server."
   },
   "version": "2024.08.26.00",
   "method": "fetch_content",

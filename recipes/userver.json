@@ -4,7 +4,8 @@
     "package": "userver-framework/userver",
     "tag_filter": "",
     "date": "2024-08-13T14:50:47Z",
-    "target": ""
+    "target": "",
+    "description": "Production-ready C++ Asynchronous Framework with rich functionality"
   },
   "version": "2.3",
   "method": "fetch_content",

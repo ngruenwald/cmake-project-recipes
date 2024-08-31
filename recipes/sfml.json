@@ -4,7 +4,8 @@
     "package": "sfml/sfml",
     "tag_filter": "",
     "date": "2023-10-17T19:18:36Z",
-    "target": ""
+    "target": "",
+    "description": "Simple and Fast Multimedia Library"
   },
   "version": "2.6.1",
   "method": "fetch_content",

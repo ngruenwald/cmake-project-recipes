@@ -4,7 +4,8 @@
     "package": "quicknir/wise_enum",
     "tag_filter": "",
     "date": "2019-07-31T16:35:59Z",
-    "target": ""
+    "target": "",
+    "description": "A reflective enum implementation for C++"
   },
   "version": "3.1.0",
   "method": "fetch_content",

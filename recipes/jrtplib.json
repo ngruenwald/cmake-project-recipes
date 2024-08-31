@@ -4,7 +4,8 @@
     "package": "j0r1/jrtplib",
     "tag_filter": "",
     "date": "2020-04-18T09:44:45Z",
-    "target": ""
+    "target": "",
+    "description": "RTP Library"
   },
   "version": "3.11.2",
   "method": "fetch_content",

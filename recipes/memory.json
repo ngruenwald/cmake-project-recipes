@@ -4,7 +4,8 @@
     "package": "foonathan/memory",
     "tag_filter": "",
     "date": "2023-01-11T11:39:00Z",
-    "target": ""
+    "target": "",
+    "description": "STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write."
   },
   "version": "0.7-3",
   "method": "fetch_content",

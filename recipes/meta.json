@@ -4,7 +4,8 @@
     "package": "skypjack/meta",
     "tag_filter": "",
     "date": "2019-09-30T11:47:36Z",
-    "target": ""
+    "target": "",
+    "description": "Header-only, non-intrusive and macro-free runtime reflection system in C++"
   },
   "version": "1.4.9",
   "method": "fetch_content",

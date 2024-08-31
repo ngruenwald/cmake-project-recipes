@@ -4,7 +4,8 @@
     "package": "neargye/magic_enum",
     "tag_filter": "",
     "date": "2024-06-29T14:16:32Z",
-    "target": ""
+    "target": "",
+    "description": "Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code"
   },
   "version": "0.9.6",
   "method": "fetch_content",

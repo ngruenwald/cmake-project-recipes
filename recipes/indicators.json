@@ -4,7 +4,8 @@
     "package": "p-ranav/indicators",
     "tag_filter": "",
     "date": "2023-02-15T15:17:27Z",
-    "target": ""
+    "target": "",
+    "description": "Activity Indicators for Modern C++"
   },
   "version": "2.3",
   "method": "fetch_content",

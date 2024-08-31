@@ -4,7 +4,8 @@
     "package": "andrewrk/libsoundio",
     "tag_filter": "",
     "date": "2024-04-11T05:08:26Z",
-    "target": ""
+    "target": "",
+    "description": "C library for cross-platform real-time audio input and output"
   },
   "version": "2.0.1-7",
   "method": "fetch_content",

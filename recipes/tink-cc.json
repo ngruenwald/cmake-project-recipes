@@ -4,7 +4,8 @@
     "package": "tink-crypto/tink-cc",
     "tag_filter": "",
     "date": "2024-05-07T15:01:19Z",
-    "target": "tink::static"
+    "target": "tink::static",
+    "description": "C++ implementation of Tink"
   },
   "version": "2.2.0",
   "method": "fetch_content",

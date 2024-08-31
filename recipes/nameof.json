@@ -4,7 +4,8 @@
     "package": "neargye/nameof",
     "tag_filter": "",
     "date": "2024-01-31T14:26:52Z",
-    "target": ""
+    "target": "",
+    "description": "Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum"
   },
   "version": "0.10.4",
   "method": "fetch_content",

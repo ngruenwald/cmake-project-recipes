@@ -1,10 +1,11 @@
 {
   "meta": {
-    "source": "https://github.com/bnhoyt/inih",
-    "package": "bnhoyt/inih",
+    "source": "https://github.com/benhoyt/inih",
+    "package": "benhoyt/inih",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "Simple .INI file parser in C, good for embedded systems"
   },
   "version": "master",
   "method": "fetch_content",

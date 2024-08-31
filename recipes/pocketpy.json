@@ -4,7 +4,8 @@
     "package": "blueloveth/pocketpy",
     "tag_filter": "",
     "date": "2024-06-20T04:08:28Z",
-    "target": ""
+    "target": "",
+    "description": "Portable Python 3.x Interpreter in Modern C"
   },
   "version": "1.4.6",
   "method": "fetch_content",

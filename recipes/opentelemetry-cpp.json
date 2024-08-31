@@ -4,7 +4,8 @@
     "package": "open-telemetry/opentelemetry-cpp",
     "tag_filter": "",
     "date": "2024-07-17T20:04:10Z",
-    "target": ""
+    "target": "",
+    "description": "The OpenTelemetry C++ Client"
   },
   "version": "1.16.1",
   "method": "fetch_content",

@@ -4,7 +4,8 @@
     "package": "scylladb/seastar",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "High performance server-side application framework"
   },
   "version": "master",
   "method": "fetch_content",

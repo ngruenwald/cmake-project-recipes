@@ -4,7 +4,8 @@
     "package": "ggerganov/whisper.cpp",
     "tag_filter": "",
     "date": "2024-05-27T07:35:09Z",
-    "target": ""
+    "target": "",
+    "description": "Port of OpenAI's Whisper model in C/C++"
   },
   "version": "1.6.2",
   "method": "fetch_content",

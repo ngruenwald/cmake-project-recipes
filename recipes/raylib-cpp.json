@@ -4,7 +4,8 @@
     "package": "robloach/raylib-cpp",
     "tag_filter": "",
     "date": "2024-06-27T19:58:44Z",
-    "target": ""
+    "target": "",
+    "description": "C++ Object Oriented Wrapper for raylib"
   },
   "version": "5.0.2",
   "method": "fetch_content",

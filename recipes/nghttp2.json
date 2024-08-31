@@ -4,7 +4,8 @@
     "package": "nghttp2/nghttp2",
     "tag_filter": "",
     "date": "2024-08-27T09:17:25Z",
-    "target": ""
+    "target": "",
+    "description": "nghttp2 - HTTP/2 C Library and tools"
   },
   "version": "1.63.0",
   "method": "fetch_content",

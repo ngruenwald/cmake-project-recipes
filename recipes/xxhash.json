@@ -4,7 +4,8 @@
     "package": "cyan4973/xxhash",
     "tag_filter": "",
     "date": "2015-08-20T16:05:38Z",
-    "target": ""
+    "target": "",
+    "description": "Extremely fast non-cryptographic hash algorithm"
   },
   "version": "42",
   "method": "fetch_content",

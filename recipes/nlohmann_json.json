@@ -4,7 +4,8 @@
     "package": "nlohmann/json",
     "tag_filter": "",
     "date": "2023-11-28T21:36:31Z",
-    "target": "nlohmann_json::nlohmann_json"
+    "target": "nlohmann_json::nlohmann_json",
+    "description": "JSON for Modern C++"
   },
   "version": "3.11.3",
   "method": "fetch_content",

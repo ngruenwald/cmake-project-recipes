@@ -4,7 +4,8 @@
     "package": "sqlite/sqlite",
     "tag_filter": "",
     "date": "2024-08-13T09:16:08Z",
-    "target": ""
+    "target": "",
+    "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine."
   },
   "version": "3.46.1",
   "method": "fetch_content",

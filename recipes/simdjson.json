@@ -4,7 +4,8 @@
     "package": "simdjson/simdjson",
     "tag_filter": "",
     "date": "2024-08-26T13:37:33Z",
-    "target": "simdjson::simdjson, simdjson::simdjson_static"
+    "target": "simdjson::simdjson, simdjson::simdjson_static",
+    "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
   },
   "version": "3.10.1",
   "method": "fetch_content",

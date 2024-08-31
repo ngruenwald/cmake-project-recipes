@@ -4,7 +4,8 @@
     "package": "tencent/rapidjson",
     "tag_filter": "",
     "date": "2016-08-25T07:59:05Z",
-    "target": ""
+    "target": "",
+    "description": "A fast JSON parser/generator for C++ with both SAX/DOM style API"
   },
   "version": "1.1.0",
   "method": "fetch_content",

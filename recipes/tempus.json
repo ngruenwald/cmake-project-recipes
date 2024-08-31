@@ -4,7 +4,8 @@
     "package": "ngruenwald/tempus",
     "tag_filter": "",
     "date": "2022-07-28T15:43:33Z",
-    "target": "ng::tempus"
+    "target": "ng::tempus",
+    "description": "timer stuff"
   },
   "version": "0.1.1",
   "method": "fetch_content",

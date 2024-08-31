@@ -4,7 +4,8 @@
     "package": "srombauts/sqlitecpp",
     "tag_filter": "",
     "date": "2024-08-16T19:43:55Z",
-    "target": ""
+    "target": "",
+    "description": "SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper."
   },
   "version": "3.3.2",
   "method": "fetch_content",

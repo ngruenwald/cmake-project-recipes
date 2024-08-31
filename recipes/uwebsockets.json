@@ -4,7 +4,8 @@
     "package": "uNetworking/uWebSockets",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "Simple, secure & standards compliant web server for the most demanding of applications"
   },
   "version": "20.65.0",
   "method": "fetch_content",

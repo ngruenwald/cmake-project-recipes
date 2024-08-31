@@ -4,7 +4,8 @@
     "package": "ggerganov/llama.cpp",
     "tag_filter": "^b\\d+$",
     "date": "2024-08-30T18:08:10Z",
-    "target": ""
+    "target": "",
+    "description": "LLM inference in C/C++"
   },
   "version": "3647",
   "method": "fetch_content",

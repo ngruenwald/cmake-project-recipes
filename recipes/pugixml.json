@@ -4,7 +4,8 @@
     "package": "zeux/pugixml",
     "tag_filter": "",
     "date": "2023-09-07T18:55:13Z",
-    "target": "pugixml::static, pugixml::shared"
+    "target": "pugixml::static, pugixml::shared",
+    "description": "Light-weight, simple and fast XML parser for C++ with XPath support"
   },
   "version": "1.14",
   "method": "fetch_content",

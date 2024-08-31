@@ -4,7 +4,8 @@
     "package": "nemtrif/utfcpp",
     "tag_filter": "",
     "date": "2023-12-29T22:40:20Z",
-    "target": ""
+    "target": "",
+    "description": "UTF-8 with C++ in a Portable Way"
   },
   "version": "4.0.5",
   "method": "fetch_content",

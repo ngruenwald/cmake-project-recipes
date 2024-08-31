@@ -4,7 +4,8 @@
     "package": "twitter/vireo",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "Vireo is a lightweight and versatile video processing library written in C++11"
   },
   "version": "master",
   "method": "fetch_content",

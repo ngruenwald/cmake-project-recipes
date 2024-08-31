@@ -4,7 +4,8 @@
     "package": "erikd/libsndfile",
     "tag_filter": "",
     "date": "2023-08-13T08:53:51Z",
-    "target": ""
+    "target": "",
+    "description": "A C library for reading and writing sound files containing sampled audio data."
   },
   "version": "1.2.2",
   "method": "fetch_content",

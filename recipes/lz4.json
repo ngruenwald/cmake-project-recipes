@@ -4,7 +4,8 @@
     "package": "lz4/lz4",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
     "date": "2015-06-29T09:48:37Z",
-    "target": ""
+    "target": "",
+    "description": "Extremely Fast Compression algorithm"
   },
   "version": "1.10.1",
   "method": "fetch_content",

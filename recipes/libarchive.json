@@ -4,7 +4,8 @@
     "package": "libarchive/libarchive",
     "tag_filter": "",
     "date": "2024-04-26T09:22:15Z",
-    "target": "archive_static, archive"
+    "target": "archive_static, archive",
+    "description": "Multi-format archive and compression library"
   },
   "version": "3.7.4",
   "method": "fetch_content",

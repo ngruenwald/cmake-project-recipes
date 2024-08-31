@@ -4,7 +4,8 @@
     "package": "cameron314/readerwriterqueue",
     "tag_filter": "",
     "date": "2021-08-14T20:41:41Z",
-    "target": ""
+    "target": "",
+    "description": "A fast single-producer, single-consumer lock-free queue for C++"
   },
   "version": "1.0.6",
   "method": "fetch_content",

@@ -4,7 +4,8 @@
     "package": "facebook/zstd",
     "tag_filter": "",
     "date": "2017-09-18T22:50:14Z",
-    "target": ""
+    "target": "",
+    "description": "Zstandard - Fast real-time compression algorithm"
   },
   "version": "2",
   "method": "fetch_content",

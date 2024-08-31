@@ -4,7 +4,8 @@
     "package": "nanomsg/nng",
     "tag_filter": "",
     "date": "2019-12-12T13:09:48Z",
-    "target": ""
+    "target": "",
+    "description": "nanomsg-next-generation -- light-weight brokerless messaging"
   },
   "version": "12",
   "method": "fetch_content",

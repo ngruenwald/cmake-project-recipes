@@ -4,7 +4,8 @@
     "package": "bfgroup/lyra",
     "tag_filter": "",
     "date": "2022-11-07T21:49:52Z",
-    "target": "bfg::lyra"
+    "target": "bfg::lyra",
+    "description": "A simple to use, composable, command line parser for C++ 11 and beyond"
   },
   "version": "1.6.1",
   "method": "fetch_content",
