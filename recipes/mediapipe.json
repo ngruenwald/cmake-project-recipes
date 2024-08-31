@@ -3,13 +3,13 @@
     "source": "https://github.com/google/mediapipe",
     "package": "google/mediapipe",
     "tag_filter": "",
-    "date": "2024-05-13T16:36:56Z",
+    "date": "2024-08-26T16:36:04Z",
     "target": ""
   },
-  "version": "0.10.14",
+  "version": "0.10.15",
   "method": "fetch_content",
   "url": "https://github.com/google/mediapipe/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=62b8413a9632f5bccb46632d7ebc409cf4579808bacd50ab40e4ff50c0f93191",
+  "url_hash": "SHA256=b2d00a6c5a59cc5008fda4c96adaaf717824297eff6ed095e88df917f8654941",
   "update_disconnected": true,
   "options": {}
 }
