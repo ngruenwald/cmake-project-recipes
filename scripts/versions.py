@@ -12,6 +12,7 @@ from time import sleep
 
 
 TOKEN: str | None = None
+SESSION: requests.Session | None = None
 
 
 class Change:
@@ -31,6 +32,14 @@ class Change:
 def set_token(token: str | None) -> None:
     global TOKEN
     TOKEN = token
+
+
+def get_session() -> requests.Session:
+    global SESSION
+    if not SESSION:
+        SESSION = requests.Session() 
+        SESSION.headers = {"Authorization": f"Bearer {TOKEN}"} if TOKEN else None
+    return SESSION
 
 
 def main() -> None:
@@ -223,8 +232,7 @@ def api_get(url: str):
     num_loops = 10
     wait_seconds = 60
     for _ in range(0, num_loops):
-        headers = {"Authorization": f"Bearer {TOKEN}"} if TOKEN else None
-        response = requests.get(url, headers=headers, timeout=30)
+        response = get_session().get(url, timeout=30)
         if response.status_code == 403:
             # API rate limit?
             print("403 - waiting 60 seconds ...")
