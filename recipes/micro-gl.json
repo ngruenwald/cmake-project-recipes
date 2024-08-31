@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "source": "https://github.com/micro-gl/micro-gl",
+    "package": "micro-gl/micro-gl",
+    "tag_filter": "",
+    "date": "",
+    "target": "microgl::microgl",
+    "description": "Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required !"
+  },
+  "version": "master",
+  "method": "fetch_content",
+  "url": "https://github.com/micro-gl/micro-gl/archive/{{version}}.tar.gz",
+  "update_disconnected": true,
+  "options": {}
+}

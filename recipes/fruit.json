@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "source": "https://github.com/google/fruit",
+    "package": "google/fruit",
+    "tag_filter": "",
+    "date": "",
+    "target": "fruit",
+    "description": "Fruit, a dependency injection framework for C++"
+  },
+  "version": "3.7.1",
+  "method": "fetch_content",
+  "url": "https://github.com/google/fruit/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=ed4c6b7ebfbf75e14a74e21eb74ce2703b8485bfc9e660b1c36fb7fe363172d0",
+  "update_disconnected": true,
+  "options": {
+    "BUILD_SHARED_LIBS": "OFF",
+    "FRUIT_ADD_WNO_UNKNOWN_WARNING_OPTION": "ON",
+    "FRUIT_ENABLE_COVERAGE": "OFF",
+    "FRUIT_IS_BEING_BUILT_BY_CONAN": "ON"
+  }
+}

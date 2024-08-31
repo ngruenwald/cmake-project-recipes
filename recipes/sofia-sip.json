@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "source": "https://github.com/freeswitch/sofia-sip",
+    "package": "freeswitch/sofia-sip",
+    "tag_filter": "",
+    "date": "",
+    "target": "",
+    "description": "Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification."
+  },
+  "version": "1.13.17",
+  "method": "fetch_content",
+  "url": "https://github.com/freeswitch/sofia-sip/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=daca3d961b6aa2974ad5d3be69ed011726c3e4d511b2a0d4cb6d878821a2de7a",
+  "update_disconnected": true,
+  "options": {}
+}
