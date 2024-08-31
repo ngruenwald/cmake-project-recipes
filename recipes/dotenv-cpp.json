@@ -4,7 +4,8 @@
     "package": "laserpants/dotenv-cpp",
     "tag_filter": "",
     "date": "",
-    "target": "dotenv"
+    "target": "dotenv",
+    "description": "A utility to load environment variables from a .env file"
   },
   "version": "#432def2fb9c2a5e51e6d491f35f2e8f35fa900b0",
   "method": "fetch_content",

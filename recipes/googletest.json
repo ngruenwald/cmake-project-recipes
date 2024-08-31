@@ -4,7 +4,8 @@
     "package": "google/googletest",
     "tag_filter": "",
     "date": "2024-07-31T13:34:46Z",
-    "target": ""
+    "target": "",
+    "description": "GoogleTest - Google Testing and Mocking Framework"
   },
   "version": "1.15.2",
   "method": "fetch_content",

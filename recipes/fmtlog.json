@@ -4,7 +4,8 @@
     "package": "mengrao/fmtlog",
     "tag_filter": "",
     "date": "2024-05-31T08:32:23Z",
-    "target": ""
+    "target": "",
+    "description": "fmtlog is a performant fmtlib-style logging library with latency in nanoseconds."
   },
   "version": "2.2.2",
   "method": "fetch_content",

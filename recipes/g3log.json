@@ -4,7 +4,8 @@
     "package": "kjellkod/g3log",
     "tag_filter": "",
     "date": "2023-12-07T03:14:22Z",
-    "target": ""
+    "target": "",
+    "description": "G3log is an asynchronous, \"crash safe\", logger that is easy to use with default logging sinks or you can add your own."
   },
   "version": "2.4",
   "method": "fetch_content",

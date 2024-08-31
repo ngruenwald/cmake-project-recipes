@@ -4,7 +4,8 @@
     "package": "ybainier/hypodermic",
     "tag_filter": "",
     "date": "2021-09-21T16:39:45Z",
-    "target": ""
+    "target": "",
+    "description": "Hypodermic is an IoC container for C++. It provides dependency injection to your existing design."
   },
   "version": "2.5.3",
   "method": "fetch_content",

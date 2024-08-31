@@ -4,7 +4,8 @@
     "package": "drogonframework/drogon",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
     "date": "2024-07-20T15:35:17Z",
-    "target": ""
+    "target": "",
+    "description": "Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows"
   },
   "version": "1.9.6",
   "method": "fetch_content",

@@ -4,7 +4,8 @@
     "package": "richiesams/fibertaskinglib",
     "tag_filter": "",
     "date": "2024-04-01T15:24:45Z",
-    "target": ""
+    "target": "",
+    "description": "A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies."
   },
   "version": "2.0.4",
   "method": "fetch_content",

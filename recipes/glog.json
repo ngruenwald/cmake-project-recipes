@@ -4,7 +4,8 @@
     "package": "google/glog",
     "tag_filter": "",
     "date": "2024-06-08T15:07:34Z",
-    "target": ""
+    "target": "",
+    "description": "C++ implementation of the Google logging module"
   },
   "version": "0.7.1",
   "method": "fetch_content",

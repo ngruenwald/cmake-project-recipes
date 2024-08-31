@@ -4,7 +4,8 @@
     "package": "ngruenwald/fundus",
     "tag_filter": "",
     "date": "",
-    "target": "fundus::fundus"
+    "target": "fundus::fundus",
+    "description": "Snippets and pieces of code"
   },
   "version": "main",
   "method": "fetch_content",

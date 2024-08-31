@@ -4,7 +4,8 @@
     "package": "google/guetzli",
     "tag_filter": "",
     "date": "2017-03-21T16:26:36Z",
-    "target": ""
+    "target": "",
+    "description": "Perceptual JPEG encoder"
   },
   "version": "1.0.1",
   "method": "fetch_content",

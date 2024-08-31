@@ -4,7 +4,8 @@
     "package": "microsoft/gsl",
     "tag_filter": "",
     "date": "2022-01-28T23:22:59Z",
-    "target": ""
+    "target": "",
+    "description": "Guidelines Support Library"
   },
   "version": "4.0.0",
   "method": "fetch_content",

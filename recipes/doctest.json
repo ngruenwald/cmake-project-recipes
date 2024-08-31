@@ -4,7 +4,8 @@
     "package": "doctest/doctest",
     "tag_filter": "",
     "date": "2023-03-15T12:35:29Z",
-    "target": ""
+    "target": "",
+    "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
   },
   "version": "2.4.11",
   "method": "fetch_content",

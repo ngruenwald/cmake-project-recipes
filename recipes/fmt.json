@@ -4,7 +4,8 @@
     "package": "fmtlib/fmt",
     "tag_filter": "",
     "date": "2024-07-20T14:17:38Z",
-    "target": "fmt::fmt"
+    "target": "fmt::fmt",
+    "description": "A modern formatting library"
   },
   "version": "11.0.2",
   "method": "fetch_content",

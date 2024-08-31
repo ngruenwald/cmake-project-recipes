@@ -4,7 +4,8 @@
     "package": "p-ranav/glob",
     "tag_filter": "",
     "date": "2021-05-10T16:58:47Z",
-    "target": ""
+    "target": "",
+    "description": "Glob for C++17"
   },
   "version": "0.0.1",
   "method": "fetch_content",

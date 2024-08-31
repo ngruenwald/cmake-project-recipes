@@ -4,7 +4,8 @@
     "package": "paulftw/hiberlite",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "C++ ORM for SQLite"
   },
   "version": "master",
   "method": "fetch_content",

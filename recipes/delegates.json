@@ -4,7 +4,8 @@
     "package": "mamedev/delegates",
     "tag_filter": "",
     "date": "",
-    "target": ""
+    "target": "",
+    "description": "Fast delegates implementation "
   },
   "version": "master",
   "method": "fetch_content",

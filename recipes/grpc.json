@@ -4,7 +4,8 @@
     "package": "grpc/grpc",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
     "date": "2024-08-23T23:09:41Z",
-    "target": ""
+    "target": "",
+    "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
   },
   "version": "1.66.1",
   "method": "fetch_content",
