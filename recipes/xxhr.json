@@ -3,14 +3,14 @@
     "source": "https://github.com/nxxm/xxhr",
     "package": "nxxm/xxhr",
     "tag_filter": "",
-    "date": "2018-09-14T09:21:54Z",
+    "date": "2021-08-26T08:14:57Z",
     "target": "",
     "description": "intuitive c++ http client library "
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "method": "fetch_content",
   "url": "https://github.com/nxxm/xxhr/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=42afa954a0f0e8d721cd01a1b09493a672323000cbc6b0afa071d388a7030350",
+  "url_hash": "SHA256=12fb51828ebe2d39a022de99ea9ec6fb212a3708b2704e51c1e6487ab49fd441",
   "update_disconnected": true,
   "options": {}
 }
