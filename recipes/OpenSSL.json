@@ -3,25 +3,40 @@
     "source": "https://github.com/openssl/openssl",
     "package": "openssl/openssl",
     "tag_filter": "^openssl-\\d+\\.\\d+\\.\\d+$",
-    "date": "2024-06-04T12:53:04Z",
+    "date": "2024-09-03T12:46:38Z",
     "target": "OpenSSL::Crypto, OpenSSL::SSL",
     "description": "TLS/SSL and crypto library"
   },
-  "version": "3.3.1",
+  "version": "3.3.2",
   "method": "external_project",
   "url": "https://github.com/openssl/openssl/archive/refs/tags/openssl-{{version}}.zip",
-  "url_hash": "SHA256=307284f39bfb7061229c57e263e707655aa80aa9950bf6def28ed63fec91a726",
+  "url_hash": "SHA256=4cda357946f9dd5541b565dba35348d614288e88aeb499045018970c789c9d61",
   "configure_command": [
-    "./Configure", "-static", "no-shared",
+    "./Configure",
+    "-static",
+    "no-shared",
     "--prefix=@CMAKE_PROJECT_EXTERNAL_INSTALL_LOCATION@",
     "--openssldir=@CMAKE_PROJECT_EXTERNAL_INSTALL_LOCATION@"
   ],
-  "build_command": ["make"],
-  "install_command": ["make", "install_sw"],
-  "test_command": [""],
+  "build_command": [
+    "make"
+  ],
+  "install_command": [
+    "make",
+    "install_sw"
+  ],
+  "test_command": [
+    ""
+  ],
   "build_in_source": true,
   "targets": [
-    { "target": "OpenSSL::Crypto", "binary": "libcrypto" },
-    { "target": "OpenSSL::SSL", "binary": "libssl" }
+    {
+      "target": "OpenSSL::Crypto",
+      "binary": "libcrypto"
+    },
+    {
+      "target": "OpenSSL::SSL",
+      "binary": "libssl"
+    }
   ]
 }
