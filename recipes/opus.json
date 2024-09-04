@@ -2,15 +2,15 @@
   "meta": {
     "source": "https://github.com/xiph/opus",
     "package": "xiph/opus",
-    "tag_filter": "",
-    "date": "2012-06-19T00:46:31Z",
+    "tag_filter": "^v\\d+\\.\\d+(\\.\\d+)?$",
+    "date": "2024-04-10T20:38:50Z",
     "target": "",
     "description": "Modern audio compression for the internet."
   },
-  "version": "15",
+  "version": "1.5.2",
   "method": "fetch_content",
   "url": "https://github.com/xiph/opus/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=621807f423b2c3a9bdd3414a41b2fcd39a8f93cf12b1cb47dd7363cd89e41702",
+  "url_hash": "SHA256=c26f6200778c844cf5211f0d2dbaafadce3f20e9e8efe7495e01aaa9987c5b13",
   "update_disconnected": true,
   "options": {}
 }
