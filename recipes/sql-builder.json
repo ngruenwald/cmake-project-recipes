@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://github.com/six-ddc/sql-builder",
-    "package": "https://github.com/six-ddc/sql-builder",
+    "package": "six-ddc/sql-builder",
     "tag_filter": "",
     "date": "",
     "target": "",
