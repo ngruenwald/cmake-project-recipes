@@ -37,7 +37,7 @@ def set_token(token: str | None) -> None:
 def get_session() -> requests.Session:
     global SESSION
     if not SESSION:
-        SESSION = requests.Session() 
+        SESSION = requests.Session()
         SESSION.headers = {"Authorization": f"Bearer {TOKEN}"} if TOKEN else None
     return SESSION
 
@@ -58,6 +58,7 @@ def main() -> None:
     )
     parser.add_argument("--commit", action="store_true", help="Create commit")
     parser.add_argument("--path", default=".", help="Recipe path")
+    parser.add_argument("--doc", default="", help="Create package documentation")
     args = parser.parse_args()
 
     if args.token is not None:
@@ -65,15 +66,19 @@ def main() -> None:
     else:
         set_token(os.getenv("TOKEN"))
 
+    recipe_files: list[str] = glob.glob(f"{args.path}/*.json")
+
     changes: list[Change] = []
-    for recipe_file in glob.glob(f"{args.path}/*.json"):
+    for recipe_file in recipe_files:
         if args.delay:
             sleep(args.delay)
         change = update_package(recipe_file, args.force, args.yes, args.package)
         if change:
             changes.append(change)
+    if args.doc:
+        create_documentation(args.doc, recipe_files)
     if changes and args.commit:
-        create_commit(changes)
+        create_commit(changes, args.doc)
 
 
 def package_name_from_recipe_file(filename: str) -> str:
@@ -276,12 +281,15 @@ def ask_user(question: str) -> bool:
             return False
 
 
-def create_commit(changes: list[Change]) -> bool:
+def create_commit(changes: list[Change], docufile: str|None) -> bool:
     commands = []
     for change in changes:
         commands.append(["git", "add", change.recipe_file])
     if not commands:
         return True
+
+    if docufile:
+        commands.append(["git", "add", docufile])
 
     message = "maint: update versions\n"
     for change in changes:
@@ -294,6 +302,45 @@ def create_commit(changes: list[Change]) -> bool:
             return False
 
     return True
+
+
+def create_documentation(filename: str, recipe_files: list[str]) -> None:
+
+    class Info:
+        def __init__(self, name, package, description, version, timestamp, url):
+            self.name = name
+            self.package = package
+            self.description = description
+            self.version = version
+            self.timestamp = timestamp
+            self.url = url
+
+
+    infos: list[Info] = []
+    for recipe_file in recipe_files:
+        with open(recipe_file, "r") as file:
+            data = json.load(file)
+        package: str = data.get("meta", {}).get("package", "")
+        name: str = package.split("/")[-1]
+        description: str = data.get("meta", {}).get("description", "")
+        version: str = data.get("version", "")
+        timestamp: str = data.get("meta", {}).get("date", "")
+        url: str = data.get("meta", {}).get("source", "")
+        if not name:
+            continue
+        if version.startswith("#"):
+            version = version[0:9]
+        infos.append(Info(name, package, description, version, timestamp, url))
+
+    infos.sort(key=lambda item: item.name)
+
+    with open(filename, "w") as file:
+        file.write("# Packages\n")
+        file.write("\n")
+        file.write("| Name | Version | Description | Project | Updated |\n")
+        file.write("|------|---------|-------------|---------|---------|\n")
+        for info in infos:
+            file.write(f"| {info.name} | {info.version} | {info.description} | [{info.package}]({info.url}) | {info.timestamp} |\n")
 
 
 if __name__ == "__main__":
