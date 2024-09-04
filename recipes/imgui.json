@@ -3,14 +3,14 @@
     "source": "https://github.com/ocornut/imgui",
     "package": "ocornut/imgui",
     "tag_filter": "",
-    "date": "2024-07-30T12:49:07Z",
+    "date": "2024-09-04T14:17:30Z",
     "target": "",
     "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies"
   },
-  "version": "1.91.0",
+  "version": "1.91.1",
   "method": "fetch_content",
   "url": "https://github.com/ocornut/imgui/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=1974ed49fa36f37215b3641d09187b67029ae938b9b370a024c24df69334f192",
+  "url_hash": "SHA256=f37d17797f1bb712481886ea7768e722d5aaefca10abb47aad97e5dd38f2865a",
   "update_disconnected": true,
   "options": {}
 }
