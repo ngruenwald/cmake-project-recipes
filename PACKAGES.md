@@ -70,7 +70,7 @@
 | json | 3.11.3 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2023-11-28T21:36:31Z |
 | jsoncons | 0.177.0 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) |  |
 | jwt-cpp | 0.7.0 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2023-12-10T22:50:22Z |
-| libarchive | 3.7.4 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2024-04-26T09:22:15Z |
+| libarchive | 3.7.5 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2024-09-13T20:20:55Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
 | libgit2 | 1.8.1 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2024-05-16T09:58:48Z |
 | libharu | 2.4.4 | libharu - free PDF library | [libharu/libharu](https://github.com/libharu/libharu) | 2023-09-18T19:47:01Z |
@@ -80,7 +80,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-07-24T13:16:52Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 3749 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-09-13T01:54:49Z |
+| llama.cpp | 3751 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-09-13T12:23:11Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.6 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-06-29T14:16:32Z |
