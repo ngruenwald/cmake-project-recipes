@@ -13,7 +13,7 @@
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
 | box2d | 3.0.0 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2023-03-18T16:37:04Z |
 | brotli | 1.1.0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2023-08-29T10:59:55Z |
-| catch2 | 3.7.0 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2024-08-14T10:05:21Z |
+| catch2 | 3.7.1 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2024-09-17T08:45:43Z |
 | ckdl | 0.1.2 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2023-10-03T14:13:26Z |
 | cli | 2.1.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2023-06-29T16:48:03Z |
 | clipp | 1.2.3 | easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation | [muellan/clipp](https://github.com/muellan/clipp) | 2019-04-27T10:12:25Z |
@@ -22,7 +22,7 @@
 | config | main | config library | [ngruenwald/config](https://github.com/ngruenwald/config) |  |
 | config-cpp | master | C++ Configuration management library inspired by the Viper package for golang. | [cjlove/config-cpp](https://github.com/cjlove/config-cpp) |  |
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
-| cosmopolitan | 3.9.0 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2024-09-16T05:31:14Z |
+| cosmopolitan | 3.9.1 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2024-09-17T09:55:07Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
 | cpp-httplib | 0.18.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2024-09-12T16:28:35Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
@@ -80,7 +80,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-07-24T13:16:52Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 3772 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-09-16T14:22:07Z |
+| llama.cpp | 3778 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-09-17T13:35:38Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.6 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-06-29T14:16:32Z |
@@ -104,7 +104,7 @@
 | opus | 1.5.2 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2024-04-10T20:38:50Z |
 | pdfgen | 0.1.0 | Simple C PDF Writer/Generation library | [andrerenaud/pdfgen](https://github.com/andrerenaud/pdfgen) | 2021-06-07T23:02:34Z |
 | pistache | #de6a7041 | A high-performance REST toolkit written in C++ | [pistacheio/pistache](https://github.com/pistacheio/pistache) |  |
-| pocketpy | 1.4.6 | Portable Python 3.x Interpreter in Modern C | [blueloveth/pocketpy](https://github.com/blueloveth/pocketpy) | 2024-06-20T04:08:28Z |
+| pocketpy | 2.0.0 | Portable Python 3.x Interpreter in Modern C | [blueloveth/pocketpy](https://github.com/blueloveth/pocketpy) | 2024-09-17T10:47:38Z |
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | protobuf | 5.28.1 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2024-09-10T20:36:10Z |
 | proxygen | 2024.09.16.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2024-09-16T14:23:41Z |
