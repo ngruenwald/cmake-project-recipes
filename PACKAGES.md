@@ -35,7 +35,7 @@
 | cpr | 1.10.5 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2023-10-14T12:45:47Z |
 | cr | master | cr.h: A Simple C Hot Reload Header-only Library | [fungos/cr](https://github.com/fungos/cr) |  |
 | crow | 1.2.0 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2024-05-18T18:18:01Z |
-| curl | 8_10_0 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2024-09-11T05:36:22Z |
+| curl | 8_10_1 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2024-09-18T05:53:49Z |
 | cxxopts | 3.2.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2024-02-20T08:39:34Z |
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
 | doctest | 2.4.11 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2023-03-15T12:35:29Z |
@@ -78,9 +78,9 @@
 | libsoundio | 2.0.1-7 | C library for cross-platform real-time audio input and output | [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) | 2024-04-11T05:08:26Z |
 | libvault | 0.61.0 | A C++ library for Hashicorp Vault | [abedra/libvault](https://github.com/abedra/libvault) | 2024-08-25T01:28:31Z |
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
-| libxml2 | 2.13.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-07-24T13:16:52Z |
+| libxml2 | 2.13.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-09-18T13:10:15Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 3779 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-09-17T20:41:38Z |
+| llama.cpp | 3783 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-09-18T11:42:36Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.6 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-06-29T14:16:32Z |
@@ -142,7 +142,7 @@
 | transwarp | 2.2.3 | A header-only C++ library for task concurrency | [bloomen/transwarp](https://github.com/bloomen/transwarp) | 2022-06-24T10:57:36Z |
 | uWebSockets | 20.66.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2024-09-01T17:37:08Z |
 | url | 1.13.0 | A C++ library that implements the WhatWG URL specification | [cpp-netlib/url](https://github.com/cpp-netlib/url) | 2020-09-11T18:42:01Z |
-| userver | 2.3 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2024-08-13T14:50:47Z |
+| userver | 2.4 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2024-09-18T13:25:59Z |
 | utfcpp | 4.0.5 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2023-12-29T22:40:20Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
