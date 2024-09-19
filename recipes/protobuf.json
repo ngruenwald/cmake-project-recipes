@@ -3,14 +3,14 @@
     "source": "https://github.com/protocolbuffers/protobuf",
     "package": "protocolbuffers/protobuf",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2024-09-10T20:36:10Z",
+    "date": "2024-09-18T19:49:16Z",
     "target": "",
     "description": "Protocol Buffers - Google's data interchange format"
   },
-  "version": "5.28.1",
+  "version": "5.28.2",
   "method": "fetch_content",
   "url": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=2b280453676f7fa9ee4fcdf5a60e21254da9cf4b86e6a985efcd549f1288a01f",
+  "url_hash": "SHA256=578402354e16211f8eb45e4a18a9eda09f4c401045e1468a5435611c7d29cb54",
   "update_disconnected": true,
   "options": {}
 }
