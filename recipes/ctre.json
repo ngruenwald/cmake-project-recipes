@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "https://github.com/hanickadot/compile-time-regular-expressions",
-    "package": "hanickadot/ctre",
-    "tag_filter": "",
+    "package": "hanickadot/compile-time-regular-expressions",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
     "date": "2024-05-16",
     "target": "ctre::ctre",
     "description": "Compile Time Regular Expression in C++"
