@@ -81,7 +81,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-09-18T13:10:15Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 3866 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-10-02T12:57:18Z |
+| llama.cpp | 3868 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-10-02T23:49:47Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.6 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-06-29T14:16:32Z |
@@ -92,7 +92,7 @@
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
 | nameof | 0.10.4 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2024-01-31T14:26:52Z |
 | nanomsg | 1.2.1 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2024-02-03T22:45:24Z |
-| nats.c | 3.9.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2024-09-30T20:48:01Z |
+| nats.c | 3.9.1 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2024-10-02T20:59:50Z |
 | nghttp2 | 1.63.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2024-08-27T09:17:25Z |
 | nng | 1.8.0 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2024-04-21T19:31:32Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
@@ -134,7 +134,7 @@
 | stb | master | stb single-file public domain libraries for C/C++ | [nothings/stb](https://github.com/nothings/stb) |  |
 | strtk | master | C++ String Toolkit Library | [arashpartow/strtk](https://github.com/ArashPartow/strtk) |  |
 | tabulate | 1.5 | Table Maker for Modern C++ | [p-ranav/tabulate](https://github.com/p-ranav/tabulate) | 2023-02-20T14:40:03Z |
-| taskflow | 3.7.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2024-05-06T20:04:08Z |
+| taskflow | 3.8.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2024-10-03T03:22:05Z |
 | tempus | 0.1.1 | timer stuff | [ngruenwald/tempus](https://github.com/ngruenwald/tempus) | 2022-07-28T15:43:33Z |
 | testcontainers-c | 0.1.0 | Testcontainers for C/C++/Swift and other native projects, built on the top of Testcontainers for Go | [testcontainers/testcontainers-c](https://github.com/testcontainers/testcontainers-c) | 2024-07-20T14:10:20Z |
 | tink-cc | 2.2.0 | C++ implementation of Tink | [tink-crypto/tink-cc](https://github.com/tink-crypto/tink-cc) | 2024-05-07T15:01:19Z |

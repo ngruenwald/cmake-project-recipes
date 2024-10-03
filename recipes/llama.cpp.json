@@ -3,14 +3,14 @@
     "source": "https://github.com/ggerganov/llama.cpp",
     "package": "ggerganov/llama.cpp",
     "tag_filter": "^b\\d+$",
-    "date": "2024-10-02T12:57:18Z",
+    "date": "2024-10-02T23:49:47Z",
     "target": "",
     "description": "LLM inference in C/C++"
   },
-  "version": "3866",
+  "version": "3868",
   "method": "fetch_content",
   "url": "https://github.com/ggerganov/llama.cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=77658c2a158978c27a3b187afb87e6d0283e978ee06a11f13486993befab41b0",
+  "url_hash": "SHA256=e432b651427632a00462fe308d3026a608cfc7d1ef77ce5631482f570981b340",
   "update_disconnected": true,
   "options": {}
 }
