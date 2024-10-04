@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "https://github.com/HowardHinnant/date",
+    "package": "HowardHinnant/date",
+    "tag_filter": "",
+    "date": "2021-05-17",
+    "target": "date::date",
+    "description": "A date and time library based on the C++11/14/17 <chrono> header"
+  },
+  "version": "3.0.1",
+  "method": "fetch_content",
+  "url": "https://github.com/HowardHinnant/date/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=7a390f200f0ccd207e8cff6757e04817c1a0aec3e327b006b7eb451c57ee3538",
+  "update_disconnected": true,
+  "options": {
+    "USE_SYSTEM_TZ_DB": "OFF",
+    "MANUAL_TZ_DB": "OFF",
+    "USE_TZ_DB_IN_DOT": "OFF",
+    "BUILD_SHARED_LIBS": "OFF",
+    "ENABLE_DATE_TESTING": "OFF",
+    "DISABLE_STRING_VIEW": "OFF",
+    "COMPILE_WITH_C_LOCALE": "OFF",
+    "BUILD_TZ_LIB": "OFF",
+    "ENABLE_DATE_INSTALL": "OFF"
+  }
+}
