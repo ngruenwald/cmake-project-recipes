@@ -3,14 +3,14 @@
     "source": "https://github.com/nanomsg/nng",
     "package": "nanomsg/nng",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2024-04-21T19:31:32Z",
+    "date": "2024-09-07T22:15:13Z",
     "target": "",
     "description": "nanomsg-next-generation -- light-weight brokerless messaging"
   },
-  "version": "1.8.0",
+  "version": "1.9.0",
   "method": "fetch_content",
   "url": "https://github.com/nanomsg/nng/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=48effcfd1acf31f6afcb1a92ecb4aa87f7993f5c54bf6587b0f4fb2606ce96d3",
+  "url_hash": "SHA256=b463128de8a11ffeb3dd2b4430e0b2bb1a28134a00c072bdac65fd126bb81dd3",
   "update_disconnected": true,
   "options": {}
 }
