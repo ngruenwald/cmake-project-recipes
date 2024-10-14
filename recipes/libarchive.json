@@ -3,14 +3,14 @@
     "source": "https://github.com/libarchive/libarchive",
     "package": "libarchive/libarchive",
     "tag_filter": "",
-    "date": "2024-09-23T07:04:27Z",
+    "date": "2024-10-13T08:09:33Z",
     "target": "archive_static, archive",
     "description": "Multi-format archive and compression library"
   },
-  "version": "3.7.6",
+  "version": "3.7.7",
   "method": "fetch_content",
   "url": "https://github.com/libarchive/libarchive/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=ea8e0b833bd870e4b9c8f21371cd3730ff1b019ebf35216fce60e34969d3cc06",
+  "url_hash": "SHA256=491f2795a774f58650a51e6b920bd4e78b5bc31af6da25f6ce0b6f3d42897976",
   "update_disconnected": true,
   "options": {
     "ENABLE_MBEDTLS": "OFF",

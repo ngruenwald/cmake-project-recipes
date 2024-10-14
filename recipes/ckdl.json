@@ -3,14 +3,14 @@
     "source": "https://github.com/tjol/ckdl",
     "package": "tjol/ckdl",
     "tag_filter": "",
-    "date": "2023-10-03T14:13:26Z",
+    "date": "2024-10-13T11:00:41Z",
     "target": "kdlpp",
     "description": "KDL parsing library in C, Python, C++"
   },
-  "version": "0.1.2",
+  "version": "0.2.0",
   "method": "fetch_content",
   "url": "https://github.com/tjol/ckdl/archive/refs/tags/{{version}}.zip",
-  "url_hash": "SHA256=2dc68da7d741bea64246446dabf3decbe101e8ca3e395ce603471090e389cb58",
+  "url_hash": "SHA256=3d4fac4608294e40f6f971008735a9d3c35e260e8a0ea58eda8355ed19cf259e",
   "update_disconnected": true,
   "options": {
     "BUILD_TESTS": "OFF"
