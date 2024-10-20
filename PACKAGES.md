@@ -39,7 +39,7 @@
 | crow | 1.2.0 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2024-05-18T18:18:01Z |
 | curl | 8_10_1 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2024-09-18T05:53:49Z |
 | cxxopts | 3.2.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2024-02-20T08:39:34Z |
-| date | 3.0.2 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2024-10-01T10:00:00Z |
+| date | 3.0.3 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2024-10-20T18:14:05Z |
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
 | doctest | 2.4.11 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2023-03-15T12:35:29Z |
 | dotenv-cpp | #432def2f | A utility to load environment variables from a .env file | [laserpants/dotenv-cpp](https://github.com/laserpants/dotenv-cpp) |  |
