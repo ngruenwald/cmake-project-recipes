@@ -3,14 +3,14 @@
     "source": "https://github.com/libgit2/libgit2",
     "package": "libgit2/libgit2",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2024-06-13T22:15:19Z",
+    "date": "2024-10-26T19:03:57Z",
     "target": "libgit2",
     "description": "A cross-platform, linkable library implementation of Git that you can use in your application."
   },
-  "version": "1.8.2",
+  "version": "1.8.3",
   "method": "fetch_content",
   "url": "https://github.com/libgit2/libgit2/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=1859d024393df138bd28f52fa8ab8ecff83cee670b0284601f6d944a913de701",
+  "url_hash": "SHA256=d74a08f3846d1e16fe86d67d4c9f008c9c318331dcaea0e0839ee6d3f38f8d8a",
   "update_disconnected": true,
   "options": {
     "BUILD_SHARED_LIBS": "OFF",

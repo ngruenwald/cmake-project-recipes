@@ -43,7 +43,7 @@
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
 | doctest | 2.4.11 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2023-03-15T12:35:29Z |
 | dotenv-cpp | #432def2f | A utility to load environment variables from a .env file | [laserpants/dotenv-cpp](https://github.com/laserpants/dotenv-cpp) |  |
-| drogon | 1.9.7 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2024-09-10T15:12:02Z |
+| drogon | 1.9.8 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2024-10-27T06:31:56Z |
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.0.4 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2024-04-01T15:24:45Z |
@@ -75,7 +75,7 @@
 | jwt-cpp | 0.7.0 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2023-12-10T22:50:22Z |
 | libarchive | 3.7.7 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2024-10-13T08:09:33Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
-| libgit2 | 1.8.2 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2024-06-13T22:15:19Z |
+| libgit2 | 1.8.3 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2024-10-26T19:03:57Z |
 | libharu | 2.4.4 | libharu - free PDF library | [libharu/libharu](https://github.com/libharu/libharu) | 2023-09-18T19:47:01Z |
 | libsndfile | 1.2.2 | A C library for reading and writing sound files containing sampled audio data. | [erikd/libsndfile](https://github.com/erikd/libsndfile) | 2023-08-13T08:53:51Z |
 | libsoundio | 2.0.1-7 | C library for cross-platform real-time audio input and output | [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) | 2024-04-11T05:08:26Z |
@@ -143,7 +143,7 @@
 | toml11 | 4.2.0 | TOML for Modern C++ | [toruniina/toml11](https://github.com/ToruNiina/toml11) | 2024-08-12T03:47:30Z |
 | tomlplusplus | 3.4.0 | Header-only TOML config file parser and serializer for C++17. | [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2023-10-13T13:25:17Z |
 | transwarp | 2.2.3 | A header-only C++ library for task concurrency | [bloomen/transwarp](https://github.com/bloomen/transwarp) | 2022-06-24T10:57:36Z |
-| uWebSockets | 20.69.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2024-10-25T20:39:15Z |
+| uWebSockets | 20.70.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2024-10-26T20:56:18Z |
 | url | 1.13.0 | A C++ library that implements the WhatWG URL specification | [cpp-netlib/url](https://github.com/cpp-netlib/url) | 2020-09-11T18:42:01Z |
 | userver | 2.4 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2024-09-18T13:25:59Z |
 | utfcpp | 4.0.5 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2023-12-29T22:40:20Z |
