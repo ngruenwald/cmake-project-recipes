@@ -3,14 +3,14 @@
     "source": "https://github.com/jart/cosmopolitan",
     "package": "jart/cosmopolitan",
     "tag_filter": "^\\d+(\\.\\d+){1,3}$",
-    "date": "2024-10-13T06:43:45Z",
+    "date": "2024-11-01T06:06:34Z",
     "target": "",
     "description": "build-once run-anywhere c library"
   },
-  "version": "3.9.4",
+  "version": "3.9.5",
   "method": "fetch_content",
   "url": "https://github.com/jart/cosmopolitan/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=40f34522dd7010fa69b1fa41462efbb8722d5cdaf5499885ddea751767526718",
+  "url_hash": "SHA256=72192e7345b0c61ba731e43aefdf722c15e5b7081699d94f75466fd8a2a7f434",
   "update_disconnected": true,
   "options": {}
 }
