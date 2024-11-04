@@ -3,14 +3,14 @@
     "source": "https://github.com/eliaskosunen/scnlib",
     "package": "eliaskosunen/scnlib",
     "tag_filter": "",
-    "date": "2024-06-15T10:18:27Z",
+    "date": "2024-11-03T23:00:07Z",
     "target": "",
     "description": "scanf for modern C++"
   },
-  "version": "3.0.1",
+  "version": "4.0.1",
   "method": "fetch_content",
   "url": "https://github.com/eliaskosunen/scnlib/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=0b39c519df3a5d17142047f314692c7791fcc7fae50e4221377fcee16f983245",
+  "url_hash": "SHA256=4e2540e947338ec5f51e89e3b61dc9a7cd0022cece80c15a192253b5ebc573b8",
   "update_disconnected": true,
   "options": {}
 }
