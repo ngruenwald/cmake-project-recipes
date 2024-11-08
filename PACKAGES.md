@@ -64,7 +64,7 @@
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
 | hiredis | 1.2.0 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2023-07-12T07:31:17Z |
 | hypodermic | 2.5.3 | Hypodermic is an IoC container for C++. It provides dependency injection to your existing design. | [ybainier/hypodermic](https://github.com/ybainier/hypodermic) | 2021-09-21T16:39:45Z |
-| imgui | 1.91.4 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2024-10-18T20:04:03Z |
+| imgui | 1.91.5 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2024-11-07T18:38:30Z |
 | imgui-sfml | 2.6 | Dear ImGui backend for use with SFML | [sfml/imgui-sfml](https://github.com/sfml/imgui-sfml) | 2023-08-16T19:48:26Z |
 | indicators | 2.3 | Activity Indicators for Modern C++ | [p-ranav/indicators](https://github.com/p-ranav/indicators) | 2023-02-15T15:17:27Z |
 | inih | master | Simple .INI file parser in C, good for embedded systems | [benhoyt/inih](https://github.com/benhoyt/inih) |  |
@@ -84,12 +84,12 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-09-18T13:10:15Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4042 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-11-07T15:20:25Z |
+| llama.cpp | 4048 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-11-07T21:31:10Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.6 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-06-29T14:16:32Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
-| mediapipe | 0.10.15 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2024-08-26T16:36:04Z |
+| mediapipe | 0.10.18 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2024-10-23T18:01:21Z |
 | memory | 0.7-3 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2023-01-11T11:39:00Z |
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
