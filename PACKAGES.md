@@ -3,7 +3,7 @@
 | Name | Version | Description | Project | Updated |
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
-| StringZilla | 3.10.8 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2024-11-06T21:11:42Z |
+| StringZilla | 3.10.9 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2024-11-09T16:36:57Z |
 | abseil-cpp | 20240722.rc1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2024-07-22T16:23:21Z |
 | ada | 2.9.2 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2024-09-03T00:07:32Z |
 | argparse | 3.1 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2024-07-17T23:53:38Z |
@@ -84,7 +84,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-09-18T13:10:15Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4053 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-11-08T19:59:46Z |
+| llama.cpp | 4061 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-11-09T09:53:13Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.6 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-06-29T14:16:32Z |
@@ -128,7 +128,7 @@
 | simdjson | 3.10.1 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2024-08-26T13:37:33Z |
 | sobjectizer | 5.8.3 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2024-10-26T08:32:16Z |
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
-| spdlog | 1.14.1 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2024-04-30T10:14:29Z |
+| spdlog | 1.15.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2024-11-09T15:01:30Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
 | sqlite | 3.47.0 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2024-10-21T16:30:22Z |
 | sqlitecpp | 3.3.2 | SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper. | [srombauts/sqlitecpp](https://github.com/srombauts/sqlitecpp) | 2024-08-16T19:43:55Z |
