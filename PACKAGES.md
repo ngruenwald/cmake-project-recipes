@@ -25,7 +25,7 @@
 | config | main | config library | [ngruenwald/config](https://github.com/ngruenwald/config) |  |
 | config-cpp | master | C++ Configuration management library inspired by the Viper package for golang. | [cjlove/config-cpp](https://github.com/cjlove/config-cpp) |  |
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
-| cosmopolitan | 3.9.6 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2024-11-01T09:30:23Z |
+| cosmopolitan | 3.9.7 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2024-11-23T05:34:00Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
 | cpp-httplib | 0.18.1 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2024-10-18T21:16:54Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
