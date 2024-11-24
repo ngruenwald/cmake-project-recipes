@@ -35,7 +35,7 @@
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.1 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2020-04-21T17:05:14Z |
 | cppq | master | Simple, reliable & efficient distributed task queue for C++17 | [jafarlihi/cppq](https://github.com/jafarlihi/cppq) |  |
-| cpr | 1.11.0 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2024-10-13T05:20:12Z |
+| cpr | 1.11.1 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2024-11-24T06:30:07Z |
 | cr | master | cr.h: A Simple C Hot Reload Header-only Library | [fungos/cr](https://github.com/fungos/cr) |  |
 | crow | 1.2.0 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2024-05-18T18:18:01Z |
 | curl | 8_11_0 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2024-11-06T07:03:58Z |
