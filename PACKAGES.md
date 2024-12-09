@@ -48,7 +48,7 @@
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.0.4 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2024-04-01T15:24:45Z |
-| fizz | 2024.12.02.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2024-11-28T17:32:58Z |
+| fizz | 2024.12.09.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2024-12-07T17:33:10Z |
 | fmt | 11.0.2 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2024-07-20T14:17:38Z |
 | fmtlog | 2.2.2 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2024-05-31T08:32:23Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
@@ -84,7 +84,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.5 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-11-12T17:19:24Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4291 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-12-08T22:04:29Z |
+| llama.cpp | 4293 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2024-12-09T07:24:01Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -95,7 +95,7 @@
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
 | nameof | 0.10.4 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2024-01-31T14:26:52Z |
 | nanomsg | 1.2.1 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2024-02-03T22:45:24Z |
-| nats.c | 3.9.1 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2024-10-02T20:59:50Z |
+| nats.c | 3.9.2 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2024-11-24T09:25:58Z |
 | nghttp2 | 1.64.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2024-10-21T10:07:52Z |
 | nng | 1.9.0 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2024-09-07T22:15:13Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
@@ -111,7 +111,7 @@
 | pocketpy | 2.0.3 | Portable Python 3.x Interpreter in Modern C | [blueloveth/pocketpy](https://github.com/blueloveth/pocketpy) | 2024-12-07T12:37:28Z |
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | protobuf | 5.29.1 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2024-12-03T19:41:48Z |
-| proxygen | 2024.12.02.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2024-11-28T17:33:54Z |
+| proxygen | 2024.12.09.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2024-12-08T17:35:55Z |
 | pugixml | 1.14 | Light-weight, simple and fast XML parser for C++ with XPath support | [zeux/pugixml](https://github.com/zeux/pugixml) | 2023-09-07T18:55:13Z |
 | rang | 3.2 | A Minimal, Header only Modern c++ library for terminal goodies | [agauniyal/rang](https://github.com/agauniyal/rang) | 2021-07-30T14:22:25Z |
 | rapidjson | 1.1.0 | A fast JSON parser/generator for C++ with both SAX/DOM style API | [tencent/rapidjson](https://github.com/tencent/rapidjson) | 2016-08-25T07:59:05Z |
@@ -150,7 +150,7 @@
 | utfcpp | 4.0.6 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2024-11-03T18:03:52Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
-| whisper.cpp | 1.7.2-pre | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2024-11-15T14:00:10Z |
+| whisper.cpp | 1.7.3-pre | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2024-12-09T09:30:16Z |
 | wil | 1.0.240803.1 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2024-08-02T21:14:08Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
 | xxhash | 0.8.2 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2023-07-21T10:01:35Z |
