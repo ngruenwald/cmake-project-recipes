@@ -7,10 +7,10 @@
     "target": "",
     "description": "Cross-platform, customizable ML solutions for live and streaming media."
   },
-  "version": "0.10.18",
+  "version": "0.10.20",
   "method": "fetch_content",
   "url": "https://github.com/google/mediapipe/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=4639a81e1a350b1e8ea79968da6980f733521922bf4bfe57a11d9bcff81a0a8d",
+  "url_hash": "SHA256=cd431edfb1f4206a4f086481fa5ee2a0899ea36ac1d50133b5f138e3fea224bc",
   "update_disconnected": true,
   "options": {}
 }
