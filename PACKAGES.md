@@ -150,7 +150,7 @@
 | utfcpp | 4.0.6 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2024-11-03T18:03:52Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
-| whisper.cpp | 1.7.3-pre | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2024-12-09T09:30:16Z |
+| whisper.cpp | 1.7.3 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2024-12-18T16:12:40Z |
 | wil | 1.0.240803.1 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2024-08-02T21:14:08Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
 | xxhash | 0.8.2 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2023-07-21T10:01:35Z |

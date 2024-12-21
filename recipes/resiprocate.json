@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/resiprocate/resiprocate",
     "package": "resiprocate/resiprocate",
-    "tag_filter": "resiprocate-\\d+\\.\\d+\\.\\d+",
+    "tag_filter": "^resiprocate-\\d+\\.\\d+\\.\\d+$",
     "date": "2023-11-06T01:15:14Z",
     "target": "argparse::argparse",
     "description": "C++ implementation of SIP, ICE, TURN and related protocols."

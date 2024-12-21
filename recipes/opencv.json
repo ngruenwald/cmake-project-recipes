@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/opencv/opencv",
     "package": "opencv/opencv",
-    "tag_filter": "",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
     "date": "2024-06-02T11:41:07Z",
     "target": "",
     "description": "Open Source Computer Vision Library"
