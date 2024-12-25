@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/sfml/sfml",
     "package": "sfml/sfml",
-    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "tag_filter": "^\\d+\\.\\d+\\.\\d+$",
     "date": "2023-10-17T19:18:36Z",
     "target": "",
     "description": "Simple and Fast Multimedia Library"
