@@ -50,7 +50,7 @@
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.0.4 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2024-04-01T15:24:45Z |
 | fizz | 2024.12.23.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2024-12-21T17:33:32Z |
-| fmt | 11.1.0 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2024-12-25T16:46:43Z |
+| fmt | 11.1.1 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2024-12-27T16:41:16Z |
 | fmtlog | 2.2.2 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2024-05-31T08:32:23Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
 | ftxui | 5.0.0 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2023-08-19T13:46:36Z |
