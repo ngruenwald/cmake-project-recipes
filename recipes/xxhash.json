@@ -3,14 +3,14 @@
     "source": "https://github.com/cyan4973/xxhash",
     "package": "cyan4973/xxhash",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2023-07-21T10:01:35Z",
+    "date": "2024-12-29T20:58:19Z",
     "target": "",
     "description": "Extremely fast non-cryptographic hash algorithm"
   },
-  "version": "0.8.2",
+  "version": "0.8.3",
   "method": "fetch_content",
   "url": "https://github.com/cyan4973/xxhash/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=a33d7e8798bebb297095b715f93a71c5e535919434ce27ddc65e72e4e0fda3b9",
+  "url_hash": "SHA256=db2c12e6f05d45546d3581b6881b25090fd65ab5194891da0b2a1a9c49beda66",
   "update_disconnected": true,
   "options": {}
 }

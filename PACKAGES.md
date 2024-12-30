@@ -155,7 +155,7 @@
 | whisper.cpp | 1.7.3 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2024-12-18T16:12:40Z |
 | wil | 1.0.240803.1 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2024-08-02T21:14:08Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
-| xxhash | 0.8.2 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2023-07-21T10:01:35Z |
+| xxhash | 0.8.3 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2024-12-29T20:58:19Z |
 | xxhr | 1.0.2 | intuitive c++ http client library  | [nxxm/xxhr](https://github.com/nxxm/xxhr) | 2021-08-26T08:14:57Z |
 | yaml-cpp | 0.8.0 | A YAML parser and emitter in C++ | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 2023-08-10T19:27:56Z |
 | zlib | 1.3.1 | A massively spiffy yet delicately unobtrusive compression library. | [madler/zlib](https://github.com/madler/zlib) | 2024-01-22T18:14:31Z |
