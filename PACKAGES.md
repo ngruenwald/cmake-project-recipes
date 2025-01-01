@@ -45,7 +45,7 @@
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
 | doctest | 2.4.11 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2023-03-15T12:35:29Z |
 | dotenv-cpp | #432def2f | A utility to load environment variables from a .env file | [laserpants/dotenv-cpp](https://github.com/laserpants/dotenv-cpp) |  |
-| drogon | 1.9.8 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2024-10-27T06:31:56Z |
+| drogon | 1.9.9 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2025-01-01T03:25:29Z |
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.0.4 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2024-04-01T15:24:45Z |
