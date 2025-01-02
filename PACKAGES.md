@@ -140,7 +140,7 @@
 | stb | master | stb single-file public domain libraries for C/C++ | [nothings/stb](https://github.com/nothings/stb) |  |
 | strtk | master | C++ String Toolkit Library | [arashpartow/strtk](https://github.com/ArashPartow/strtk) |  |
 | tabulate | 1.5 | Table Maker for Modern C++ | [p-ranav/tabulate](https://github.com/p-ranav/tabulate) | 2023-02-20T14:40:03Z |
-| taskflow | 3.8.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2024-10-03T03:22:05Z |
+| taskflow | 3.9.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2025-01-02T21:34:44Z |
 | tempus | 0.1.1 | timer stuff | [ngruenwald/tempus](https://github.com/ngruenwald/tempus) | 2022-07-28T15:43:33Z |
 | testcontainers-c | 0.1.0 | Testcontainers for C/C++/Swift and other native projects, built on the top of Testcontainers for Go | [testcontainers/testcontainers-c](https://github.com/testcontainers/testcontainers-c) | 2024-07-20T14:10:20Z |
 | tink-cc | 2.3.0 | C++ implementation of Tink | [tink-crypto/tink-cc](https://github.com/tink-crypto/tink-cc) | 2024-11-18T23:56:05Z |
