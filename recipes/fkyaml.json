@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "source": "https://github.com/fktn-k/fkYAML",
+    "package": "fktn-k/fkYAML",
+    "tag_filter": "",
+    "date": "2024-12-10T15:15:59Z",
+    "target": "fkYAML::fkYAML",
+    "description": "A C++ header-only YAML library"
+  },
+  "version": "0.4.0",
+  "method": "fetch_content",
+  "url": "https://github.com/fktn-k/fkYAML/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=f95aec7e187f7bdd1f7d7e572d052957ef848a0f536af3e1e78cef305db5e36a",
+  "update_disconnected": true,
+  "options": {
+    "FK_YAML_INSTALL": "OFF",
+    "FK_YAML_INSTALL_NATVIS": "OFF",
+    "FK_YAML_CODE_COVERAGE": "OFF",
+    "FK_YAML_RUN_VALGRIND": "OFF",
+    "FK_YAML_RUN_CLANG_SANITIZERS": "OFF",
+    "FK_YAML_RUN_CLANG_TIDY": "OFF",
+    "FK_YAML_RUN_IWYU": "OFF",
+    "FK_YAML_RUN_BENCHMARK": "OFF",
+    "FK_YAML_BUILD_TEST": "OFF",
+    "FK_YAML_BUILD_ALL_TEST": "OFF",
+    "FK_YAML_USE_SINGLE_HEADER": "OFF"
+  }
+}
