@@ -3,14 +3,14 @@
     "source": "https://github.com/oir/barkeep",
     "package": "oir/barkeep",
     "tag_filter": "",
-    "date": "2024-12-08T15:00:01Z",
+    "date": "2025-01-05T22:24:11Z",
     "target": "barkeep::barkeep",
     "description": "Small C++ header to display async animations, counters, and progress bars"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "method": "fetch_content",
   "url": "https://github.com/oir/barkeep/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=b5d013c106d96a74ba0e2dfc0b1ff0aa5877aa26395c00ae1229b87ca0c28b34",
+  "url_hash": "SHA256=60535ba5fe53d729b46de771a8636c89d27e929700b5e6613c3d91a1de06d163",
   "update_disconnected": true,
   "targets": [
     {

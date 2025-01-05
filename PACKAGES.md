@@ -9,7 +9,7 @@
 | argparse | 3.1 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2024-07-17T23:53:38Z |
 | asio | 1-32-0 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2024-08-15T13:07:45Z |
 | backward-cpp | 1.6 | A beautiful stack trace pretty printer for C++ | [bombela/backward-cpp](https://github.com/bombela/backward-cpp) | 2021-08-12T22:49:08Z |
-| barkeep | 0.1.4 | Small C++ header to display async animations, counters, and progress bars | [oir/barkeep](https://github.com/oir/barkeep) | 2024-12-08T15:00:01Z |
+| barkeep | 0.1.5 | Small C++ header to display async animations, counters, and progress bars | [oir/barkeep](https://github.com/oir/barkeep) | 2025-01-05T22:24:11Z |
 | benchmark | 1.9.1 | A microbenchmark support library | [google/benchmark](https://github.com/google/benchmark) | 2024-11-28T16:51:38Z |
 | blackhole | 1.9.0 | Yet another logging library. | [3hren/blackhole](https://github.com/3hren/blackhole) | 2017-09-12T12:23:26Z |
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
@@ -26,7 +26,7 @@
 | config | main | config library | [ngruenwald/config](https://github.com/ngruenwald/config) |  |
 | config-cpp | master | C++ Configuration management library inspired by the Viper package for golang. | [cjlove/config-cpp](https://github.com/cjlove/config-cpp) |  |
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
-| cosmopolitan | 4.0.1 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-04T03:51:34Z |
+| cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
 | cpp-httplib | 0.18.3 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2024-12-03T11:33:00Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
