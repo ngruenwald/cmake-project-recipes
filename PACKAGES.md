@@ -38,7 +38,7 @@
 | cppq | master | Simple, reliable & efficient distributed task queue for C++17 | [jafarlihi/cppq](https://github.com/jafarlihi/cppq) |  |
 | cpr | 1.11.1 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2024-11-24T06:30:07Z |
 | cr | master | cr.h: A Simple C Hot Reload Header-only Library | [fungos/cr](https://github.com/fungos/cr) |  |
-| crow | 1.2.0 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2024-05-18T18:18:01Z |
+| crow | 1.2.1.0 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2025-01-08T00:39:46Z |
 | curl | 8_11_1 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2024-12-11T07:05:13Z |
 | cxxopts | 3.2.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2024-02-20T08:39:34Z |
 | date | 3.0.3 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2024-10-20T18:14:05Z |

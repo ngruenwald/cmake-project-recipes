@@ -3,14 +3,14 @@
     "source": "https://github.com/crowcpp/crow",
     "package": "crowcpp/crow",
     "tag_filter": "",
-    "date": "2024-05-18T18:18:01Z",
+    "date": "2025-01-08T00:39:46Z",
     "target": "",
     "description": "A Fast and Easy to use microframework for the web."
   },
-  "version": "1.2.0",
+  "version": "1.2.1.0",
   "method": "fetch_content",
   "url": "https://github.com/crowcpp/crow/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=f76bacc050cdc8f253f4a0241650cdf1f58c208a89f47f7127de06dcbabe9211",
+  "url_hash": "SHA256=d62045119e95a91378aa2c6227ea2933d2c5dacf78af0576329311c901be6fa9",
   "update_disconnected": true,
   "options": {}
 }
