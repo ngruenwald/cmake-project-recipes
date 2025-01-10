@@ -3,14 +3,14 @@
     "source": "https://github.com/zeux/pugixml",
     "package": "zeux/pugixml",
     "tag_filter": "",
-    "date": "2023-09-07T18:55:13Z",
+    "date": "2025-01-10T18:15:31Z",
     "target": "pugixml::static, pugixml::shared",
     "description": "Light-weight, simple and fast XML parser for C++ with XPath support"
   },
-  "version": "1.14",
+  "version": "1.15",
   "method": "fetch_content",
   "url": "https://github.com/zeux/pugixml/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=86a2b2f16d3e107b9ea5043ef9c458306b94d38f6203d58a196dc9b9dc6351a6",
+  "url_hash": "SHA256=0dd4dc16e38bbc1c889d3a59660072450127bac7d19415f3cf5d5d6b25c58b35",
   "update_disconnected": true,
   "options": {
     "PUGIXML_USE_STATIC_CRT": "OFF"
