@@ -3,11 +3,11 @@
     "source": "https://github.com/fmtlib/fmt",
     "package": "fmtlib/fmt",
     "tag_filter": "",
-    "date": "2024-12-27T16:41:16Z",
+    "date": "2025-01-12T16:15:44Z",
     "target": "fmt::fmt",
     "description": "A modern formatting library"
   },
-  "version": "11.1.1",
+  "version": "11.1.2",
   "method": "fetch_content",
   "url": "https://github.com/fmtlib/fmt/archive/refs/tags/{{version}}.zip",
   "options": {
@@ -15,5 +15,5 @@
     "FMT_DOC": "OFF",
     "FMT_TEST": "OFF"
   },
-  "url_hash": "SHA256=78e131c2c5b617b93593c47eaf032e8dade81539805789aa22e3b4b4da134f5f"
+  "url_hash": "SHA256=a132f866cf950ea8850b2eda5d663d5eafb59759230739dc1e90949a0f39f5d4"
 }
