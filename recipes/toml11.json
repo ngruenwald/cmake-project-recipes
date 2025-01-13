@@ -3,14 +3,14 @@
     "source": "https://github.com/ToruNiina/toml11",
     "package": "toruniina/toml11",
     "tag_filter": "",
-    "date": "2024-08-12T03:47:30Z",
+    "date": "2025-01-13T10:50:06Z",
     "target": "toml11::toml11",
     "description": "TOML for Modern C++"
   },
-  "version": "4.2.0",
+  "version": "4.3.0",
   "method": "fetch_content",
   "url": "https://github.com/ToruNiina/toml11/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=e3f956df9e2c162cddf7e4ef83f35de9e2771b8e6997faa2bb3ceae5ee9c2757",
+  "url_hash": "SHA256=7b81af7adb402b9be6054411ac1a5134d8fd8d973dab7a49bac0b2f1f27273b2",
   "update_disconnected": true,
   "options": {
     "toml11_BUILD_TESTS": "OFF"
