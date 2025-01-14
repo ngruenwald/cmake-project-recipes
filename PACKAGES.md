@@ -67,7 +67,7 @@
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
 | hiredis | 1.2.0 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2023-07-12T07:31:17Z |
 | hypodermic | 2.5.3 | Hypodermic is an IoC container for C++. It provides dependency injection to your existing design. | [ybainier/hypodermic](https://github.com/ybainier/hypodermic) | 2021-09-21T16:39:45Z |
-| imgui | 1.91.6 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2024-12-11T13:17:45Z |
+| imgui | 1.91.7 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2025-01-14T12:16:43Z |
 | imgui-sfml | 3.0 | Dear ImGui backend for use with SFML | [sfml/imgui-sfml](https://github.com/sfml/imgui-sfml) | 2025-01-03T18:53:12Z |
 | indicators | 2.3 | Activity Indicators for Modern C++ | [p-ranav/indicators](https://github.com/p-ranav/indicators) | 2023-02-15T15:17:27Z |
 | inih | master | Simple .INI file parser in C, good for embedded systems | [benhoyt/inih](https://github.com/benhoyt/inih) |  |
@@ -87,7 +87,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.5 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-11-12T17:19:24Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4475 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-01-13T19:18:12Z |
+| llama.cpp | 4481 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-01-14T10:16:41Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -133,7 +133,7 @@
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.15.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2024-11-09T15:01:30Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
-| sqlite | 3.47.2 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2024-12-07T20:39:59Z |
+| sqlite | 3.48.0 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2025-01-14T11:05:00Z |
 | sqlitecpp | 3.3.2 | SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper. | [srombauts/sqlitecpp](https://github.com/srombauts/sqlitecpp) | 2024-08-16T19:43:55Z |
 | sqlpp11 | 0.64 | A type safe SQL template library for C++ | [rbock/sqlpp11](https://github.com/rbock/sqlpp11) | 2023-10-03T07:45:21Z |
 | stable-diffusion.cpp | master | Stable Diffusion and Flux in pure C/C++ | [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) |  |
