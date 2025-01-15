@@ -7,10 +7,13 @@
     "target": "",
     "description": "config library"
   },
-  "version": "main",
+  "version": "1.0.1",
   "method": "fetch_content",
-  "url": "https://github.com/ngruenwald/config/archive/refs/tags/v{{version}}.zip",
+  "url": "https://github.com/ngruenwald/config/archive/refs/tags/{{version}}.tar.gz",
   "url_hash": "",
   "update_disconnected": true,
-  "options": {}
+  "options": {
+    "CONFIG_UNIT_TESTS": "OFF",
+    "CONFIG_EXTRAS": "OFF"
+  }
 }
