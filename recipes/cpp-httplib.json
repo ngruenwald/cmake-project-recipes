@@ -9,8 +9,8 @@
   },
   "version": "0.18.3",
   "method": "fetch_content",
-  "url": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=eae27e491402aa6e45a39eed18ae143a5abb569a786788062e8737a3506fa6e1",
+  "url": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=a0567bcd6c3fe5cef1b329b96245119047f876b49e06cc129a36a7a8dffe173e",
   "update_disconnected": true,
   "options": {
     "HTTPLIB_COMPILE": "ON",
