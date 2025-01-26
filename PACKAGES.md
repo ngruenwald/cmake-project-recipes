@@ -51,7 +51,7 @@
 | fibertaskinglib | 2.0.4 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2024-04-01T15:24:45Z |
 | fizz | 2025.01.20.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2025-01-20T11:15:03Z |
 | fkYAML | 0.4.2 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2025-01-25T14:54:42Z |
-| fmt | 11.1.2 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-01-12T16:15:44Z |
+| fmt | 11.1.3 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-01-25T18:08:57Z |
 | fmtlog | 2.2.2 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2024-05-31T08:32:23Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
 | ftxui | 5.0.0 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2023-08-19T13:46:36Z |
@@ -87,7 +87,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.5 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-11-12T17:19:24Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4557 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-01-26T02:10:03Z |
+| llama.cpp | 4560 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-01-26T16:07:48Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -100,7 +100,7 @@
 | nanomsg | 1.2.1 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2024-02-03T22:45:24Z |
 | nats.c | 3.9.2 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2024-11-24T09:25:58Z |
 | nghttp2 | 1.64.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2024-10-21T10:07:52Z |
-| nng | 1.10.0 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2025-01-05T05:17:24Z |
+| nng | 1.10.1 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2025-01-26T16:38:16Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
 | oatpp | 1.3.1 | Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable. | [oatpp/oatpp](https://github.com/oatpp/oatpp) | 2024-02-05T03:51:38Z |
 | ollama-hpp | 0.9.4 | Modern, Header-only C++ bindings for the Ollama API. | [jmont-dev/ollama-hpp](https://github.com/jmont-dev/ollama-hpp) | 2024-08-18T21:31:04Z |
