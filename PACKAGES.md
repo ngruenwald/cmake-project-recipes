@@ -4,7 +4,7 @@
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
 | StringZilla | 3.11.3 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2024-12-26T19:44:19Z |
-| abseil-cpp | 20240722.1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-01-23T14:51:12Z |
+| abseil-cpp | 20250127.rc1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-01-28T14:42:46Z |
 | ada | 2.9.2 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2024-09-03T00:07:32Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
 | asio | 1-32-0 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2024-08-15T13:07:45Z |
@@ -87,7 +87,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.5 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-11-12T17:19:24Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4568 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-01-27T18:36:10Z |
+| llama.cpp | 4575 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-01-28T15:42:20Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -147,7 +147,7 @@
 | toml11 | 4.3.0 | TOML for Modern C++ | [toruniina/toml11](https://github.com/ToruNiina/toml11) | 2025-01-13T10:50:06Z |
 | tomlplusplus | 3.4.0 | Header-only TOML config file parser and serializer for C++17. | [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2023-10-13T13:25:17Z |
 | transwarp | 2.2.3 | A header-only C++ library for task concurrency | [bloomen/transwarp](https://github.com/bloomen/transwarp) | 2022-06-24T10:57:36Z |
-| uWebSockets | 20.71.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2024-12-04T02:56:58Z |
+| uWebSockets | 20.72.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2025-01-28T13:17:27Z |
 | url | 1.13.0 | A C++ library that implements the WhatWG URL specification | [cpp-netlib/url](https://github.com/cpp-netlib/url) | 2020-09-11T18:42:01Z |
 | userver | 2.6 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2024-12-24T14:24:11Z |
 | utfcpp | 4.0.6 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2024-11-03T18:03:52Z |
