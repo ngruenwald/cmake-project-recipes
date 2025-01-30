@@ -3,14 +3,14 @@
     "source": "https://github.com/ryanhaining/cppitertools",
     "package": "ryanhaining/cppitertools",
     "tag_filter": "",
-    "date": "2020-04-21T17:05:14Z",
+    "date": "2024-10-18T16:55:13Z",
     "target": "",
     "description": "Implementation of python itertools and builtin iteration functions for C++17"
   },
-  "version": "2.1",
+  "version": "2.2",
   "method": "fetch_content",
   "url": "https://github.com/ryanhaining/cppitertools/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=204fa0c872c0f34c9263862a5f4b93a9858fde9fdae8064febc7683863f1497d",
+  "url_hash": "SHA256=e3b7cdaa372e1b556c18adada9520814ad270f6a306263abf199b7b8c14fc9fb",
   "update_disconnected": true,
   "options": {}
 }
