@@ -66,6 +66,7 @@
 | guetzli | 1.0.1 | Perceptual JPEG encoder | [google/guetzli](https://github.com/google/guetzli) | 2017-03-21T16:26:36Z |
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
 | hiredis | 1.2.0 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2023-07-12T07:31:17Z |
+| hyperscan | 5.4.2 | High-performance regular expression matching library | [intel/hyperscan](https://github.com/intel/hyperscan) | 2023-04-19T09:34:39Z |
 | hypodermic | 2.5.3 | Hypodermic is an IoC container for C++. It provides dependency injection to your existing design. | [ybainier/hypodermic](https://github.com/ybainier/hypodermic) | 2021-09-21T16:39:45Z |
 | imgui | 1.91.8 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2025-01-31T14:57:48Z |
 | imgui-sfml | 3.0 | Dear ImGui backend for use with SFML | [sfml/imgui-sfml](https://github.com/sfml/imgui-sfml) | 2025-01-03T18:53:12Z |

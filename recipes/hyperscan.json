@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "source": "https://github.com/intel/hyperscan",
+    "package": "intel/hyperscan",
+    "tag_filter": "",
+    "date": "2023-04-19T09:34:39Z",
+    "target": "",
+    "description": "High-performance regular expression matching library"
+  },
+  "version": "5.4.2",
+  "method": "fetch_content",
+  "url": "https://github.com/intel/hyperscan/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=9c1abcce0578e218e8743b13741e699c35721004f349988c1dcc020498b9a5e1",
+  "update_disconnected": true,
+  "options": {}
+}
