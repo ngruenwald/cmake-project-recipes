@@ -3,15 +3,15 @@
     "source": "https://github.com/gabime/spdlog",
     "package": "gabime/spdlog",
     "tag_filter": "",
-    "date": "2024-11-09T15:01:30Z",
+    "date": "2025-02-01T11:08:54Z",
     "target": "spdlog::spdlog",
     "dependencies": "fmt nlohmann_json",
     "description": "Fast C++ logging library."
   },
-  "version": "1.15.0",
+  "version": "1.15.1",
   "method": "fetch_content",
   "url": "https://github.com/gabime/spdlog/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=076f3b4d452b95433083bcc66d07f79addba2d3fcb2b9177abeb7367d47aefbb",
+  "url_hash": "SHA256=322c144e24abee5d0326ddbe5bbc0e0c39c85ac8c2cb3c90d10290a85428327a",
   "update_disconnected": true,
   "options": {
     "SPDLOG_BUILD_EXAMPLE": "OFF",
