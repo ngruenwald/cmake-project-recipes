@@ -3,14 +3,14 @@
     "source": "https://github.com/google/googletest",
     "package": "google/googletest",
     "tag_filter": "",
-    "date": "2024-07-31T13:34:46Z",
+    "date": "2025-02-07T16:04:56Z",
     "target": "",
     "description": "GoogleTest - Google Testing and Mocking Framework"
   },
-  "version": "1.15.2",
+  "version": "1.16.0",
   "method": "fetch_content",
   "url": "https://github.com/google/googletest/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=f179ec217f9b3b3f3c6e8b02d3e7eda997b49e4ce26d6b235c9053bec9c0bf9f",
+  "url_hash": "SHA256=a9607c9215866bd425a725610c5e0f739eeb50887a57903df48891446ce6fb3c",
   "update_disconnected": true,
   "options": {}
 }
