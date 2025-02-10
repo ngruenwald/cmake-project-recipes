@@ -7,10 +7,10 @@
     "target": "",
     "description": "A collection of C++ HTTP libraries including an easy to use HTTP server."
   },
-  "version": "2025.02.03.00",
+  "version": "2025.02.10.00",
   "method": "fetch_content",
   "url": "https://github.com/facebook/proxygen/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=34754eca50cf50afb474f7707971534e2519383fd3fe6b885f906728a7a41716",
+  "url_hash": "SHA256=162fc7e866e9ae3774a357a05efa23c5e2825b3365a76374bfa5487681c40a35",
   "update_disconnected": true,
   "options": {}
 }
