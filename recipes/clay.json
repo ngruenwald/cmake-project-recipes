@@ -3,16 +3,19 @@
     "source": "https://github.com/nicbarker/clay",
     "package": "nicbarker/clay",
     "tag_filter": "",
-    "date": "2024-12-23",
+    "date": "2025-02-12T00:09:29Z",
     "target": "clay",
     "description": "High performance UI layout library in C."
   },
-  "version": "0.12",
+  "version": "0.13",
   "method": "fetch_content",
   "url": "https://github.com/nicbarker/clay/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=b36f19352635edeb6d770fe77fab267982d9f206beb541849578de9f0aaff825",
+  "url_hash": "SHA256=d76f44e70caab0fdc7309baf619ba931995e29a05e52cdbb2f9c4ff52a0f46d9",
   "update_disconnected": true,
   "targets": [
-    { "target": "clay::clay", "include-dir": "@CMAKE_BINARY_DIR@/_deps/clay-src" }
+    {
+      "target": "clay::clay",
+      "include-dir": "@CMAKE_BINARY_DIR@/_deps/clay-src"
+    }
   ]
 }
