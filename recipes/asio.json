@@ -9,7 +9,7 @@
   },
   "version": "1-32-0",
   "method": "fetch_content",
-  "url": "https://github.com/chriskohlhoff/asio/archive/refs/tags/v{{version}}.zip",
+  "url": "https://github.com/chriskohlhoff/asio/archive/refs/tags/asio-{{version}}.zip",
   "url_hash": "SHA256=0c0e3c36eef00a0a2b4e2410c174131bc8397422fd19835ff5cb9c170bb55f92",
   "update_disconnected": true,
   "options": {}
