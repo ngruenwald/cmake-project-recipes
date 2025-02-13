@@ -39,7 +39,7 @@
 | cpr | 1.11.1 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2024-11-24T06:30:07Z |
 | cr | master | cr.h: A Simple C Hot Reload Header-only Library | [fungos/cr](https://github.com/fungos/cr) |  |
 | crow | 1.2.1.1 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2025-02-10T13:32:37Z |
-| curl | 8_12_0 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2025-02-05T06:42:54Z |
+| curl | 8_12_1 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2025-02-13T07:11:06Z |
 | cxxopts | 3.2.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2024-02-20T08:39:34Z |
 | date | 3.0.3 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2024-10-20T18:14:05Z |
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
@@ -52,7 +52,7 @@
 | fizz | 2025.02.10.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2025-01-30T17:33:57Z |
 | fkYAML | 0.4.2 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2025-01-25T14:54:42Z |
 | fmt | 11.1.3 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-01-25T18:08:57Z |
-| fmtlog | 2.2.2 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2024-05-31T08:32:23Z |
+| fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
 | ftxui | 5.0.0 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2023-08-19T13:46:36Z |
 | fundus | main | Snippets and pieces of code | [ngruenwald/fundus](https://github.com/ngruenwald/fundus) |  |
@@ -88,7 +88,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.5 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-11-12T17:19:24Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4702 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-02-13T00:02:38Z |
+| llama.cpp | 4710 | LLM inference in C/C++ | [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp) | 2025-02-13T17:05:04Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |

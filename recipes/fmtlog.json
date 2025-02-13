@@ -3,14 +3,14 @@
     "source": "https://github.com/mengrao/fmtlog",
     "package": "mengrao/fmtlog",
     "tag_filter": "",
-    "date": "2024-05-31T08:32:23Z",
+    "date": "2025-02-13T06:03:41Z",
     "target": "",
     "description": "fmtlog is a performant fmtlib-style logging library with latency in nanoseconds."
   },
-  "version": "2.2.2",
+  "version": "2.3.0",
   "method": "fetch_content",
   "url": "https://github.com/mengrao/fmtlog/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=41391ef3d24a42b960fcd43f4a24e16e126fb00f971e86441c45be10c1baaec5",
+  "url_hash": "SHA256=e7c8b4db16bdab16ab317b05b601f111535726f4cab8b9e13d557a066d673223",
   "update_disconnected": true,
   "options": {}
 }
