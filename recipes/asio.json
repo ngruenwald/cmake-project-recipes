@@ -4,7 +4,7 @@
     "package": "chriskohlhoff/asio",
     "tag_filter": "",
     "date": "2024-08-15T13:07:45Z",
-    "target": "",
+    "target": "asio::asio",
     "description": "Asio C++ Library"
   },
   "version": "1-32-0",
@@ -12,5 +12,15 @@
   "url": "https://github.com/chriskohlhoff/asio/archive/refs/tags/asio-{{version}}.zip",
   "url_hash": "SHA256=0c0e3c36eef00a0a2b4e2410c174131bc8397422fd19835ff5cb9c170bb55f92",
   "update_disconnected": true,
-  "options": {}
+  "options": {},
+  "targets": [
+    {
+      "target": "asio::asio",
+      "include-dir": "@CMAKE_BINARY_DIR@/_deps/asio-src/asio/include",
+      "definitions": [
+        "ASIO_STANDALONE",
+        "ASIO_HAS_STD_CHRONO"
+      ]
+    }
+  ]
 }
