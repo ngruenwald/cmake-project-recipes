@@ -2,16 +2,14 @@
   "meta": {
     "source": "https://github.com/pistacheio/pistache",
     "package": "pistacheio/pistache",
-    "tag_filter": "",
-    "note": "we use specific commits, the above filter excludes (old) tags",
-    "date": "",
+    "date": "2024-12-23T01:52:28Z",
     "target": "pistache_static",
     "description": "A high-performance REST toolkit written in C++"
   },
-  "version": "#de6a7041ecaecf31802c060c908821e15a1a2b33",
+  "version": "0.4.26",
   "method": "fetch_content",
-  "url": "https://github.com/pistacheio/pistache/archive/{{version}}.zip",
-  "url_hash": "",
+  "url": "https://github.com/pistacheio/pistache/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=0f719071f0d9ea153849145ab0155fb423ea40b9614794b57e58642f941b256c",
   "update_disconnected": true,
   "options": {
     "BUILD_SHARED_LIBS": "OFF",
