@@ -86,9 +86,9 @@
 | libsoundio | 2.0.1-7 | C library for cross-platform real-time audio input and output | [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) | 2024-04-11T05:08:26Z |
 | libvault | 0.62.0 | A C++ library for Hashicorp Vault | [abedra/libvault](https://github.com/abedra/libvault) | 2025-01-25T19:43:17Z |
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
-| libxml2 | 2.13.5 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2024-11-12T17:19:24Z |
+| libxml2 | 2.13.6 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-02-18T13:24:01Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4735 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-02-17T13:03:24Z |
+| llama.cpp | 4738 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-02-18T13:21:41Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -122,7 +122,7 @@
 | raygui | 4.0 | A simple and easy-to-use immediate-mode gui library | [raysan5/raygui](https://github.com/raysan5/raygui) | 2023-09-12 |
 | raylib | 4.5.0 | A simple and easy-to-use library to enjoy videogames programming | [raysan5/raylib](https://github.com/raysan5/raylib) | 2023-03-18T16:37:04Z |
 | raylib-cpp | 5.5.0 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2024-11-18T23:25:31Z |
-| re | 3.19.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-01-15T10:54:00Z |
+| re | 3.20.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-02-18T08:47:24Z |
 | readerwriterqueue | 1.0.6 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2021-08-14T20:41:41Z |
 | resiprocate | 1.13.1 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2025-01-16T16:26:55Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
@@ -134,7 +134,7 @@
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.15.1 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-02-01T11:08:54Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
-| sqlite | 3.49.0 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2025-02-06T11:55:18Z |
+| sqlite | 3.49.1 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2025-02-18T13:38:58Z |
 | sqlitecpp | 3.3.2 | SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper. | [srombauts/sqlitecpp](https://github.com/srombauts/sqlitecpp) | 2024-08-16T19:43:55Z |
 | sqlpp11 | 0.64 | A type safe SQL template library for C++ | [rbock/sqlpp11](https://github.com/rbock/sqlpp11) | 2023-10-03T07:45:21Z |
 | stable-diffusion.cpp | master | Stable Diffusion and Flux in pure C/C++ | [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) |  |
