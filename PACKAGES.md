@@ -161,4 +161,4 @@
 | xxhr | 1.0.2 | intuitive c++ http client library  | [nxxm/xxhr](https://github.com/nxxm/xxhr) | 2021-08-26T08:14:57Z |
 | yaml-cpp | 0.8.0 | A YAML parser and emitter in C++ | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 2023-08-10T19:27:56Z |
 | zlib | 1.3.1 | A massively spiffy yet delicately unobtrusive compression library. | [madler/zlib](https://github.com/madler/zlib) | 2024-01-22T18:14:31Z |
-| zstd | 1.5.6 | Zstandard - Fast real-time compression algorithm | [facebook/zstd](https://github.com/facebook/zstd) | 2024-03-21T22:05:51Z |
+| zstd | 1.5.7 | Zstandard - Fast real-time compression algorithm | [facebook/zstd](https://github.com/facebook/zstd) | 2025-02-19T00:04:24Z |
