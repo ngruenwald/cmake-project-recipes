@@ -3,7 +3,7 @@
 | Name | Version | Description | Project | Updated |
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
-| StringZilla | 3.11.3 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2024-12-26T19:44:19Z |
+| StringZilla | 3.12.0 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2025-02-23T16:32:25Z |
 | abseil-cpp | 20250127.rc1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-01-28T14:42:46Z |
 | ada | 3.1.0 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-02-11T14:47:50Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
@@ -36,7 +36,7 @@
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.2 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2024-10-18T16:55:13Z |
 | cppq | master | Simple, reliable & efficient distributed task queue for C++17 | [jafarlihi/cppq](https://github.com/jafarlihi/cppq) |  |
-| cpr | 1.11.1 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2024-11-24T06:30:07Z |
+| cpr | 1.11.2 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2025-02-23T10:51:40Z |
 | cr | master | cr.h: A Simple C Hot Reload Header-only Library | [fungos/cr](https://github.com/fungos/cr) |  |
 | crow | 1.2.1.2 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2025-02-20T17:47:52Z |
 | curl | 8_12_1 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2025-02-13T07:11:06Z |
@@ -88,7 +88,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.6 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-02-18T13:24:01Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4762 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-02-22T21:39:24Z |
+| llama.cpp | 4763 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-02-23T13:14:32Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
