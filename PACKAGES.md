@@ -5,7 +5,7 @@
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
 | StringZilla | 3.12.0 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2025-02-23T16:32:25Z |
 | abseil-cpp | 20250127.rc1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-01-28T14:42:46Z |
-| ada | 3.1.1 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-02-24T01:08:55Z |
+| ada | 3.1.2 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-02-25T18:07:39Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
 | asio | 1-32-0 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2024-08-15T13:07:45Z |
 | backward-cpp | 1.6 | A beautiful stack trace pretty printer for C++ | [bombela/backward-cpp](https://github.com/bombela/backward-cpp) | 2021-08-12T22:49:08Z |
