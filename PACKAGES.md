@@ -99,7 +99,7 @@
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
 | nameof | 0.10.4 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2024-01-31T14:26:52Z |
 | nanomsg | 1.2.1 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2024-02-03T22:45:24Z |
-| nats.c | 3.9.3 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2025-02-28T13:26:51Z |
+| nats.c | 3.10.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2025-02-28T18:42:12Z |
 | nghttp2 | 1.64.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2024-10-21T10:07:52Z |
 | nng | 1.10.1 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2025-01-26T16:38:16Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
