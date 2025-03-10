@@ -77,7 +77,7 @@
 | jrtplib | 3.11.2 | RTP Library | [j0r1/jrtplib](https://github.com/j0r1/jrtplib) | 2020-04-18T09:44:45Z |
 | json | 3.11.3 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2023-11-28T21:36:31Z |
 | jsoncons | 1.3.0 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) | 2025-03-05T15:08:17Z |
-| jwt-cpp | 0.7.0 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2023-12-10T22:50:22Z |
+| jwt-cpp | 0.7.1 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2025-03-10T05:00:21Z |
 | libarchive | 3.7.7 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2024-10-13T08:09:33Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
 | libgit2 | 1.9.0 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2024-12-28T12:01:25Z |

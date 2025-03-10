@@ -3,14 +3,14 @@
     "source": "https://github.com/thalhammer/jwt-cpp",
     "package": "thalhammer/jwt-cpp",
     "tag_filter": "",
-    "date": "2023-12-10T22:50:22Z",
+    "date": "2025-03-10T05:00:21Z",
     "target": "",
     "description": "A header only library for creating and validating json web tokens in c++"
   },
-  "version": "0.7.0",
+  "version": "0.7.1",
   "method": "fetch_content",
   "url": "https://github.com/thalhammer/jwt-cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=ca13596fa37477a1c0801a792aff9dcf3a3f4612a3c02f8c26c7a821a3ed68da",
+  "url_hash": "SHA256=73592935b361a669c01402abc5f8624b917eb20733cecdd41fd91c1a150393b6",
   "update_disconnected": true,
   "options": {}
 }
