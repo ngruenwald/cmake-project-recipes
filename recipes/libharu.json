@@ -3,14 +3,14 @@
     "source": "https://github.com/libharu/libharu",
     "package": "libharu/libharu",
     "tag_filter": "",
-    "date": "2023-09-18T19:47:01Z",
+    "date": "2025-03-11T14:13:06Z",
     "target": "",
     "description": "libharu - free PDF library"
   },
-  "version": "2.4.4",
+  "version": "2.4.5",
   "method": "fetch_content",
   "url": "https://github.com/libharu/libharu/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=4a4eda43baff5c34a248d3316a1e5a8c7a66db01f08eafd0cf8c0117db540345",
+  "url_hash": "SHA256=35a532d8fd62cd1e4091f94ba45973fa17919b7ff4a11e9f7e111449f83b3598",
   "update_disconnected": true,
   "options": {}
 }
