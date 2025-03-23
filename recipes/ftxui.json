@@ -3,14 +3,14 @@
     "source": "https://github.com/ArthurSonzogni/FTXUI",
     "package": "arthursonzogni/ftxui",
     "tag_filter": "",
-    "date": "2023-08-19T13:46:36Z",
+    "date": "2025-03-23T17:19:05Z",
     "target": "ftxui::component, ftxui::dom, ftxui::screen",
     "description": "C++ Functional Terminal User Interface."
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "method": "fetch_content",
   "url": "https://github.com/ArthurSonzogni/FTXUI/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=b0e507ab05062ed29a9a092096ee61487f95e65266216d836df9a7c3207eb706",
+  "url_hash": "SHA256=1ba924cd6b5a2e4e3b217daa0997816b0cf30227f055e5eb241f5b3c6b7ad3d0",
   "update_disconnected": true,
   "options": {
     "FTXUI_QUIET": "ON",

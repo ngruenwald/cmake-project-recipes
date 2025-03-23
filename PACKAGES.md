@@ -54,7 +54,7 @@
 | fmt | 11.1.4 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-02-26T18:14:28Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
-| ftxui | 5.0.0 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2023-08-19T13:46:36Z |
+| ftxui | 6.0.0 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2025-03-23T17:19:05Z |
 | fundus | main | Snippets and pieces of code | [ngruenwald/fundus](https://github.com/ngruenwald/fundus) |  |
 | g3log | 2.4 | G3log is an asynchronous, "crash safe", logger that is easy to use with default logging sinks or you can add your own. | [kjellkod/g3log](https://github.com/kjellkod/g3log) | 2023-12-07T03:14:22Z |
 | gflags | 2.2.2 | The gflags package contains a C++ library that implements commandline flags processing. | [gflags/gflags](https://github.com/gflags/gflags) | 2018-11-11T21:21:00Z |
