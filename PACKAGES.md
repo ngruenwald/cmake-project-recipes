@@ -10,7 +10,7 @@
 | asio | 1-34-0 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2024-12-04T12:42:25Z |
 | backward-cpp | 1.6 | A beautiful stack trace pretty printer for C++ | [bombela/backward-cpp](https://github.com/bombela/backward-cpp) | 2021-08-12T22:49:08Z |
 | barkeep | 0.1.5 | Small C++ header to display async animations, counters, and progress bars | [oir/barkeep](https://github.com/oir/barkeep) | 2025-01-05T22:24:11Z |
-| benchmark | 1.9.1 | A microbenchmark support library | [google/benchmark](https://github.com/google/benchmark) | 2024-11-28T16:51:38Z |
+| benchmark | 1.9.2 | A microbenchmark support library | [google/benchmark](https://github.com/google/benchmark) | 2025-03-25T09:17:34Z |
 | blackhole | 1.9.0 | Yet another logging library. | [3hren/blackhole](https://github.com/3hren/blackhole) | 2017-09-12T12:23:26Z |
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
 | box2d | 3.0.0 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2023-03-18T16:37:04Z |
@@ -88,7 +88,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.13.6 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-02-18T13:24:01Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4951 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-03-24T16:20:47Z |
+| llama.cpp | 4958 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-03-25T17:46:11Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -155,7 +155,7 @@
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
 | whisper.cpp | 1.7.4 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2025-01-06T13:13:48Z |
-| wil | 1.0.240803.1 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2024-08-02T21:14:08Z |
+| wil | 1.0.250325.1 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2025-03-24T16:45:18Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
 | xxhash | 0.8.3 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2024-12-29T20:58:19Z |
 | xxhr | 1.0.2 | intuitive c++ http client library  | [nxxm/xxhr](https://github.com/nxxm/xxhr) | 2021-08-26T08:14:57Z |
