@@ -54,7 +54,7 @@
 | fmt | 11.1.4 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-02-26T18:14:28Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
-| ftxui | 6.0.0 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2025-03-23T17:19:05Z |
+| ftxui | 6.0.1 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2025-03-28T11:08:59Z |
 | fundus | main | Snippets and pieces of code | [ngruenwald/fundus](https://github.com/ngruenwald/fundus) |  |
 | g3log | 2.4 | G3log is an asynchronous, "crash safe", logger that is easy to use with default logging sinks or you can add your own. | [kjellkod/g3log](https://github.com/kjellkod/g3log) | 2023-12-07T03:14:22Z |
 | gflags | 2.2.2 | The gflags package contains a C++ library that implements commandline flags processing. | [gflags/gflags](https://github.com/gflags/gflags) | 2018-11-11T21:21:00Z |
@@ -88,7 +88,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.14.0 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-03-27T14:17:22Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4980 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-03-27T22:41:04Z |
+| llama.cpp | 4984 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-03-28T08:05:44Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -129,7 +129,7 @@
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |
 | sfml | 3.0.0 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2024-12-20T09:41:37Z |
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
-| simdjson | 3.12.2 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-02-14T21:12:28Z |
+| simdjson | 3.12.3 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-03-28T15:26:19Z |
 | sobjectizer | 5.8.4 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2025-01-11T07:18:20Z |
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.15.1 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-02-01T11:08:54Z |
