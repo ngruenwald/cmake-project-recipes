@@ -88,7 +88,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.14.0 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-03-27T14:17:22Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 4988 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-03-28T21:13:02Z |
+| llama.cpp | 4990 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-03-29T10:04:58Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -132,7 +132,7 @@
 | simdjson | 3.12.3 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-03-28T15:26:19Z |
 | sobjectizer | 5.8.4 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2025-01-11T07:18:20Z |
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
-| spdlog | 1.15.1 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-02-01T11:08:54Z |
+| spdlog | 1.15.2 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-03-29T11:01:07Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
 | sqlite | 3.49.1 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2025-02-18T13:38:58Z |
 | sqlitecpp | 3.3.2 | SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper. | [srombauts/sqlitecpp](https://github.com/srombauts/sqlitecpp) | 2024-08-16T19:43:55Z |
