@@ -3,14 +3,14 @@
     "source": "https://github.com/curl/curl",
     "package": "curl/curl",
     "tag_filter": "^curl-\\d+_\\d+_\\d+$",
-    "date": "2025-02-13T07:11:06Z",
+    "date": "2025-04-02T05:46:30Z",
     "target": "",
     "description": "A command line tool and library for transferring data with URL syntax..."
   },
-  "version": "8_12_1",
+  "version": "8_13_0",
   "method": "fetch_content",
   "url": "https://github.com/curl/curl/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=12ede9811e86a69b59e9096c86abf051f14b3ad6c090d5a22b3fb58da1c403cd",
+  "url_hash": "SHA256=7650d53e041e800800157d7373a760fc0f43a6a5c3cc3bace7a35c101bf6e494",
   "update_disconnected": true,
   "options": {}
 }
