@@ -3,14 +3,14 @@
     "source": "https://github.com/GNOME/libxml2",
     "package": "gnome/libxml2",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-03-27T14:17:22Z",
+    "date": "2025-04-03T13:22:09Z",
     "target": "",
     "description": "XML parser and toolkit"
   },
-  "version": "2.14.0",
+  "version": "2.14.1",
   "method": "fetch_content",
   "url": "https://github.com/GNOME/libxml2/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=7aec033cb4a9bdc798dc9c89986760becf867ad180074d0712199a2c197c7fbd",
+  "url_hash": "SHA256=c6219ada99bc750b1ae2ba06d70d08054b5f3f08eebebfd48ddbcbb4800133fd",
   "update_disconnected": true,
   "options": {
     "BUILD_SHARED_LIBS": "OFF"
