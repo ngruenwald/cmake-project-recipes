@@ -3,14 +3,14 @@
     "source": "https://github.com/google/mediapipe",
     "package": "google/mediapipe",
     "tag_filter": "",
-    "date": "2025-03-10T12:18:13Z",
+    "date": "2025-04-03T19:21:01Z",
     "target": "",
     "description": "Cross-platform, customizable ML solutions for live and streaming media."
   },
-  "version": "0.10.22",
+  "version": "0.10.23",
   "method": "fetch_content",
   "url": "https://github.com/google/mediapipe/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=d1313e5bcf376aaebe633e0fba07bf85233e5939654c2cf57c624b2ee7929686",
+  "url_hash": "SHA256=25e784c3b9606d5eef1b2bf0aa1320a14be538a7bbb982cbc9b051bbe73f351c",
   "update_disconnected": true,
   "options": {}
 }
