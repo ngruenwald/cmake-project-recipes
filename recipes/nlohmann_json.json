@@ -3,14 +3,14 @@
     "source": "https://github.com/nlohmann/json",
     "package": "nlohmann/json",
     "tag_filter": "",
-    "date": "2023-11-28T21:36:31Z",
+    "date": "2025-04-11T08:42:28Z",
     "target": "nlohmann_json::nlohmann_json",
     "description": "JSON for Modern C++"
   },
-  "version": "3.11.3",
+  "version": "3.12.0",
   "method": "fetch_content",
   "url": "https://github.com/nlohmann/json/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=04022b05d806eb5ff73023c280b68697d12b93e1b7267a0b22a1a39ec7578069",
+  "url_hash": "SHA256=34660b5e9a407195d55e8da705ed26cc6d175ce5a6b1fb957e701fb4d5b04022",
   "update_disconnected": true,
   "options": {
     "JSON_BuildTests": "OFF",
