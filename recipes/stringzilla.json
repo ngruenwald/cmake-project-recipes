@@ -3,14 +3,14 @@
     "source": "https://github.com/ashvardanian/StringZilla",
     "package": "ashvardanian/StringZilla",
     "tag_filter": "",
-    "date": "2025-04-12T16:11:28Z",
+    "date": "2025-04-18T20:43:29Z",
     "target": "",
     "description": "Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc \ud83e\udd96"
   },
-  "version": "3.12.4",
+  "version": "3.12.5",
   "method": "fetch_content",
   "url": "https://github.com/ashvardanian/StringZilla/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=30923854883677cd24ebb12455266edc04209615af5a71172efbefc96c551edf",
+  "url_hash": "SHA256=253bda531d7ff74025a8ce64a7997d7e3623be0d91431bab6e66fff43394ebb8",
   "update_disconnected": true,
   "options": {
     "STRINGZILLA_IS_MAIN_PROJECT": "OFF",
