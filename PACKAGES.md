@@ -5,7 +5,7 @@
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
 | StringZilla | 3.12.5 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2025-04-18T20:43:29Z |
 | abseil-cpp | 20250127.1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-03-18T18:24:52Z |
-| ada | 3.2.3 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-04-25T00:04:09Z |
+| ada | 3.2.4 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-04-28T16:16:36Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
 | asio | 1-34-2 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2025-04-10T22:07:07Z |
 | backward-cpp | 1.6 | A beautiful stack trace pretty printer for C++ | [bombela/backward-cpp](https://github.com/bombela/backward-cpp) | 2021-08-12T22:49:08Z |
@@ -43,13 +43,13 @@
 | cxxopts | 3.2.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2024-02-20T08:39:34Z |
 | date | 3.0.3 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2024-10-20T18:14:05Z |
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
-| doctest | 2.4.11 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2023-03-15T12:35:29Z |
+| doctest | 2.4.12 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2025-04-28T12:14:46Z |
 | dotenv-cpp | #432def2f | A utility to load environment variables from a .env file | [laserpants/dotenv-cpp](https://github.com/laserpants/dotenv-cpp) |  |
 | drogon | 1.9.10 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2025-02-20T13:04:37Z |
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.1.0 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2025-03-21T12:04:51Z |
-| fizz | 2025.04.21.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2025-04-20T16:37:05Z |
+| fizz | 2025.04.28.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2025-04-27T16:32:54Z |
 | fkYAML | 0.4.2 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2025-01-25T14:54:42Z |
 | fmt | 11.1.4 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-02-26T18:14:28Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
@@ -88,7 +88,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.14.2 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-04-17T11:03:57Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 5200 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-04-27T21:48:26Z |
+| llama.cpp | 5205 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-04-28T08:57:19Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -116,7 +116,7 @@
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | prometheus-cpp | 1.3.0 | Prometheus Client Library for Modern C++ | [jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) | 2024-11-03 |
 | protobuf | 6.30.2 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2025-03-26T15:20:57Z |
-| proxygen | 2025.04.21.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2025-04-20T16:38:13Z |
+| proxygen | 2025.04.28.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2025-04-28T01:56:48Z |
 | pugixml | 1.15 | Light-weight, simple and fast XML parser for C++ with XPath support | [zeux/pugixml](https://github.com/zeux/pugixml) | 2025-01-10T18:15:31Z |
 | rang | 3.2 | A Minimal, Header only Modern c++ library for terminal goodies | [agauniyal/rang](https://github.com/agauniyal/rang) | 2021-07-30T14:22:25Z |
 | rapidjson | 1.1.0 | A fast JSON parser/generator for C++ with both SAX/DOM style API | [tencent/rapidjson](https://github.com/tencent/rapidjson) | 2016-08-25T07:59:05Z |
@@ -124,7 +124,7 @@
 | raylib | 4.5.0 | A simple and easy-to-use library to enjoy videogames programming | [raysan5/raylib](https://github.com/raysan5/raylib) | 2023-03-18T16:37:04Z |
 | raylib-cpp | 5.5.0 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2024-11-18T23:25:31Z |
 | re | 3.21.1 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-04-04T14:54:58Z |
-| readerwriterqueue | 1.0.6 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2021-08-14T20:41:41Z |
+| readerwriterqueue | 1.0.7 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2025-04-28T05:04:29Z |
 | resiprocate | 1.13.1 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2025-01-16T16:26:55Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |

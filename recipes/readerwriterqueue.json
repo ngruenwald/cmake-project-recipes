@@ -3,14 +3,14 @@
     "source": "https://github.com/cameron314/readerwriterqueue",
     "package": "cameron314/readerwriterqueue",
     "tag_filter": "",
-    "date": "2021-08-14T20:41:41Z",
+    "date": "2025-04-28T05:04:29Z",
     "target": "",
     "description": "A fast single-producer, single-consumer lock-free queue for C++"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "method": "fetch_content",
   "url": "https://github.com/cameron314/readerwriterqueue/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=253ae10bb6dd28da2bb7e7538b9d010bfd1914fcafff758e6d50ea5a475afcfa",
+  "url_hash": "SHA256=ab5535466d0379963e5944a85ad3cd08c033006ddff0380cbb79d5c2a80f43db",
   "update_disconnected": true,
   "options": {}
 }
