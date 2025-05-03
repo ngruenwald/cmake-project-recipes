@@ -28,7 +28,7 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.20.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2025-03-17T01:24:53Z |
+| cpp-httplib | 0.20.1 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2025-05-03T12:24:22Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
 | cpp-peglib | 1.9.1 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2024-11-16T19:27:16Z |
@@ -88,13 +88,13 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.14.2 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-04-17T11:03:57Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 5261 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-05-02T10:44:24Z |
+| llama.cpp | 5269 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-05-02T18:27:13Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
 | mediapipe | 0.10.23 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2025-04-03T19:21:01Z |
-| memory | 0.7-3 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2023-01-11T11:39:00Z |
+| memory | 0.7-4 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2025-05-02T21:37:14Z |
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
 | nameof | 0.10.4 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2024-01-31T14:26:52Z |

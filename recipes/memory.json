@@ -3,14 +3,14 @@
     "source": "https://github.com/foonathan/memory",
     "package": "foonathan/memory",
     "tag_filter": "",
-    "date": "2023-01-11T11:39:00Z",
+    "date": "2025-05-02T21:37:14Z",
     "target": "",
     "description": "STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write."
   },
-  "version": "0.7-3",
+  "version": "0.7-4",
   "method": "fetch_content",
   "url": "https://github.com/foonathan/memory/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=55f870f623999743578bb14444c3bd08d65a6966b5798744b379de9f90f070da",
+  "url_hash": "SHA256=a34fef2b2043f4b86b50c17ee6677ea731b6d5881751eeac7f6156be631b9ed0",
   "update_disconnected": true,
   "options": {}
 }
