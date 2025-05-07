@@ -3,14 +3,14 @@
     "source": "https://github.com/google/benchmark",
     "package": "google/benchmark",
     "tag_filter": "",
-    "date": "2025-03-25T09:17:34Z",
+    "date": "2025-05-07T08:39:33Z",
     "target": "",
     "description": "A microbenchmark support library"
   },
-  "version": "1.9.2",
+  "version": "1.9.3",
   "method": "fetch_content",
   "url": "https://github.com/google/benchmark/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=a13cdcd3b0e3725e371f977a2855fecd651fc0236c67da16e325b726057b15b4",
+  "url_hash": "SHA256=ba944d96e4d3ecaa84487dc26a81c43db1728734cf80123e847a370f7e4bf281",
   "update_disconnected": true,
   "options": {}
 }
