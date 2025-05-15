@@ -3,14 +3,14 @@
     "source": "https://github.com/resiprocate/resiprocate",
     "package": "resiprocate/resiprocate",
     "tag_filter": "^resiprocate-\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-01-16T16:26:55Z",
+    "date": "2025-05-14T16:56:08Z",
     "target": "argparse::argparse",
     "description": "C++ implementation of SIP, ICE, TURN and related protocols."
   },
-  "version": "1.13.1",
+  "version": "1.13.2",
   "method": "fetch_content",
   "url": "https://github.com/resiprocate/resiprocate/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=679f18d2b4643fdac22c099f038656d4ea83aeb3c2a3a0642655f87cf9b9f5e4",
+  "url_hash": "SHA256=bcce06791237ad12408f58b50e95f0cc91f6ea6febdc05467d3e05d6f01abe70",
   "update_disconnected": true,
   "options": {
     "WITH_C_ARES": "FALSE",
