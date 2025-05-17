@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "source": "https://github.com/bw-hro/sqlitemap",
+    "package": "bw-hro/sqlitemap",
+    "tag_filter": "",
+    "date": "2025-05-05",
+    "target": "sqlitemap",
+    "description": "sqlitemap is a lightweight C++ wrapper around SQLite that provides a simple, map-like interface."
+  },
+  "version": "1.10.0",
+  "method": "fetch_content",
+  "url": "https://github.com/bw-hro/sqlitemap/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=1a43e0799f95c79fd2633bff1f158fbab99dbd934222fb284e45f34e784faf96",
+  "update_disconnected": true,
+  "options": {
+    "SM_BUILD_EXAMPLES": "OFF",
+    "SM_BUILD_TESTS": "OFF",
+    "SM_ENABLE_COVERAGE": "OFF"
+  }
+}
