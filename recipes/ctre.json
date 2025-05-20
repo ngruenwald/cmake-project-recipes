@@ -3,18 +3,18 @@
     "source": "https://github.com/hanickadot/compile-time-regular-expressions",
     "package": "hanickadot/compile-time-regular-expressions",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2024-05-16",
+    "date": "2025-05-20T05:57:30Z",
     "target": "ctre::ctre",
     "description": "Compile Time Regular Expression in C++"
   },
-  "version": "3.9.0",
+  "version": "3.10.0",
   "method": "fetch_content",
   "url": "https://github.com/hanickadot/compile-time-regular-expressions/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "55778712968d4f3ad00e9d20fc4d2149d14d96b4ff3dab086613797cd2ccd2b2",
+  "url_hash": "SHA256=23585680a282658abe3557cf112d79edddb5fdfd8947f450b279fe63940a1fa7",
   "update_disconnected": true,
   "options": {
-      "CTRE_BUILD_TESTS": "OFF",
-      "CTRE_BUILD_PACKAGE": "OFF",
-      "CTRE_MODULE": "OFF"
+    "CTRE_BUILD_TESTS": "OFF",
+    "CTRE_BUILD_PACKAGE": "OFF",
+    "CTRE_MODULE": "OFF"
   }
 }

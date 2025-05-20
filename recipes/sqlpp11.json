@@ -3,14 +3,14 @@
     "source": "https://github.com/rbock/sqlpp11",
     "package": "rbock/sqlpp11",
     "tag_filter": "",
-    "date": "2023-10-03T07:45:21Z",
+    "date": "2025-04-04T05:33:24Z",
     "target": "",
     "description": "A type safe SQL template library for C++"
   },
-  "version": "0.64",
+  "version": "0.65",
   "method": "fetch_content",
   "url": "https://github.com/rbock/sqlpp11/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=afb0fb1833ee463994d87a7c86ef944850b60786b98ba35a879c41c37d6c1768",
+  "url_hash": "SHA256=6f90aa06f8bf059306092111e18620ce52097ec428b4fd4c99d8a910fefa07a1",
   "update_disconnected": true,
   "options": {}
 }

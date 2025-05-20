@@ -21,7 +21,7 @@
 | cli | 2.2.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2024-10-25T21:38:32Z |
 | clipp | 1.2.3 | easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation | [muellan/clipp](https://github.com/muellan/clipp) | 2019-04-27T10:12:25Z |
 | cmake-modules | main | CMake modules | [ngruenwald/cmake-modules](https://github.com/ngruenwald/cmake-modules) |  |
-| compile-time-regular-expressions | 3.9.0 | Compile Time Regular Expression in C++ | [hanickadot/compile-time-regular-expressions](https://github.com/hanickadot/compile-time-regular-expressions) | 2024-05-16 |
+| compile-time-regular-expressions | 3.10.0 | Compile Time Regular Expression in C++ | [hanickadot/compile-time-regular-expressions](https://github.com/hanickadot/compile-time-regular-expressions) | 2025-05-20T05:57:30Z |
 | concurrentqueue | 1.0.4 | A fast multi-producer, multi-consumer lock-free concurrent queue for C++11 | [cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) | 2023-06-10T23:21:27Z |
 | config | 1.0.1 | config library | [ngruenwald/config](https://github.com/ngruenwald/config) |  |
 | config-cpp | master | C++ Configuration management library inspired by the Viper package for golang. | [cjlove/config-cpp](https://github.com/cjlove/config-cpp) |  |
@@ -78,7 +78,7 @@
 | json | 3.12.0 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2025-04-11T08:42:28Z |
 | jsoncons | 1.3.2 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) | 2025-04-13T18:34:49Z |
 | jwt-cpp | 0.7.1 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2025-03-10T05:00:21Z |
-| libarchive | 3.7.9 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2025-03-30T19:19:12Z |
+| libarchive | 3.8.0 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2025-05-20T08:35:37Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
 | libgit2 | 1.9.0 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2024-12-28T12:01:25Z |
 | libharu | 2.4.5 | libharu - free PDF library | [libharu/libharu](https://github.com/libharu/libharu) | 2025-03-11T14:13:06Z |
@@ -88,12 +88,12 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.14.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-05-13T14:30:39Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 5427 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-05-20T00:54:43Z |
+| llama.cpp | 5437 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-05-20T16:55:30Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
-| mediapipe | 0.10.23 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2025-04-03T19:21:01Z |
+| mediapipe | 0.10.24 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2025-05-16T20:33:58Z |
 | memory | 0.7-4 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2025-05-02T21:37:14Z |
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
@@ -138,7 +138,7 @@
 | sqlite | 3.49.2 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2025-05-07T10:39:52Z |
 | sqlitecpp | 3.3.2 | SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper. | [srombauts/sqlitecpp](https://github.com/srombauts/sqlitecpp) | 2024-08-16T19:43:55Z |
 | sqlitemap | 1.10.0 | sqlitemap is a lightweight C++ wrapper around SQLite that provides a simple, map-like interface. | [bw-hro/sqlitemap](https://github.com/bw-hro/sqlitemap) | 2025-05-05 |
-| sqlpp11 | 0.64 | A type safe SQL template library for C++ | [rbock/sqlpp11](https://github.com/rbock/sqlpp11) | 2023-10-03T07:45:21Z |
+| sqlpp11 | 0.65 | A type safe SQL template library for C++ | [rbock/sqlpp11](https://github.com/rbock/sqlpp11) | 2025-04-04T05:33:24Z |
 | stable-diffusion.cpp | master | Stable Diffusion and Flux in pure C/C++ | [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) |  |
 | stb | master | stb single-file public domain libraries for C/C++ | [nothings/stb](https://github.com/nothings/stb) |  |
 | strtk | master | C++ String Toolkit Library | [arashpartow/strtk](https://github.com/ArashPartow/strtk) |  |
