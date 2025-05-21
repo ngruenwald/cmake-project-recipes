@@ -3,14 +3,14 @@
     "source": "https://github.com/srombauts/sqlitecpp",
     "package": "srombauts/sqlitecpp",
     "tag_filter": "",
-    "date": "2024-08-16T19:43:55Z",
+    "date": "2025-05-20T20:42:37Z",
     "target": "",
     "description": "SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper."
   },
-  "version": "3.3.2",
+  "version": "3.3.3",
   "method": "fetch_content",
   "url": "https://github.com/srombauts/sqlitecpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=1f41ef7322da573fdfca95655bd1329282638b4d9d3dc16a48f4bad16008eda8",
+  "url_hash": "SHA256=5af6691760ceba4c8110258ace1c3f68a8c481197f75dc45ffab179019faf2b5",
   "update_disconnected": true,
   "options": {}
 }
