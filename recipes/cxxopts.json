@@ -3,14 +3,14 @@
     "source": "https://github.com/jarro2783/cxxopts",
     "package": "jarro2783/cxxopts",
     "tag_filter": "",
-    "date": "2025-05-23T07:46:26Z",
+    "date": "2025-05-26T08:09:26Z",
     "target": "cxxopts::cxxopts",
     "description": "Lightweight C++ command line option parser"
   },
-  "version": "3.3.0",
+  "version": "3.3.1",
   "method": "fetch_content",
   "url": "https://github.com/jarro2783/cxxopts/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=cfe5a14d342f2c0dd5036710cc5d58ab8afb8104dcf3e69fabd023c0190747c1",
+  "url_hash": "SHA256=f35f27daa5f6fab84e4fffd02fc171cae085b14647e19687357394c1fe90ce6a",
   "update_disconnected": true,
   "options": {
     "CXXOPTS_BUILD_EXAMPLES": "OFF",
