@@ -10,7 +10,7 @@
   "version": "0.20.1",
   "method": "fetch_content",
   "url": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=4015175c311247404064e7d3d78cf21d6b950b66034de22c726ad788263a8512",
+  "url_hash": "SHA256=b74b1c2c150be2841eba80192f64d93e9a6711985b3ae8aaa1a9cec4863d1dd9",
   "update_disconnected": true,
   "options": {
     "HTTPLIB_COMPILE": "ON",
