@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "https://github.com/iboB/dynamix",
+    "package": "iboB/dynamix",
+    "tag_filter": "",
+    "date": "2025-04-28",
+    "target": "dynamix::dynamix",
+    "description": "A new take on polymorphism"
+  },
+  "version": "2.0.3",
+  "method": "fetch_content",
+  "url": "https://github.com/iboB/dynamix/archive/refs/tags/v{{version}}.tar.gz",
+  "url_hash": "SHA256=e7f45a540a6c1e93fef7e6f3ecaa17dce9823d14e3b93b1fbcec17573bc69024",
+  "update_disconnected": true,
+  "options": {
+    "BUILD_SHARED_LIBS": "OFF",
+    "DYNAMIX_STATIC": "ON"
+  }
+}
