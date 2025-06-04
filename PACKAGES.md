@@ -13,7 +13,7 @@
 | benchmark | 1.9.4 | A microbenchmark support library | [google/benchmark](https://github.com/google/benchmark) | 2025-05-19T15:45:45Z |
 | blackhole | 1.9.0 | Yet another logging library. | [3hren/blackhole](https://github.com/3hren/blackhole) | 2017-09-12T12:23:26Z |
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
-| box2d | 3.1.0 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2025-04-20T04:12:49Z |
+| box2d | 3.1.1 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2025-06-04T00:50:24Z |
 | brotli | 1.1.0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2023-08-29T10:59:55Z |
 | catch2 | 3.8.1 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2025-04-08T18:33:47Z |
 | ckdl | 1.0 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2024-12-21T19:24:59Z |

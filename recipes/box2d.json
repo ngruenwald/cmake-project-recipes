@@ -3,14 +3,14 @@
     "source": "https://github.com/erincatto/box2d",
     "package": "erincatto/box2d",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-04-20T04:12:49Z",
+    "date": "2025-06-04T00:50:24Z",
     "target": "",
     "description": "Box2D is a 2D physics engine for games"
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "method": "fetch_content",
   "url": "https://github.com/erincatto/box2d/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=a48e434033d93b392a58c8664ef18eecd9f20f5ee0f584970dd04107ef88d376",
+  "url_hash": "SHA256=7c88bef902a118a2933c21027918fea455237a1310e5422daf4640d22ba9a446",
   "update_disconnected": true,
   "options": {
     "BUILD_SHARED_LIBS": "OFF",
