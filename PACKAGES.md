@@ -39,7 +39,7 @@
 | cpr | 1.11.2 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2025-02-23T10:51:40Z |
 | cr | master | cr.h: A Simple C Hot Reload Header-only Library | [fungos/cr](https://github.com/fungos/cr) |  |
 | crow | 1.2.1.2 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2025-02-20T17:47:52Z |
-| curl | 8_14_0 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2025-05-28T05:40:54Z |
+| curl | 8_14_1 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2025-06-04T05:40:18Z |
 | cxxopts | 3.3.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2025-05-26T08:09:26Z |
 | date | 3.0.4 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2025-05-28T17:53:02Z |
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
@@ -89,7 +89,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.14.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-05-13T14:30:39Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 5581 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-06-02T23:54:58Z |
+| llama.cpp | 5589 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-06-04T15:58:20Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -124,14 +124,14 @@
 | raygui | 4.0 | A simple and easy-to-use immediate-mode gui library | [raysan5/raygui](https://github.com/raysan5/raygui) | 2023-09-12 |
 | raylib | 4.5.0 | A simple and easy-to-use library to enjoy videogames programming | [raysan5/raylib](https://github.com/raysan5/raylib) | 2023-03-18T16:37:04Z |
 | raylib-cpp | 5.5.0 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2024-11-18T23:25:31Z |
-| re | 3.22.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-04-30T11:55:02Z |
+| re | 3.23.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-06-04T07:14:36Z |
 | readerwriterqueue | 1.0.7 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2025-04-28T05:04:29Z |
 | resiprocate | 1.13.2 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2025-05-14T16:56:08Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |
 | sfml | 3.0.1 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2025-04-19T20:27:49Z |
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
-| simdjson | 3.12.3 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-03-28T15:26:19Z |
+| simdjson | 3.13.0 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-06-04T04:46:03Z |
 | sobjectizer | 5.8.4 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2025-01-11T07:18:20Z |
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.15.3 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-05-09T05:55:57Z |
@@ -153,7 +153,7 @@
 | transwarp | 2.2.3 | A header-only C++ library for task concurrency | [bloomen/transwarp](https://github.com/bloomen/transwarp) | 2022-06-24T10:57:36Z |
 | uWebSockets | 20.74.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2025-02-21T15:16:20Z |
 | url | 1.13.0 | A C++ library that implements the WhatWG URL specification | [cpp-netlib/url](https://github.com/cpp-netlib/url) | 2020-09-11T18:42:01Z |
-| userver | 2.9 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2025-05-13T09:51:42Z |
+| userver | 2.10 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2025-06-03T15:08:42Z |
 | utfcpp | 4.0.6 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2024-11-03T18:03:52Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
