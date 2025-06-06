@@ -17,7 +17,7 @@
 | brotli | 1.1.0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2023-08-29T10:59:55Z |
 | catch2 | 3.8.1 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2025-04-08T18:33:47Z |
 | ckdl | 1.0 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2024-12-21T19:24:59Z |
-| clay | 0.13 | High performance UI layout library in C. | [nicbarker/clay](https://github.com/nicbarker/clay) | 2025-02-12T00:09:29Z |
+| clay | 0.14 | High performance UI layout library in C. | [nicbarker/clay](https://github.com/nicbarker/clay) | 2025-06-06T01:01:42Z |
 | cli | 2.2.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2024-10-25T21:38:32Z |
 | clipp | 1.2.3 | easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation | [muellan/clipp](https://github.com/muellan/clipp) | 2019-04-27T10:12:25Z |
 | cmake-modules | main | CMake modules | [ngruenwald/cmake-modules](https://github.com/ngruenwald/cmake-modules) |  |
