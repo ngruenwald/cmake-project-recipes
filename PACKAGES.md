@@ -81,7 +81,7 @@
 | jwt-cpp | 0.7.1 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2025-03-10T05:00:21Z |
 | libarchive | 3.8.1 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2025-06-01T19:26:44Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
-| libgit2 | 1.9.0 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2024-12-28T12:01:25Z |
+| libgit2 | 1.9.1 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2025-06-06T16:26:15Z |
 | libharu | 2.4.5 | libharu - free PDF library | [libharu/libharu](https://github.com/libharu/libharu) | 2025-03-11T14:13:06Z |
 | libsndfile | 1.2.2 | A C library for reading and writing sound files containing sampled audio data. | [erikd/libsndfile](https://github.com/erikd/libsndfile) | 2023-08-13T08:53:51Z |
 | libsoundio | 2.0.1-7 | C library for cross-platform real-time audio input and output | [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) | 2024-04-11T05:08:26Z |
