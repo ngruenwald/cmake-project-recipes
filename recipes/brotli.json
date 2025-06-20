@@ -2,15 +2,15 @@
   "meta": {
     "source": "https://github.com/google/brotli",
     "package": "google/brotli",
-    "tag_filter": "",
-    "date": "2025-06-12T15:47:30Z",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "date": "2023-08-12",
     "target": "",
     "description": "Brotli compression format"
   },
-  "version": "1.1.0.bcr.1",
+  "version": "1.1.0",
   "method": "fetch_content",
   "url": "https://github.com/google/brotli/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=92549fdfcc1df4631b53384cf266eeb5919829ddeb2c65e0626e67cbcbcdba77",
+  "url_hash": "SHA256=cc8509f07bf42512b96cd4f78d1ca9ef346e1514bcf4ab7218c49a5fa6ac2db3",
   "update_disconnected": true,
   "options": {}
 }
