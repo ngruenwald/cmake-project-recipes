@@ -3,14 +3,14 @@
     "source": "https://github.com/drogonframework/drogon",
     "package": "drogonframework/drogon",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-02-20T13:04:37Z",
+    "date": "2025-06-20T08:51:27Z",
     "target": "",
     "description": "Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows"
   },
-  "version": "1.9.10",
+  "version": "1.9.11",
   "method": "fetch_content",
   "url": "https://github.com/drogonframework/drogon/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=0672154e92d8b55ceb0426a3c65c161b391ce24d6a3da23a03160f8ac4f5909a",
+  "url_hash": "SHA256=11b207e64b6680386a8ad45a2549e47df0214d75021f85bb59ea63f7021be194",
   "update_disconnected": true,
   "options": {}
 }

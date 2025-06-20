@@ -14,7 +14,7 @@
 | blackhole | 1.9.0 | Yet another logging library. | [3hren/blackhole](https://github.com/3hren/blackhole) | 2017-09-12T12:23:26Z |
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
 | box2d | 3.1.1 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2025-06-04T00:50:24Z |
-| brotli | 1.1.1-rc0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2025-06-18T14:46:14Z |
+| brotli | 1.1.0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2023-08-12 |
 | catch2 | 3.8.1 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2025-04-08T18:33:47Z |
 | ckdl | 1.0 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2024-12-21T19:24:59Z |
 | clay | 0.14 | High performance UI layout library in C. | [nicbarker/clay](https://github.com/nicbarker/clay) | 2025-06-06T01:01:42Z |
@@ -45,7 +45,7 @@
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
 | doctest | 2.4.12 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2025-04-28T12:14:46Z |
 | dotenv-cpp | #432def2f | A utility to load environment variables from a .env file | [laserpants/dotenv-cpp](https://github.com/laserpants/dotenv-cpp) |  |
-| drogon | 1.9.10 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2025-02-20T13:04:37Z |
+| drogon | 1.9.11 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2025-06-20T08:51:27Z |
 | dynamix | 2.0.3 | A new take on polymorphism | [iboB/dynamix](https://github.com/iboB/dynamix) | 2025-04-28 |
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
@@ -89,7 +89,7 @@
 | libwebm | 1.0.0.31 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2023-10-26T17:44:02Z |
 | libxml2 | 2.14.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-06-16T16:55:43Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 5712 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-06-20T01:50:24Z |
+| llama.cpp | 5723 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-06-20T14:48:24Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
