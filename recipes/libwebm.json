@@ -3,14 +3,14 @@
     "source": "https://github.com/webmproject/libwebm",
     "package": "webmproject/libwebm",
     "tag_filter": "",
-    "date": "2023-10-26T17:44:02Z",
+    "date": "2025-06-24T22:17:16Z",
     "target": "",
     "description": "WebM File Parser"
   },
-  "version": "1.0.0.31",
+  "version": "1.0.0.32",
   "method": "fetch_content",
   "url": "https://github.com/webmproject/libwebm/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=4d26c064a513b5c355d36004aa318f8bee029769d6ca60e3ed3bcf33bfabed6f",
+  "url_hash": "SHA256=8f6503acd1607e85780d902e9cdb4a5ba5e30034c954b884734932d854838151",
   "update_disconnected": true,
   "options": {}
 }
