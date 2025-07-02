@@ -89,7 +89,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.14.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-06-16T16:55:43Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 5797 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-07-01T15:04:08Z |
+| llama.cpp | 5808 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-07-02T12:34:24Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -107,7 +107,7 @@
 | oatpp | 1.3.1 | Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable. | [oatpp/oatpp](https://github.com/oatpp/oatpp) | 2024-02-05T03:51:38Z |
 | ollama-hpp | 0.9.6 | Modern, Header-only C++ bindings for the Ollama API. | [jmont-dev/ollama-hpp](https://github.com/jmont-dev/ollama-hpp) | 2025-06-22T01:48:21Z |
 | openai-cpp | 0.1.3 | OpenAI C++ is a community-maintained library for the Open AI API | [olrea/openai-cpp](https://github.com/olrea/openai-cpp) | 2024-07-20T14:17:38Z |
-| opencv | 4.11.0 | Open Source Computer Vision Library | [opencv/opencv](https://github.com/opencv/opencv) | 2025-01-04T15:01:55Z |
+| opencv | 4.12.0 | Open Source Computer Vision Library | [opencv/opencv](https://github.com/opencv/opencv) | 2025-07-01T07:02:50Z |
 | openssl | 3.5.1 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2025-07-01T11:52:08Z |
 | opentelemetry-cpp | 1.21.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2025-05-29T09:30:28Z |
 | opus | 1.5.2 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2024-04-10T20:38:50Z |
