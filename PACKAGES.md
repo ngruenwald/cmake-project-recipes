@@ -69,7 +69,7 @@
 | hiredis | 1.3.0 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2025-04-23T11:10:29Z |
 | hyperscan | 5.4.2 | High-performance regular expression matching library | [intel/hyperscan](https://github.com/intel/hyperscan) | 2023-04-19T09:34:39Z |
 | hypodermic | 2.5.3 | Hypodermic is an IoC container for C++. It provides dependency injection to your existing design. | [ybainier/hypodermic](https://github.com/ybainier/hypodermic) | 2021-09-21T16:39:45Z |
-| imgui | 1.92.0 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2025-06-25T16:46:41Z |
+| imgui | 1.92.1 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2025-07-09T16:53:58Z |
 | imgui-sfml | 3.0 | Dear ImGui backend for use with SFML | [sfml/imgui-sfml](https://github.com/sfml/imgui-sfml) | 2025-01-03T18:53:12Z |
 | indicators | 2.3 | Activity Indicators for Modern C++ | [p-ranav/indicators](https://github.com/p-ranav/indicators) | 2023-02-15T15:17:27Z |
 | inih | master | Simple .INI file parser in C, good for embedded systems | [benhoyt/inih](https://github.com/benhoyt/inih) |  |
@@ -89,7 +89,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.14.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-06-16T16:55:43Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 5846 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-07-08T15:37:47Z |
+| llama.cpp | 5856 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-07-09T18:59:57Z |
 | lyra | 1.6.1 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2022-11-07T21:49:52Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -124,7 +124,7 @@
 | raygui | 4.0 | A simple and easy-to-use immediate-mode gui library | [raysan5/raygui](https://github.com/raysan5/raygui) | 2023-09-12 |
 | raylib | 4.5.0 | A simple and easy-to-use library to enjoy videogames programming | [raysan5/raylib](https://github.com/raysan5/raylib) | 2023-03-18T16:37:04Z |
 | raylib-cpp | 5.5.0 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2024-11-18T23:25:31Z |
-| re | 3.23.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-06-04T07:14:36Z |
+| re | 3.24.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-07-08T08:07:29Z |
 | readerwriterqueue | 1.0.7 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2025-04-28T05:04:29Z |
 | resiprocate | 1.13.2 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2025-05-14T16:56:08Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
