@@ -3,14 +3,14 @@
     "source": "https://github.com/sqlite/sqlite",
     "package": "sqlite/sqlite",
     "tag_filter": "",
-    "date": "2025-06-28T14:00:48Z",
+    "date": "2025-07-17T13:25:10Z",
     "target": "",
     "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine."
   },
-  "version": "3.50.2",
+  "version": "3.50.3",
   "method": "fetch_content",
   "url": "https://github.com/sqlite/sqlite/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=c62f9652877c02788f73c93efb09fdc5ed2af64554509124480aa573c2cb0f4b",
+  "url_hash": "SHA256=676fa8923b4e3113ed2ca7d1d3935b78a75e6cf0fcaa1004a4dd2f401938291d",
   "update_disconnected": true,
   "options": {}
 }
