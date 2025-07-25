@@ -15,7 +15,7 @@
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
 | box2d | 3.1.1 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2025-06-04T00:50:24Z |
 | brotli | 1.1.0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2023-08-12 |
-| catch2 | 3.8.1 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2025-04-08T18:33:47Z |
+| catch2 | 3.9.0 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2025-07-24T20:01:46Z |
 | ckdl | 1.0 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2024-12-21T19:24:59Z |
 | clay | 0.14 | High performance UI layout library in C. | [nicbarker/clay](https://github.com/nicbarker/clay) | 2025-06-06T01:01:42Z |
 | cli | 2.2.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2024-10-25T21:38:32Z |
