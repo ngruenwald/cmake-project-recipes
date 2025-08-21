@@ -3,14 +3,14 @@
     "source": "https://github.com/abseil/abseil-cpp",
     "package": "abseil/abseil-cpp",
     "tag_filter": "",
-    "date": "2025-06-17T14:48:08Z",
+    "date": "2025-08-14T19:54:55Z",
     "target": "",
     "description": "Abseil Common Libraries (C++)"
   },
-  "version": "20250812.1",
+  "version": "20250814.0",
   "method": "fetch_content",
   "url": "https://github.com/abseil/abseil-cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=65aef88da5bbdc7c59d3a87a3d320a5b7c5560397bd41ae55e46c0ea04e77ede",
+  "url_hash": "SHA256=b2bdcf6682d8cb53df365bcc5d6c318a22e55821d9978a10fdb61404c026daff",
   "update_disconnected": true,
   "options": {}
 }
