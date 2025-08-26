@@ -3,14 +3,14 @@
     "source": "https://github.com/catchorg/Catch2",
     "package": "catchorg/catch2",
     "tag_filter": "",
-    "date": "2025-08-08T22:30:23Z",
+    "date": "2025-08-25T19:27:29Z",
     "target": "Catch2::Catch2WithMain, Catch2::Catch2",
     "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later"
   },
-  "version": "3.9.1",
+  "version": "3.10.0",
   "method": "fetch_content",
   "url": "https://github.com/catchorg/Catch2/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=a27bbcf30764bfe9175db778d9250e474f7814d54f377a68b7223d2f25ed398c",
+  "url_hash": "SHA256=e128e267ac17a7af61f57f65c31923a7b494cfe443aa7493e61033677cb7a0d3",
   "update_disconnected": true,
   "options": {
     "CATCH_INSTALL_DOCS": "OFF",
