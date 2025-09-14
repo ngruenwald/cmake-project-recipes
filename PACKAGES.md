@@ -7,6 +7,7 @@
 | abseil-cpp | 20250814.0 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-08-14T19:54:55Z |
 | ada | 3.2.7 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-07-27T16:29:50Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
+| argy | 0.6.0 | Argy: Command-line parsing library for modern C++ — simple, intuitive, and header-only with no dependencies. | [mshenoda/argy](https://github.com/mshenoda/argy) | 2025-08-31T14:02:49Z |
 | asio | 1-36-0 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2025-08-16T11:44:55Z |
 | backward-cpp | 1.6 | A beautiful stack trace pretty printer for C++ | [bombela/backward-cpp](https://github.com/bombela/backward-cpp) | 2021-08-12T22:49:08Z |
 | barkeep | 0.1.5 | Small C++ header to display async animations, counters, and progress bars | [oir/barkeep](https://github.com/oir/barkeep) | 2025-01-05T22:24:11Z |
@@ -89,7 +90,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.14.6 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-09-08T14:27:06Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 6451 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-09-11T20:47:38Z |
+| llama.cpp | 6471 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-09-14T14:56:28Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
