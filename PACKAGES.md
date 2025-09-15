@@ -3,7 +3,7 @@
 | Name | Version | Description | Project | Updated |
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
-| StringZilla | 4.0.8 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2025-09-15T01:21:13Z |
+| StringZilla | 4.0.10 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2025-09-15T13:19:41Z |
 | abseil-cpp | 20250814.0 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-08-14T19:54:55Z |
 | ada | 3.2.7 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-07-27T16:29:50Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
@@ -51,7 +51,7 @@
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.1.0 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2025-03-21T12:04:51Z |
-| fizz | 2025.09.08.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2025-09-07T16:32:02Z |
+| fizz | 2025.09.15.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2025-09-13T16:31:42Z |
 | fkYAML | 0.4.2 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2025-01-25T14:54:42Z |
 | fmt | 11.2.0 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-05-03T16:36:27Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
@@ -88,9 +88,9 @@
 | libsoundio | 2.0.1-7 | C library for cross-platform real-time audio input and output | [andrewrk/libsoundio](https://github.com/andrewrk/libsoundio) | 2024-04-11T05:08:26Z |
 | libvault | 0.63.0 | A C++ library for Hashicorp Vault | [abedra/libvault](https://github.com/abedra/libvault) | 2025-06-15T13:04:06Z |
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
-| libxml2 | 2.14.6 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-09-08T14:27:06Z |
+| libxml2 | 2.15.0 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-09-15T11:34:13Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 6475 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-09-14T21:00:59Z |
+| llama.cpp | 6478 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-09-15T10:08:30Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -102,7 +102,7 @@
 | nameof | 0.10.4 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2024-01-31T14:26:52Z |
 | nanomsg | 1.2.1 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2024-02-03T22:45:24Z |
 | nats.c | 3.10.1 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2025-03-14T16:44:22Z |
-| nghttp2 | 1.67.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2025-09-02T09:39:28Z |
+| nghttp2 | 1.67.1 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2025-09-15T11:31:11Z |
 | nng | 1.10.2 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2025-06-02T14:28:46Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
 | oatpp | 1.3.1 | Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable. | [oatpp/oatpp](https://github.com/oatpp/oatpp) | 2024-02-05T03:51:38Z |
@@ -118,7 +118,7 @@
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | prometheus-cpp | 1.3.0 | Prometheus Client Library for Modern C++ | [jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) | 2024-11-03 |
 | protobuf | 6.31.1 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2025-05-28T16:52:59Z |
-| proxygen | 2025.09.08.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2025-09-07T16:33:22Z |
+| proxygen | 2025.09.15.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2025-09-14T16:32:49Z |
 | pugixml | 1.15 | Light-weight, simple and fast XML parser for C++ with XPath support | [zeux/pugixml](https://github.com/zeux/pugixml) | 2025-01-10T18:15:31Z |
 | rang | 3.2 | A Minimal, Header only Modern c++ library for terminal goodies | [agauniyal/rang](https://github.com/agauniyal/rang) | 2021-07-30T14:22:25Z |
 | rapidjson | 1.1.0 | A fast JSON parser/generator for C++ with both SAX/DOM style API | [tencent/rapidjson](https://github.com/tencent/rapidjson) | 2016-08-25T07:59:05Z |
@@ -132,7 +132,7 @@
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |
 | sfml | 3.0.1 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2025-04-19T20:27:49Z |
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
-| simdjson | 4.0.1 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-09-12T23:26:58Z |
+| simdjson | 4.0.2 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-09-15T15:17:43Z |
 | sobjectizer | 5.8.4 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2025-01-11T07:18:20Z |
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.15.3 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-05-09T05:55:57Z |

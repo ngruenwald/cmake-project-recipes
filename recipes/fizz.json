@@ -3,14 +3,14 @@
     "source": "https://github.com/facebookincubator/fizz",
     "package": "facebookincubator/fizz",
     "tag_filter": "",
-    "date": "2025-09-07T16:32:02Z",
+    "date": "2025-09-13T16:31:42Z",
     "target": "",
     "description": "C++14 implementation of the TLS-1.3 standard"
   },
-  "version": "2025.09.08.00",
+  "version": "2025.09.15.00",
   "method": "fetch_content",
   "url": "https://github.com/facebookincubator/fizz/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=7f1b6c4db6aadbf049af4020df7b49161bdd66d1632fcb60ec7a6a5fb0d7e95f",
+  "url_hash": "SHA256=bd53061e343b185d8aa307679f968b1dd69cc97b4276e60789d3f62d143bc271",
   "update_disconnected": true,
   "options": {}
 }
