@@ -3,7 +3,7 @@
 | Name | Version | Description | Project | Updated |
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
-| StringZilla | 4.0.10 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2025-09-15T13:19:41Z |
+| StringZilla | 4.0.11 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2025-09-16T21:51:13Z |
 | abseil-cpp | 20250814.0 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2025-08-14T19:54:55Z |
 | ada | 3.2.7 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2025-07-27T16:29:50Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
