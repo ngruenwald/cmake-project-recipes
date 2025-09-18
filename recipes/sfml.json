@@ -3,14 +3,14 @@
     "source": "https://github.com/sfml/sfml",
     "package": "sfml/sfml",
     "tag_filter": "^\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-04-19T20:27:49Z",
+    "date": "2025-09-17T16:10:08Z",
     "target": "",
     "description": "Simple and Fast Multimedia Library"
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "method": "fetch_content",
   "url": "https://github.com/sfml/sfml/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=8c791368c4afbcb6890d6674158f8f6e9ef3b4e96fbd4cee82f6d61f5a7e89a5",
+  "url_hash": "SHA256=3c8467414cf634c32419973b22faefcb8b30002f908b77fb658692e9a580a907",
   "update_disconnected": true,
   "options": {}
 }
