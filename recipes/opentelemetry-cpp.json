@@ -3,14 +3,14 @@
     "source": "https://github.com/open-telemetry/opentelemetry-cpp",
     "package": "open-telemetry/opentelemetry-cpp",
     "tag_filter": "",
-    "date": "2025-07-11T22:11:41Z",
+    "date": "2025-09-26T00:04:33Z",
     "target": "",
     "description": "The OpenTelemetry C++ Client"
   },
-  "version": "1.22.0",
+  "version": "1.23.0",
   "method": "fetch_content",
   "url": "https://github.com/open-telemetry/opentelemetry-cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=814e494d4fdc6361a81ae1d40a2a195bb1152b9081bc7feff14893f9ddf63fd7",
+  "url_hash": "SHA256=6fd119e728ee81fade70de93b60f7357b6896488f75e802a2ac39da1c6f3bfc8",
   "update_disconnected": true,
   "options": {
     "BUILD_SHARED_LIBS": "OFF",
