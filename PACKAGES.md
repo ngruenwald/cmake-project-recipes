@@ -109,7 +109,7 @@
 | ollama-hpp | 0.9.6 | Modern, Header-only C++ bindings for the Ollama API. | [jmont-dev/ollama-hpp](https://github.com/jmont-dev/ollama-hpp) | 2025-06-22T01:48:21Z |
 | openai-cpp | 0.1.3 | OpenAI C++ is a community-maintained library for the Open AI API | [olrea/openai-cpp](https://github.com/olrea/openai-cpp) | 2024-07-20T14:17:38Z |
 | opencv | 4.12.0 | Open Source Computer Vision Library | [opencv/opencv](https://github.com/opencv/opencv) | 2025-07-01T07:02:50Z |
-| openssl | 3.5.4 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2025-09-30T12:37:40Z |
+| openssl | 3.6.0 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2025-10-01T12:11:48Z |
 | opentelemetry-cpp | 1.23.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2025-09-26T00:04:33Z |
 | opus | 1.5.2 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2024-04-10T20:38:50Z |
 | pdfgen | 0.1.0 | Simple C PDF Writer/Generation library | [andrerenaud/pdfgen](https://github.com/andrerenaud/pdfgen) | 2021-06-07T23:02:34Z |
