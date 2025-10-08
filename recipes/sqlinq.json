@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "source": "https://github.com/piotr-maker/sqlinq",
+    "package": "piotr-maker/sqlinq",
+    "tag_filter": "",
+    "date": "2025-09-25",
+    "target": "",
+    "description": "SQLinq is a C++ library that enables easy and efficient integration with SQL databases, using a syntax similar to LINQ from C#."
+  },
+  "version": "0.2.1",
+  "method": "fetch_content",
+  "url": "https://github.com/piotr-maker/sqlinq/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=50b997e871a9805227d4b53b1a27626527855c954133cf44af077a33441d4625",
+  "update_disconnected": true,
+  "options": {
+    "SQLINQ_BUILD_TESTS": "OFF",
+    "SQLINQ_BUILD_EXAMPLES": "OFF",
+    "SQLINQ_USE_SQLITE": "ON",
+    "SQLINQ_USE_MYSQL": "ON"
+  }
+}

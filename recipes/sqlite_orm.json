@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "source": "https://github.com/fnc12/sqlite_orm",
+    "package": "fnc12/sqlite_orm",
+    "tag_filter": "",
+    "date": "2025-02-03",
+    "target": "",
+    "description": "SQLite ORM light header only library for modern C++"
+  },
+  "version": "1.9.1",
+  "method": "fetch_content",
+  "url": "https://github.com/fnc12/sqlite_orm/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=36af42642b2d4507f9abbe6f575419b9559f4b1faab8e6cf29107379782bbeac",
+  "update_disconnected": true,
+  "options": {
+    "SQLITE_ORM_ENABLE_CXX_17": "ON",
+    "BUILD_EXAMPLES": "OFF",
+    "BUILD_TESTING": "OFF"
+  }
+}
