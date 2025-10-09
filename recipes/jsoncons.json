@@ -3,14 +3,14 @@
     "source": "https://github.com/danielaparker/jsoncons",
     "package": "danielaparker/jsoncons",
     "tag_filter": "",
-    "date": "2025-09-28T20:05:34Z",
+    "date": "2025-10-09T04:25:29Z",
     "target": "jsoncons",
     "description": "A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON"
   },
-  "version": "1.4.2",
+  "version": "1.4.3",
   "method": "fetch_content",
   "url": "https://github.com/danielaparker/jsoncons/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=0ce0f2adf248daf4ac17e14ad617f10d782fb9c751c1ee4975836f1ac38bb959",
+  "url_hash": "SHA256=4ec1c87d075c91896e5fd85797501155fd40a5a31d09cb877849f1389d33f00c",
   "update_disconnected": true,
   "options": {
     "JSONCONS_BUILD_TESTS": "OFF"
