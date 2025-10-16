@@ -3,14 +3,14 @@
     "source": "https://github.com/blueloveth/pocketpy",
     "package": "blueloveth/pocketpy",
     "tag_filter": "",
-    "date": "2025-08-27T09:17:34Z",
+    "date": "2025-10-08T13:56:54Z",
     "target": "",
     "description": "Portable Python 3.x Interpreter in Modern C"
   },
-  "version": "2.1.1",
+  "version": "2.1.3",
   "method": "fetch_content",
   "url": "https://github.com/blueloveth/pocketpy/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=6bf7c2644b90b37cfa032b28b8fd4ddb4d354f5f1507eedbb4d86ba3817c3ecd",
+  "url_hash": "SHA256=94102f9777aa769446342b30960768379288bcce2974d09981d1ebdf0f1f07fb",
   "update_disconnected": true,
   "options": {}
 }

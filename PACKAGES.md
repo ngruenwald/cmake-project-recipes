@@ -80,7 +80,7 @@
 | json | 3.12.0 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2025-04-11T08:42:28Z |
 | jsoncons | 1.4.3 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) | 2025-10-09T04:25:29Z |
 | jwt-cpp | 0.7.1 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2025-03-10T05:00:21Z |
-| libarchive | 3.8.1 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2025-06-01T19:26:44Z |
+| libarchive | 3.8.2 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2025-10-15T21:36:59Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
 | libgit2 | 1.9.1 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2025-06-06T16:26:15Z |
 | libharu | 2.4.5 | libharu - free PDF library | [libharu/libharu](https://github.com/libharu/libharu) | 2025-03-11T14:13:06Z |
@@ -90,7 +90,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.0 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-09-15T11:34:13Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 6765 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-10-14T17:33:05Z |
+| llama.cpp | 6775 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-10-15T20:43:08Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -114,7 +114,7 @@
 | opus | 1.5.2 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2024-04-10T20:38:50Z |
 | pdfgen | 0.1.0 | Simple C PDF Writer/Generation library | [andrerenaud/pdfgen](https://github.com/andrerenaud/pdfgen) | 2021-06-07T23:02:34Z |
 | pistache | 0.4.26 | A high-performance REST toolkit written in C++ | [pistacheio/pistache](https://github.com/pistacheio/pistache) | 2024-12-23T01:52:28Z |
-| pocketpy | 2.1.1 | Portable Python 3.x Interpreter in Modern C | [blueloveth/pocketpy](https://github.com/blueloveth/pocketpy) | 2025-08-27T09:17:34Z |
+| pocketpy | 2.1.3 | Portable Python 3.x Interpreter in Modern C | [blueloveth/pocketpy](https://github.com/blueloveth/pocketpy) | 2025-10-08T13:56:54Z |
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | prometheus-cpp | 1.3.0 | Prometheus Client Library for Modern C++ | [jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) | 2024-11-03 |
 | protobuf | 6.31.1 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2025-05-28T16:52:59Z |
@@ -125,7 +125,7 @@
 | raygui | 4.0 | A simple and easy-to-use immediate-mode gui library | [raysan5/raygui](https://github.com/raysan5/raygui) | 2023-09-12 |
 | raylib | 4.5.0 | A simple and easy-to-use library to enjoy videogames programming | [raysan5/raylib](https://github.com/raysan5/raylib) | 2023-03-18T16:37:04Z |
 | raylib-cpp | 5.5.0 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2024-11-18T23:25:31Z |
-| re | 4.1.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-09-10T13:05:31Z |
+| re | 4.2.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2025-10-14T10:49:28Z |
 | readerwriterqueue | 1.0.7 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2025-04-28T05:04:29Z |
 | resiprocate | 1.13.2 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2025-05-14T16:56:08Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
@@ -161,7 +161,7 @@
 | utfcpp | 4.0.8 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2025-09-15T21:41:48Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
-| whisper.cpp | 1.8.1 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2025-10-12T08:17:59Z |
+| whisper.cpp | 1.8.2 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2025-10-15T07:29:42Z |
 | wil | 1.0.250325.1 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2025-03-24T16:45:18Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
 | xxhash | 0.8.3 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2024-12-29T20:58:19Z |
