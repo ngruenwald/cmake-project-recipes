@@ -74,7 +74,7 @@
 | imgui-sfml | 3.0 | Dear ImGui backend for use with SFML | [sfml/imgui-sfml](https://github.com/sfml/imgui-sfml) | 2025-01-03T18:53:12Z |
 | indicators | 2.3 | Activity Indicators for Modern C++ | [p-ranav/indicators](https://github.com/p-ranav/indicators) | 2023-02-15T15:17:27Z |
 | inih | master | Simple .INI file parser in C, good for embedded systems | [benhoyt/inih](https://github.com/benhoyt/inih) |  |
-| inja | 3.4.0 | A Template Engine for Modern C++ | [pantor/inja](https://github.com/pantor/inja) | 2023-01-29T12:10:03Z |
+| inja | 3.5.0 | A Template Engine for Modern C++ | [pantor/inja](https://github.com/pantor/inja) | 2025-10-18T14:00:03Z |
 | jinja2cpp | 1.3.2 | Jinja2 C++ (and for C++) almost full-conformance template engine implementation | [jinja2cpp/jinja2cpp](https://github.com/jinja2cpp/jinja2cpp) | 2024-06-23T19:31:22Z |
 | jrtplib | 3.11.2 | RTP Library | [j0r1/jrtplib](https://github.com/j0r1/jrtplib) | 2020-04-18T09:44:45Z |
 | json | 3.12.0 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2025-04-11T08:42:28Z |
@@ -90,7 +90,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.1 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-10-16T13:23:05Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 6789 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-10-17T12:23:47Z |
+| llama.cpp | 6795 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-10-18T12:47:32Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
