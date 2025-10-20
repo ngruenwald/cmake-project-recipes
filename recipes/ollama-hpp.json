@@ -3,14 +3,14 @@
     "source": "https://github.com/jmont-dev/ollama-hpp",
     "package": "jmont-dev/ollama-hpp",
     "tag_filter": "",
-    "date": "2025-06-22T01:48:21Z",
+    "date": "2025-10-20T04:41:36Z",
     "target": "ollama-hpp::ollama-hpp",
     "description": "Modern, Header-only C++ bindings for the Ollama API."
   },
-  "version": "0.9.6",
+  "version": "0.9.7",
   "method": "fetch_content",
   "url": "https://github.com/jmont-dev/ollama-hpp/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=d60bc3fbb655ba2c7d5cea4173c1c76df907b6f4ad3655445233f73319a31f59",
+  "url_hash": "SHA256=cf5fa5b5d37aa0346cff78c53f9549210372b45539f7bbc3042b89565cb4e85f",
   "options": {},
   "targets": [
     {
