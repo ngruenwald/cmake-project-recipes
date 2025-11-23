@@ -3,14 +3,14 @@
     "source": "https://github.com/taskflow/taskflow",
     "package": "taskflow/taskflow",
     "tag_filter": "",
-    "date": "2025-05-01T18:54:51Z",
+    "date": "2025-11-23T18:27:18Z",
     "target": "",
     "description": "A General-purpose Task-parallel Programming System using Modern C++"
   },
-  "version": "3.10.0",
+  "version": "3.11.0",
   "method": "fetch_content",
   "url": "https://github.com/taskflow/taskflow/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=cd46ff1a41be3070a7606c792c4aa836dee120c7992f31967a306eef2a1f388d",
+  "url_hash": "SHA256=cd7bea61c3c3a6ed7ba606add2f8dc9f981ddb1c36d76d8824e1ada0da63c634",
   "update_disconnected": true,
   "options": {}
 }
