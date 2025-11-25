@@ -90,7 +90,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.1 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-10-16T13:23:05Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 7142 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-11-24T11:08:11Z |
+| llama.cpp | 7151 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-11-25T01:56:07Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -101,7 +101,7 @@
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
 | nameof | 0.10.4 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2024-01-31T14:26:52Z |
 | nanomsg | 1.2.2 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2025-10-05T16:42:08Z |
-| nats.c | 3.11.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2025-09-26T17:42:42Z |
+| nats.c | 3.12.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2025-11-24T16:59:42Z |
 | nghttp2 | 1.68.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2025-10-25T08:13:35Z |
 | nng | 1.10.2 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2025-06-02T14:28:46Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |

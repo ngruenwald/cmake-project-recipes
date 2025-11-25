@@ -3,14 +3,14 @@
     "source": "https://github.com/nats-io/nats.c",
     "package": "nats-io/nats.c",
     "tag_filter": "",
-    "date": "2025-09-26T17:42:42Z",
+    "date": "2025-11-24T16:59:42Z",
     "target": "nats_static",
     "description": "A C client for NATS"
   },
-  "version": "3.11.0",
+  "version": "3.12.0",
   "method": "fetch_content",
   "url": "https://github.com/nats-io/nats.c/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=91d701a19767aabcc020007257f9f25e082b4c9117d6247d1dcc53d9b4648147",
+  "url_hash": "SHA256=8310262991a974400cece3833ce75806f918afabc5f3e6556d11f7592769205d",
   "update_disconnected": true,
   "options": {
     "NATS_UPDATE_VERSION": "OFF",
