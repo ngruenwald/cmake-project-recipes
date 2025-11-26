@@ -29,7 +29,7 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.27.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2025-10-27T23:57:53Z |
+| cpp-httplib | 0.28.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2025-11-26T02:06:51Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
 | cpp-peglib | 1.9.1 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2024-11-16T19:27:16Z |
@@ -137,7 +137,7 @@
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.16.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-10-11T12:53:05Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
-| sqlgen | 0.4.0 | sqlgen is a reflection-based ORM and SQL query generator for C++-20, similar to Python's SQLAlchemy/SQLModel or Rust's Diesel. | [getml/sqlgen](https://github.com/getml/sqlgen) | 2025-11-03T00:02:00Z |
+| sqlgen | 0.5.0 | sqlgen is a reflection-based ORM and SQL query generator for C++-20, similar to Python's SQLAlchemy/SQLModel or Rust's Diesel. | [getml/sqlgen](https://github.com/getml/sqlgen) | 2025-11-25T19:09:04Z |
 | sqlinq | 0.2.1 | SQLinq is a C++ library that enables easy and efficient integration with SQL databases, using a syntax similar to LINQ from C#. | [piotr-maker/sqlinq](https://github.com/piotr-maker/sqlinq) | 2025-09-25 |
 | sqlite | 3.51.0 | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2025-11-04T19:38:17Z |
 | sqlite_orm | 1.9.1 | SQLite ORM light header only library for modern C++ | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | 2025-02-03 |
