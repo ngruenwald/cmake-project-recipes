@@ -3,14 +3,14 @@
     "source": "https://github.com/gflags/gflags",
     "package": "gflags/gflags",
     "tag_filter": "",
-    "date": "2018-11-11T21:21:00Z",
+    "date": "2025-12-06T00:46:18Z",
     "target": "",
     "description": "The gflags package contains a C++ library that implements commandline flags processing."
   },
-  "version": "2.2.2",
+  "version": "2.3.0",
   "method": "fetch_content",
   "url": "https://github.com/gflags/gflags/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=19713a36c9f32b33df59d1c79b4958434cb005b5b47dc5400a7a4b078111d9b5",
+  "url_hash": "SHA256=ca732b5fd17bf3a27a01a6784b947cbe6323644ecc9e26bbe2117ec43bf7e13b",
   "update_disconnected": true,
   "options": {}
 }
