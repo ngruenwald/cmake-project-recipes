@@ -132,7 +132,7 @@
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |
 | sfml | 3.0.2 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2025-09-17T16:10:08Z |
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
-| simdjson | 4.2.3 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-12-12T22:51:39Z |
+| simdjson | 4.2.4 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2025-12-18T01:33:11Z |
 | sobjectizer | 5.8.5 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2025-11-15T07:24:04Z |
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.16.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2025-10-11T12:53:05Z |
