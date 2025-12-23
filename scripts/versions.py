@@ -2,15 +2,15 @@ import argparse
 import glob
 import json
 import os
-import regex
-import requests
-
 from functools import cmp_to_key
 from hashlib import sha256
 from subprocess import Popen
 from time import sleep
 
+import regex
+import requests
 
+VERBOSE: bool = False
 TOKEN: str | None = None
 SESSION: requests.Session | None = None
 
@@ -22,11 +22,15 @@ class Change:
         old_version: str,
         new_version: str,
         recipe_file: str | None,
+        info: dict,
+        file_url: str,
     ):
         self.package = package
         self.old_version = old_version
         self.new_version = new_version
         self.recipe_file = recipe_file
+        self.info = info
+        self.file_url = file_url
 
 
 def set_token(token: str | None) -> None:
@@ -38,7 +42,8 @@ def get_session() -> requests.Session:
     global SESSION
     if not SESSION:
         SESSION = requests.Session()
-        SESSION.headers = {"Authorization": f"Bearer {TOKEN}"} if TOKEN else None
+        if TOKEN:
+            SESSION.headers = {"Authorization": f"Bearer {TOKEN}"}
     return SESSION
 
 
@@ -67,31 +72,37 @@ def main() -> None:
         set_token(os.getenv("TOKEN"))
 
     recipe_files: list[str] = glob.glob(f"{args.path}/*.json")
-
-    changes: list[Change] = []
-    for recipe_file in recipe_files:
+    idxw = len(str(len(recipe_files)))
+    detected_changes: list[Change] = []
+    for idx, recipe_file in enumerate(recipe_files):
         if args.delay:
             sleep(args.delay)
-        change = update_package(recipe_file, args.force, args.yes, args.package)
-        if change:
-            changes.append(change)
+        if not VERBOSE:
+            print(f"\r{idx + 1:>{idxw}}/{len(recipe_files):>{idxw}}  ", end="")
+        detected_change = check_for_updates(recipe_file, args.package, args.force)
+        if detected_change:
+            detected_changes.append(detected_change)
+    print("\n")
+    applied_changes: list[Change] = []
+    for detected_change in detected_changes:
+        applied_change = apply_update(detected_change, args.yes)
+        if applied_change:
+            applied_changes.append(applied_change)
     if args.doc:
         create_documentation(args.doc, recipe_files)
-    if changes and args.commit:
-        create_commit(changes, args.doc)
+    if applied_changes and args.commit:
+        create_commit(applied_changes, args.doc)
 
 
 def package_name_from_recipe_file(filename: str) -> str:
     return os.path.splitext(os.path.basename(filename))[-1]
 
 
-def update_package(
+def check_for_updates(
     recipe_file: str,
-    force: bool,
-    auto_accept: bool,
     package_filter: str | None,
+    force: bool,
 ) -> Change | None:
-    # NOTE: currently we check all packages against github
     try:
         info = read_recipe_file(recipe_file)
         meta = info.get("meta", {})
@@ -102,71 +113,115 @@ def update_package(
         if package_filter and package != package_filter:
             return None
 
-        print(f"* checking {package}")
+        if VERBOSE:
+            print(f"* checking {package}")
 
-        # check url
-        url = info.get("url", "")
-        if "://github.com" not in url:
-            print("  skipping non github project")
-            return
+        try:
+            # check url
+            url = info.get("url", "")
+            if "://github.com" not in url:
+                if VERBOSE:
+                    print_check_info(package, "skipping non github project", "!")
+                return None
 
-        version = info["version"]
+            version = info["version"]
 
-        # branch names
-        if version in ["main", "master"]:
-            print("  skipping branch")
-            return None
+            # branch names
+            if version in ["main", "master"]:
+                if VERBOSE:
+                    print_check_info(package, "skipping branch", "!")
+                return None
 
-        # commits
-        # ... abit useless when processing recipes,
-        #     since the cmake code can't handle the leading '#' character
-        if version.startswith("#"):
-            print("  skipping commit")
-            return None
+            # commits
+            # ... a bit useless when processing recipes,
+            #     since the cmake code can't handle the leading '#' character
+            if version.startswith("#"):
+                if VERBOSE:
+                    print_check_info(package, "skipping commit", "!")
+                return None
 
-        tags = api_get_list(f"https://api.github.com/repos/{package}/tags")
-        tags = filter_tags(tags, meta.get("tag_filter", ""))
-        tags = sorted(tags, key=cmp_to_key(compare_tag_versions))
-        tag = tags[0]
-
-        tag_version = trim_version_string(tag["name"])
-
-        if force:
-            needs_update = True
-        else:
-            needs_update = (
-                compare_versions(parse_version(version), parse_version(tag_version)) < 0
+            tags = api_get_list(
+                f"https://api.github.com/repos/{package}/tags", max_commits=700
             )
-            if needs_update and not auto_accept:
-                needs_update = ask_user(
-                    f"  update {package} from {version} to {tag_version}?"
-                )
+            tags = filter_tags(tags, meta.get("tag_filter", ""))
+            tags = sorted(tags, key=cmp_to_key(compare_tag_versions))
 
-        if not needs_update:
-            print("  no updates")
+            if len(tags) == 0:
+                print_check_info(package, "no matching tags", "!")
+                return None
+
+            tag = tags[0]
+
+            tag_version = trim_version_string(tag["name"])
+            cmp_result = compare_versions(
+                parse_version(version), parse_version(tag_version)
+            )
+            needs_update = True if force else (cmp_result < 0)
+
+            if not needs_update:
+                if VERBOSE:
+                    print("  no updates")
+                return None
+
+            commit_sha = tag["commit"]["sha"]
+            commit = api_get(
+                f"https://api.github.com/repos/{package}/git/commits/{commit_sha}"
+            ).json()
+
+            info["version"] = tag_version
+            meta["date"] = commit["author"]["date"]
+            # info["sha256"] = get_file_hash(tag["zipball_url"])
+            file_url = (
+                f"https://github.com/{package}/archive/refs/tags/{tag['name']}.zip"
+            )
+            info["url_hash"] = ""
+
+            info["meta"] = meta
+
+            cc = "=" if cmp_result == 0 else ("+" if cmp_result < 0 else "-")
+            print_check_info(package, f"{version} -> {tag_version}", cc)
+
+            return Change(package, version, tag_version, recipe_file, info, file_url)
+
+        except Exception as error:
+            print_check_info(package, str(error), "!")
             return None
-
-        commit_sha = tag["commit"]["sha"]
-        commit = api_get(
-            f"https://api.github.com/repos/{package}/git/commits/{commit_sha}"
-        ).json()
-
-        info["version"] = tag_version
-        meta["date"] = commit["author"]["date"]
-        # info["sha256"] = get_file_hash(tag["zipball_url"])
-        file_url = f"https://github.com/{package}/archive/refs/tags/{tag['name']}.zip"
-        info["url_hash"] = f"SHA256={get_file_hash(file_url)}"
-
-        info["meta"] = meta
-        write_recipe_file(recipe_file, info)
-
-        print(f"  {version } -> {tag_version}")
-
-        return Change(package, version, tag_version, recipe_file)
 
     except Exception as error:
         print(error)
         return None
+
+
+def print_check_info(package, message: str, cc: str = " ") -> None:
+    if VERBOSE:
+        print(f"  {message}")
+    else:
+        print(f"{cc} {package}: {message}")
+
+
+def apply_update(
+    change: Change,
+    auto_accept: bool,
+) -> Change | None:
+    try:
+        if not auto_accept:
+            if not ask_user(
+                f"  update {change.package} from {change.old_version} to {change.new_version}?"
+            ):
+                return None
+
+        if not change.info.get("url_hash", ""):
+            change.info["url_hash"] = f"SHA256={get_file_hash(change.file_url)}"
+
+        if change.recipe_file:
+            write_recipe_file(change.recipe_file, change.info)
+
+        print(f"  {change.old_version} -> {change.new_version}")
+
+        return change
+
+    except Exception as error:
+        print(error)
 
 
 def read_recipe_file(name: str) -> dict:
@@ -189,7 +244,7 @@ def compare_versions(a, b) -> int:
     len_a = len(a)
     len_b = len(b)
     length = len_a if len_a < len_b else len_b
-    for idx in range(0, len(a)):
+    for idx in range(0, length):
         if a[idx] == b[idx]:
             continue
         return a[idx] - b[idx]
@@ -248,7 +303,7 @@ def api_get(url: str):
     raise Exception("no response")
 
 
-def api_get_list(url: str) -> list:
+def api_get_list(url: str, max_commits: int | None = None) -> list:
     response = api_get(url)
     data = list(response.json())
 
@@ -257,8 +312,13 @@ def api_get_list(url: str) -> list:
     except KeyError:
         next_link = None
 
+    if data and max_commits is not None:
+        max_commits -= len(data)
+        if max_commits <= 0:
+            return data
+
     if next_link:
-        sub_data = api_get_list(next_link)
+        sub_data = api_get_list(next_link, max_commits)
         data.extend(sub_data)
 
     return data
@@ -281,7 +341,7 @@ def ask_user(question: str) -> bool:
             return False
 
 
-def create_commit(changes: list[Change], docufile: str|None) -> bool:
+def create_commit(changes: list[Change], docufile: str | None) -> bool:
     commands = []
     for change in changes:
         commands.append(["git", "add", change.recipe_file])
@@ -305,7 +365,6 @@ def create_commit(changes: list[Change], docufile: str|None) -> bool:
 
 
 def create_documentation(filename: str, recipe_files: list[str]) -> None:
-
     class Info:
         def __init__(self, name, package, description, version, timestamp, url):
             self.name = name
@@ -314,7 +373,6 @@ def create_documentation(filename: str, recipe_files: list[str]) -> None:
             self.version = version
             self.timestamp = timestamp
             self.url = url
-
 
     infos: list[Info] = []
     for recipe_file in recipe_files:
@@ -340,7 +398,9 @@ def create_documentation(filename: str, recipe_files: list[str]) -> None:
         file.write("| Name | Version | Description | Project | Updated |\n")
         file.write("|------|---------|-------------|---------|---------|\n")
         for info in infos:
-            file.write(f"| {info.name} | {info.version} | {info.description} | [{info.package}]({info.url}) | {info.timestamp} |\n")
+            file.write(
+                f"| {info.name} | {info.version} | {info.description} | [{info.package}]({info.url}) | {info.timestamp} |\n"
+            )
 
 
 if __name__ == "__main__":
