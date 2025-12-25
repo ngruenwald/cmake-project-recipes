@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "source": "https://github.com/Mbed-TLS/mbedtls",
+    "package": "Mbed-TLS/mbedtls",
+    "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
+    "date": "2025-10-13T15:50:50Z",
+    "target": "",
+    "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API."
+  },
+  "version": "4.0.0",
+  "method": "fetch_content",
+  "url": "https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=415efd7a5f1ef82afcf1c27a9323668256cdf1ac948348295f8ab4e82bff7159",
+  "update_disconnected": true,
+  "options": {
+    "ENABLE_PROGRAMS": "OFF",
+    "MBEDTLS_FATAL_WARNINGS": "ON",
+    "DISABLE_PACKAGE_CONFIG_AND_INSTALL": "ON",
+    "ENABLE_TESTING": "OFF",
+    "USE_STATIC_MBEDTLS_LIBRARY": "ON",
+    "USE_SHARED_MBEDTLS_LIBRARY": "OFF",
+    "LINK_WITH_PTHREAD": "OFF",
+    "LINK_WITH_TRUSTED_STORAGE": "OFF"
+  }
+}
