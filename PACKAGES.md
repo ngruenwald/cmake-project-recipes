@@ -16,7 +16,7 @@
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
 | box2d | 3.1.1 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2025-06-04T00:50:24Z |
 | brotli | 1.2.0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2025-10-27T13:07:14Z |
-| catch2 | 3.11.0 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2025-09-30T08:54:31Z |
+| catch2 | 3.12.0 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2025-12-28T21:31:54Z |
 | ckdl | 1.0 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2024-12-21T19:24:59Z |
 | clay | 0.14 | High performance UI layout library in C. | [nicbarker/clay](https://github.com/nicbarker/clay) | 2025-06-06T01:01:42Z |
 | cli | 2.2.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2024-10-25T21:38:32Z |
@@ -90,7 +90,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.1 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-10-16T13:23:05Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 7562 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-12-28T12:53:36Z |
+| llama.cpp | 7564 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2025-12-28T19:12:55Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -159,7 +159,7 @@
 | uWebSockets | 20.74.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2025-02-21T15:16:20Z |
 | url | 1.13.0 | A C++ library that implements the WhatWG URL specification | [cpp-netlib/url](https://github.com/cpp-netlib/url) | 2020-09-11T18:42:01Z |
 | userver | 2.14 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2025-12-23T18:57:07Z |
-| utfcpp | 4.0.8 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2025-09-15T21:41:48Z |
+| utfcpp | 4.09 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2025-12-28T22:26:42Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
 | whisper.cpp | 1.8.2 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2025-10-15T07:29:42Z |

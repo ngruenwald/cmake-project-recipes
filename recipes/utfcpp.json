@@ -3,14 +3,14 @@
     "source": "https://github.com/nemtrif/utfcpp",
     "package": "nemtrif/utfcpp",
     "tag_filter": "",
-    "date": "2025-09-15T21:41:48Z",
+    "date": "2025-12-28T22:26:42Z",
     "target": "",
     "description": "UTF-8 with C++ in a Portable Way"
   },
-  "version": "4.0.8",
+  "version": "4.09",
   "method": "fetch_content",
   "url": "https://github.com/nemtrif/utfcpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=68027919ce05c5289e87b1842a92473ff675a5c8cf98d3677baad0b4a21dad8a",
+  "url_hash": "SHA256=f5adca017a53e208b573c4cac4c0216465fb94e944094af66fca46c0fd8754cd",
   "update_disconnected": true,
   "options": {}
 }
