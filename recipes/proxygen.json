@@ -3,14 +3,14 @@
     "source": "https://github.com/facebook/proxygen",
     "package": "facebook/proxygen",
     "tag_filter": "",
-    "date": "2025-12-21T17:31:15Z",
+    "date": "2025-12-26T17:32:35Z",
     "target": "",
     "description": "A collection of C++ HTTP libraries including an easy to use HTTP server."
   },
-  "version": "2025.12.22.00",
+  "version": "2025.12.29.00",
   "method": "fetch_content",
   "url": "https://github.com/facebook/proxygen/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=d54d741e05debe4ab2000c32284b58bbdabf0d6bda1bd4727fb3b1f5e1786fb5",
+  "url_hash": "SHA256=e6a6907efc2072151c9acbf97f072e2c427021a0f144b1a569a20672a5338467",
   "update_disconnected": true,
   "options": {}
 }
