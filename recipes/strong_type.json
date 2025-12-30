@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "source": "https://github.com/rollbear/strong_type",
+    "package": "rollbear/strong_type",
+    "tag_filter": "^v\\d+$",
+    "date": "2024-07-07T20:23:50Z",
+    "target": "strong_type::strong_type",
+    "description": "An additive strong typedef library for C++14/17/20"
+  },
+  "version": "15",
+  "method": "fetch_content",
+  "url": "https://github.com/rollbear/strong_type/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=94364cfd916d17ddcbecf76d74866def8fed9eb3e2df2aa9ae7bbcd3eff80a87",
+  "update_disconnected": true,
+  "options": {
+    "STRONG_TYPE_UNIT_TEST": "OFF"
+  }
+}

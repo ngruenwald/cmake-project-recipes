@@ -100,6 +100,7 @@
 | memory | 0.7-4 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2025-05-02T21:37:14Z |
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
+| mp-units | 2.5.0 | The quantities and units library for C++ | [mpusz/mp-units](https://github.com/mpusz/mp-units) | 2025-12-24T14:50:11Z |
 | nameof | 0.10.4 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2024-01-31T14:26:52Z |
 | nanomsg | 1.2.2 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2025-10-05T16:42:08Z |
 | nats.c | 3.12.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2025-11-24T16:59:42Z |
@@ -147,6 +148,7 @@
 | sqlpp11 | 0.65 | A type safe SQL template library for C++ | [rbock/sqlpp11](https://github.com/rbock/sqlpp11) | 2025-04-04T05:33:24Z |
 | stable-diffusion.cpp | master | Stable Diffusion and Flux in pure C/C++ | [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) |  |
 | stb | master | stb single-file public domain libraries for C/C++ | [nothings/stb](https://github.com/nothings/stb) |  |
+| strong_type | 15 | An additive strong typedef library for C++14/17/20 | [rollbear/strong_type](https://github.com/rollbear/strong_type) | 2024-07-07T20:23:50Z |
 | strtk | master | C++ String Toolkit Library | [arashpartow/strtk](https://github.com/ArashPartow/strtk) |  |
 | tabulate | 1.5 | Table Maker for Modern C++ | [p-ranav/tabulate](https://github.com/p-ranav/tabulate) | 2023-02-20T14:40:03Z |
 | taskflow | 3.11.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2025-11-23T18:27:18Z |
