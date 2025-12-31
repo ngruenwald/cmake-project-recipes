@@ -3,14 +3,14 @@
     "source": "https://github.com/opencv/opencv",
     "package": "opencv/opencv",
     "tag_filter": "^\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-07-01T07:02:50Z",
+    "date": "2025-12-30T07:52:05Z",
     "target": "",
     "description": "Open Source Computer Vision Library"
   },
-  "version": "4.12.0",
+  "version": "4.13.0",
   "method": "fetch_content",
   "url": "https://github.com/opencv/opencv/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=fa3faf7581f1fa943c9e670cf57dd6ba1c5b4178f363a188a2c8bff1eb28b7e4",
+  "url_hash": "SHA256=431cb489d275da26526581c6735d7d7c0b00f190fe940b3217d386b77aef52c7",
   "update_disconnected": true,
   "options": {}
 }
