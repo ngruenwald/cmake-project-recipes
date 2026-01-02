@@ -3,14 +3,14 @@
     "source": "https://github.com/cpp-netlib/url",
     "package": "cpp-netlib/url",
     "tag_filter": "",
-    "date": "2020-09-11T18:42:01Z",
+    "date": "2025-12-31T19:29:09Z",
     "target": "",
     "description": "A C++ library that implements the WhatWG URL specification"
   },
-  "version": "1.13.0",
+  "version": "3.0.0",
   "method": "fetch_content",
   "url": "https://github.com/cpp-netlib/url/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=360b595cffa2116b17052cf9035e177969de6c4601b56da094d758b89bdb5801",
+  "url_hash": "SHA256=64d747bd49d09c4b2cc376510a893ce5b62390b2558b205824adea99e7b2f780",
   "update_disconnected": true,
   "options": {}
 }
