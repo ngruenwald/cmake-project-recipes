@@ -51,7 +51,7 @@
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.1.0 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2025-03-21T12:04:51Z |
-| fizz | 2025.12.29.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2025-12-24T17:31:23Z |
+| fizz | 2026.01.05.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2026-01-04T17:31:29Z |
 | fkYAML | 0.4.2 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2025-01-25T14:54:42Z |
 | fmt | 12.1.0 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-10-29T14:40:27Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
@@ -80,7 +80,7 @@
 | json | 3.12.0 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2025-04-11T08:42:28Z |
 | jsoncons | 1.5.0 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) | 2025-12-02T10:00:19Z |
 | jwt-cpp | 0.7.1 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2025-03-10T05:00:21Z |
-| libarchive | 3.8.4 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2025-12-01T12:39:19Z |
+| libarchive | 3.8.5 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2026-01-05T09:49:24Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
 | libgit2 | 1.9.2 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2025-12-02T21:51:10Z |
 | libharu | 2.4.5 | libharu - free PDF library | [libharu/libharu](https://github.com/libharu/libharu) | 2025-03-11T14:13:06Z |
@@ -90,7 +90,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.1 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-10-16T13:23:05Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 7628 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-01-05T01:18:33Z |
+| llama.cpp | 7635 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-01-05T13:12:05Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -120,7 +120,7 @@
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | prometheus-cpp | 1.3.0 | Prometheus Client Library for Modern C++ | [jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) | 2024-11-03 |
 | protobuf | 6.31.1 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2025-05-28T16:52:59Z |
-| proxygen | 2025.12.29.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2025-12-26T17:32:35Z |
+| proxygen | 2026.01.05.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2026-01-04T17:31:29Z |
 | pugixml | 1.15 | Light-weight, simple and fast XML parser for C++ with XPath support | [zeux/pugixml](https://github.com/zeux/pugixml) | 2025-01-10T18:15:31Z |
 | rang | 3.2 | A Minimal, Header only Modern c++ library for terminal goodies | [agauniyal/rang](https://github.com/agauniyal/rang) | 2021-07-30T14:22:25Z |
 | rapidjson | 1.1.0 | A fast JSON parser/generator for C++ with both SAX/DOM style API | [tencent/rapidjson](https://github.com/tencent/rapidjson) | 2016-08-25T07:59:05Z |
