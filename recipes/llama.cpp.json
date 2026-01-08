@@ -3,14 +3,14 @@
     "source": "https://github.com/ggml-org/llama.cpp",
     "package": "ggml-org/llama.cpp",
     "tag_filter": "^b\\d+$",
-    "date": "2026-01-07T15:18:26Z",
+    "date": "2026-01-07T21:35:34Z",
     "target": "",
     "description": "LLM inference in C/C++"
   },
-  "version": "7662",
+  "version": "7666",
   "method": "fetch_content",
   "url": "https://github.com/ggml-org/llama.cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=1dd7f5474559cc3102f91e06be21d44ded581471a28e191ef4d7fab53c60a35d",
+  "url_hash": "SHA256=636755c81cf4e640638dcaaefb89cf05e97ba93ab7894e07cbfbfe5a0f6e563e",
   "update_disconnected": true,
   "options": {}
 }
