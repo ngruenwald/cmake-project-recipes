@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "source": "https://github.com/pinwhell/wspp",
+    "package": "pinwhell/wspp",
+    "tag_filter": "",
+    "date": "2026-01-10T01:25:29Z",
+    "target": "wspp::wspp",
+    "description": "Modern, Async, Non-Blocking, zero-dependency C++20 RFC 6455 Compliant WebSocket client & server, cross-platform, single-header, WS/WSS support."
+  },
+  "version": "0.1.0",
+  "method": "fetch_content",
+  "url": "https://github.com/pinwhell/wspp/archive/refs/tags/{{version}}.zip",
+  "url_hash": "SHA256=77aeb65852010abe56dd002abfc03667e39f0a91afc4c56e406c6f156c25a368",
+  "update_disconnected": true,
+  "options": {
+    "WSPP_USE_OPENSSL": "ON",
+    "WSPP_INSTALL": "OFF",
+    "WSPP_BUILD_TESTS": "OFF",
+    "WSPP_BUILD_EXAMPLES": "OFF",
+    "WSPP_BUILD_PLAYGROUND": "OFF"
+  }
+}
