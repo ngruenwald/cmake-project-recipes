@@ -90,7 +90,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.1 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-10-16T13:23:05Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 7739 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-01-15T02:44:54Z |
+| llama.cpp | 7744 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-01-15T09:31:18Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -113,7 +113,7 @@
 | opencv | 4.13.0 | Open Source Computer Vision Library | [opencv/opencv](https://github.com/opencv/opencv) | 2025-12-30T07:52:05Z |
 | openssl | 3.6.0 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2025-10-01T12:11:48Z |
 | opentelemetry-cpp | 1.24.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2025-11-21T10:26:29Z |
-| opus | 1.6 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2025-12-15T19:37:13Z |
+| opus | 1.6.1 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2026-01-13T20:16:34Z |
 | pdfgen | 0.1.0 | Simple C PDF Writer/Generation library | [andrerenaud/pdfgen](https://github.com/andrerenaud/pdfgen) | 2021-06-07T23:02:34Z |
 | pistache | 0.4.26 | A high-performance REST toolkit written in C++ | [pistacheio/pistache](https://github.com/pistacheio/pistache) | 2024-12-23T01:52:28Z |
 | pocketpy | 2.1.6 | Portable Python 3.x Interpreter in Modern C | [blueloveth/pocketpy](https://github.com/blueloveth/pocketpy) | 2025-12-25T09:47:31Z |
@@ -164,7 +164,7 @@
 | utfcpp | 4.09 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2025-12-28T22:26:42Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
-| whisper.cpp | 1.8.2 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2025-10-15T07:29:42Z |
+| whisper.cpp | 1.8.3 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2026-01-15T09:54:31Z |
 | wil | 1.0.250325.1 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2025-03-24T16:45:18Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
 | wspp | 0.1.0 | Modern, Async, Non-Blocking, zero-dependency C++20 RFC 6455 Compliant WebSocket client & server, cross-platform, single-header, WS/WSS support. | [pinwhell/wspp](https://github.com/pinwhell/wspp) | 2026-01-10T01:25:29Z |
