@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "source": "https://github.com/tzcnt/TooManyCooks",
+    "package": "tzcnt/TooManyCooks",
+    "tag_filter": "",
+    "date": "2026-01-12T04:31:15Z",
+    "target": "tzcnt::tmc",
+    "description": "C++20 concurrency framework with no compromises. Excellent performance, powerful features, and simple syntax."
+  },
+  "version": "1.3.1",
+  "method": "fetch_content",
+  "url": "https://github.com/tzcnt/TooManyCooks/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=ea2de4e8bd3c7fdbde7dab3125db270939f0769f217ef1bfb77e2b92026d23fb",
+  "update_disconnected": true,
+  "update_command": [
+    ""
+  ],
+  "configure_command": [
+    ""
+  ],
+  "build_command": [
+    ""
+  ],
+  "install_command": [
+    ""
+  ],
+  "test_command": [
+    ""
+  ],
+  "targets": [
+    {
+      "target": "tzcnt::tmc",
+      "include-dir": "@CMAKE_BINARY_DIR@/_deps/TooManyCooks-src/include"
+    }
+  ]
+}
