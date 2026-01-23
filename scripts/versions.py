@@ -24,6 +24,7 @@ class Change:
         recipe_file: str | None,
         info: dict,
         file_url: str,
+        auto_accept: bool
     ):
         self.package = package
         self.old_version = old_version
@@ -31,6 +32,7 @@ class Change:
         self.recipe_file = recipe_file
         self.info = info
         self.file_url = file_url
+        self.auto_accept = auto_accept
 
 
 def set_token(token: str | None) -> None:
@@ -85,7 +87,8 @@ def main() -> None:
     print("\n")
     applied_changes: list[Change] = []
     for detected_change in detected_changes:
-        applied_change = apply_update(detected_change, args.yes)
+        auto_accept = True if args.yes else detected_change.auto_accept
+        applied_change = apply_update(detected_change, auto_accept)
         if applied_change:
             applied_changes.append(applied_change)
     if args.doc:
@@ -178,10 +181,12 @@ def check_for_updates(
 
             info["meta"] = meta
 
+            auto_accept_updates = info.get("auto_accept_updates", False)
+
             cc = "=" if cmp_result == 0 else ("+" if cmp_result < 0 else "-")
             print_check_info(package, f"{version} -> {tag_version}", cc)
 
-            return Change(package, version, tag_version, recipe_file, info, file_url)
+            return Change(package, version, tag_version, recipe_file, info, file_url, auto_accept_updates)
 
         except Exception as error:
             print_check_info(package, str(error), "!")
