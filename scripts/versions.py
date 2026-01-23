@@ -66,7 +66,12 @@ def main() -> None:
     parser.add_argument("--commit", action="store_true", help="Create commit")
     parser.add_argument("--path", default=".", help="Recipe path")
     parser.add_argument("--doc", default="", help="Create package documentation")
+    parser.add_argument("--verbose", action="store_true", help="Verbose output")
     args = parser.parse_args()
+
+    if args.verbose:
+        global VERBOSE
+        VERBOSE = True
 
     if args.token is not None:
         set_token(args.token)
@@ -221,7 +226,8 @@ def apply_update(
         if change.recipe_file:
             write_recipe_file(change.recipe_file, change.info)
 
-        print(f"  {change.old_version} -> {change.new_version}")
+        if VERBOSE:
+            print(f"  {change.old_version} -> {change.new_version}")
 
         return change
 
