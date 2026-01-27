@@ -3,14 +3,14 @@
     "source": "https://github.com/microsoft/wil",
     "package": "microsoft/wil",
     "tag_filter": "",
-    "date": "2025-03-24T16:45:18Z",
+    "date": "2026-01-23T23:37:45Z",
     "target": "",
     "description": "Windows Implementation Library"
   },
-  "version": "1.0.250325.1",
+  "version": "1.0.260126.7",
   "method": "fetch_content",
   "url": "https://github.com/microsoft/wil/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=48f7fdc3c7d0b284efae783c1266836b61b63fd0c94749098a60dc8ec78b0725",
+  "url_hash": "SHA256=134981a466e92d39bdd184b939c9e6f5089c66da1a809af15ad1b159af1a993f",
   "update_disconnected": true,
   "options": {}
 }
