@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "source": "https://github.com/CLIUtils/CLI11",
+    "package": "CLIUtils/CLI11",
+    "tag_filter": "",
+    "date": "2025-10-27T13:17:19Z",
+    "target": "",
+    "description": "CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface."
+  },
+  "version": "2.6.1",
+  "method": "fetch_content",
+  "url": "https://github.com/CLIUtils/CLI11/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=44fd2b73ea6df72876cb0c53796062b2870c73495840b732c3451d5250316258",
+  "update_disconnected": true,
+  "options": {
+    "CLI11_WARNINGS_AS_ERRORS": "OFF",
+    "CLI11_SINGLE_FILE": "OFF",
+    "CLI11_PRECOMPILED": "ON",
+    "CLI11_MODULES": "OFF",
+    "CLI11_SANITIZERS": "OFF",
+    "CLI11_BUILD_DOCS": "OFF",
+    "CLI11_BUILD_TESTS": "OFF",
+    "CLI11_BUILD_EXAMPLES": "OFF",
+    "CLI11_BUILD_EXAMPLES_JSON": "OFF",
+    "CLI11_INSTALL": "OFF",
+    "CLI11_FORCE_LIBCXX": "OFF",
+    "CLI11_CUDA_TESTS": "OFF"
+  }
+}
