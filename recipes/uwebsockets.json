@@ -3,14 +3,14 @@
     "source": "https://github.com/uNetworking/uWebSockets",
     "package": "uNetworking/uWebSockets",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-02-21T15:16:20Z",
+    "date": "2026-02-20T00:25:53Z",
     "target": "",
     "description": "Simple, secure & standards compliant web server for the most demanding of applications"
   },
-  "version": "20.74.0",
+  "version": "20.75.0",
   "method": "fetch_content",
   "url": "https://github.com/uNetworking/uWebSockets/archive/refs/tags/v{{version}}.gz",
-  "url_hash": "SHA256=d756d6037a4ca4fd077f744626769cbef3b984cdc395a4a6c32e20ec27f83cdc",
+  "url_hash": "SHA256=6dfa359af2ea64dccf1e050b6f1b0e79552157ddf6031fc8e505eb4e5c9601f6",
   "update_disconnected": true,
   "options": {}
 }

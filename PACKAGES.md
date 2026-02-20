@@ -65,7 +65,7 @@
 | glob | 0.0.1 | Glob for C++17 | [p-ranav/glob](https://github.com/p-ranav/glob) | 2021-05-10T16:58:47Z |
 | glog | 0.7.1 | C++ implementation of the Google logging module | [google/glog](https://github.com/google/glog) | 2024-06-08T15:07:34Z |
 | googletest | 1.17.0 | GoogleTest - Google Testing and Mocking Framework | [google/googletest](https://github.com/google/googletest) | 2025-04-30T16:54:29Z |
-| grpc | 1.78.0 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-01-30T23:50:32Z |
+| grpc | 1.78.1 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-02-19T12:15:33Z |
 | gsl | 4.2.1 | Guidelines Support Library | [microsoft/gsl](https://github.com/microsoft/gsl) | 2025-12-08T17:47:21Z |
 | guetzli | 1.0.1 | Perceptual JPEG encoder | [google/guetzli](https://github.com/google/guetzli) | 2017-03-21T16:26:36Z |
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
@@ -92,7 +92,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.1 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2025-10-16T13:23:05Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 8102 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-02-19T08:54:48Z |
+| llama.cpp | 8115 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-02-20T02:08:25Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -160,7 +160,7 @@
 | toml11 | 4.4.0 | TOML for Modern C++ | [toruniina/toml11](https://github.com/ToruNiina/toml11) | 2025-02-15T15:14:52Z |
 | tomlplusplus | 3.4.0 | Header-only TOML config file parser and serializer for C++17. | [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2023-10-13T13:25:17Z |
 | transwarp | 2.2.3 | A header-only C++ library for task concurrency | [bloomen/transwarp](https://github.com/bloomen/transwarp) | 2022-06-24T10:57:36Z |
-| uWebSockets | 20.74.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2025-02-21T15:16:20Z |
+| uWebSockets | 20.75.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2026-02-20T00:25:53Z |
 | url | 3.0.0 | A C++ library that implements the WhatWG URL specification | [cpp-netlib/url](https://github.com/cpp-netlib/url) | 2025-12-31T19:29:09Z |
 | userver | 2.15 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2026-01-27T13:00:19Z |
 | utfcpp | 4.09 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2025-12-28T22:26:42Z |
