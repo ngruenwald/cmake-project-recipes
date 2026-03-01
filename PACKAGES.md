@@ -31,7 +31,7 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.34.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-02-22T22:27:02Z |
+| cpp-httplib | 0.35.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-02-28T03:14:27Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
 | cpp-peglib | 1.9.1 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2024-11-16T19:27:16Z |
