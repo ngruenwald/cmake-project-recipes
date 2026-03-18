@@ -3,14 +3,14 @@
     "source": "https://github.com/nghttp2/nghttp2",
     "package": "nghttp2/nghttp2",
     "tag_filter": "",
-    "date": "2025-10-25T08:13:35Z",
+    "date": "2026-03-18T10:11:58Z",
     "target": "",
     "description": "nghttp2 - HTTP/2 C Library and tools"
   },
-  "version": "1.68.0",
+  "version": "1.68.1",
   "method": "fetch_content",
   "url": "https://github.com/nghttp2/nghttp2/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=629d33e6566327587d7f26c7663403963820a745452e8d72fc44468b69783981",
+  "url_hash": "SHA256=25c988070421a5be25e658c413a79c1582db3038419c83a4b0e427ef7827f710",
   "update_disconnected": true,
   "options": {}
 }
