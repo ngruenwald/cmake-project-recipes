@@ -3,14 +3,14 @@
     "source": "https://github.com/cameron314/concurrentqueue",
     "package": "cameron314/concurrentqueue",
     "tag_filter": "",
-    "date": "2023-06-10T23:21:27Z",
+    "date": "2026-04-03T21:24:44Z",
     "target": "",
     "description": "A fast multi-producer, multi-consumer lock-free concurrent queue for C++11"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "method": "fetch_content",
   "url": "https://github.com/cameron314/concurrentqueue/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=6874cb028c27bf0d00ebdb3784c65e0aae004f9ad287301708aa9d8b836be57a",
+  "url_hash": "SHA256=4d97836d8a68907e955ad60cb8d8e71e56ccf27128a318f806cc474eb344e162",
   "update_disconnected": true,
   "options": {}
 }
