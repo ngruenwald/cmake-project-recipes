@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "source": "https://github.com/mariusbancila/stduuid",
+    "package": "mariusbancila/stduuid",
+    "tag_filter": "",
+    "date": "2022-06-16T09:21:45Z",
+    "target": "",
+    "description": "A C++17 cross-platform implementation for UUIDs"
+  },
+  "version": "1.2.3",
+  "method": "fetch_content",
+  "url": "https://github.com/mariusbancila/stduuid/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=0f867768ce55f2d8fa361be82f87f0ea5e51438bc47ca30cd92c9fd8b014e84e",
+  "update_disconnected": true,
+  "options": {
+    "UUID_BUILD_TESTS": "OFF",
+    "UUID_SYSTEM_GENERATOR": "OFF",
+    "UUID_TIME_GENERATOR": "OFF",
+    "UUID_USING_CXX20_SPAN": "OFF",
+    "UUID_ENABLE_INSTALL": "OFF"
+  }
+}
