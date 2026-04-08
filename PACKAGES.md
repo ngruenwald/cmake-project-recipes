@@ -92,7 +92,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.2 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-03-03T11:54:11Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 8690 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-04-07T11:41:29Z |
+| llama.cpp | 8708 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-04-08T10:20:46Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -147,7 +147,7 @@
 | sqlite_orm | 1.9.1 | SQLite ORM light header only library for modern C++ | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | 2025-02-03 |
 | sqlitecpp | 3.3.3 | SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper. | [srombauts/sqlitecpp](https://github.com/srombauts/sqlitecpp) | 2025-05-20T20:42:37Z |
 | sqlitemap | 1.10.0 | sqlitemap is a lightweight C++ wrapper around SQLite that provides a simple, map-like interface. | [bw-hro/sqlitemap](https://github.com/bw-hro/sqlitemap) | 2025-05-05 |
-| sqlpp11 | 0.65 | A type safe SQL template library for C++ | [rbock/sqlpp11](https://github.com/rbock/sqlpp11) | 2025-04-04T05:33:24Z |
+| sqlpp11 | 0.66 | A type safe SQL template library for C++ | [rbock/sqlpp11](https://github.com/rbock/sqlpp11) | 2025-12-12T13:35:01Z |
 | stable-diffusion.cpp | master | Stable Diffusion and Flux in pure C/C++ | [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) |  |
 | stb | master | stb single-file public domain libraries for C/C++ | [nothings/stb](https://github.com/nothings/stb) |  |
 | stduuid | 1.2.3 | A C++17 cross-platform implementation for UUIDs | [mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) | 2022-06-16T09:21:45Z |
