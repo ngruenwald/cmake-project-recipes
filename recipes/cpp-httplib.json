@@ -3,14 +3,14 @@
     "source": "https://github.com/yhirose/cpp-httplib",
     "package": "yhirose/cpp-httplib",
     "tag_filter": "",
-    "date": "2026-04-04T01:50:24Z",
+    "date": "2026-04-11T22:53:36Z",
     "target": "httplib::httplib",
     "description": "A C++ header-only HTTP/HTTPS server and client library"
   },
-  "version": "0.41.0",
+  "version": "0.42.0",
   "method": "fetch_content",
   "url": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=b6abcbe19cbadce4ed8e663a8d2c68fc794a378a80ea738e0e6693c15f1582a3",
+  "url_hash": "SHA256=61eae8fbbe3c47508743c1aedb8a2415d634841fd2589638c61e194fa84d9cc5",
   "update_disconnected": true,
   "options": {
     "HTTPLIB_COMPILE": "ON",
