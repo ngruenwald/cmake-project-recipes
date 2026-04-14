@@ -3,14 +3,14 @@
     "source": "https://github.com/doctest/doctest",
     "package": "doctest/doctest",
     "tag_filter": "",
-    "date": "2026-04-03T21:34:39Z",
+    "date": "2026-04-14T10:39:55Z",
     "target": "",
     "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework"
   },
-  "version": "2.5.1",
+  "version": "2.5.2",
   "method": "fetch_content",
   "url": "https://github.com/doctest/doctest/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=c801e891f0cb22f45ecd06d68bb4a7ca5e09bf0078adcafd6dc5305689d33ef9",
+  "url_hash": "SHA256=988fd276cd1c2786790776cd8d9715766d21b45718256bff123a30379a6352a7",
   "update_disconnected": true,
   "options": {}
 }

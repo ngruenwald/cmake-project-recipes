@@ -46,7 +46,7 @@
 | cxxopts | 3.3.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2025-05-26T08:09:26Z |
 | date | 3.0.4 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2025-05-28T17:53:02Z |
 | delegates | master | Fast delegates implementation  | [mamedev/delegates](https://github.com/mamedev/delegates) |  |
-| doctest | 2.5.1 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2026-04-03T21:34:39Z |
+| doctest | 2.5.2 | The fastest feature-rich C++11/14/17/20/23 single-header testing framework | [doctest/doctest](https://github.com/doctest/doctest) | 2026-04-14T10:39:55Z |
 | dotenv-cpp | #432def2f | A utility to load environment variables from a .env file | [laserpants/dotenv-cpp](https://github.com/laserpants/dotenv-cpp) |  |
 | drogon | 1.9.12 | Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 2026-01-26T08:33:13Z |
 | dynamix | 2.0.4 | A new take on polymorphism | [iboB/dynamix](https://github.com/iboB/dynamix) | 2025-06-24T05:36:42Z |
@@ -92,7 +92,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.2 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-03-03T11:54:11Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 8783 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-04-13T23:18:18Z |
+| llama.cpp | 8790 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-04-14T11:25:09Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.7 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2024-11-13T23:15:10Z |
@@ -113,7 +113,7 @@
 | ollama-hpp | 0.9.7 | Modern, Header-only C++ bindings for the Ollama API. | [jmont-dev/ollama-hpp](https://github.com/jmont-dev/ollama-hpp) | 2025-10-20T04:41:36Z |
 | openai-cpp | 0.1.3 | OpenAI C++ is a community-maintained library for the Open AI API | [olrea/openai-cpp](https://github.com/olrea/openai-cpp) | 2024-07-20T14:17:38Z |
 | opencv | 4.13.0 | Open Source Computer Vision Library | [opencv/opencv](https://github.com/opencv/opencv) | 2025-12-30T07:52:05Z |
-| openssl | 3.6.2 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2026-04-07T12:17:57Z |
+| openssl | 4.0.0 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2026-04-14T12:04:16Z |
 | opentelemetry-cpp | 1.26.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2026-03-20T00:44:08Z |
 | opus | 1.6.1 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2026-01-13T20:16:34Z |
 | pdfgen | 0.1.0 | Simple C PDF Writer/Generation library | [andrerenaud/pdfgen](https://github.com/andrerenaud/pdfgen) | 2021-06-07T23:02:34Z |
