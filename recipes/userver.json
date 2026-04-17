@@ -3,14 +3,14 @@
     "source": "https://github.com/userver-framework/userver",
     "package": "userver-framework/userver",
     "tag_filter": "",
-    "date": "2026-03-31T17:44:28Z",
+    "date": "2026-04-16T09:50:07Z",
     "target": "",
     "description": "Production-ready C++ Asynchronous Framework with rich functionality"
   },
-  "version": "2.16",
+  "version": "3.0",
   "method": "fetch_content",
   "url": "https://github.com/userver-framework/userver/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=888fb388b07403cdf7c76e4251787db1459eaa5a090439989d55af6a80410e28",
+  "url_hash": "SHA256=155c9bff2f28f496c5d31a4b27866f93ab9ef419f57aa793e8c052169bb4612a",
   "update_disconnected": true,
   "options": {}
 }
