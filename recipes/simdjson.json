@@ -3,14 +3,14 @@
     "source": "https://github.com/simdjson/simdjson",
     "package": "simdjson/simdjson",
     "tag_filter": "",
-    "date": "2026-04-17T21:22:06Z",
+    "date": "2026-04-20T16:07:05Z",
     "target": "simdjson::simdjson, simdjson::simdjson_static",
     "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks"
   },
-  "version": "4.6.2",
+  "version": "4.6.3",
   "method": "fetch_content",
   "url": "https://github.com/simdjson/simdjson/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=940920486985752542e69f86ecb1fb8b54a6c1cdbee2c4e45cbcfb9be2f933a5",
+  "url_hash": "SHA256=aea5c5dc3b5fecf06ab04a3f67f982789fcfa9814724c83a34cd39028d676326",
   "update_disconnected": true,
   "options": {
     "SIMDJSON_BUILD_STATIC_LIB": "ON",
