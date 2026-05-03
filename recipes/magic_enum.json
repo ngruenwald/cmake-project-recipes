@@ -3,14 +3,14 @@
     "source": "https://github.com/neargye/magic_enum",
     "package": "neargye/magic_enum",
     "tag_filter": "",
-    "date": "2024-11-13T23:15:10Z",
+    "date": "2026-05-03T16:51:31Z",
     "target": "",
     "description": "Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code"
   },
-  "version": "0.9.7",
+  "version": "0.9.8",
   "method": "fetch_content",
   "url": "https://github.com/neargye/magic_enum/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=e293afdaf4d5918bc145903bccff06d28b3ed437f1ac8414ace9e8a769a9e470",
+  "url_hash": "SHA256=16475c3b22250fce2e3a1b344fbc13a549b1259120e86ff60d09917c5ed35394",
   "update_disconnected": true,
   "options": {}
 }
