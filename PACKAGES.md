@@ -61,6 +61,7 @@
 | ftxui | 6.1.9 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2025-05-07T20:43:27Z |
 | fundus | main | Snippets and pieces of code | [ngruenwald/fundus](https://github.com/ngruenwald/fundus) |  |
 | g3log | 2.6 | G3log is an asynchronous, "crash safe", logger that is easy to use with default logging sinks or you can add your own. | [kjellkod/g3log](https://github.com/kjellkod/g3log) | 2025-06-10T14:30:15Z |
+| geo-utils-cpp | 1.0.1 | Header-only C++ library for geographic (lat/lng) calculations: distance, bearing, area, point-in-polygon and path proximity | [gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) | 2026-05-07T19:42:08Z |
 | gflags | 2.3.0 | The gflags package contains a C++ library that implements commandline flags processing. | [gflags/gflags](https://github.com/gflags/gflags) | 2025-12-06T00:46:18Z |
 | glob | 0.0.1 | Glob for C++17 | [p-ranav/glob](https://github.com/p-ranav/glob) | 2021-05-10T16:58:47Z |
 | glog | 0.7.1 | C++ implementation of the Google logging module | [google/glog](https://github.com/google/glog) | 2024-06-08T15:07:34Z |
@@ -92,7 +93,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 9090 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-05-09T07:26:33Z |
+| llama.cpp | 9093 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-05-09T14:31:50Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
