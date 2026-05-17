@@ -3,14 +3,14 @@
     "source": "https://github.com/agauniyal/rang",
     "package": "agauniyal/rang",
     "tag_filter": "",
-    "date": "2021-07-30T14:22:25Z",
+    "date": "2026-05-16T15:30:31Z",
     "target": "",
     "description": "A Minimal, Header only Modern c++ library for terminal goodies"
   },
-  "version": "3.2",
+  "version": "3.3",
   "method": "fetch_content",
   "url": "https://github.com/agauniyal/rang/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=ae4552eaf502f8d2c88cfb6bd62c1f09eced009478dd6bbd46137dce9b8baedc",
+  "url_hash": "SHA256=e3186ce55bccae24828c29bf6e8f2b4afb684c4622d525a5d69ef74980d8888e",
   "update_disconnected": true,
   "options": {}
 }
