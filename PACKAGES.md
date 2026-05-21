@@ -67,7 +67,7 @@
 | glog | 0.7.1 | C++ implementation of the Google logging module | [google/glog](https://github.com/google/glog) | 2024-06-08T15:07:34Z |
 | googletest | 1.17.0 | GoogleTest - Google Testing and Mocking Framework | [google/googletest](https://github.com/google/googletest) | 2025-04-30T16:54:29Z |
 | grpc | 1.80.0 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-03-24T23:06:54Z |
-| gsl | 4.2.1 | Guidelines Support Library | [microsoft/gsl](https://github.com/microsoft/gsl) | 2025-12-08T17:47:21Z |
+| gsl | 4.2.2 | Guidelines Support Library | [microsoft/gsl](https://github.com/microsoft/gsl) | 2026-05-20T22:31:39Z |
 | guetzli | 1.0.1 | Perceptual JPEG encoder | [google/guetzli](https://github.com/google/guetzli) | 2017-03-21T16:26:36Z |
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
 | hiredis | 1.3.0 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2025-04-23T11:10:29Z |
