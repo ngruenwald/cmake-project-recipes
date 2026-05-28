@@ -6,7 +6,7 @@
 | CLI11 | 2.6.2 | CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface. | [CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) | 2026-02-26T14:43:02Z |
 | StringZilla | 4.6.1 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2026-05-05T12:52:23Z |
 | TooManyCooks | 1.5.0 | C++20 concurrency framework with no compromises. Excellent performance, powerful features, and simple syntax. | [tzcnt/TooManyCooks](https://github.com/tzcnt/TooManyCooks) | 2026-05-10T18:01:01Z |
-| abseil-cpp | 20260107.1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2026-02-11T15:34:48Z |
+| abseil-cpp | 20260526.rc1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2026-05-28T17:54:15Z |
 | ada | 3.4.4 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2026-03-23T21:52:13Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
 | argy | 0.6.0 | Argy: Command-line parsing library for modern C++ — simple, intuitive, and header-only with no dependencies. | [mshenoda/argy](https://github.com/mshenoda/argy) | 2025-08-31T14:02:49Z |
@@ -93,7 +93,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 9371 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-05-27T21:22:33Z |
+| llama.cpp | 9381 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-05-28T10:46:07Z |
 | lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
@@ -131,7 +131,7 @@
 | raygui | 4.0 | A simple and easy-to-use immediate-mode gui library | [raysan5/raygui](https://github.com/raysan5/raygui) | 2023-09-12 |
 | raylib | 4.5.0 | A simple and easy-to-use library to enjoy videogames programming | [raysan5/raylib](https://github.com/raysan5/raylib) | 2023-03-18T16:37:04Z |
 | raylib-cpp | 6.0.0 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2026-04-23T12:50:13Z |
-| re | 4.8.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2026-05-12T08:12:34Z |
+| re | 4.8.1 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2026-05-28T15:00:02Z |
 | readerwriterqueue | 1.0.7 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2025-04-28T05:04:29Z |
 | resiprocate | 1.13.2 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2025-05-14T16:56:08Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
