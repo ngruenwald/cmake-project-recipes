@@ -53,7 +53,7 @@
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.1.0 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2025-03-21T12:04:51Z |
-| fizz | 2026.05.25.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2026-05-23T16:31:54Z |
+| fizz | 2026.06.01.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2026-05-31T16:32:30Z |
 | fkYAML | 0.4.2 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2025-01-25T14:54:42Z |
 | fmt | 12.1.0 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2025-10-29T14:40:27Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
@@ -93,8 +93,8 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 9437 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-05-30T20:33:57Z |
-| lyra | 1.7.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2025-08-07T12:18:07Z |
+| llama.cpp | 9453 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-06-01T09:48:53Z |
+| lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
@@ -106,7 +106,7 @@
 | mp-units | 2.5.0 | The quantities and units library for C++ | [mpusz/mp-units](https://github.com/mpusz/mp-units) | 2025-12-24T14:50:11Z |
 | nameof | 0.10.5 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-05-03T17:43:58Z |
 | nanomsg | 1.2.2 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2025-10-05T16:42:08Z |
-| nats.c | 3.12.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2025-11-24T16:59:42Z |
+| nats.c | 3.13.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-05-29T19:58:57Z |
 | nghttp2 | 1.69.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-04-19T08:50:35Z |
 | nng | 1.10.2 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2025-06-02T14:28:46Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
@@ -124,7 +124,7 @@
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | prometheus-cpp | 1.3.0 | Prometheus Client Library for Modern C++ | [jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) | 2024-11-03 |
 | protobuf | 6.31.1 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2025-05-28T16:52:59Z |
-| proxygen | 2026.05.25.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2026-05-24T16:31:49Z |
+| proxygen | 2026.06.01.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2026-05-31T16:32:30Z |
 | pugixml | 1.15 | Light-weight, simple and fast XML parser for C++ with XPath support | [zeux/pugixml](https://github.com/zeux/pugixml) | 2025-01-10T18:15:31Z |
 | rang | 3.3 | A Minimal, Header only Modern c++ library for terminal goodies | [agauniyal/rang](https://github.com/agauniyal/rang) | 2026-05-16T15:30:31Z |
 | rapidjson | 1.1.0 | A fast JSON parser/generator for C++ with both SAX/DOM style API | [tencent/rapidjson](https://github.com/tencent/rapidjson) | 2016-08-25T07:59:05Z |
@@ -164,13 +164,13 @@
 | toml11 | 4.4.0 | TOML for Modern C++ | [toruniina/toml11](https://github.com/ToruNiina/toml11) | 2025-02-15T15:14:52Z |
 | tomlplusplus | 3.4.0 | Header-only TOML config file parser and serializer for C++17. | [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2023-10-13T13:25:17Z |
 | transwarp | 2.2.3 | A header-only C++ library for task concurrency | [bloomen/transwarp](https://github.com/bloomen/transwarp) | 2022-06-24T10:57:36Z |
-| uWebSockets | 20.77.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2026-04-15T11:39:42Z |
+| uWebSockets | 20.78.0 | Simple, secure & standards compliant web server for the most demanding of applications | [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | 2026-05-31T13:52:14Z |
 | url | 3.0.0 | A C++ library that implements the WhatWG URL specification | [cpp-netlib/url](https://github.com/cpp-netlib/url) | 2025-12-31T19:29:09Z |
 | userver | 3.0 | Production-ready C++ Asynchronous Framework with rich functionality | [userver-framework/userver](https://github.com/userver-framework/userver) | 2026-04-16T09:50:07Z |
 | utfcpp | 4.09 | UTF-8 with C++ in a Portable Way | [nemtrif/utfcpp](https://github.com/nemtrif/utfcpp) | 2025-12-28T22:26:42Z |
 | vireo | master | Vireo is a lightweight and versatile video processing library written in C++11 | [twitter/vireo](https://github.com/twitter/vireo) |  |
 | websocketpp | 0.8.2 | C++ websocket client/server library | [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) | 2024-07-17T23:53:38Z |
-| whisper.cpp | 1.8.5 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2026-05-29T06:46:42Z |
+| whisper.cpp | 1.8.6 | Port of OpenAI's Whisper model in C/C++ | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 2026-06-01T11:56:20Z |
 | wil | 1.0.260126.7 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2026-01-23T23:37:45Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
 | wspp | 0.1.0 | Modern, Async, Non-Blocking, zero-dependency C++20 RFC 6455 Compliant WebSocket client & server, cross-platform, single-header, WS/WSS support. | [pinwhell/wspp](https://github.com/pinwhell/wspp) | 2026-01-10T01:25:29Z |

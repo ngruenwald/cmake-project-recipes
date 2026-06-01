@@ -3,13 +3,13 @@
     "source": "https://github.com/bfgroup/Lyra",
     "package": "bfgroup/lyra",
     "tag_filter": "",
-    "date": "2025-08-07T12:18:07Z",
+    "date": "2026-05-31T15:21:18Z",
     "target": "bfg::lyra",
     "description": "A simple to use, composable, command line parser for C++ 11 and beyond"
   },
-  "version": "1.7.0",
+  "version": "1.8.0",
   "method": "fetch_content",
   "url": "https://github.com/bfgroup/Lyra/archive/refs/tags/{{version}}.zip",
-  "url_hash": "SHA256=2a3170388d803519d56080f622798547263165db6e1a3052c3e9bcbc68f4be3a",
+  "url_hash": "SHA256=1276c306535d15735ec45c80456e9dcb9f0cd53fcc43d8e58e8d1ffa3204d247",
   "update_disconnected": true
 }
