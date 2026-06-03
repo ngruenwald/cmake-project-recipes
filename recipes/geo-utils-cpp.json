@@ -3,14 +3,14 @@
     "source": "https://github.com/gistrec/geo-utils-cpp",
     "package": "gistrec/geo-utils-cpp",
     "tag_filter": "",
-    "date": "2026-05-07T19:42:08Z",
+    "date": "2026-06-02T20:26:53Z",
     "target": "",
     "description": "Header-only C++ library for geographic (lat/lng) calculations: distance, bearing, area, point-in-polygon and path proximity"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "method": "fetch_content",
   "url": "https://github.com/gistrec/geo-utils-cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=10c4ab8a93fa6b381603865f687a97a35ccdde9755b7a18c0bf51c650b195950",
+  "url_hash": "SHA256=9860f4c337601e7598eff4977e675fc7da23a7e8399ed5b461286a6dde9458f2",
   "update_disconnected": true,
   "options": {
     "GEO_UTILS_CPP_BUILD_EXAMPLES": "OFF",
