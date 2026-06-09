@@ -81,7 +81,7 @@
 | jinja2cpp | 1.3.2 | Jinja2 C++ (and for C++) almost full-conformance template engine implementation | [jinja2cpp/jinja2cpp](https://github.com/jinja2cpp/jinja2cpp) | 2024-06-23T19:31:22Z |
 | jrtplib | 3.11.2 | RTP Library | [j0r1/jrtplib](https://github.com/j0r1/jrtplib) | 2020-04-18T09:44:45Z |
 | json | 3.12.0 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2025-04-11T08:42:28Z |
-| jsoncons | 1.7.0 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) | 2026-04-27T02:29:25Z |
+| jsoncons | 1.8.0 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) | 2026-06-08T20:12:49Z |
 | jwt-cpp | 0.7.2 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2025-12-29T13:52:29Z |
 | libarchive | 3.8.7 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2026-04-13T09:00:33Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
@@ -93,7 +93,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 9565 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-06-08T15:07:31Z |
+| llama.cpp | 9570 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-06-09T03:54:24Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
