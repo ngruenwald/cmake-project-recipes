@@ -3,14 +3,14 @@
     "source": "https://github.com/openssl/openssl",
     "package": "openssl/openssl",
     "tag_filter": "^openssl-\\d+\\.\\d+\\.\\d+$",
-    "date": "2026-04-14T12:04:16Z",
+    "date": "2026-06-09T11:36:41Z",
     "target": "OpenSSL::Crypto, OpenSSL::SSL",
     "description": "TLS/SSL and crypto library"
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "method": "external_project",
   "url": "https://github.com/openssl/openssl/archive/refs/tags/openssl-{{version}}.zip",
-  "url_hash": "SHA256=b5b64cf93878c6738b0c1d0b1ce5b2897f160bd7496101b0893cf9789a41cb2d",
+  "url_hash": "SHA256=0ea3d51d2888872bdb3d8e2f961cac32a301920c0027211c14550f0b6607acae",
   "configure_command": [
     "./Configure",
     "-static",
