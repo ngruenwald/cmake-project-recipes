@@ -3,14 +3,14 @@
     "source": "https://github.com/tzcnt/TooManyCooks",
     "package": "tzcnt/TooManyCooks",
     "tag_filter": "",
-    "date": "2026-06-07T00:43:56Z",
+    "date": "2026-06-14T18:50:14Z",
     "target": "tzcnt::tmc",
     "description": "C++20 concurrency framework with no compromises. Excellent performance, powerful features, and simple syntax."
   },
-  "version": "1.6.0",
+  "version": "1.6.1",
   "method": "fetch_content",
   "url": "https://github.com/tzcnt/TooManyCooks/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=75d01c52f93c900761756051583577c8dd939bbc71efa8812d564a52b0dde238",
+  "url_hash": "SHA256=a63ffffc61364150a12f31904466fa147abd818e15516dc8db664099f27c7e1e",
   "update_disconnected": true,
   "update_command": [
     ""
