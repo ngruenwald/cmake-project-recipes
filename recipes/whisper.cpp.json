@@ -3,14 +3,14 @@
     "source": "https://github.com/ggerganov/whisper.cpp",
     "package": "ggerganov/whisper.cpp",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2026-06-01T11:56:20Z",
+    "date": "2026-06-16T10:28:23Z",
     "target": "",
     "description": "Port of OpenAI's Whisper model in C/C++"
   },
-  "version": "1.8.6",
+  "version": "1.8.7",
   "method": "fetch_content",
   "url": "https://github.com/ggerganov/whisper.cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=b00a37581a423187b063d4c51a9b4441dacb8ee0335ceb289d32167038b29762",
+  "url_hash": "SHA256=a413359adead7b72290af71ba0eac55db892aeb27ebca9e99583f50b9f03bfb9",
   "update_disconnected": true,
   "options": {}
 }
