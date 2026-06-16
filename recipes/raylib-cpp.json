@@ -3,14 +3,14 @@
     "source": "https://github.com/robloach/raylib-cpp",
     "package": "robloach/raylib-cpp",
     "tag_filter": "",
-    "date": "2026-05-30T04:26:46Z",
+    "date": "2026-06-16T03:28:17Z",
     "target": "",
     "description": "C++ Object Oriented Wrapper for raylib"
   },
-  "version": "6.0.1",
+  "version": "6.0.2",
   "method": "fetch_content",
   "url": "https://github.com/robloach/raylib-cpp/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=878990f9a6fa1f28375545641ffbbceefbab6d46e42047cf27d933148cdc9356",
+  "url_hash": "SHA256=d89626b7a697433cefbfaf361fa05731ceb78167a8ad2d9d6eec806f03c73030",
   "update_disconnected": true,
   "options": {}
 }
