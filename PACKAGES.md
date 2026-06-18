@@ -93,7 +93,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 9692 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-06-17T20:40:50Z |
+| llama.cpp | 9704 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-06-18T10:49:14Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
@@ -133,7 +133,7 @@
 | raylib-cpp | 6.0.2 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2026-06-16T03:28:17Z |
 | re | 4.9.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2026-06-17T06:22:18Z |
 | readerwriterqueue | 1.0.7 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2025-04-28T05:04:29Z |
-| resiprocate | 1.13.2 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2025-05-14T16:56:08Z |
+| resiprocate | 1.14.0 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2026-06-18T15:39:13Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |
 | sfml | 3.1.0 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2026-03-23T12:54:32Z |
