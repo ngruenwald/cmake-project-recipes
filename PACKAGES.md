@@ -93,7 +93,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 9860 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-07-02T15:26:47Z |
+| llama.cpp | 9873 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-07-04T20:37:38Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
@@ -104,7 +104,7 @@
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
 | mp-units | 2.5.0 | The quantities and units library for C++ | [mpusz/mp-units](https://github.com/mpusz/mp-units) | 2025-12-24T14:50:11Z |
-| nameof | 0.10.5 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-05-03T17:43:58Z |
+| nameof | 0.10.6 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-07-04T12:10:41Z |
 | nanomsg | 1.2.2 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2025-10-05T16:42:08Z |
 | nats.c | 3.13.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-05-29T19:58:57Z |
 | nghttp2 | 1.69.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-04-19T08:50:35Z |
