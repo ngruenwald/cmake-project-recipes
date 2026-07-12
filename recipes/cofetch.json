@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "source": "https://github.com/SSARCandy/cofetch",
+    "package": "ssarcandy/cofetch",
+    "tag_filter": "",
+    "date": "2026-07-10T13:56:30Z",
+    "target": "cofetch::cofetch",
+    "description": "Chainable, high-performance async HTTP client for modern C++ event loops."
+  },
+  "version": "0.1.2",
+  "method": "fetch_content",
+  "url": "https://github.com/SSARCandy/cofetch/archive/refs/tags/v{{version}}.zip",
+  "url_hash": "SHA256=17a8125574ebb59db321338fb21d3078dc0df6634bf27f2b797b93778afabc13",
+  "update_disconnected": true,
+  "options": {
+    "COFETCH_USE_VENDORED_ASIO": "OFF",
+    "COFETCH_USE_BOOST_ASIO": "OFF",
+    "COFETCH_BUILD_EXAMPLES": "OFF",
+    "COFETCH_BUILD_TESTS": "OFF",
+    "COFETCH_BUILD_BENCH": "OFF",
+    "COFETCH_INSTALL": "OFF"
+  }
+}
