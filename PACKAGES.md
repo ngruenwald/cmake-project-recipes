@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 10015 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-07-15T02:53:56Z |
+| llama.cpp | 10025 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-07-15T11:36:32Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
@@ -155,7 +155,7 @@
 | stable-diffusion.cpp | master | Stable Diffusion and Flux in pure C/C++ | [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) |  |
 | stb | master | stb single-file public domain libraries for C/C++ | [nothings/stb](https://github.com/nothings/stb) |  |
 | stduuid | 1.2.3 | A C++17 cross-platform implementation for UUIDs | [mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) | 2022-06-16T09:21:45Z |
-| strong_type | 15 | An additive strong typedef library for C++14/17/20 | [rollbear/strong_type](https://github.com/rollbear/strong_type) | 2024-07-07T20:23:50Z |
+| strong_type | 16 | An additive strong typedef library for C++14/17/20 | [rollbear/strong_type](https://github.com/rollbear/strong_type) | 2026-07-15T12:33:37Z |
 | strtk | master | C++ String Toolkit Library | [arashpartow/strtk](https://github.com/ArashPartow/strtk) |  |
 | tabulate | 1.5 | Table Maker for Modern C++ | [p-ranav/tabulate](https://github.com/p-ranav/tabulate) | 2023-02-20T14:40:03Z |
 | taskflow | 4.1.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2026-06-20T01:32:50Z |
