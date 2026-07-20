@@ -3,14 +3,14 @@
     "source": "https://github.com/chriskohlhoff/asio",
     "package": "chriskohlhoff/asio",
     "tag_filter": "",
-    "date": "2026-05-13T21:48:23Z",
+    "date": "2026-07-18T23:15:27Z",
     "target": "asio::asio",
     "description": "Asio C++ Library"
   },
-  "version": "1-38-1",
+  "version": "1-38-2",
   "method": "fetch_content",
   "url": "https://github.com/chriskohlhoff/asio/archive/refs/tags/asio-{{version}}.zip",
-  "url_hash": "SHA256=c4557a5a07ff8aa9c37bd141b7d1a6ba2b1bad5557d97762ad27aaf0091c665b",
+  "url_hash": "SHA256=1907e462b736f3b682e1539c6d7a8ececde66dcb25fe98c8386701c101a93388",
   "update_disconnected": true,
   "options": {},
   "targets": [

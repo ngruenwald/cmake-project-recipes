@@ -3,14 +3,14 @@
     "source": "https://github.com/rbock/sqlpp23",
     "package": "rbock/sqlpp23",
     "tag_filter": "",
-    "date": "2026-04-24T07:05:23Z",
+    "date": "2026-07-18T07:17:18Z",
     "target": "",
     "description": "A type safe SQL library for C++"
   },
-  "version": "0.69",
+  "version": "0.70",
   "method": "fetch_content",
   "url": "https://github.com/rbock/sqlpp23/archive/refs/tags/{{version}}.zip",
-  "url_hash": "SHA256=25a979597808927312dbf113e862f751ec8f4c0f4ba3876b0351100453a40f5b",
+  "url_hash": "SHA256=0a68264a830e45fbb2784b72af87e890996ecd8f6b3c1f81a0740206a0917434",
   "update_disconnected": true,
   "options": {
     "BUILD_MYSQL_CONNECTOR": "OFF",
