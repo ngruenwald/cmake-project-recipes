@@ -3,14 +3,14 @@
     "source": "https://github.com/HowardHinnant/date",
     "package": "HowardHinnant/date",
     "tag_filter": "",
-    "date": "2025-05-28T17:53:02Z",
+    "date": "2026-07-23T19:52:36Z",
     "target": "date::date",
     "description": "A date and time library based on the C++11/14/17 <chrono> header"
   },
-  "version": "3.0.4",
+  "version": "3.0.5",
   "method": "fetch_content",
   "url": "https://github.com/HowardHinnant/date/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=a6352ebdb440274269c746e6f66690f62ef4ab4aefeeba2ef2efee1bc2c86985",
+  "url_hash": "SHA256=10a18a056e6dab4cc8c20a4b3c54112e29ccaa5c389ade8fd7457a80c47b9c6d",
   "update_disconnected": true,
   "options": {
     "USE_SYSTEM_TZ_DB": "OFF",
