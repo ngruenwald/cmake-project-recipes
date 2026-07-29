@@ -4,7 +4,7 @@
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
 | CLI11 | 2.6.2 | CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface. | [CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) | 2026-02-26T14:43:02Z |
-| StringZilla | 5.0.4 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2026-07-28T18:27:36Z |
+| StringZilla | 5.0.5 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2026-07-29T13:25:25Z |
 | TooManyCooks | 1.6.1 | C++20 concurrency framework with no compromises. Excellent performance, powerful features, and simple syntax. | [tzcnt/TooManyCooks](https://github.com/tzcnt/TooManyCooks) | 2026-06-14T18:50:14Z |
 | abseil-cpp | 20260526.rc1 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2026-05-28T17:54:15Z |
 | ada | 4.0.0 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2026-07-27T20:10:09Z |
@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 10173 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-07-28T19:02:33Z |
+| llama.cpp | 10182 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-07-29T16:02:30Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
@@ -108,7 +108,7 @@
 | nameof | 0.10.6 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-07-04T12:10:41Z |
 | nanomsg | 1.2.2 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2025-10-05T16:42:08Z |
 | nats.c | 3.13.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-05-29T19:58:57Z |
-| nghttp2 | 1.69.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-04-19T08:50:35Z |
+| nghttp2 | 1.70.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-07-29T11:59:55Z |
 | nng | 1.12.0 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2026-06-09T21:32:43Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
 | oatpp | 1.3.1 | Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable. | [oatpp/oatpp](https://github.com/oatpp/oatpp) | 2024-02-05T03:51:38Z |
@@ -139,7 +139,7 @@
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |
 | sfml | 3.1.0 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2026-03-23T12:54:32Z |
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
-| simdjson | 4.6.4 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2026-05-06T21:29:56Z |
+| simdjson | 4.6.5 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2026-07-29T13:08:32Z |
 | sobjectizer | 5.8.6 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2026-07-24T12:02:09Z |
 | sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
 | spdlog | 1.17.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2026-01-04T16:06:01Z |
