@@ -35,7 +35,7 @@
 | cpp-httplib | 0.51.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-07-24T02:52:55Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
-| cpp-peglib | 1.15.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-07-02T22:42:41Z |
+| cpp-peglib | 1.15.1 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-07-29T00:09:27Z |
 | cpp-soaplib | main |  | [ngruenwald/cpp-soaplib](https://github.com/ngruenwald/cpp-soaplib) |  |
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.3 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2025-02-19T01:13:09Z |
@@ -100,7 +100,7 @@
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
 | mbedtls | 4.2.0 | An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. | [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | 2026-07-01T11:00:14Z |
-| mediapipe | 0.10.35 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2026-04-23T00:32:31Z |
+| mediapipe | 1.0.0 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2026-07-22T21:47:25Z |
 | memory | 0.7-4 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2025-05-02T21:37:14Z |
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
