@@ -3,14 +3,14 @@
     "source": "https://github.com/kjellkod/g3log",
     "package": "kjellkod/g3log",
     "tag_filter": "",
-    "date": "2025-06-10T14:30:15Z",
+    "date": "2026-08-03T22:24:05Z",
     "target": "",
     "description": "G3log is an asynchronous, \"crash safe\", logger that is easy to use with default logging sinks or you can add your own."
   },
-  "version": "2.6",
+  "version": "2.6.1",
   "method": "fetch_content",
   "url": "https://github.com/kjellkod/g3log/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=72ae12b4af0946006a74c731450c0628d258a204e0f292ae0268a71291f8ab9a",
+  "url_hash": "SHA256=582abd895cb96a8c13b1e9a0e58aad0bbb62d6b6dacf1a21936f6d38c4e53edb",
   "update_disconnected": true,
   "options": {}
 }

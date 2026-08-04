@@ -61,7 +61,7 @@
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
 | ftxui | 7.0.2 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2026-08-01T15:33:05Z |
 | fundus | main | Snippets and pieces of code | [ngruenwald/fundus](https://github.com/ngruenwald/fundus) |  |
-| g3log | 2.6 | G3log is an asynchronous, "crash safe", logger that is easy to use with default logging sinks or you can add your own. | [kjellkod/g3log](https://github.com/kjellkod/g3log) | 2025-06-10T14:30:15Z |
+| g3log | 2.6.1 | G3log is an asynchronous, "crash safe", logger that is easy to use with default logging sinks or you can add your own. | [kjellkod/g3log](https://github.com/kjellkod/g3log) | 2026-08-03T22:24:05Z |
 | geo-utils-cpp | 1.2.2 | Header-only C++ library for geographic (lat/lng) calculations: distance, bearing, area, point-in-polygon and path proximity | [gistrec/geo-utils-cpp](https://github.com/gistrec/geo-utils-cpp) | 2026-07-08T00:36:38Z |
 | gflags | 2.3.1 | The gflags package contains a C++ library that implements commandline flags processing. | [gflags/gflags](https://github.com/gflags/gflags) | 2026-07-22T17:20:47Z |
 | glob | 0.0.1 | Glob for C++17 | [p-ranav/glob](https://github.com/p-ranav/glob) | 2021-05-10T16:58:47Z |
@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 10241 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-08-03T12:22:44Z |
+| llama.cpp | 10253 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-08-03T22:30:42Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
@@ -141,7 +141,7 @@
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
 | simdjson | 4.6.6 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2026-07-30T20:21:18Z |
 | sobjectizer | 5.8.6 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2026-07-24T12:02:09Z |
-| sofia-sip | 1.13.17 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) |  |
+| sofia-sip | 1.13.18 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) | 2026-08-03T21:14:22Z |
 | spdlog | 1.17.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2026-01-04T16:06:01Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
 | sqlgen | 0.6.0 | sqlgen is a reflection-based ORM and SQL query generator for C++-20, similar to Python's SQLAlchemy/SQLModel or Rust's Diesel. | [getml/sqlgen](https://github.com/getml/sqlgen) | 2026-01-01T11:38:24Z |
