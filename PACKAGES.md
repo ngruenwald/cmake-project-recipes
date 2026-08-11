@@ -66,7 +66,7 @@
 | gflags | 2.3.1 | The gflags package contains a C++ library that implements commandline flags processing. | [gflags/gflags](https://github.com/gflags/gflags) | 2026-07-22T17:20:47Z |
 | glob | 0.0.1 | Glob for C++17 | [p-ranav/glob](https://github.com/p-ranav/glob) | 2021-05-10T16:58:47Z |
 | glog | 0.7.1 | C++ implementation of the Google logging module | [google/glog](https://github.com/google/glog) | 2024-06-08T15:07:34Z |
-| googletest | 1.17.0 | GoogleTest - Google Testing and Mocking Framework | [google/googletest](https://github.com/google/googletest) | 2025-04-30T16:54:29Z |
+| googletest | 1.18.0 | GoogleTest - Google Testing and Mocking Framework | [google/googletest](https://github.com/google/googletest) | 2026-08-10T17:19:17Z |
 | grpc | 1.83.0 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-07-21T09:16:28Z |
 | gsl | 4.2.2 | Guidelines Support Library | [microsoft/gsl](https://github.com/microsoft/gsl) | 2026-05-20T22:31:39Z |
 | guetzli | 1.0.1 | Perceptual JPEG encoder | [google/guetzli](https://github.com/google/guetzli) | 2017-03-21T16:26:36Z |
@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 10343 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-08-10T07:57:45Z |
+| llama.cpp | 10362 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-08-11T04:21:32Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
