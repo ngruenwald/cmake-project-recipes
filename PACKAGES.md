@@ -35,7 +35,7 @@
 | cpp-httplib | 0.53.1 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-08-15T01:51:42Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
-| cpp-peglib | 1.16.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-08-09T23:38:00Z |
+| cpp-peglib | 1.17.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-08-18T03:53:04Z |
 | cpp-soaplib | main |  | [ngruenwald/cpp-soaplib](https://github.com/ngruenwald/cpp-soaplib) |  |
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.3 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2025-02-19T01:13:09Z |
@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.3 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-04-15T10:11:20Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 10472 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-08-17T16:35:36Z |
+| llama.cpp | 10481 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-08-18T04:15:53Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
