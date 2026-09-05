@@ -3,14 +3,14 @@
     "source": "https://github.com/grpc/grpc",
     "package": "grpc/grpc",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2026-07-21T09:16:28Z",
+    "date": "2026-08-27T04:15:43Z",
     "target": "",
     "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
   },
-  "version": "1.83.0",
+  "version": "1.83.1",
   "method": "fetch_content",
   "url": "https://github.com/grpc/grpc/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=876ff5c9c26f364cd603531761268a5b58ccc1479afc78d6dab1d8e839da00c0",
+  "url_hash": "SHA256=cd95b3a71e29dc733e11af38c8f5a5c1e7bd8b54de6bf316a57afd5bb4438bb3",
   "update_disconnected": true,
   "options": {}
 }
