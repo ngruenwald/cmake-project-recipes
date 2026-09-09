@@ -3,14 +3,14 @@
     "source": "https://github.com/nanomsg/nanomsg",
     "package": "nanomsg/nanomsg",
     "tag_filter": "",
-    "date": "2026-08-02T21:15:28Z",
+    "date": "2026-09-06T20:36:53Z",
     "target": "",
     "description": "The nanomsg library is a simple high-performance implementation of several \"scalability protocols\"."
   },
-  "version": "1.2.4",
+  "version": "1.2.5",
   "method": "fetch_content",
   "url": "https://github.com/nanomsg/nanomsg/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=41114b2a78ccfcad32a0936a0c1d1c78e473f2433a37822af1986d12145a8345",
+  "url_hash": "SHA256=2db08e88a9c09cb3261e504eb83e2ab69b9ab61d13432ee16495d10f6c53b58a",
   "update_disconnected": true,
   "options": {}
 }
