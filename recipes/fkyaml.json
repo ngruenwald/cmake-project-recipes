@@ -3,14 +3,14 @@
     "source": "https://github.com/fktn-k/fkYAML",
     "package": "fktn-k/fkYAML",
     "tag_filter": "",
-    "date": "2026-08-20T06:33:09Z",
+    "date": "2026-09-17T13:34:51Z",
     "target": "fkYAML::fkYAML",
     "description": "A C++ header-only YAML library"
   },
-  "version": "0.4.4",
+  "version": "0.5.0",
   "method": "fetch_content",
   "url": "https://github.com/fktn-k/fkYAML/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=c17e97f0e23338846438562e048ffacf508d8cddf2f8cf718b461945dc950f40",
+  "url_hash": "SHA256=3cc17e9690af4191d665931fec0f61b7936ed8858334895fa9073504efb522ad",
   "update_disconnected": true,
   "options": {
     "FK_YAML_INSTALL": "OFF",

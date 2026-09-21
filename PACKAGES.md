@@ -32,7 +32,7 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.56.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-09-11T21:35:54Z |
+| cpp-httplib | 0.57.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-09-21T00:38:01Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
 | cpp-peglib | 1.17.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-08-18T03:53:04Z |
@@ -55,7 +55,7 @@
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.1.0 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2025-03-21T12:04:51Z |
 | fizz | 2026.09.14.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2026-09-13T16:33:37Z |
-| fkYAML | 0.4.4 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2026-08-20T06:33:09Z |
+| fkYAML | 0.5.0 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2026-09-17T13:34:51Z |
 | fmt | 12.2.0 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2026-06-16T05:05:35Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-09-01T16:16:32Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 11011 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-09-17T02:15:47Z |
+| llama.cpp | 11065 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-09-20T20:20:12Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
@@ -107,7 +107,7 @@
 | mp-units | 2.5.0 | The quantities and units library for C++ | [mpusz/mp-units](https://github.com/mpusz/mp-units) | 2025-12-24T14:50:11Z |
 | nameof | 0.10.6 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-07-04T12:10:41Z |
 | nanomsg | 1.2.5 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2026-09-06T20:36:53Z |
-| nats.c | 3.13.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-05-29T19:58:57Z |
+| nats.c | 3.14.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-09-17T17:57:40Z |
 | nghttp2 | 1.70.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-07-29T11:59:55Z |
 | nng | 1.12.4 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2026-08-30T18:21:33Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
@@ -175,7 +175,7 @@
 | wil | 1.0.260126.7 | Windows Implementation Library | [microsoft/wil](https://github.com/microsoft/wil) | 2026-01-23T23:37:45Z |
 | wise_enum | 3.1.0 | A reflective enum implementation for C++ | [quicknir/wise_enum](https://github.com/quicknir/wise_enum) | 2019-07-31T16:35:59Z |
 | wspp | 0.1.0 | Modern, Async, Non-Blocking, zero-dependency C++20 RFC 6455 Compliant WebSocket client & server, cross-platform, single-header, WS/WSS support. | [pinwhell/wspp](https://github.com/pinwhell/wspp) | 2026-01-10T01:25:29Z |
-| xxhash | 0.8.3 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2024-12-29T20:58:19Z |
+| xxhash | 0.8.4 | Extremely fast non-cryptographic hash algorithm | [cyan4973/xxhash](https://github.com/cyan4973/xxhash) | 2026-09-19T00:29:23Z |
 | xxhr | 1.0.2 | intuitive c++ http client library  | [nxxm/xxhr](https://github.com/nxxm/xxhr) | 2021-08-26T08:14:57Z |
 | yaml-cpp | 0.9.0 | A YAML parser and emitter in C++ | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 2026-02-04T20:26:25Z |
 | zlib | 1.3.2 | A massively spiffy yet delicately unobtrusive compression library. | [madler/zlib](https://github.com/madler/zlib) | 2026-02-17T13:01:19Z |
