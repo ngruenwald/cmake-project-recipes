@@ -3,14 +3,14 @@
     "source": "https://github.com/microsoft/gsl",
     "package": "microsoft/gsl",
     "tag_filter": "",
-    "date": "2026-08-25T20:57:48Z",
+    "date": "2026-09-22T16:59:02Z",
     "target": "",
     "description": "Guidelines Support Library"
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "method": "fetch_content",
   "url": "https://github.com/microsoft/gsl/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=16683dc580523a0f9554b78bff232c83cbb8203d327a8a4d7d25fc0ac6a35dec",
+  "url_hash": "SHA256=90957b95687427754c973b2e176f598e79456ac53740592e7fa8f2b5cb5de764",
   "update_disconnected": true,
   "options": {}
 }
