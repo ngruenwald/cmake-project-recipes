@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "source": "https://github.com/machframework/mach",
+    "package": "machframework/mach",
+    "tag_filter": "",
+    "date": "2026-09-24T12:56:05Z",
+    "target": "fmt::fmt",
+    "description": "Mach brings routing, controllers, dependency injection, middleware, validation, JSON binding, and modern application architecture to high-performance C++20 HTTP services."
+  },
+  "version": "1.0.0",
+  "method": "fetch_content",
+  "url": "https://github.com/machframework/mach/archive/refs/tags/v{{version}}.zip",
+  "options": {
+    "MACH_CAN_INSTALL": "OFF",
+    "MACH_BUILD_PACKAGE": "OFF",
+    "MACH_BUILD_EXAMPLES": "OFF",
+    "MACH_BUILD_TESTS": "OFF",
+    "MACH_BUILD_BENCHMARKS": "OFF"
+  },
+  "url_hash": "SHA256=e698ba4cdf7e3dbd8a5895e8973a3403a7141a4f3a90f711edabe1e2a915c4d4"
+}
