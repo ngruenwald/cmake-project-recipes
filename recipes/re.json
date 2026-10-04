@@ -3,14 +3,14 @@
     "source": "https://github.com/baresip/re",
     "package": "baresip/re",
     "tag_filter": "",
-    "date": "2026-08-24T11:03:29Z",
+    "date": "2026-09-30T17:40:28Z",
     "target": "libre::re",
     "description": "Generic library for real-time communications with async IO support"
   },
-  "version": "4.11.0",
+  "version": "4.12.0",
   "method": "fetch_content",
   "url": "https://github.com/baresip/re/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=db1f326a13619db4da824653bf8190daf9c060fd085304002b67c2dc5fe6fb4a",
+  "url_hash": "SHA256=86e1d08c92c88cfa96f446f0a1888f9c251cab72b36bced3245108bb2febfa52",
   "update_disconnected": true,
   "options": {
     "USE_REM": "ON",

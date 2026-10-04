@@ -3,14 +3,14 @@
     "source": "https://github.com/tink-crypto/tink-cc",
     "package": "tink-crypto/tink-cc",
     "tag_filter": "",
-    "date": "2026-08-14T12:47:45Z",
+    "date": "2026-09-14T09:22:12Z",
     "target": "tink::static",
     "description": "C++ implementation of Tink"
   },
-  "version": "2.9.1",
+  "version": "2.9.2",
   "method": "fetch_content",
   "url": "https://github.com/tink-crypto/tink-cc/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=247a79909be0e6b7e6096e87fd8fc2707c14f7a5051e4faf783c5a55656e3055",
+  "url_hash": "SHA256=f5259652e09e26ca4a00c16c009a0930c18be0568e3fe34645db4208ebb57f8c",
   "update_disconnected": true,
   "options": {
     "TINK_BUILD_TESTS": "OFF"

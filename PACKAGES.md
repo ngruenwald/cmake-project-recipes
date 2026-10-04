@@ -4,7 +4,7 @@
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
 | CLI11 | 2.7.2 | CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface. | [CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) | 2026-08-02T14:08:25Z |
-| StringZilla | 5.1.2 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2026-08-12T00:06:49Z |
+| StringZilla | 5.2.0 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2026-10-02T19:59:05Z |
 | TooManyCooks | 1.6.1 | C++20 concurrency framework with no compromises. Excellent performance, powerful features, and simple syntax. | [tzcnt/TooManyCooks](https://github.com/tzcnt/TooManyCooks) | 2026-06-14T18:50:14Z |
 | abseil-cpp | 20260817.0 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2026-08-18T12:53:30Z |
 | ada | 4.0.0 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2026-07-27T20:10:09Z |
@@ -32,17 +32,17 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.58.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-09-22T00:01:43Z |
+| cpp-httplib | 0.59.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-10-03T02:06:39Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
-| cpp-peglib | 1.18.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-09-28T21:24:41Z |
+| cpp-peglib | 1.19.1 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-01T03:27:41Z |
 | cpp-soaplib | main |  | [ngruenwald/cpp-soaplib](https://github.com/ngruenwald/cpp-soaplib) |  |
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.3 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2025-02-19T01:13:09Z |
 | cppq | master | Simple, reliable & efficient distributed task queue for C++17 | [jafarlihi/cppq](https://github.com/jafarlihi/cppq) |  |
 | cpr | 1.14.2 | C++ Requests: Curl for People, a spiritual port of Python Requests. | [libcpr/cpr](https://github.com/libcpr/cpr) | 2026-02-15T13:44:43Z |
 | cr | master | cr.h: A Simple C Hot Reload Header-only Library | [fungos/cr](https://github.com/fungos/cr) |  |
-| crow | 1.3.4 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2026-09-05T21:49:10Z |
+| crow | 1.3.5 | A Fast and Easy to use microframework for the web. | [crowcpp/crow](https://github.com/crowcpp/crow) | 2026-10-03T15:33:09Z |
 | curl | 8_22_0 | A command line tool and library for transferring data with URL syntax... | [curl/curl](https://github.com/curl/curl) | 2026-09-01T05:50:17Z |
 | cxxopts | 3.3.1 | Lightweight C++ command line option parser | [jarro2783/cxxopts](https://github.com/jarro2783/cxxopts) | 2025-05-26T08:09:26Z |
 | date | 3.0.5 | A date and time library based on the C++11/14/17 <chrono> header | [HowardHinnant/date](https://github.com/HowardHinnant/date) | 2026-07-23T19:52:36Z |
@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-09-01T16:16:32Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 11243 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-09-29T02:19:51Z |
+| llama.cpp | 11382 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-10-04T00:07:47Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | mach | 1.0.0 | Mach brings routing, controllers, dependency injection, middleware, validation, JSON binding, and modern application architecture to high-performance C++20 HTTP services. | [machframework/mach](https://github.com/machframework/mach) | 2026-09-24T12:56:05Z |
@@ -116,7 +116,7 @@
 | ollama-hpp | 0.9.7 | Modern, Header-only C++ bindings for the Ollama API. | [jmont-dev/ollama-hpp](https://github.com/jmont-dev/ollama-hpp) | 2025-10-20T04:41:36Z |
 | openai-cpp | 0.1.3 | OpenAI C++ is a community-maintained library for the Open AI API | [olrea/openai-cpp](https://github.com/olrea/openai-cpp) | 2024-07-20T14:17:38Z |
 | opencv | 5.0.0 | Open Source Computer Vision Library | [opencv/opencv](https://github.com/opencv/opencv) | 2026-06-05T17:10:04Z |
-| openssl | 4.0.2 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2026-08-25T11:38:35Z |
+| openssl | 4.0.3 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2026-09-29T13:44:55Z |
 | opentelemetry-cpp | 1.29.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2026-09-13T18:20:33Z |
 | opus | 1.6.1 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2026-01-13T20:16:34Z |
 | patternia | 0.9.4 | Providing pattern matching for modern c++. | [sentomk/patternia](https://github.com/sentomk/patternia) | 2026-08-01T10:21:11Z |
@@ -133,7 +133,7 @@
 | raygui | 5.0 | A simple and easy-to-use immediate-mode gui library | [raysan5/raygui](https://github.com/raysan5/raygui) | 2026-07-20T22:04:37Z |
 | raylib | 4.5.0 | A simple and easy-to-use library to enjoy videogames programming | [raysan5/raylib](https://github.com/raysan5/raylib) | 2023-03-18T16:37:04Z |
 | raylib-cpp | 6.0.3 | C++ Object Oriented Wrapper for raylib | [robloach/raylib-cpp](https://github.com/robloach/raylib-cpp) | 2026-08-03T03:04:10Z |
-| re | 4.11.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2026-08-24T11:03:29Z |
+| re | 4.12.0 | Generic library for real-time communications with async IO support | [baresip/re](https://github.com/baresip/re) | 2026-09-30T17:40:28Z |
 | readerwriterqueue | 1.0.7 | A fast single-producer, single-consumer lock-free queue for C++ | [cameron314/readerwriterqueue](https://github.com/cameron314/readerwriterqueue) | 2025-04-28T05:04:29Z |
 | resiprocate | 1.14.0 | C++ implementation of SIP, ICE, TURN and related protocols. | [resiprocate/resiprocate](https://github.com/resiprocate/resiprocate) | 2026-06-18T15:39:13Z |
 | scnlib | 4.0.1 | scanf for modern C++ | [eliaskosunen/scnlib](https://github.com/eliaskosunen/scnlib) | 2024-11-03T23:00:07Z |
@@ -162,7 +162,7 @@
 | taskflow | 4.1.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2026-06-20T01:32:50Z |
 | tempus | 0.1.1 | timer stuff | [ngruenwald/tempus](https://github.com/ngruenwald/tempus) | 2022-07-28T15:43:33Z |
 | testcontainers-c | 0.1.0 | Testcontainers for C/C++/Swift and other native projects, built on the top of Testcontainers for Go | [testcontainers/testcontainers-c](https://github.com/testcontainers/testcontainers-c) | 2024-07-20T14:10:20Z |
-| tink-cc | 2.9.1 | C++ implementation of Tink | [tink-crypto/tink-cc](https://github.com/tink-crypto/tink-cc) | 2026-08-14T12:47:45Z |
+| tink-cc | 2.9.2 | C++ implementation of Tink | [tink-crypto/tink-cc](https://github.com/tink-crypto/tink-cc) | 2026-09-14T09:22:12Z |
 | toml11 | 4.4.0 | TOML for Modern C++ | [toruniina/toml11](https://github.com/ToruNiina/toml11) | 2025-02-15T15:14:52Z |
 | tomlplusplus | 3.4.0 | Header-only TOML config file parser and serializer for C++17. | [marzer/tomlplusplus](https://github.com/marzer/tomlplusplus) | 2023-10-13T13:25:17Z |
 | transwarp | 2.2.3 | A header-only C++ library for task concurrency | [bloomen/transwarp](https://github.com/bloomen/transwarp) | 2022-06-24T10:57:36Z |
