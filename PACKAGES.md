@@ -18,7 +18,7 @@
 | blurhash | master | A very compact representation of a placeholder for an image. | [woltapp/blurhash](https://github.com/woltapp/blurhash) |  |
 | box2d | 3.1.1 | Box2D is a 2D physics engine for games | [erincatto/box2d](https://github.com/erincatto/box2d) | 2025-06-04T00:50:24Z |
 | brotli | 1.2.0 | Brotli compression format | [google/brotli](https://github.com/google/brotli) | 2025-10-27T13:07:14Z |
-| catch2 | 3.16.0 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2026-08-25T07:32:22Z |
+| catch2 | 3.16.1 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2026-10-08T12:49:50Z |
 | ckdl | 1.0 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2024-12-21T19:24:59Z |
 | clay | 0.14 | High performance UI layout library in C. | [nicbarker/clay](https://github.com/nicbarker/clay) | 2025-06-06T01:01:42Z |
 | cli | 2.2.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2024-10-25T21:38:32Z |
@@ -32,10 +32,10 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.59.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-10-03T02:06:39Z |
+| cpp-httplib | 0.60.1 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-10-08T03:40:36Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
-| cpp-peglib | 1.20.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-05T00:49:38Z |
+| cpp-peglib | 1.21.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-07T16:12:53Z |
 | cpp-soaplib | main |  | [ngruenwald/cpp-soaplib](https://github.com/ngruenwald/cpp-soaplib) |  |
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.3 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2025-02-19T01:13:09Z |
@@ -101,7 +101,7 @@
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
 | mbedtls | 4.2.0 | An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. | [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | 2026-07-01T11:00:14Z |
-| mediapipe | 1.0.0 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2026-07-22T21:47:25Z |
+| mediapipe | 1.1.0 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2026-10-06T18:12:25Z |
 | memory | 0.7-4 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2025-05-02T21:37:14Z |
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
@@ -140,7 +140,7 @@
 | seastar | master | High performance server-side application framework | [scylladb/seastar](https://github.com/scylladb/seastar) |  |
 | sfml | 3.1.0 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2026-03-23T12:54:32Z |
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
-| simdjson | 5.0.2 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2026-10-04T18:52:10Z |
+| simdjson | 5.0.3 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2026-10-08T04:19:02Z |
 | sobjectizer | 5.8.6.1 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2026-09-11T06:46:48Z |
 | sofia-sip | 1.13.18 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) | 2026-08-03T21:14:22Z |
 | spdlog | 1.17.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2026-01-04T16:06:01Z |
@@ -158,7 +158,7 @@
 | stduuid | 1.2.3 | A C++17 cross-platform implementation for UUIDs | [mariusbancila/stduuid](https://github.com/mariusbancila/stduuid) | 2022-06-16T09:21:45Z |
 | strong_type | 16 | An additive strong typedef library for C++14/17/20 | [rollbear/strong_type](https://github.com/rollbear/strong_type) | 2026-07-15T12:33:37Z |
 | strtk | master | C++ String Toolkit Library | [arashpartow/strtk](https://github.com/ArashPartow/strtk) |  |
-| tabulate | 2.1 | Table Maker for Modern C++ | [p-ranav/tabulate](https://github.com/p-ranav/tabulate) | 2026-10-05T00:56:43Z |
+| tabulate | 2.2 | Table Maker for Modern C++ | [p-ranav/tabulate](https://github.com/p-ranav/tabulate) | 2026-10-07T19:56:01Z |
 | taskflow | 4.1.0 | A General-purpose Task-parallel Programming System using Modern C++ | [taskflow/taskflow](https://github.com/taskflow/taskflow) | 2026-06-20T01:32:50Z |
 | tempus | 0.1.1 | timer stuff | [ngruenwald/tempus](https://github.com/ngruenwald/tempus) | 2022-07-28T15:43:33Z |
 | testcontainers-c | 0.1.0 | Testcontainers for C/C++/Swift and other native projects, built on the top of Testcontainers for Go | [testcontainers/testcontainers-c](https://github.com/testcontainers/testcontainers-c) | 2024-07-20T14:10:20Z |

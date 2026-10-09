@@ -3,14 +3,14 @@
     "source": "https://github.com/p-ranav/tabulate",
     "package": "p-ranav/tabulate",
     "tag_filter": "",
-    "date": "2026-10-05T00:56:43Z",
+    "date": "2026-10-07T19:56:01Z",
     "target": "",
     "description": "Table Maker for Modern C++"
   },
-  "version": "2.1",
+  "version": "2.2",
   "method": "fetch_content",
   "url": "https://github.com/p-ranav/tabulate/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=55418b90c736c0967ba274eafb935458be7167ad6757d4ba5fdcfad16091e7aa",
+  "url_hash": "SHA256=be9b724d42e4fc7cfbac8f3df02900dc264e314ad23dffa4bb8c11da0922c45b",
   "update_disconnected": true,
   "options": {}
 }
