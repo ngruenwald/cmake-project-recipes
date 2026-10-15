@@ -3,14 +3,14 @@
     "source": "https://github.com/libcpr/cpr",
     "package": "libcpr/cpr",
     "tag_filter": "",
-    "date": "2026-02-15T13:44:43Z",
+    "date": "2026-10-13T10:34:08Z",
     "target": "",
     "description": "C++ Requests: Curl for People, a spiritual port of Python Requests."
   },
-  "version": "1.14.2",
+  "version": "1.15.1",
   "method": "fetch_content",
   "url": "https://github.com/libcpr/cpr/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=9bb35d0595bc43ea7158c34f2cca61e9a640f915616dfd23f86c58f68e871749",
+  "url_hash": "SHA256=25acc0abc9cc8c36de884fad977cf5fba2b086e5cbebf1d91484242455cfd8de",
   "update_disconnected": true,
   "options": {}
 }
