@@ -35,7 +35,7 @@
 | cpp-httplib | 0.61.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-10-14T02:56:02Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
-| cpp-peglib | 1.21.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-07T16:12:53Z |
+| cpp-peglib | 1.22.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-16T23:03:29Z |
 | cpp-soaplib | main |  | [ngruenwald/cpp-soaplib](https://github.com/ngruenwald/cpp-soaplib) |  |
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.3 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2025-02-19T01:13:09Z |
@@ -71,7 +71,7 @@
 | gsl | 5.0.1 | Guidelines Support Library | [microsoft/gsl](https://github.com/microsoft/gsl) | 2026-09-22T16:59:02Z |
 | guetzli | 1.0.1 | Perceptual JPEG encoder | [google/guetzli](https://github.com/google/guetzli) | 2017-03-21T16:26:36Z |
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
-| hiredis | 1.4.1 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2026-08-06T14:45:02Z |
+| hiredis | 1.5.0 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2026-10-15T13:47:43Z |
 | hyperscan | 5.4.2.1 | High-performance regular expression matching library | [intel/hyperscan](https://github.com/intel/hyperscan) | 2026-08-13T06:39:47Z |
 | hypodermic | 2.5.3 | Hypodermic is an IoC container for C++. It provides dependency injection to your existing design. | [ybainier/hypodermic](https://github.com/ybainier/hypodermic) | 2021-09-21T16:39:45Z |
 | imgui | 1.93.0 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2026-10-14T14:46:54Z |
@@ -94,7 +94,7 @@
 | libwebm | 1.0.0.32 | WebM File Parser | [webmproject/libwebm](https://github.com/webmproject/libwebm) | 2025-06-24T22:17:16Z |
 | libxml2 | 2.15.4 | XML parser and toolkit | [gnome/libxml2](https://github.com/GNOME/libxml2) | 2026-09-01T16:16:32Z |
 | libzmq | 4.3.5 | ZeroMQ core engine in C++, implements ZMTP/3.1 | [zeromq/libzmq](https://github.com/zeromq/libzmq) | 2023-10-08T23:01:14Z |
-| llama.cpp | 0.6.0 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-10-05T15:13:51Z |
+| llama.cpp | 0.7.0 | LLM inference in C/C++ | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 2026-10-15T13:48:22Z |
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.10.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2015-06-29T09:48:37Z |
 | mach | 1.0.0 | Mach brings routing, controllers, dependency injection, middleware, validation, JSON binding, and modern application architecture to high-performance C++20 HTTP services. | [machframework/mach](https://github.com/machframework/mach) | 2026-09-24T12:56:05Z |
@@ -110,7 +110,7 @@
 | nanomsg | 1.3.0 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2026-10-04T20:32:22Z |
 | nats.c | 3.14.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-09-17T17:57:40Z |
 | nghttp2 | 1.70.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-07-29T11:59:55Z |
-| nng | 1.12.4 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2026-08-30T18:21:33Z |
+| nng | 2.0.0 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2026-10-18T17:22:45Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
 | oatpp | 1.3.1 | Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable. | [oatpp/oatpp](https://github.com/oatpp/oatpp) | 2024-02-05T03:51:38Z |
 | ollama-hpp | 0.9.7 | Modern, Header-only C++ bindings for the Ollama API. | [jmont-dev/ollama-hpp](https://github.com/jmont-dev/ollama-hpp) | 2025-10-20T04:41:36Z |

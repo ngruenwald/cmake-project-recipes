@@ -3,14 +3,14 @@
     "source": "https://github.com/redis/hiredis",
     "package": "redis/hiredis",
     "tag_filter": "",
-    "date": "2026-08-06T14:45:02Z",
+    "date": "2026-10-15T13:47:43Z",
     "target": "",
     "description": "Minimalistic C client for Redis >= 1.2"
   },
-  "version": "1.4.1",
+  "version": "1.5.0",
   "method": "fetch_content",
   "url": "https://github.com/redis/hiredis/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=804a774a05c97b95d6e73514bda98b8644e9a00d13dd0f9730956f7eb01321bc",
+  "url_hash": "SHA256=c99af6e7dc9fc5ee5954dd30755d14259687c9cf502b8ec255ab4cc6998d97d0",
   "update_disconnected": true,
   "options": {}
 }
