@@ -32,10 +32,10 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.62.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-10-19T00:47:10Z |
+| cpp-httplib | 0.63.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-10-22T02:26:15Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
-| cpp-peglib | 1.24.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-21T01:37:02Z |
+| cpp-peglib | 1.25.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-22T23:19:14Z |
 | cpp-soaplib | main |  | [ngruenwald/cpp-soaplib](https://github.com/ngruenwald/cpp-soaplib) |  |
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.3 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2025-02-19T01:13:09Z |
@@ -67,7 +67,7 @@
 | glob | 0.0.1 | Glob for C++17 | [p-ranav/glob](https://github.com/p-ranav/glob) | 2021-05-10T16:58:47Z |
 | glog | 0.7.1 | C++ implementation of the Google logging module | [google/glog](https://github.com/google/glog) | 2024-06-08T15:07:34Z |
 | googletest | 1.18.0 | GoogleTest - Google Testing and Mocking Framework | [google/googletest](https://github.com/google/googletest) | 2026-08-10T17:19:17Z |
-| grpc | 1.84.0 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-09-10T20:50:23Z |
+| grpc | 1.84.1 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-10-22T10:39:35Z |
 | gsl | 5.0.1 | Guidelines Support Library | [microsoft/gsl](https://github.com/microsoft/gsl) | 2026-09-22T16:59:02Z |
 | guetzli | 1.0.1 | Perceptual JPEG encoder | [google/guetzli](https://github.com/google/guetzli) | 2017-03-21T16:26:36Z |
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
@@ -116,8 +116,8 @@
 | ollama-hpp | 0.9.7 | Modern, Header-only C++ bindings for the Ollama API. | [jmont-dev/ollama-hpp](https://github.com/jmont-dev/ollama-hpp) | 2025-10-20T04:41:36Z |
 | openai-cpp | 0.1.3 | OpenAI C++ is a community-maintained library for the Open AI API | [olrea/openai-cpp](https://github.com/olrea/openai-cpp) | 2024-07-20T14:17:38Z |
 | opencv | 5.0.0 | Open Source Computer Vision Library | [opencv/opencv](https://github.com/opencv/opencv) | 2026-06-05T17:10:04Z |
-| openssl | 4.0.3 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2026-09-29T13:44:55Z |
-| opentelemetry-cpp | 1.29.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2026-09-13T18:20:33Z |
+| openssl | 4.1.0 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2026-10-23T12:16:44Z |
+| opentelemetry-cpp | 1.30.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2026-10-22T19:44:09Z |
 | opus | 1.6.1 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2026-01-13T20:16:34Z |
 | patternia | 0.9.4 | Providing pattern matching for modern c++. | [sentomk/patternia](https://github.com/sentomk/patternia) | 2026-08-01T10:21:11Z |
 | pdfgen | 0.1.0 | Simple C PDF Writer/Generation library | [andrerenaud/pdfgen](https://github.com/andrerenaud/pdfgen) | 2021-06-07T23:02:34Z |
