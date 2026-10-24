@@ -3,14 +3,14 @@
     "source": "https://github.com/yhirose/cpp-peglib",
     "package": "yhirose/cpp-peglib",
     "tag_filter": "",
-    "date": "2026-10-22T23:19:14Z",
+    "date": "2026-10-23T18:12:40Z",
     "target": "",
     "description": "A single file C++ header-only PEG (Parsing Expression Grammars) library"
   },
-  "version": "1.25.0",
+  "version": "1.26.0",
   "method": "fetch_content",
   "url": "https://github.com/yhirose/cpp-peglib/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=c47c2282c648e0496b18587b32029c653e26ff6b70bfdfe5ed190d68362c8e16",
+  "url_hash": "SHA256=d1f2c434d6d316af73c147b8755eb491855cdb4ebd38de38b9e8ca40f6ed68eb",
   "update_disconnected": true,
   "options": {}
 }
