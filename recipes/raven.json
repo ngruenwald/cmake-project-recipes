@@ -3,14 +3,14 @@
     "source": "https://github.com/oscar-soirey/Raven",
     "package": "oscar-soirey/Raven",
     "tag_filter": "",
-    "date": "2026-10-21T08:25:00Z",
+    "date": "2026-10-30T20:43:13Z",
     "target": "raven::raven",
     "description": "A lightweight, multithreaded GUI library in C for editors and tools."
   },
-  "version": "0.1.2",
+  "version": "0.2.0",
   "method": "fetch_content",
   "url": "https://github.com/oscar-soirey/Raven/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=bfeaa5a2768d733b22dbc4fa7ca0f27c8d2dc43ae95bfcefd130649b49b29df1",
+  "url_hash": "SHA256=15802fb9696d6ef33922a3308fa9cd856a801c1b0b524631db9a1e2cf6bcc5ee",
   "update_disconnected": true,
   "options": {
     "RAVEN_IS_TOP_LEVEL": "OFF",

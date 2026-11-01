@@ -3,14 +3,14 @@
     "source": "https://github.com/sentomk/patternia",
     "package": "sentomk/patternia",
     "tag_filter": "^v\\d+\\.\\d+(\\.\\d+)?$",
-    "date": "2026-08-01T10:21:11Z",
+    "date": "2026-10-29T15:01:39Z",
     "target": "",
     "description": "Providing pattern matching for modern c++."
   },
-  "version": "0.9.4",
+  "version": "0.9.5",
   "method": "fetch_content",
   "url": "https://github.com/sentomk/patternia/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=2aedd89dd16420f2519e2608aac3e2956363126a6df43c82898da1f718877781",
+  "url_hash": "SHA256=2035ea4129b795ee9dfa4942ce3b4a2b29f5368b880fe277c593804e209b6a10",
   "update_disconnected": true,
   "options": {
     "PTN_INSTALL": "OFF",

@@ -3,14 +3,14 @@
     "source": "https://github.com/neargye/nameof",
     "package": "neargye/nameof",
     "tag_filter": "",
-    "date": "2026-07-04T12:10:41Z",
+    "date": "2026-10-27T16:27:00Z",
     "target": "",
     "description": "Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum"
   },
-  "version": "0.10.6",
+  "version": "0.11.0",
   "method": "fetch_content",
   "url": "https://github.com/neargye/nameof/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=218eb834eb66c3fa68c9993225ad77bdfa22cb8d57d63e1bc1183f30255ab850",
+  "url_hash": "SHA256=09b22602054f1d78f0a019463df880469476941d4940f95dc68d4236284dcf98",
   "update_disconnected": true,
   "options": {}
 }
