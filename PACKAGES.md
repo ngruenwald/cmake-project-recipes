@@ -110,7 +110,7 @@
 | nameof | 0.11.0 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-10-27T16:27:00Z |
 | nanomsg | 1.3.0 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2026-10-04T20:32:22Z |
 | nats.c | 3.14.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-09-17T17:57:40Z |
-| nghttp2 | 1.70.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-07-29T11:59:55Z |
+| nghttp2 | 1.71.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-11-02T12:44:06Z |
 | nng | 2.1.0 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2026-10-28T03:17:28Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
 | oatpp | 1.3.1 | Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable. | [oatpp/oatpp](https://github.com/oatpp/oatpp) | 2024-02-05T03:51:38Z |
