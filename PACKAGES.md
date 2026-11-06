@@ -4,7 +4,7 @@
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
 | CLI11 | 2.7.2 | CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface. | [CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) | 2026-08-02T14:08:25Z |
-| Raven | 0.2.1 | A lightweight, multithreaded GUI library in C for editors and tools. | [oscar-soirey/Raven](https://github.com/oscar-soirey/Raven) | 2026-11-03T20:16:31Z |
+| Raven | 0.2.2 | A lightweight, multithreaded GUI library in C for editors and tools. | [oscar-soirey/Raven](https://github.com/oscar-soirey/Raven) | 2026-11-06T11:12:40Z |
 | StringZilla | 5.3.2 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2026-10-25T00:29:59Z |
 | TooManyCooks | 1.6.1 | C++20 concurrency framework with no compromises. Excellent performance, powerful features, and simple syntax. | [tzcnt/TooManyCooks](https://github.com/tzcnt/TooManyCooks) | 2026-06-14T18:50:14Z |
 | abseil-cpp | 20260817.0 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2026-08-18T12:53:30Z |
@@ -22,7 +22,7 @@
 | catch2 | 3.16.1 | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later | [catchorg/catch2](https://github.com/catchorg/Catch2) | 2026-10-08T12:49:50Z |
 | ckdl | 1.0 | KDL parsing library in C, Python, C++ | [tjol/ckdl](https://github.com/tjol/ckdl) | 2024-12-21T19:24:59Z |
 | clay | 0.14 | High performance UI layout library in C. | [nicbarker/clay](https://github.com/nicbarker/clay) | 2025-06-06T01:01:42Z |
-| cli | 2.2.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2024-10-25T21:38:32Z |
+| cli | 2.3.0 | A library for interactive command line interfaces in modern C++ | [daniele77/cli](https://github.com/daniele77/cli) | 2026-11-06T10:09:15Z |
 | clipp | 1.2.3 | easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation | [muellan/clipp](https://github.com/muellan/clipp) | 2019-04-27T10:12:25Z |
 | cmake-modules | main | CMake modules | [ngruenwald/cmake-modules](https://github.com/ngruenwald/cmake-modules) |  |
 | cofetch | 0.1.2 | Chainable, high-performance async HTTP client for modern C++ event loops. | [ssarcandy/cofetch](https://github.com/SSARCandy/cofetch) | 2026-07-10T13:56:30Z |
@@ -36,7 +36,7 @@
 | cpp-httplib | 0.65.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-11-05T12:39:47Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
-| cpp-peglib | 1.30.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-10-28T16:38:00Z |
+| cpp-peglib | 1.31.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-11-06T18:47:29Z |
 | cpp-soaplib | main |  | [ngruenwald/cpp-soaplib](https://github.com/ngruenwald/cpp-soaplib) |  |
 | cpp-unicodelib | master | A C++17 header-only Unicode library. (Unicode 15.1) | [yhirose/cpp-unicodelib](https://github.com/yhirose/cpp-unicodelib) |  |
 | cppitertools | 2.3 | Implementation of python itertools and builtin iteration functions for C++17 | [ryanhaining/cppitertools](https://github.com/ryanhaining/cppitertools) | 2025-02-19T01:13:09Z |

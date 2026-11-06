@@ -3,14 +3,14 @@
     "source": "https://github.com/daniele77/cli",
     "package": "daniele77/cli",
     "tag_filter": "",
-    "date": "2024-10-25T21:38:32Z",
+    "date": "2026-11-06T10:09:15Z",
     "target": "",
     "description": "A library for interactive command line interfaces in modern C++"
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "method": "fetch_content",
   "url": "https://github.com/daniele77/cli/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=691173071ef51dad32d78fb3a22ccad511c88bebfdcbebc87aa942ebd5f9f8b6",
+  "url_hash": "SHA256=9325d0770c5d35a718fcca17a890abd4ef9c5e346aca4b19157f7c28295d6d40",
   "update_disconnected": true,
   "options": {}
 }
