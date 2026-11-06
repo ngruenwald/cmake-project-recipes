@@ -2,6 +2,8 @@ import argparse
 import glob
 import json
 import os
+
+from datetime import datetime, timezone
 from functools import cmp_to_key
 from hashlib import sha256
 from subprocess import Popen
@@ -66,6 +68,7 @@ def main() -> None:
     parser.add_argument("--commit", action="store_true", help="Create commit")
     parser.add_argument("--path", default=".", help="Recipe path")
     parser.add_argument("--doc", default="", help="Create package documentation")
+    parser.add_argument("--index", default="", help="Create package index")
     parser.add_argument("--verbose", action="store_true", help="Verbose output")
     args = parser.parse_args()
 
@@ -96,10 +99,15 @@ def main() -> None:
         applied_change = apply_update(detected_change, auto_accept)
         if applied_change:
             applied_changes.append(applied_change)
+    infos: list[Info] = []
+    if args.doc or args.index:
+        infos = create_info_data(recipe_files)
     if args.doc:
-        create_documentation(args.doc, recipe_files)
+        create_documentation(args.doc, infos)
+    if applied_changes and args.index:
+        create_index(args.index, infos)
     if applied_changes and args.commit:
-        create_commit(applied_changes, args.doc)
+        create_commit(applied_changes, args.doc, args.index)
 
 
 def package_name_from_recipe_file(filename: str) -> str:
@@ -214,11 +222,10 @@ def apply_update(
     auto_accept: bool,
 ) -> Change | None:
     try:
-        if not auto_accept:
-            if not ask_user(
-                f"  update {change.package} from {change.old_version} to {change.new_version}?"
-            ):
-                return None
+        if not auto_accept and not ask_user(
+            f"  update {change.package} from {change.old_version} to {change.new_version}?"
+        ):
+            return None
 
         if not change.info.get("url_hash", ""):
             change.info["url_hash"] = f"SHA256={get_file_hash(change.file_url)}"
@@ -352,7 +359,7 @@ def ask_user(question: str) -> bool:
             return False
 
 
-def create_commit(changes: list[Change], docufile: str | None) -> bool:
+def create_commit(changes: list[Change], docufile: str | None, indexfile: str | None) -> bool:
     commands = []
     for change in changes:
         commands.append(["git", "add", change.recipe_file])
@@ -361,6 +368,9 @@ def create_commit(changes: list[Change], docufile: str | None) -> bool:
 
     if docufile:
         commands.append(["git", "add", docufile])
+
+    if indexfile:
+        commands.append(["git", "add", indexfile])
 
     message = "maint: update versions\n"
     for change in changes:
@@ -375,16 +385,17 @@ def create_commit(changes: list[Change], docufile: str | None) -> bool:
     return True
 
 
-def create_documentation(filename: str, recipe_files: list[str]) -> None:
-    class Info:
-        def __init__(self, name, package, description, version, timestamp, url):
-            self.name = name
-            self.package = package
-            self.description = description
-            self.version = version
-            self.timestamp = timestamp
-            self.url = url
+class Info:
+    def __init__(self, name, package, description, version, timestamp, url):
+        self.name = name
+        self.package = package
+        self.description = description
+        self.version = version
+        self.timestamp = timestamp
+        self.url = url
 
+
+def create_info_data(recipe_files: list[str]) -> list[Info]:
     infos: list[Info] = []
     for recipe_file in recipe_files:
         with open(recipe_file, "r") as file:
@@ -402,7 +413,10 @@ def create_documentation(filename: str, recipe_files: list[str]) -> None:
         infos.append(Info(name, package, description, version, timestamp, url))
 
     infos.sort(key=lambda item: item.name)
+    return infos
 
+
+def create_documentation(filename: str, infos: list[Info]) -> None:
     with open(filename, "w") as file:
         file.write("# Packages\n")
         file.write("\n")
@@ -413,6 +427,22 @@ def create_documentation(filename: str, recipe_files: list[str]) -> None:
                 f"| {info.name} | {info.version} | {info.description} | [{info.package}]({info.url}) | {info.timestamp} |\n"
             )
 
+
+def create_index(filename: str, infos: list[Info]) -> None:
+    def to_dict(info: Info) -> dict:
+        return {
+            "name": info.name,
+            "version": info.version,
+            "description": info.description,
+            "project": info.url,
+            "updated": info.timestamp
+        }
+    with open(filename, "w") as file:
+        data = {
+            "date": str(datetime.now(timezone.utc)),
+            "packages": [to_dict(x) for x in infos]
+        }
+        file.write(json.dumps(data, indent="  "))
 
 if __name__ == "__main__":
     main()
