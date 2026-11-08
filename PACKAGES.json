@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06 21:59:24.008317+00:00",
+  "date": "2026-11-08 15:22:56.480630+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -66,10 +66,10 @@
     },
     {
       "name": "asio",
-      "version": "1-38-2",
+      "version": "1-39-0",
       "description": "Asio C++ Library",
       "project": "https://github.com/chriskohlhoff/asio",
-      "updated": "2026-07-18T23:15:27Z"
+      "updated": "2026-11-06T22:30:06Z"
     },
     {
       "name": "backward-cpp",
@@ -388,10 +388,10 @@
     },
     {
       "name": "fmt",
-      "version": "12.2.0",
+      "version": "12.2.1",
       "description": "A modern formatting library",
       "project": "https://github.com/fmtlib/fmt",
-      "updated": "2026-06-16T05:05:35Z"
+      "updated": "2026-11-07T16:39:43Z"
     },
     {
       "name": "fmtlog",

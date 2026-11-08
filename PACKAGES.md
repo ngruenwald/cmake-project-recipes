@@ -11,7 +11,7 @@
 | ada | 4.0.0 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2026-07-27T20:10:09Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
 | argy | 0.6.0 | Argy: Command-line parsing library for modern C++ — simple, intuitive, and header-only with no dependencies. | [mshenoda/argy](https://github.com/mshenoda/argy) | 2025-08-31T14:02:49Z |
-| asio | 1-38-2 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2026-07-18T23:15:27Z |
+| asio | 1-39-0 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2026-11-06T22:30:06Z |
 | backward-cpp | 1.6 | A beautiful stack trace pretty printer for C++ | [bombela/backward-cpp](https://github.com/bombela/backward-cpp) | 2021-08-12T22:49:08Z |
 | barkeep | 0.1.6 | Small C++ header to display async animations, counters, and progress bars | [oir/barkeep](https://github.com/oir/barkeep) | 2026-04-19T01:31:12Z |
 | benchmark | 1.10.0 | A microbenchmark support library | [google/benchmark](https://github.com/google/benchmark) | 2026-10-14T10:08:42Z |
@@ -57,7 +57,7 @@
 | fibertaskinglib | 2.1.0 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2025-03-21T12:04:51Z |
 | fizz | 2026.10.26.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2026-10-25T17:03:41Z |
 | fkYAML | 0.5.0 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2026-09-17T13:34:51Z |
-| fmt | 12.2.0 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2026-06-16T05:05:35Z |
+| fmt | 12.2.1 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2026-11-07T16:39:43Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
 | fruit | 3.7.1 | Fruit, a dependency injection framework for C++ | [google/fruit](https://github.com/google/fruit) |  |
 | ftxui | 7.0.3 | C++ Functional Terminal User Interface. | [arthursonzogni/ftxui](https://github.com/ArthurSonzogni/FTXUI) | 2026-08-06T07:20:42Z |
