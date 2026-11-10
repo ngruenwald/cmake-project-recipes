@@ -3,14 +3,14 @@
     "source": "https://github.com/lz4/lz4",
     "package": "lz4/lz4",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2026-11-04T00:58:16Z",
+    "date": "2026-11-10T05:21:42Z",
     "target": "",
     "description": "Extremely Fast Compression algorithm"
   },
-  "version": "1.11.0",
+  "version": "1.11.1",
   "method": "fetch_content",
   "url": "https://github.com/lz4/lz4/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=3119b5dc25707ff3231237c145755b80c515e48348e56fbbb2be06fe9ce40997",
+  "url_hash": "SHA256=820025b0c391d43a318ab49de67a5bceed017509ee6c8b91dfd1c9eb7fa814ad",
   "update_disconnected": true,
   "options": {}
 }
