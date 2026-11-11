@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10 06:11:48.847852+00:00",
+  "date": "2026-11-11 20:05:34.180316+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -220,10 +220,10 @@
     },
     {
       "name": "cpp-httplib",
-      "version": "0.65.0",
+      "version": "0.66.0",
       "description": "A C++ header-only HTTP/HTTPS server and client library",
       "project": "https://github.com/yhirose/cpp-httplib",
-      "updated": "2026-11-05T12:39:47Z"
+      "updated": "2026-11-10T22:19:39Z"
     },
     {
       "name": "cpp-mmaplib",
