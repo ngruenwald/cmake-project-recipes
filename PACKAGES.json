@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11 20:05:34.180316+00:00",
+  "date": "2026-11-12 06:17:35.968060+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -17,10 +17,10 @@
     },
     {
       "name": "Raven",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "description": "A lightweight, multithreaded GUI library in C for editors and tools.",
       "project": "https://github.com/oscar-soirey/Raven",
-      "updated": "2026-11-06T11:12:40Z"
+      "updated": "2026-11-11T21:45:38Z"
     },
     {
       "name": "StringZilla",
@@ -465,10 +465,10 @@
     },
     {
       "name": "grpc",
-      "version": "1.85.1",
+      "version": "1.85.2",
       "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
       "project": "https://github.com/grpc/grpc",
-      "updated": "2026-10-30T05:45:13Z"
+      "updated": "2026-11-11T18:21:55Z"
     },
     {
       "name": "gsl",
@@ -703,10 +703,10 @@
     },
     {
       "name": "mediapipe",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "description": "Cross-platform, customizable ML solutions for live and streaming media.",
       "project": "https://github.com/google/mediapipe",
-      "updated": "2026-11-03T20:31:12Z"
+      "updated": "2026-11-11T23:11:55Z"
     },
     {
       "name": "memory",
