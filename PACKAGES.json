@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12 06:17:35.968060+00:00",
+  "date": "2026-11-13 20:02:59.723263+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -654,10 +654,10 @@
     },
     {
       "name": "llama.cpp",
-      "version": "0.9.0",
+      "version": "1.0.0",
       "description": "LLM inference in C/C++",
       "project": "https://github.com/ggml-org/llama.cpp",
-      "updated": "2026-11-04T12:06:26Z"
+      "updated": "2026-11-13T09:09:55Z"
     },
     {
       "name": "lyra",
