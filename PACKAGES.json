@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13 20:02:59.723263+00:00",
+  "date": "2026-11-15 16:49:31.605006+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -976,10 +976,10 @@
     },
     {
       "name": "simdjson",
-      "version": "5.1.1",
+      "version": "5.2.0",
       "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
       "project": "https://github.com/simdjson/simdjson",
-      "updated": "2026-11-01T06:01:38Z"
+      "updated": "2026-11-15T03:56:43Z"
     },
     {
       "name": "sobjectizer",
@@ -1179,10 +1179,10 @@
     },
     {
       "name": "utfcpp",
-      "version": "4.09",
+      "version": "5.0.0",
       "description": "UTF-8 with C++ in a Portable Way",
       "project": "https://github.com/nemtrif/utfcpp",
-      "updated": "2025-12-28T22:26:42Z"
+      "updated": "2026-11-15T00:58:32Z"
     },
     {
       "name": "vireo",
