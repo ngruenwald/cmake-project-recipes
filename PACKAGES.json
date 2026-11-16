@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15 16:49:31.605006+00:00",
+  "date": "2026-11-16 06:54:18.116617+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -1011,10 +1011,10 @@
     },
     {
       "name": "sqlgen",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "description": "sqlgen is a reflection-based ORM and SQL query generator for C++-20, similar to Python's SQLAlchemy/SQLModel or Rust's Diesel.",
       "project": "https://github.com/getml/sqlgen",
-      "updated": "2026-01-01T11:38:24Z"
+      "updated": "2026-11-15T15:28:52Z"
     },
     {
       "name": "sqlinq",

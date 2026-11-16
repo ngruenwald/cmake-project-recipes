@@ -146,7 +146,7 @@
 | sofia-sip | 1.13.19 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) | 2026-10-27T15:57:25Z |
 | spdlog | 1.17.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2026-01-04T16:06:01Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
-| sqlgen | 0.6.0 | sqlgen is a reflection-based ORM and SQL query generator for C++-20, similar to Python's SQLAlchemy/SQLModel or Rust's Diesel. | [getml/sqlgen](https://github.com/getml/sqlgen) | 2026-01-01T11:38:24Z |
+| sqlgen | 0.7.0 | sqlgen is a reflection-based ORM and SQL query generator for C++-20, similar to Python's SQLAlchemy/SQLModel or Rust's Diesel. | [getml/sqlgen](https://github.com/getml/sqlgen) | 2026-11-15T15:28:52Z |
 | sqlinq | 0.2.1 | SQLinq is a C++ library that enables easy and efficient integration with SQL databases, using a syntax similar to LINQ from C#. | [piotr-maker/sqlinq](https://github.com/piotr-maker/sqlinq) | 2025-09-25 |
 | sqlite | 2026-08-12T09_26_04Z | SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. | [sqlite/sqlite](https://github.com/sqlite/sqlite) | 2026-08-12T13:23:52Z |
 | sqlite_orm | 1.9.1 | SQLite ORM light header only library for modern C++ | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | 2025-02-03 |
