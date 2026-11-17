@@ -3,14 +3,14 @@
     "source": "https://github.com/Stiffstream/sobjectizer",
     "package": "Stiffstream/sobjectizer",
     "tag_filter": "",
-    "date": "2026-10-13T15:32:01Z",
+    "date": "2026-11-17T05:54:52Z",
     "target": "sobjectizer::StaticLib",
     "description": "An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production."
   },
-  "version": "5.8.6.2",
+  "version": "5.8.7-alpha1",
   "method": "fetch_content",
   "url": "https://github.com/Stiffstream/sobjectizer/archive/refs/tags/v.{{version}}.tar.gz",
-  "url_hash": "SHA256=f1a077cfa6f141db8705f91e5aa7162e5e0859f49e3f4620c78db4aaf2bc2a4e",
+  "url_hash": "SHA256=63655da3f6c8ac471529782ed4bb85d2c29a297162f241440bbbc5e4914d6ba8",
   "update_disconnected": true,
   "options": {
     "BUILD_ALL": "OFF",

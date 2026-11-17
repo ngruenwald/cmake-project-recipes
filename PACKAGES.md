@@ -55,7 +55,7 @@
 | ecallmsdperencoder | master | encode MSD (Minimal Set of Data) for eCall using PER (Packed Encoding Rule) | [jonesir/ecallmsdperencoder](https://github.com/jonesir/ecallmsdperencoder) |  |
 | eventpp | 0.1.3 | Event Dispatcher and callback list for C++ | [wqking/eventpp](https://github.com/wqking/eventpp) | 2023-09-21T00:06:57Z |
 | fibertaskinglib | 2.1.0 | A library for enabling task-based multi-threading. It allows execution of task graphs with arbitrary dependencies. | [richiesams/fibertaskinglib](https://github.com/richiesams/fibertaskinglib) | 2025-03-21T12:04:51Z |
-| fizz | 2026.11.09.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2026-11-07T21:51:28Z |
+| fizz | 2026.11.16.00 | C++14 implementation of the TLS-1.3 standard | [facebookincubator/fizz](https://github.com/facebookincubator/fizz) | 2026-11-14T17:31:55Z |
 | fkYAML | 0.5.0 | A C++ header-only YAML library | [fktn-k/fkYAML](https://github.com/fktn-k/fkYAML) | 2026-09-17T13:34:51Z |
 | fmt | 12.2.1 | A modern formatting library | [fmtlib/fmt](https://github.com/fmtlib/fmt) | 2026-11-07T16:39:43Z |
 | fmtlog | 2.3.0 | fmtlog is a performant fmtlib-style logging library with latency in nanoseconds. | [mengrao/fmtlog](https://github.com/mengrao/fmtlog) | 2025-02-13T06:03:41Z |
@@ -101,7 +101,7 @@
 | mach | 1.0.0 | Mach brings routing, controllers, dependency injection, middleware, validation, JSON binding, and modern application architecture to high-performance C++20 HTTP services. | [machframework/mach](https://github.com/machframework/mach) | 2026-09-24T12:56:05Z |
 | magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
-| mbedtls | 4.2.0 | An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. | [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | 2026-07-01T11:00:14Z |
+| mbedtls | 4.3.0 | An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. | [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | 2026-11-04T16:45:23Z |
 | mediapipe | 1.2.3 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2026-11-11T23:11:55Z |
 | memory | 0.7-4 | STL compatible C++ memory allocator library using a new RawAllocator concept that is similar to an Allocator but easier to use and write. | [foonathan/memory](https://github.com/foonathan/memory) | 2025-05-02T21:37:14Z |
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
@@ -109,7 +109,7 @@
 | mp-units | 2.5.0 | The quantities and units library for C++ | [mpusz/mp-units](https://github.com/mpusz/mp-units) | 2025-12-24T14:50:11Z |
 | nameof | 0.11.0 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-10-27T16:27:00Z |
 | nanomsg | 1.3.0 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2026-10-04T20:32:22Z |
-| nats.c | 3.14.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-09-17T17:57:40Z |
+| nats.c | 3.15.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-11-16T21:11:25Z |
 | nghttp2 | 1.71.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-11-02T12:44:06Z |
 | nng | 2.1.0 | nanomsg-next-generation -- light-weight brokerless messaging | [nanomsg/nng](https://github.com/nanomsg/nng) | 2026-10-28T03:17:28Z |
 | nod | 0.5.4 | Small, header only signals and slots C++11 library. | [fr00b0/nod](https://github.com/fr00b0/nod) | 2022-05-02T05:35:42Z |
@@ -127,7 +127,7 @@
 | portaudio | 19.7.0 | PortAudio is a cross-platform, open-source C language library for real-time audio input and output. | [portaudio/portaudio](https://github.com/portaudio/portaudio) | 2021-04-01T00:17:30Z |
 | prometheus-cpp | 1.3.0 | Prometheus Client Library for Modern C++ | [jupp0r/prometheus-cpp](https://github.com/jupp0r/prometheus-cpp) | 2024-11-03 |
 | protobuf | 6.31.1 | Protocol Buffers - Google's data interchange format | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 2025-05-28T16:52:59Z |
-| proxygen | 2026.11.09.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2026-11-08T19:44:36Z |
+| proxygen | 2026.11.16.00 | A collection of C++ HTTP libraries including an easy to use HTTP server. | [facebook/proxygen](https://github.com/facebook/proxygen) | 2026-11-14T17:31:55Z |
 | pugixml | 1.16 | Light-weight, simple and fast XML parser for C++ with XPath support | [zeux/pugixml](https://github.com/zeux/pugixml) | 2026-06-15T20:38:00Z |
 | rang | 3.3 | A Minimal, Header only Modern c++ library for terminal goodies | [agauniyal/rang](https://github.com/agauniyal/rang) | 2026-05-16T15:30:31Z |
 | rapidjson | 1.1.0 | A fast JSON parser/generator for C++ with both SAX/DOM style API | [tencent/rapidjson](https://github.com/tencent/rapidjson) | 2016-08-25T07:59:05Z |
@@ -142,7 +142,7 @@
 | sfml | 3.1.0 | Simple and Fast Multimedia Library | [sfml/sfml](https://github.com/sfml/sfml) | 2026-03-23T12:54:32Z |
 | sigcxx | master | A simple C++11 signal/slot (event/delegate) implementation based on Fast C++ Delegates | [zhanggyb/sigcxx](https://github.com/zhanggyb/sigcxx) |  |
 | simdjson | 5.2.0 | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 2026-11-15T03:56:43Z |
-| sobjectizer | 5.8.6.2 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2026-10-13T15:32:01Z |
+| sobjectizer | 5.8.7-alpha1 | An implementation of Actor, Publish-Subscribe, and CSP models in one rather small C++ framework. With performance, quality, and stability proved by years in the production. | [Stiffstream/sobjectizer](https://github.com/Stiffstream/sobjectizer) | 2026-11-17T05:54:52Z |
 | sofia-sip | 1.13.19 | Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification. | [freeswitch/sofia-sip](https://github.com/freeswitch/sofia-sip) | 2026-10-27T15:57:25Z |
 | spdlog | 1.17.0 | Fast C++ logging library. | [gabime/spdlog](https://github.com/gabime/spdlog) | 2026-01-04T16:06:01Z |
 | sql-builder | master | SQL query string builder for C++11 | [six-ddc/sql-builder](https://github.com/six-ddc/sql-builder) |  |
