@@ -4,11 +4,11 @@
 |------|---------|-------------|---------|---------|
 | 3gpp_26268 |  |  | [3gpp_26268](https://www.3gpp.org) |  |
 | CLI11 | 2.7.2 | CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface. | [CLIUtils/CLI11](https://github.com/CLIUtils/CLI11) | 2026-08-02T14:08:25Z |
-| Raven | 0.2.3 | A lightweight, multithreaded GUI library in C for editors and tools. | [oscar-soirey/Raven](https://github.com/oscar-soirey/Raven) | 2026-11-11T21:45:38Z |
+| Raven | 0.3.0 | A lightweight, multithreaded GUI library in C for editors and tools. | [oscar-soirey/Raven](https://github.com/oscar-soirey/Raven) | 2026-11-18T19:08:20Z |
 | StringZilla | 5.3.2 | Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging NEON, AVX2, AVX-512, and SWAR to accelerate search, sort, edit distances, alignment scores, etc 🦖 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | 2026-10-25T00:29:59Z |
 | TooManyCooks | 1.6.1 | C++20 concurrency framework with no compromises. Excellent performance, powerful features, and simple syntax. | [tzcnt/TooManyCooks](https://github.com/tzcnt/TooManyCooks) | 2026-06-14T18:50:14Z |
 | abseil-cpp | 20260817.0 | Abseil Common Libraries (C++) | [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) | 2026-08-18T12:53:30Z |
-| ada | 4.0.0 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2026-07-27T20:10:09Z |
+| ada | 4.1.1 | WHATWG-compliant and fast URL parser written in modern C++ | [ada-url/ada](https://github.com/ada-url/ada) | 2026-11-19T20:19:30Z |
 | argparse | 3.2 | Argument Parser for Modern C++ | [p-ranav/argparse](https://github.com/p-ranav/argparse) | 2025-01-25T15:27:24Z |
 | argy | 0.6.0 | Argy: Command-line parsing library for modern C++ — simple, intuitive, and header-only with no dependencies. | [mshenoda/argy](https://github.com/mshenoda/argy) | 2025-08-31T14:02:49Z |
 | asio | 1-39-0 | Asio C++ Library | [chriskohlhoff/asio](https://github.com/chriskohlhoff/asio) | 2026-11-06T22:30:06Z |
@@ -33,7 +33,7 @@
 | config-generator | main |  | [ngruenwald/config-generator](https://github.com/ngruenwald/config-generator) |  |
 | cosmopolitan | 4.0.2 | build-once run-anywhere c library | [jart/cosmopolitan](https://github.com/jart/cosmopolitan) | 2025-01-05T21:56:24Z |
 | cpp-dump | 0.7.0 | A C++ library for debugging purposes that can print any variable, even user-defined types. | [philip82148/cpp-dump](https://github.com/philip82148/cpp-dump) | 2024-08-18T11:42:11Z |
-| cpp-httplib | 0.66.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-11-10T22:19:39Z |
+| cpp-httplib | 0.67.0 | A C++ header-only HTTP/HTTPS server and client library | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | 2026-11-18T17:21:49Z |
 | cpp-mmaplib | master | A single file C++11 header-only memory mapped file library. | [yhirose/cpp-mmaplib](https://github.com/yhirose/cpp-mmaplib) |  |
 | cpp-netlib | 0.13.0 | The C++ Network Library Project -- cross-platform, standards compliant networking library. | [cpp-netlib/cpp-netlib](https://github.com/cpp-netlib/cpp-netlib) | 2024-08-18T11:42:11Z |
 | cpp-peglib | 1.31.0 | A single file C++ header-only PEG (Parsing Expression Grammars) library | [yhirose/cpp-peglib](https://github.com/yhirose/cpp-peglib) | 2026-11-06T18:47:29Z |
@@ -68,11 +68,11 @@
 | glob | 0.0.1 | Glob for C++17 | [p-ranav/glob](https://github.com/p-ranav/glob) | 2021-05-10T16:58:47Z |
 | glog | 0.7.1 | C++ implementation of the Google logging module | [google/glog](https://github.com/google/glog) | 2024-06-08T15:07:34Z |
 | googletest | 1.18.0 | GoogleTest - Google Testing and Mocking Framework | [google/googletest](https://github.com/google/googletest) | 2026-08-10T17:19:17Z |
-| grpc | 1.85.2 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-11-11T18:21:55Z |
+| grpc | 1.85.3 | The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) | [grpc/grpc](https://github.com/grpc/grpc) | 2026-11-17T16:43:33Z |
 | gsl | 5.0.1 | Guidelines Support Library | [microsoft/gsl](https://github.com/microsoft/gsl) | 2026-09-22T16:59:02Z |
 | guetzli | 1.0.1 | Perceptual JPEG encoder | [google/guetzli](https://github.com/google/guetzli) | 2017-03-21T16:26:36Z |
 | hiberlite | master | C++ ORM for SQLite | [paulftw/hiberlite](https://github.com/paulftw/hiberlite) |  |
-| hiredis | 1.5.0 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2026-10-15T13:47:43Z |
+| hiredis | 1.5.1 | Minimalistic C client for Redis >= 1.2 | [redis/hiredis](https://github.com/redis/hiredis) | 2026-11-19T17:13:03Z |
 | hyperscan | 5.4.2.1 | High-performance regular expression matching library | [intel/hyperscan](https://github.com/intel/hyperscan) | 2026-08-13T06:39:47Z |
 | hypodermic | 2.5.3 | Hypodermic is an IoC container for C++. It provides dependency injection to your existing design. | [ybainier/hypodermic](https://github.com/ybainier/hypodermic) | 2021-09-21T16:39:45Z |
 | imgui | 1.93.0 | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | [ocornut/imgui](https://github.com/ocornut/imgui) | 2026-10-14T14:46:54Z |
@@ -107,7 +107,7 @@
 | meta | 1.4.9 | Header-only, non-intrusive and macro-free runtime reflection system in C++ | [skypjack/meta](https://github.com/skypjack/meta) | 2019-09-30T11:47:36Z |
 | micro-gl | master | Headers Only C++11 CPU Vector Graphics. no std-lib, no FPU and no GPU required ! | [micro-gl/micro-gl](https://github.com/micro-gl/micro-gl) |  |
 | mp-units | 2.5.0 | The quantities and units library for C++ | [mpusz/mp-units](https://github.com/mpusz/mp-units) | 2025-12-24T14:50:11Z |
-| nameof | 0.11.0 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-10-27T16:27:00Z |
+| nameof | 0.12.0 | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum | [neargye/nameof](https://github.com/neargye/nameof) | 2026-11-17T10:54:28Z |
 | nanomsg | 1.3.0 | The nanomsg library is a simple high-performance implementation of several "scalability protocols". | [nanomsg/nanomsg](https://github.com/nanomsg/nanomsg) | 2026-10-04T20:32:22Z |
 | nats.c | 3.15.0 | A C client for NATS | [nats-io/nats.c](https://github.com/nats-io/nats.c) | 2026-11-16T21:11:25Z |
 | nghttp2 | 1.71.0 | nghttp2 - HTTP/2 C Library and tools | [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) | 2026-11-02T12:44:06Z |
@@ -120,7 +120,7 @@
 | openssl | 4.1.0 | TLS/SSL and crypto library | [openssl/openssl](https://github.com/openssl/openssl) | 2026-10-23T12:16:44Z |
 | opentelemetry-cpp | 1.30.0 | The OpenTelemetry C++ Client | [open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp) | 2026-10-22T19:44:09Z |
 | opus | 1.6.1 | Modern audio compression for the internet. | [xiph/opus](https://github.com/xiph/opus) | 2026-01-13T20:16:34Z |
-| patternia | 0.9.5 | Providing pattern matching for modern c++. | [sentomk/patternia](https://github.com/sentomk/patternia) | 2026-10-29T15:01:39Z |
+| patternia | 0.9.7 | Providing pattern matching for modern c++. | [sentomk/patternia](https://github.com/sentomk/patternia) | 2026-11-18T18:49:11Z |
 | pdfgen | 0.1.0 | Simple C PDF Writer/Generation library | [andrerenaud/pdfgen](https://github.com/andrerenaud/pdfgen) | 2021-06-07T23:02:34Z |
 | pistache | 0.4.26 | A high-performance REST toolkit written in C++ | [pistacheio/pistache](https://github.com/pistacheio/pistache) | 2024-12-23T01:52:28Z |
 | pocketpy | 2.2.0 | Portable Python 3.x Interpreter in Modern C | [blueloveth/pocketpy](https://github.com/blueloveth/pocketpy) | 2026-09-02T09:48:37Z |

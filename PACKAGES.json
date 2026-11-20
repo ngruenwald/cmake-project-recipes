@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17 06:20:37.283294+00:00",
+  "date": "2026-11-20 14:03:12.165726+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -17,10 +17,10 @@
     },
     {
       "name": "Raven",
-      "version": "0.2.3",
+      "version": "0.3.0",
       "description": "A lightweight, multithreaded GUI library in C for editors and tools.",
       "project": "https://github.com/oscar-soirey/Raven",
-      "updated": "2026-11-11T21:45:38Z"
+      "updated": "2026-11-18T19:08:20Z"
     },
     {
       "name": "StringZilla",
@@ -45,10 +45,10 @@
     },
     {
       "name": "ada",
-      "version": "4.0.0",
+      "version": "4.1.1",
       "description": "WHATWG-compliant and fast URL parser written in modern C++",
       "project": "https://github.com/ada-url/ada",
-      "updated": "2026-07-27T20:10:09Z"
+      "updated": "2026-11-19T20:19:30Z"
     },
     {
       "name": "argparse",
@@ -220,10 +220,10 @@
     },
     {
       "name": "cpp-httplib",
-      "version": "0.66.0",
+      "version": "0.67.0",
       "description": "A C++ header-only HTTP/HTTPS server and client library",
       "project": "https://github.com/yhirose/cpp-httplib",
-      "updated": "2026-11-10T22:19:39Z"
+      "updated": "2026-11-18T17:21:49Z"
     },
     {
       "name": "cpp-mmaplib",
@@ -465,10 +465,10 @@
     },
     {
       "name": "grpc",
-      "version": "1.85.2",
+      "version": "1.85.3",
       "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
       "project": "https://github.com/grpc/grpc",
-      "updated": "2026-11-11T18:21:55Z"
+      "updated": "2026-11-17T16:43:33Z"
     },
     {
       "name": "gsl",
@@ -493,10 +493,10 @@
     },
     {
       "name": "hiredis",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "description": "Minimalistic C client for Redis >= 1.2",
       "project": "https://github.com/redis/hiredis",
-      "updated": "2026-10-15T13:47:43Z"
+      "updated": "2026-11-19T17:13:03Z"
     },
     {
       "name": "hyperscan",
@@ -738,10 +738,10 @@
     },
     {
       "name": "nameof",
-      "version": "0.11.0",
+      "version": "0.12.0",
       "description": "Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum",
       "project": "https://github.com/neargye/nameof",
-      "updated": "2026-10-27T16:27:00Z"
+      "updated": "2026-11-17T10:54:28Z"
     },
     {
       "name": "nanomsg",
@@ -829,10 +829,10 @@
     },
     {
       "name": "patternia",
-      "version": "0.9.5",
+      "version": "0.9.7",
       "description": "Providing pattern matching for modern c++.",
       "project": "https://github.com/sentomk/patternia",
-      "updated": "2026-10-29T15:01:39Z"
+      "updated": "2026-11-18T18:49:11Z"
     },
     {
       "name": "pdfgen",

@@ -3,14 +3,14 @@
     "source": "https://github.com/ada-url/ada",
     "package": "ada-url/ada",
     "tag_filter": "",
-    "date": "2026-07-27T20:10:09Z",
+    "date": "2026-11-19T20:19:30Z",
     "target": "ada::ada",
     "description": "WHATWG-compliant and fast URL parser written in modern C++"
   },
-  "version": "4.0.0",
+  "version": "4.1.1",
   "method": "fetch_content",
   "url": "https://github.com/ada-url/ada/archive/refs/tags/v{{version}}.tar.gz",
-  "url_hash": "SHA256=97ec052be4c5da64fe7d3aac24ec5a727f032cb735d6e24109c39daf4e1f2019",
+  "url_hash": "SHA256=82a0f92826f12275b0a34b0f9e7afc93adad95c296822f1dbfa90c2640980e72",
   "update_disconnected": true,
   "options": {
     "ADA_BENCHMARKS": "OFF",
