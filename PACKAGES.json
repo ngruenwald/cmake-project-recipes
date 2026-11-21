@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-20 14:03:12.165726+00:00",
+  "date": "2026-11-21 00:18:48.447286+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -465,10 +465,10 @@
     },
     {
       "name": "grpc",
-      "version": "1.85.3",
+      "version": "1.85.4",
       "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
       "project": "https://github.com/grpc/grpc",
-      "updated": "2026-11-17T16:43:33Z"
+      "updated": "2026-11-20T22:12:15Z"
     },
     {
       "name": "gsl",
