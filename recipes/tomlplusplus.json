@@ -3,14 +3,14 @@
     "source": "https://github.com/marzer/tomlplusplus",
     "package": "marzer/tomlplusplus",
     "tag_filter": "",
-    "date": "2023-10-13T13:25:17Z",
+    "date": "2026-11-22T18:34:32Z",
     "target": "",
     "description": "Header-only TOML config file parser and serializer for C++17."
   },
-  "version": "3.4.0",
+  "version": "3.5.1",
   "method": "fetch_content",
   "url": "https://github.com/marzer/tomlplusplus/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=ad2a4cd786e25305d802e7490ea65a2531195e5834bf6b4fa5a323421fd81f9b",
+  "url_hash": "SHA256=71ebab6792f720487a653978778c6d1be5585b2ea3e055837a27268d08241df4",
   "update_disconnected": true,
   "options": {}
 }
