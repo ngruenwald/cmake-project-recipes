@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-23 18:31:16.067991+00:00",
+  "date": "2026-11-25 21:06:35.594177+00:00",
   "packages": [
     {
       "name": "3gpp_26268",
@@ -577,10 +577,10 @@
     },
     {
       "name": "jwt-cpp",
-      "version": "0.7.2",
+      "version": "0.7.3",
       "description": "A header only library for creating and validating json web tokens in c++",
       "project": "https://github.com/thalhammer/jwt-cpp",
-      "updated": "2025-12-29T13:52:29Z"
+      "updated": "2026-11-24T07:11:17Z"
     },
     {
       "name": "libarchive",
@@ -682,10 +682,10 @@
     },
     {
       "name": "magic_enum",
-      "version": "0.9.8",
+      "version": "0.10.0",
       "description": "Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code",
       "project": "https://github.com/neargye/magic_enum",
-      "updated": "2026-05-03T16:51:31Z"
+      "updated": "2026-11-25T14:20:24Z"
     },
     {
       "name": "marl",
@@ -1256,10 +1256,10 @@
     },
     {
       "name": "zstd",
-      "version": "1.5.7",
+      "version": "1.6.0",
       "description": "Zstandard - Fast real-time compression algorithm",
       "project": "https://github.com/facebook/zstd",
-      "updated": "2025-02-19T00:04:24Z"
+      "updated": "2026-11-23T22:34:26Z"
     }
   ]
 }

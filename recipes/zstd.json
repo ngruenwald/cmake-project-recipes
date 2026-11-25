@@ -3,14 +3,14 @@
     "source": "https://github.com/facebook/zstd",
     "package": "facebook/zstd",
     "tag_filter": "^v\\d+\\.\\d+\\.\\d+$",
-    "date": "2025-02-19T00:04:24Z",
+    "date": "2026-11-23T22:34:26Z",
     "target": "",
     "description": "Zstandard - Fast real-time compression algorithm"
   },
-  "version": "1.5.7",
+  "version": "1.6.0",
   "method": "fetch_content",
   "url": "https://github.com/facebook/zstd/archive/refs/tags/v{{version}}.zip",
-  "url_hash": "SHA256=7897bc5d620580d9b7cd3539c44b59d78f3657d33663fe97a145e07b4ebd69a4",
+  "url_hash": "SHA256=0294cd016b19b32f063fea37fac182083ebcc3d0c92229afe968b1b646588e79",
   "update_disconnected": true,
   "options": {}
 }

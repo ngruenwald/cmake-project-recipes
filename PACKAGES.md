@@ -84,7 +84,7 @@
 | jrtplib | 3.11.2 | RTP Library | [j0r1/jrtplib](https://github.com/j0r1/jrtplib) | 2020-04-18T09:44:45Z |
 | json | 3.12.0 | JSON for Modern C++ | [nlohmann/json](https://github.com/nlohmann/json) | 2025-04-11T08:42:28Z |
 | jsoncons | 1.10.0 | A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSON Schema, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON | [danielaparker/jsoncons](https://github.com/danielaparker/jsoncons) | 2026-10-05T15:28:36Z |
-| jwt-cpp | 0.7.2 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2025-12-29T13:52:29Z |
+| jwt-cpp | 0.7.3 | A header only library for creating and validating json web tokens in c++ | [thalhammer/jwt-cpp](https://github.com/thalhammer/jwt-cpp) | 2026-11-24T07:11:17Z |
 | libarchive | 3.8.11 | Multi-format archive and compression library | [libarchive/libarchive](https://github.com/libarchive/libarchive) | 2026-10-30T20:32:39Z |
 | libcds | 2.3.3 | A C++ library of Concurrent Data Structures | [khizmax/libcds](https://github.com/khizmax/libcds) | 2018-12-31T16:30:07Z |
 | libgit2 | 1.9.7 | A cross-platform, linkable library implementation of Git that you can use in your application. | [libgit2/libgit2](https://github.com/libgit2/libgit2) | 2026-08-13T19:25:25Z |
@@ -99,7 +99,7 @@
 | lyra | 1.8.0 | A simple to use, composable, command line parser for C++ 11 and beyond | [bfgroup/lyra](https://github.com/bfgroup/Lyra) | 2026-05-31T15:21:18Z |
 | lz4 | 1.11.1 | Extremely Fast Compression algorithm | [lz4/lz4](https://github.com/lz4/lz4) | 2026-11-10T05:21:42Z |
 | mach | 1.0.0 | Mach brings routing, controllers, dependency injection, middleware, validation, JSON binding, and modern application architecture to high-performance C++20 HTTP services. | [machframework/mach](https://github.com/machframework/mach) | 2026-09-24T12:56:05Z |
-| magic_enum | 0.9.8 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-05-03T16:51:31Z |
+| magic_enum | 0.10.0 | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code | [neargye/magic_enum](https://github.com/neargye/magic_enum) | 2026-11-25T14:20:24Z |
 | marl | main | A hybrid thread / fiber task scheduler written in C++ 11 | [google/marl](https://github.com/google/marl) |  |
 | mbedtls | 4.3.0 | An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. | [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | 2026-11-04T16:45:23Z |
 | mediapipe | 1.2.3 | Cross-platform, customizable ML solutions for live and streaming media. | [google/mediapipe](https://github.com/google/mediapipe) | 2026-11-11T23:11:55Z |
@@ -181,4 +181,4 @@
 | xxhr | 1.0.2 | intuitive c++ http client library  | [nxxm/xxhr](https://github.com/nxxm/xxhr) | 2021-08-26T08:14:57Z |
 | yaml-cpp | 0.9.0 | A YAML parser and emitter in C++ | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 2026-02-04T20:26:25Z |
 | zlib | 1.4 | A massively spiffy yet delicately unobtrusive compression library. | [madler/zlib](https://github.com/madler/zlib) | 2026-11-05T04:32:10Z |
-| zstd | 1.5.7 | Zstandard - Fast real-time compression algorithm | [facebook/zstd](https://github.com/facebook/zstd) | 2025-02-19T00:04:24Z |
+| zstd | 1.6.0 | Zstandard - Fast real-time compression algorithm | [facebook/zstd](https://github.com/facebook/zstd) | 2026-11-23T22:34:26Z |
